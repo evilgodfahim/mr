@@ -36,7 +36,7 @@ except Exception:
 FEED_URLS = [
     "https://www.newyorker.com/feed/rss",
     "https://feeds.feedburner.com/TheAtlantic",
-    "https://time.com/feed/",
+    "https://evilgodfahim.github.io/tm/feeds/feed.xml",
     "https://evilgodfahim.github.io/ftint/combined.xml",
     "https://evilgodfahim.github.io/gd/merged.xml",
     "https://evilgodfahim.github.io/nytint/combined.xml",
@@ -53,7 +53,7 @@ FEED_URLS = [
 EXISTING_API_FEEDS = {
     "https://www.newyorker.com/feed/rss",
     "https://feeds.feedburner.com/TheAtlantic",
-    "https://time.com/feed/",
+    "https://evilgodfahim.github.io/tm/feeds/feed.xml",
     "https://evilgodfahim.github.io/ftint/combined.xml",
     "https://evilgodfahim.github.io/gd/merged.xml",
     "https://evilgodfahim.github.io/nytint/combined.xml",
