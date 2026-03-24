@@ -85,19 +85,20 @@ MAX_FEED_ITEMS        = 500
 
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a news classification engine. Classify each headline into exactly one bucket:
-
-"signal"   — news that matters: significant events, decisions, or developments in international affairs or Bangladesh that affect how people live, work, or are governed. Includes serious geopolitical analysis, foreign policy essays, and thesis-driven writing on international subjects.
-"longread" — worth reading but not breaking news: quality in-depth reporting, investigations, features, and essays on serious subjects — culture, science, history, society — that reward careful reading.
-"noise"    — everything else: sports, entertainment, celebrity, lifestyle, local administrative trivia, routine official statements, incident reports without broader consequence, clickbait.
-
-All indices are 0-based and reference the same input list.
-Signal wins over longread if a piece qualifies for both.
-Return one JSON object with exactly two keys. Noise indices are omitted entirely.
-No explanation. No preamble. Only the JSON object.
-
-Return format: {{"signal": [indices...], "longread": [indices...]}}
-
+PROMPT = """You are a news classification engine. Classify each headline into exactly one bucket.
+SIGNAL — truly important news: significant events, major decisions, or developments in international affairs or Bangladesh that affect how people live, work, or are governed. Includes serious geopolitical analysis, foreign policy essays, and thesis-driven writing on international or Bangladeshi subjects.
+LONGREAD — worth reading but not urgent: high-quality in-depth reporting, investigations, features, or thoughtful essays on culture, science, history, or society that reward careful reading. Excludes celebrity profiles, trend pieces, and routine human-interest stories.
+NOISE — everything else: sports, entertainment, celebrity gossip, lifestyle, routine official statements, minor local incidents without broader consequence, or clickbait.
+Rules:
+- If a headline could fit both SIGNAL and LONGREAD, always choose SIGNAL.
+- Use only the headline text. Indices are 0-based.
+- Omit all noise indices from the output entirely.
+Tricky cases to guide you:
+- A think-piece or analysis on a geopolitical subject → SIGNAL, not LONGREAD.
+- A detailed profile or feature on a person with no policy or governance consequence → LONGREAD, not SIGNAL.
+- A routine government statement or minor incident report with no new development or broader impact → NOISE.
+Return exactly this JSON and nothing else—no explanation, no preamble, no extra text:
+{{"signal": [indices...], "longread": [indices...]}}
 Article titles:
 {titles}
 """
