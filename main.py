@@ -63,130 +63,30 @@ MAX_FEED_ITEMS        = 500          # rolling cap per output file
 
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a strict news classification engine. Your input is a numbered list of article titles sourced from news outlets, geopolitical journals, and Bangladeshi newspapers — which means many titles will be editorials, op-eds, and essays, not just hard news.
+PROMPT = """You are a strict news classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi newspapers — including hard news, editorials, op-eds, and essays. Classify each as SIGNAL or NOISE. Return only SIGNAL indices.
 
-Your task: classify each title as either SIGNAL or NOISE. Output only the SIGNAL indices.
-
-════════════════════════════════
-HOW TO CLASSIFY — WALK THROUGH THESE STEPS IN ORDER:
-
-STEP 1 — INSTANT NOISE. If the title is clearly any of the following, stop and classify as NOISE immediately:
-  • Sports, entertainment, celebrity, lifestyle, human interest
-  • Commemorative, ceremonial, or tribute content
-  • Praise or defence of a specific person, party, or institution
-  • A single country's purely internal politics, elections, or policy with no cross-border consequence — for any country including Bangladesh
-  • An isolated local incident (crime, accident, single-district event, one institution's problem)
+STEP 1 — INSTANT NOISE. Stop here if the title is any of:
+  Sports · entertainment · celebrity · lifestyle · human interest · tribute or commemorative · praise of a person, party, or institution · isolated local incident (one district, one institution, one community)
 
 STEP 2 — IS BANGLADESH DIRECTLY INVOLVED?
-  If YES — go to STEP 3.
-  If NO  — go to STEP 4.
 
-STEP 3 — BANGLADESH IS INVOLVED. Ask: what is the reach of this?
+  YES → SIGNAL if:
+  a) National scale: affects the whole country or a significant portion of the population. Cause is irrelevant — government decision, economic condition, failing public system, environmental crisis, infrastructure breakdown, natural disaster, social emergency, health situation. If the reach is national, it is SIGNAL.
+  b) Foreign affairs: any substantive BD external development — bilateral talks or disputes, international pressure or sanctions on BD, foreign aid or loans, cross-border issues (water, trade, security, migration), BD at international forums, international bodies acting on BD. If BD is a direct party, it is SIGNAL. Do not mistake substantive diplomacy for routine ceremony.
+  c) Editorial naming a concrete national-scale domain or condition → SIGNAL. Vague sentiment with no named domain → NOISE. Party strategy or partisan praise → NOISE.
 
-  3A. NATIONAL SCALE → SIGNAL.
-  Does this affect the whole country or a significant portion of the population?
-  The cause does not matter — it can be a government decision, a law, an economic condition, a failing public system, an environmental crisis, an infrastructure breakdown, a social emergency, a health situation, a natural disaster, anything. If the reach is national or near-national, it is SIGNAL.
-  Examples that pass: a fuel price change, a river system collapsing, a nationwide teachers' strike, a major flood affecting multiple divisions, a currency crisis, a healthcare system failing the poor, a countrywide water shortage, press freedom under threat nationally.
+  NO → SIGNAL if:
+  a) Multinational bodies acting collectively: UN and agencies, NATO, IMF, World Bank, WTO, G7/G20, BRICS, IAEA, ICC, ICJ, regional alliances. Their resolutions, findings, and interventions are SIGNAL by nature.
+  b) Multi-country events: wars, conflicts, cross-border crises, multilateral treaties, regional instability, international sanctions.
+  c) Single-country decision with cross-border consequence — two types:
+     Immediate: moves something the world depends on (global energy supply, global financial systems, pandemic-level health, global trade architecture).
+     Strategic/slow-burn: shifts power, security, or stability even without immediate surface effect — nuclear decisions, major arms deals or military build-up, upstream water control affecting downstream countries, military base shifts, significant cyber operations, treaty withdrawals. Ask: does this change what is possible or what is threatened in the world?
+  All other single-country internal affairs → NOISE.
 
-  3B. BANGLADESH FOREIGN AFFAIRS → SIGNAL, always.
-  Any substantive development in Bangladesh's external relations is SIGNAL regardless of whether the domestic impact is visible in the title. This includes:
-    — Bilateral agreements, disputes, or negotiations involving Bangladesh
-    — International pressure on Bangladesh (sanctions, warnings, human rights reports, trade reviews)
-    — Foreign aid, loans, or investment at national scale
-    — Bangladesh's position or representation at international forums or multilateral bodies
-    — Cross-border issues directly involving Bangladesh: water rights, trade access, security, migration, territorial or maritime matters
-    — International organisations reporting on or acting toward Bangladesh
-  Examples that pass: India-Bangladesh Teesta talks, US trade review citing BD labour rights, UN report on BD press freedom, China infrastructure deal in BD, IMF loan to BD, Rohingya repatriation negotiations.
+WHEN IN DOUBT → NOISE.
 
-  3C. NARROW OR LOCAL → NOISE.
-  If the subject affects only one district, one city, one profession narrowly, one institution, or one small community — it is NOISE even if the title uses national language.
+Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
 
-  3D. EDITORIAL OR ESSAY ABOUT BANGLADESH — apply the SCALE TEST:
-  Ask: does the title name a concrete domain, sector, condition, or issue that is real and national in scope?
-    — Names a real sector or condition at national scale → SIGNAL (e.g. "Why Bangladesh's Public Hospitals Are Failing the Poor", "The Slow Collapse of Bangladesh's River Systems", "We Must Fix Bangladesh's Broken Irrigation System")
-    — So vague it names no real domain or problem → NOISE (e.g. "Our Nation at a Crossroads", "A Time for Change", "Reflections on Leadership")
-    — Names a real issue but the scope is clearly local or narrow → NOISE
-    — Discusses Bangladesh's foreign relations substantively → SIGNAL (rule 3B applies)
-    — Praises a person, party, or institution → NOISE (rule in STEP 1 applies)
-    — Internal party strategy or electoral commentary → NOISE
-
-STEP 4 — BANGLADESH IS NOT INVOLVED. This is purely international.
-
-  4A. MULTINATIONAL BODIES, COALITIONS, AND ALLIANCES → SIGNAL.
-  Decisions, resolutions, reports, or actions by international or multinational organisations and coalitions are SIGNAL when they have consequence beyond one country's internal affairs. This includes:
-    — The UN and its agencies (Security Council, General Assembly, UNHCR, WHO, WFP, IAEA, etc.)
-    — Military alliances and coalitions (NATO, AUKUS, SCO, CSTO, etc.)
-    — Economic and trade bodies (IMF, World Bank, WTO, G7, G20, BRICS, ASEAN, EU, etc.)
-    — International courts and legal bodies (ICJ, ICC, etc.)
-    — Any multilateral framework where multiple countries act collectively
-  Their significance comes from collective power — a UN Security Council resolution, a NATO military posture shift, an IMF emergency intervention, an IAEA finding on a nuclear programme — these are SIGNAL regardless of whether a single country is named in the title.
-
-  4B. MULTI-COUNTRY EVENTS AND CROSS-BORDER DEVELOPMENTS → SIGNAL.
-  Wars, armed conflicts, bilateral or multilateral disputes, cross-border crises, regional instability involving multiple states, international sanctions, major treaties or agreements between countries.
-
-  4C. A SINGLE COUNTRY'S DECISION OR ACTION — apply the CONSEQUENCE TEST.
-  The default is NOISE. But a single country's decision is SIGNAL if its consequence reaches beyond its borders in a significant way. The test is not the number of countries involved — it is the nature and reach of the consequence.
-
-  There are two types of consequential reach:
-
-  TYPE 1 — IMMEDIATE SYSTEMIC IMPACT: the decision directly moves something the world depends on.
-    • Global energy supply (oil, gas production decisions by major producers)
-    • Global financial systems (interest rates, currency moves, sovereign debt defaults by systemically important economies)
-    • Global trade architecture (major tariffs, supply chain disruptions at global scale)
-    • Global health (outbreak of a pathogen with pandemic potential)
-
-  TYPE 2 — STRATEGIC AND SLOW-BURN IMPACT: the decision shifts power, security, or stability in ways that may not surface immediately but alter the underlying balance.
-    • Nuclear weapons decisions — development, testing, doctrine changes, treaty withdrawals
-    • Major military build-up, new weapons systems, or significant arms deals that shift regional or global military balance
-    • Upstream water management decisions by a country controlling rivers that flow into others (dams, diversions, flow restrictions)
-    • Military base establishments or withdrawals in strategically significant locations
-    • Cyber warfare capabilities or significant state-sponsored cyber operations
-    • Withdrawal from or violation of major international treaties or agreements
-    • Actions that create or escalate undercurrent tensions even if no immediate visible effect
-  For TYPE 2: ask — does this decision change what is possible, what is threatened, or what is contested in the world — even if the effect is not yet visible on the surface? If yes → SIGNAL.
-
-  NOISE: a country's domestic politics, elections, court rulings, internal social policy, or economic decisions whose effects stay inside their borders without reshaping global systems or strategic balances.
-
-════════════════════════════════
-FINAL RULE — WHEN IN DOUBT → NOISE.
-If after walking through all steps you still cannot confidently place the title in SIGNAL, classify it as NOISE. The default is exclusion.
-
-════════════════════════════════
-⚠ EDITORIAL AND ESSAY TRAPS — extra reminders before you submit:
-
-These traps exist because editorial titles from Bangladeshi newspapers often disguise their true scope. After running the steps above, double-check:
-
-TRAP 1 — PURE AMBIGUITY → NOISE.
-If the title names no real sector, issue, group, or problem — just sentiment or aspiration — it is NOISE.
-  NOISE: "The Promise of a New Bangladesh" / "Our Nation at a Crossroads" / "A Time for Reflection"
-
-TRAP 2 — VAGUE CALL TO ACTION WITH NO NAMED DOMAIN → NOISE.
-A call to fix something is only SIGNAL if it names a concrete, real, national-scale domain.
-  SIGNAL: "We Must Fix Bangladesh's Broken Irrigation System" ← names a real sector at national scale
-  SIGNAL: "Why Bangladesh's Public Hospitals Are Failing the Poor" ← real, national
-  NOISE: "We Must Address Corruption" ← too abstract, names no domain or scope
-  NOISE: "Time for Change in Our Politics" ← names nothing concrete
-
-TRAP 3 — LOCAL ISSUE IN NATIONAL CLOTHING → NOISE.
-Watch for titles that use broad language but describe a narrow subject.
-  NOISE: "How Microfinance Is Changing Lives in Sylhet" ← local
-  NOISE: "The Crisis Facing Dhaka's Rickshaw Pullers" ← narrow profession, one city
-
-TRAP 4 — BANGLADESH FOREIGN AFFAIRS THAT SOUND ROUTINE → SIGNAL.
-Do not let diplomatic-sounding language trigger the "routine" noise filter. If Bangladesh is a direct party to the development, it is SIGNAL.
-  SIGNAL: "Bangladesh foreign minister holds talks with India over Teesta water sharing" ← substantive bilateral issue
-  SIGNAL: "US warns Bangladesh over labour rights ahead of trade review" ← international pressure on BD
-  NOISE: "Foreign minister attends UN General Assembly opening ceremony" ← purely ceremonial, no substantive outcome
-
-════════════════════════════════
-RULES:
-- Use only the title text. Do not infer unstated context.
-- Indices are 0-based.
-- Output only SIGNAL indices. Omit all noise entirely.
-- Return only valid JSON. No markdown, no backticks, no preamble.
-- Format: {{"signal": [list of integer indices]}}
-
-════════════════════════════════
 EXAMPLES:
 
 Input:
@@ -200,39 +100,27 @@ Input:
 7. Saluting the Spirit of Our Freedom Fighters
 8. Bangladesh slashes fuel subsidies nationwide
 9. India's internal border dispute heats up
-Output: {{"signal": [0, 2, 4, 6, 8]}}
-Reasoning (not in output): #5 names nothing concrete; #6 names a real sector at national scale → SIGNAL; #7 is commemorative; #9 is one country's domestic issue.
+10. Bangladesh foreign minister holds talks with India over Teesta water sharing
+11. US warns Bangladesh over labour rights ahead of trade review
+12. China pledges $3bn infrastructure investment in Bangladesh
+13. NATO expands eastern flank military presence
+14. India builds new dam on Brahmaputra upstream of Bangladesh
+Output: {{"signal": [0, 2, 4, 6, 8, 10, 11, 12, 13, 14]}}
 
 Input:
 0. India and Pakistan exchange fire across Line of Control
-1. Dhaka garment workers strike shuts down hundreds of factories nationwide
+1. Dhaka garment workers strike shuts down hundreds of factories
 2. Australia holds federal election
-3. Celebrity couple announces divorce
-4. IMF approves emergency loan for Bangladesh
-5. Reflections on Leadership in Troubled Times
-6. BNP's Path Forward After the Election
-7. How Microfinance Is Changing Lives in Sylhet
-8. How Poor Water Management Is Destroying Bangladesh's Agriculture
-9. The Geopolitics of the Indo-Pacific and What It Means for the World
-10. Bangladesh foreign minister holds talks with India over Teesta water sharing
-11. China pledges $3bn infrastructure investment in Bangladesh
-12. US warns Bangladesh over labour rights ahead of trade review
-Output: {{"signal": [0, 1, 4, 8, 9, 10, 11, 12]}}
-Reasoning (not in output): #5 is purely vague; #6 is internal party commentary; #7 is local/narrow; #8 names a real national-scale condition → SIGNAL; #10, #11, #12 are all substantive BD foreign affairs → always SIGNAL.
-
-Input:
-0. Gaza ceasefire collapses as fighting resumes
-1. Bangladesh government mandates new VAT on essential goods
-2. France passes new immigration law
-3. Local man wins national baking competition
-4. Why Bangladesh's Public Hospitals Are Failing the Poor
-5. A Tribute to the Martyrs of '71
-6. The IMF, World Bank, and the Future of Global Finance
-7. Rohingya crisis: UN calls emergency session as repatriation collapses
+3. IMF approves emergency loan for Bangladesh
+4. BNP's Path Forward After the Election
+5. How Microfinance Is Changing Lives in Sylhet
+6. How Poor Water Management Is Destroying Bangladesh's Agriculture
+7. The Geopolitics of the Indo-Pacific and What It Means for the World
 8. Why [Party Leader] Is the Leader Bangladesh Deserves
-9. The Slow Collapse of Bangladesh's River Systems
-Output: {{"signal": [0, 1, 4, 6, 7, 9]}}
-Reasoning (not in output): #4 is systemic national healthcare failure → SIGNAL; #5 is commemorative; #8 is partisan praise; #9 is a national environmental crisis → SIGNAL.
+9. IAEA raises alarm over Iran's uranium enrichment levels
+10. The Slow Collapse of Bangladesh's River Systems
+11. Why Bangladesh's Public Hospitals Are Failing the Poor
+Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11]}}
 
 Article titles:
 {titles}
