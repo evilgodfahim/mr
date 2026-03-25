@@ -3,12 +3,11 @@
 RSS Feed Processor with Gemini API Integration (robust date/content handling + thumbnails)
 
 All articles from all feeds go to one Gemini call.
-Gemini classifies each headline into signal, longread, or noise.
-A second Gemini call deduplicates near-identical titles within each bucket.
+Gemini classifies each headline into signal or noise.
+A second Gemini call deduplicates near-identical titles within the signal bucket.
 
 Outputs:
   curated_feed.xml  - signal articles
-  longread.xml      - longread articles
 Stats:
   fetch_stats.json
 """
@@ -35,37 +34,15 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
-    "https://www.newyorker.com/feed/rss",
-    "https://feeds.feedburner.com/TheAtlantic",
-    "https://evilgodfahim.github.io/tm/feeds/feed.xml",
-    "https://evilgodfahim.github.io/ftint/combined.xml",
-    "https://evilgodfahim.github.io/gd/merged.xml",
-    "https://evilgodfahim.github.io/nytint/combined.xml",
-    "https://evilgodfahim.github.io/wpint/combined.xml",
-    "https://evilgodfahim.github.io/wsjint/combined.xml",
-    "https://evilgodfahim.github.io/wl/pau.xml",
-    "https://evilgodfahim.github.io/yn/feeds/feed.xml",
-    "https://en.prothomalo.com/feed/",
-    "https://evilgodfahim.github.io/fen/feeds/feed.xml",
-    "https://evilgodfahim.github.io/tbs/articles.xml",
-    "https://evilgodfahim.github.io/dstar/feeds/feed.xml",
+    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
+    "https://evilgodfahim.github.io/edit/daily_feed.xml",
+    "https://evilgodfahim.github.io/bdl/final.xml",
 ]
 
 EXISTING_API_FEEDS = {
-    "https://www.newyorker.com/feed/rss",
-    "https://feeds.feedburner.com/TheAtlantic",
-    "https://evilgodfahim.github.io/tm/feeds/feed.xml",
-    "https://evilgodfahim.github.io/ftint/combined.xml",
-    "https://evilgodfahim.github.io/gd/merged.xml",
-    "https://evilgodfahim.github.io/nytint/combined.xml",
-    "https://evilgodfahim.github.io/wpint/combined.xml",
-    "https://evilgodfahim.github.io/wsjint/combined.xml",
-    "https://evilgodfahim.github.io/wl/pau.xml",
-    "https://evilgodfahim.github.io/yn/feeds/feed.xml",
-    "https://en.prothomalo.com/feed/",
-    "https://evilgodfahim.github.io/fen/feeds/feed.xml",
-    "https://evilgodfahim.github.io/tbs/articles.xml",
-    "https://evilgodfahim.github.io/dstar/feeds/feed.xml",
+    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
+    "https://evilgodfahim.github.io/edit/daily_feed.xml",
+    "https://evilgodfahim.github.io/bdl/final.xml",
 }
 
 KL_API_FEEDS = set()
@@ -77,10 +54,9 @@ DEDUP_MODEL           = "gemini-2.5-flash"
 PROCESSED_FILE        = "processed_articles.json"
 SELECTED_FILE         = "selected_articles.json"
 OUTPUT_XML            = "curated_feed.xml"
-LONGREAD_XML          = "longread.xml"
 STATS_FILE            = "fetch_stats.json"
 MAX_ARTICLES_PER_FEED = 50
-MAX_AGE_HOURS         = 4
+MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
 ALLOW_OLDER           = False
 MAX_FEED_ITEMS        = 500          # rolling cap per output file
@@ -89,10 +65,8 @@ MAX_FEED_ITEMS        = 500          # rolling cap per output file
 
 PROMPT = """You are a news classification engine. Classify each headline into exactly one bucket.
 SIGNAL — news that matters globally or within Bangladesh: major international events, geopolitical developments involving multiple countries, or Bangladesh developments that meaningfully affect a large portion of the population (major policy shifts, economic crises, political upheaval, governance changes). Isolated incidents, local events, or routine Bangladesh news do not qualify.
-LONGREAD — worth reading but not urgent: high-quality in-depth reporting, investigations, features, or thoughtful essays on culture, science, history, or society that reward careful reading. Excludes celebrity profiles, trend pieces, and routine human-interest stories.
 NOISE — everything else: any non-Bangladesh country's internal politics, elections, policy disputes, business news, or market moves — plus isolated Bangladesh incidents, sports, entertainment, celebrity gossip, lifestyle, routine official statements, and clickbait.
 Rules:
-- If a headline could fit both SIGNAL and LONGREAD, always choose SIGNAL.
 - Use only the headline text. Indices are 0-based.
 - Omit all noise indices from the output entirely.
 - Return only valid JSON. No markdown, no backticks, no preamble.
@@ -103,18 +77,17 @@ Tricky cases to guide you:
 - Any other country's domestic politics or policy with no cross-border impact → NOISE.
 - A geopolitical event involving multiple countries or international bodies → SIGNAL.
 - National business or market news from any non-Bangladesh country → NOISE unless it signals a global crisis.
-- A think-piece on an international subject with genuine global scope → SIGNAL, not LONGREAD.
-- A detailed profile or feature on a person with no global or broad Bangladesh consequence → LONGREAD, not SIGNAL.
+- A think-piece on an international subject with genuine global scope → SIGNAL.
 
 Examples:
 Input: ["US and China sign landmark trade agreement", "Premier League club sacks manager", "How the Ottoman Empire collapsed", "Bangladesh central bank raises interest rates amid inflation crisis", "UK Conservative Party elects new leader", "UN warns of imminent famine across the Horn of Africa"]
-Output: {{"signal": [0, 3, 5], "longread": [2]}}
+Output: {{"signal": [0, 3, 5]}}
 
 Input: ["India and Pakistan exchange fire across Line of Control", "Dhaka garment workers strike shuts down hundreds of factories", "The secret history of Antarctic exploration", "Australia holds federal election", "Celebrity couple announces divorce", "IMF approves emergency loan for Bangladesh"]
-Output: {{"signal": [0, 1, 5], "longread": [2]}}
+Output: {{"signal": [0, 1, 5]}}
 
 Input: ["Gaza ceasefire collapses as fighting resumes", "Bangladesh government slashes fuel subsidies nationwide", "A deep dive into the life of a Sundarbans honey collector", "France passes new immigration law", "How microplastics are entering the human bloodstream", "Local man wins national baking competition"]
-Output: {{"signal": [0, 1], "longread": [2, 4]}}
+Output: {{"signal": [0, 1]}}
 
 Article titles:
 {titles}
@@ -137,7 +110,7 @@ Article titles:
 # -- CONSTANTS -----------------------------------------------------------------
 
 MEDIA_NS    = "http://search.yahoo.com/mrss/"
-MEDIA_TAG   = "{%s}" % MEDIA_NS          # shorthand: "{http://...}"
+MEDIA_TAG   = "{%s}" % MEDIA_NS
 ET.register_namespace("media", MEDIA_NS)
 
 BD_TZ = timezone(timedelta(hours=6))
@@ -149,9 +122,7 @@ STATS = {
     "total_passed_age":      0,
     "total_new":             0,
     "total_signal":          0,
-    "total_longread":        0,
     "total_signal_deduped":  0,
-    "total_longread_deduped":0,
     "timestamp":             None,
 }
 
@@ -461,7 +432,7 @@ def get_new_articles(all_articles, processed_data):
 # -- GEMINI --------------------------------------------------------------------
 
 def extract_json_object(text):
-    """Parse {"signal": [...], "longread": [...]} from Gemini response."""
+    """Parse {"signal": [...]} from Gemini response."""
     text = text.replace("```json", "").replace("```", "").strip()
     match = re.search(r"\{.*\}", text, flags=re.DOTALL)
     if match:
@@ -469,27 +440,25 @@ def extract_json_object(text):
             obj = json.loads(match.group(0))
             if isinstance(obj, dict):
                 return {
-                    "signal":   [i for i in obj.get("signal",   []) if isinstance(i, int)],
-                    "longread": [i for i in obj.get("longread", []) if isinstance(i, int)],
+                    "signal": [i for i in obj.get("signal", []) if isinstance(i, int)],
                 }
         except Exception:
             pass
-    result = {"signal": [], "longread": []}
-    for key in ("signal", "longread"):
-        m = re.search(rf'"{key}"\s*:\s*(\[.*?\])', text, flags=re.DOTALL)
-        if m:
-            try:
-                result[key] = [i for i in json.loads(m.group(1)) if isinstance(i, int)]
-            except Exception:
-                pass
+    result = {"signal": []}
+    m = re.search(r'"signal"\s*:\s*(\[.*?\])', text, flags=re.DOTALL)
+    if m:
+        try:
+            result["signal"] = [i for i in json.loads(m.group(1)) if isinstance(i, int)]
+        except Exception:
+            pass
     return result
 
 
 def send_to_gemini(articles):
-    """Single Gemini 3 Flash call. Returns {"signal": [...], "longread": [...]}."""
+    """Single Gemini call. Returns {"signal": [...]}."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or not articles:
-        return {"signal": [], "longread": []}
+        return {"signal": []}
 
     try:
         client = genai.Client(api_key=api_key)
@@ -507,15 +476,14 @@ def send_to_gemini(articles):
 
         if hasattr(response, "parsed") and response.parsed:
             return {
-                "signal":   [i for i in response.parsed.get("signal",   []) if isinstance(i, int)],
-                "longread": [i for i in response.parsed.get("longread", []) if isinstance(i, int)],
+                "signal": [i for i in response.parsed.get("signal", []) if isinstance(i, int)],
             }
 
         return extract_json_object(response.text)
 
     except Exception as e:
         print(f"Gemini classification error: {e}")
-        return {"signal": [], "longread": []}
+        return {"signal": []}
 
 
 def deduplicate_articles(articles):
@@ -545,11 +513,9 @@ def deduplicate_articles(articles):
             config={"response_mime_type": "application/json"},
         )
 
-        # Parse response — expect a plain JSON array of ints, e.g. [0, 1, 3, 5]
         raw = response.text if hasattr(response, "text") else ""
         raw = raw.replace("```json", "").replace("```", "").strip()
 
-        # Try direct array parse first
         keep_indices = None
         try:
             parsed = json.loads(raw)
@@ -558,7 +524,6 @@ def deduplicate_articles(articles):
         except Exception:
             pass
 
-        # Fallback: extract array from inside any surrounding object
         if keep_indices is None:
             m = re.search(r"\[[\d,\s]+\]", raw)
             if m:
@@ -574,8 +539,6 @@ def deduplicate_articles(articles):
             print("Dedup: could not parse response, keeping all articles.")
             return articles
 
-        # Preserve original ordering; indices returned by model are already ordered,
-        # but sort just in case.
         keep_indices = sorted(set(keep_indices))
         deduped = [articles[i] for i in keep_indices]
         dropped = len(articles) - len(deduped)
@@ -590,7 +553,6 @@ def deduplicate_articles(articles):
 # -- XML -----------------------------------------------------------------------
 
 def _fresh_channel(root, feed_title, feed_description):
-    """Add a blank <channel> to root and return it."""
     channel = ET.SubElement(root, "channel")
     ET.SubElement(channel, "title").text       = feed_title
     ET.SubElement(channel, "link").text        = "https://yourusername.github.io/yourrepo/"
@@ -599,13 +561,6 @@ def _fresh_channel(root, feed_title, feed_description):
 
 
 def _load_or_create(output_file, feed_title, feed_description):
-    """
-    Return (tree, root, channel).
-
-    Tries to parse an existing file.  If the file is absent, empty, or
-    corrupt a fresh tree is built from scratch.  The namespace prefix
-    'media' is always re-registered so ElementTree writes it correctly.
-    """
     ET.register_namespace("media", MEDIA_NS)
 
     if Path(output_file).exists():
@@ -627,12 +582,6 @@ def _load_or_create(output_file, feed_title, feed_description):
 
 
 def generate_xml_feed(articles, output_file, feed_title=None, feed_description=None):
-    """
-    Append new unique articles to the existing RSS <channel>.
-    Enforces a MAX_FEED_ITEMS rolling cap — oldest items (top of list) are
-    dropped first once the cap is exceeded.
-    Creates the file from scratch if it does not exist.
-    """
     feed_title       = feed_title       or "Curated News"
     feed_description = feed_description or "AI-curated news feed"
 
@@ -705,14 +654,12 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
 
 def print_stats():
     print("\nFetch statistics:")
-    print(f"  Timestamp:           {STATS.get('timestamp')}")
-    print(f"  Total fetched:       {STATS['total_fetched']}  (raw entries from all feeds)")
-    print(f"  Passed age cut:      {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
-    print(f"  New (unseen):        {STATS['total_new']}")
-    print(f"  Signal (classified): {STATS['total_signal']}")
-    print(f"  Signal (after dedup):{STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
-    print(f"  Longread (classified):{STATS['total_longread']}")
-    print(f"  Longread (after dedup):{STATS['total_longread_deduped']}  -> {LONGREAD_XML}")
+    print(f"  Timestamp:            {STATS.get('timestamp')}")
+    print(f"  Total fetched:        {STATS['total_fetched']}  (raw entries from all feeds)")
+    print(f"  Passed age cut:       {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
+    print(f"  New (unseen):         {STATS['total_new']}")
+    print(f"  Signal (classified):  {STATS['total_signal']}")
+    print(f"  Signal (after dedup): {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
         print(f"    {method}: {cnt}")
@@ -731,44 +678,29 @@ def main():
 
     STATS["total_new"] = len(new_articles)
 
-    # --- Step 1: classify with Gemini 3 Flash --------------------------------
+    # --- Step 1: classify with Gemini ----------------------------------------
     result = send_to_gemini(new_articles)
 
-    signal_indices   = [i for i in result.get("signal",   []) if isinstance(i, int) and 0 <= i < len(new_articles)]
-    longread_indices = [i for i in result.get("longread", []) if isinstance(i, int) and 0 <= i < len(new_articles)]
+    signal_indices = [i for i in result.get("signal", []) if isinstance(i, int) and 0 <= i < len(new_articles)]
+    signal_articles = [new_articles[i] for i in signal_indices]
 
-    # Signal wins on overlap
-    signal_set       = set(signal_indices)
-    longread_indices = [i for i in longread_indices if i not in signal_set]
+    STATS["total_signal"] = len(signal_articles)
 
-    signal_articles   = [new_articles[i] for i in signal_indices]
-    longread_articles = [new_articles[i] for i in longread_indices]
-
-    STATS["total_signal"]   = len(signal_articles)
-    STATS["total_longread"] = len(longread_articles)
-
-    # --- Step 2: deduplicate signal only with Gemini 2.5 Flash ---------------
+    # --- Step 2: deduplicate signal with Gemini 2.5 Flash --------------------
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
     signal_articles = deduplicate_articles(signal_articles)
 
-    STATS["total_signal_deduped"]   = len(signal_articles)
-    STATS["total_longread_deduped"] = len(longread_articles)  # no dedup, same as classified
+    STATS["total_signal_deduped"] = len(signal_articles)
 
-    # --- Step 3: write XML feeds ---------------------------------------------
+    # --- Step 3: write XML feed ----------------------------------------------
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
         feed_title="Curated News",
         feed_description="AI-curated signal: international affairs and Bangladesh news",
     )
-    generate_xml_feed(
-        longread_articles,
-        output_file=LONGREAD_XML,
-        feed_title="Longread",
-        feed_description="Quality in-depth reading: features, analysis, investigations",
-    )
 
-    save_selected_articles(signal_articles + longread_articles)
+    save_selected_articles(signal_articles)
 
     processed_data.setdefault("article_ids",   []).extend([a["id"]   for a in new_articles if a.get("id")])
     processed_data.setdefault("article_links", []).extend([a["link"] for a in new_articles if a.get("link")])
