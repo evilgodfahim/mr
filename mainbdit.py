@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 """
-RSS Feed Processor with Gemini API Integration (robust date/content handling + thumbnails)
+RSS Feed Processor — Bangla Editorial Pipeline
 
-All articles from all feeds go through two parallel Gemini classification paths:
-  - Non-Bangla titles  → international/BD hard-news prompt
-  - Bangla-script titles → Bangla editorial prompt
-
-Both signal buckets are merged, then deduplicated in a single Gemini call.
+Feeds: bdit/daily_feed.xml + bdit/daily_feed_2.xml
+Only Bengali-script titles are classified. Non-Bangla titles are skipped entirely.
 
 Outputs:
-  curated_feed.xml  - signal articles (both streams)
+  bangla_editorial_feed.xml
 Stats:
-  fetch_stats.json
+  bangla_editorial_stats.json
 """
 
 import feedparser
@@ -36,28 +33,12 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
-    "https://evilgodfahim.github.io/edit/daily_feed.xml",
-    "https://evilgodfahim.github.io/bdl/final.xml",
-    "https://evilgodfahim.github.io/daily/daily_master.xml",
-    "https://evilgodfahim.github.io/int/final.xml",
-    "https://evilgodfahim.github.io/fp/final.xml",
-    "https://evilgodfahim.github.io/org/daily_feed.xml",
-    "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "https://evilgodfahim.github.io/bdit/daily_feed.xml",
+    "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
 ]
 
-EXISTING_API_FEEDS = {
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
-    "https://evilgodfahim.github.io/edit/daily_feed.xml",
-    "https://evilgodfahim.github.io/bdl/final.xml",
-    "https://evilgodfahim.github.io/daily/daily_master.xml",
-    "https://evilgodfahim.github.io/int/final.xml",
-    "https://evilgodfahim.github.io/fp/final.xml",
-    "https://evilgodfahim.github.io/org/daily_feed.xml",
-    "https://evilgodfahim.github.io/bangladesh/feed.xml",
-}
-
-KL_API_FEEDS = set()
+EXISTING_API_FEEDS = set(FEED_URLS)
+KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
@@ -75,100 +56,31 @@ MAX_FEED_ITEMS        = 500
 
 # -- BANGLA FILTER -------------------------------------------------------------
 
-# Unicode block for Bengali script: U+0980 – U+09FF
-BANGLA_RE = re.compile(r"[\u0980-\u09FF]")
-
-
 def is_bangla_title(title: str) -> bool:
-    """Return True only if the title contains meaningful Bengali script (≥4 chars)."""
+    """Return True only if the title contains ≥4 Bengali-script characters."""
     if not title:
         return False
     return sum(1 for c in title if "\u0980" <= c <= "\u09FF") >= 4
 
-# -- PROMPTS -------------------------------------------------------------------
+# -- PROMPT --------------------------------------------------------------------
 
-# Prompt for non-Bangla (international + English BD) titles
-PROMPT = """You are a strict news classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi newspapers — including hard news, editorials, op-eds, and essays. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is HIGH.
-
-STEP 1 — INSTANT NOISE. Stop here if the title is any of:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or commemorative · praise of a person, party, or institution · isolated local incident (one district, one institution, one community)
-
-STEP 2 — IS BANGLADESH DIRECTLY INVOLVED?
-
-  YES → SIGNAL if:
-  a) National scale: affects the whole country or a significant portion of the population. Cause is irrelevant — government decision, economic condition, failing public system, environmental crisis, infrastructure breakdown, natural disaster, social emergency, health situation. If the reach is national, it is SIGNAL.
-  b) Foreign affairs: any substantive BD external development — bilateral talks or disputes, international pressure or sanctions on BD, foreign aid or loans, cross-border issues (water, trade, security, migration), BD at international forums, international bodies acting on BD. If BD is a direct party, it is SIGNAL. Do not mistake substantive diplomacy for routine ceremony.
-  c) Editorial naming a concrete national-scale domain or condition → SIGNAL. Vague sentiment with no named domain → NOISE. Party strategy or partisan praise → NOISE.
-
-  NO → SIGNAL if:
-  a) Multinational bodies acting collectively: UN and agencies, NATO, IMF, World Bank, WTO, G7/G20, BRICS, IAEA, ICC, ICJ, regional alliances. Their resolutions, findings, and interventions are SIGNAL by nature.
-  b) Multi-country events: wars, conflicts, cross-border crises, multilateral treaties, regional instability, international sanctions.
-  c) Single-country decision with cross-border consequence — two types:
-     Immediate: moves something the world depends on (global energy supply, global financial systems, pandemic-level health, global trade architecture).
-     Strategic/slow-burn: shifts power, security, or stability even without immediate surface effect — nuclear decisions, major arms deals or military build-up, upstream water control affecting downstream countries, military base shifts, significant cyber operations, treaty withdrawals. Ask: does this change what is possible or what is threatened in the world?
-  All other single-country internal affairs → NOISE.
-
-WHEN IN DOUBT → NOISE.
-
-Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
-
-EXAMPLES:
-
-Input:
-0. US and China sign landmark trade agreement
-1. Premier League club sacks manager
-2. Bangladesh central bank raises interest rates amid inflation crisis
-3. UK Conservative Party elects new leader
-4. UN warns of imminent famine across the Horn of Africa
-5. The Promise of a New Bangladesh
-6. We Must Fix Bangladesh's Broken Irrigation System
-7. Saluting the Spirit of Our Freedom Fighters
-8. Bangladesh slashes fuel subsidies nationwide
-9. India's internal border dispute heats up
-10. Bangladesh foreign minister holds talks with India over Teesta water sharing
-11. US warns Bangladesh over labour rights ahead of trade review
-12. China pledges $3bn infrastructure investment in Bangladesh
-13. NATO expands eastern flank military presence
-14. India builds new dam on Brahmaputra upstream of Bangladesh
-Output: {{"signal": [0, 2, 4, 6, 8, 10, 11, 12, 13, 14]}}
-
-Input:
-0. India and Pakistan exchange fire across Line of Control
-1. Dhaka garment workers strike shuts down hundreds of factories
-2. Australia holds federal election
-3. IMF approves emergency loan for Bangladesh
-4. BNP's Path Forward After the Election
-5. How Microfinance Is Changing Lives in Sylhet
-6. How Poor Water Management Is Destroying Bangladesh's Agriculture
-7. The Geopolitics of the Indo-Pacific and What It Means for the World
-8. Why [Party Leader] Is the Leader Bangladesh Deserves
-9. IAEA raises alarm over Iran's uranium enrichment levels
-10. The Slow Collapse of Bangladesh's River Systems
-11. Why Bangladesh's Public Hospitals Are Failing the Poor
-Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11]}}
-
-Article titles:
-{titles}
-"""
-
-# Prompt for Bangla-script editorial/op-ed titles
 BANGLA_PROMPT = """You are a strict editorial classifier for Bangladeshi Bengali-language opinion journalism.
 Input: numbered Bengali editorial and op-ed titles from Bangladeshi newspapers.
 Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is HIGH.
 
-CORE QUESTION: Does this title name a concrete, substantive domain of national public concern?
+CORE QUESTION: Does this title name a concrete, substantive domain of national public concern — or engage seriously with a significant global phenomenon?
 
 STEP 1 — INSTANT NOISE. Stop here if the title is any of:
-  Tribute or memorial · praise of a leader, party, or institution · commemorative piece · sports or entertainment · lifestyle or human-interest · single-district or single-institution local issue with no national implication · personal or religious inspiration with no policy dimension · cultural nostalgia
+  Tribute or memorial · praise of a leader, party, or institution · commemorative piece · sports or entertainment · lifestyle or human-interest · single-district or single-institution issue with no national implication · personal or religious inspiration with no policy dimension · cultural nostalgia
 
 STEP 2 — SIGNAL if the title:
-  a) Names a concrete national-scale domain or condition — economy, inflation, banking, governance failure, public health system, environmental crisis, river erosion, flood, infrastructure breakdown, education quality, labour rights, energy, food security, law and order, judicial system, press freedom, constitutional matters. Domain must be explicitly inferable from the title.
+  a) Names a concrete national-scale domain or condition — economy, inflation, banking, governance failure, public health system, environmental crisis, river erosion, flood, infrastructure breakdown, education quality, labour rights, energy, food security, law and order, judicial system, press freedom, constitutional matters. The domain must be explicitly inferable from the title.
   b) Critiques or analyses a specific policy, institution, or systemic condition at national scale — not vague exhortation.
-  c) Addresses a Bangladesh foreign-affairs dimension from an editorial/analytical angle — water rights (Teesta, Brahmaputra), bilateral disputes, trade, migration, cross-border issues.
-  d) Engages with a global or regional issue that has direct consequence for Bangladesh — climate, global food prices, regional security — even if Bangladesh is not named in the title.
+  c) Addresses a Bangladesh foreign-affairs dimension from an editorial or analytical angle — water rights (Teesta, Brahmaputra), bilateral disputes, trade, migration, cross-border security.
+  d) Engages substantively with a significant global phenomenon — even if Bangladesh is not named and is not directly affected. Bangladeshi editors regularly write about global wars, international economic crises, climate accords, great-power rivalry, and humanitarian catastrophes as subjects in their own right. If the title clearly addresses such a global event or trend with analytical intent, it is SIGNAL.
 
 STEP 3 — NOISE if:
-  Aspirational or exhortational with no named domain · partisan praise or attack · vague moral commentary · personal biography
+  Aspirational or exhortational with no named domain ("আমাদের এগিয়ে যেতে হবে", "পরিবর্তনের স্বপ্ন") · Partisan praise or attack · Vague moral commentary · Personal biography
 
 WHEN IN DOUBT → NOISE.
 
@@ -184,21 +96,23 @@ Input:
 4. সরকারি হাসপাতালে দুর্নীতি ও জনভোগান্তি
 5. স্বপ্নের বাংলাদেশ গড়ার প্রতিশ্রুতি
 6. মূল্যস্ফীতির চাপে সাধারণ মানুষের জীবন
-7. নদী দখল ও পরিবেশ বিপর্যয়ের দায় কার
+7. গাজায় গণহত্যা ও আন্তর্জাতিক আইনের সংকট
 8. দলীয় আদর্শই আমাদের পথ দেখাবে
 9. শিক্ষাব্যবস্থার সংকট ও করণীয়
-Output: {{"signal": [0, 2, 4, 6, 7, 9]}}
+10. জলবায়ু পরিবর্তন ও বৈশ্বিক রাজনীতির নতুন সমীকরণ
+Output: {{"signal": [0, 2, 4, 6, 7, 9, 10]}}
 
 Input:
 0. গণমাধ্যমের স্বাধীনতা ও রাষ্ট্রের দায়িত্ব
 1. বিজয় দিবসের চেতনায় আলোকিত হোক প্রজন্ম
 2. ব্যাংক খাতের খেলাপি ঋণ এবং আর্থিক স্থিতিশীলতা
 3. নেতার জন্মদিনে আমাদের অঙ্গীকার
-4. জলবায়ু পরিবর্তন ও বাংলাদেশের উপকূলীয় সংকট
+4. ইউক্রেন যুদ্ধ এবং বিশ্ব খাদ্য নিরাপত্তার ভবিষ্যৎ
 5. বাজারে সিন্ডিকেটের দৌরাত্ম্য কতদিন চলবে
 6. ধর্মীয় সম্প্রীতির অনুপ্রেরণায় এগিয়ে চলি
 7. স্বাস্থ্যসেবায় বৈষম্য ও রাষ্ট্রের ব্যর্থতা
-Output: {{"signal": [0, 2, 4, 5, 7]}}
+8. মার্কিন-চীন বাণিজ্যযুদ্ধ ও বৈশ্বিক অর্থনীতির গতিপথ
+Output: {{"signal": [0, 2, 4, 5, 7, 8]}}
 
 Article titles:
 {titles}
@@ -232,8 +146,8 @@ STATS = {
     "total_fetched":         0,
     "total_passed_age":      0,
     "total_new":             0,
-    "total_new_bangla":      0,
-    "total_new_other":       0,
+    "total_bangla":          0,
+    "total_skipped_non_bangla": 0,
     "total_signal":          0,
     "total_signal_deduped":  0,
     "timestamp":             None,
@@ -545,16 +459,13 @@ def get_new_articles(all_articles, processed_data):
 # -- GEMINI --------------------------------------------------------------------
 
 def extract_json_object(text):
-    """Parse {"signal": [...]} from Gemini response."""
     text = text.replace("```json", "").replace("```", "").strip()
     match = re.search(r"\{.*\}", text, flags=re.DOTALL)
     if match:
         try:
             obj = json.loads(match.group(0))
             if isinstance(obj, dict):
-                return {
-                    "signal": [i for i in obj.get("signal", []) if isinstance(i, int)],
-                }
+                return {"signal": [i for i in obj.get("signal", []) if isinstance(i, int)]}
         except Exception:
             pass
     result = {"signal": []}
@@ -567,26 +478,15 @@ def extract_json_object(text):
     return result
 
 
-def send_to_gemini(articles, prompt_template):
-    """
-    Single Gemini classification call.
-    prompt_template must contain a {titles} placeholder OR be the full system prompt
-    that expects titles appended as user content.
-    Returns {"signal": [local 0-based indices]}.
-    """
+def send_to_gemini(articles):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or not articles:
         return {"signal": []}
 
     try:
-        client = genai.Client(api_key=api_key)
-
-        titles_text = "\n".join(
-            [f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)]
-        )
-
-        # PROMPT uses {titles} inline; BANGLA_PROMPT also uses {titles}
-        full_prompt = prompt_template.format(titles=titles_text)
+        client      = genai.Client(api_key=api_key)
+        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
+        full_prompt = BANGLA_PROMPT.format(titles=titles_text)
 
         response = client.models.generate_content(
             model=GEMINI_MODEL,
@@ -595,9 +495,7 @@ def send_to_gemini(articles, prompt_template):
         )
 
         if hasattr(response, "parsed") and response.parsed:
-            return {
-                "signal": [i for i in response.parsed.get("signal", []) if isinstance(i, int)],
-            }
+            return {"signal": [i for i in response.parsed.get("signal", []) if isinstance(i, int)]}
 
         return extract_json_object(response.text)
 
@@ -607,11 +505,6 @@ def send_to_gemini(articles, prompt_template):
 
 
 def deduplicate_articles(articles):
-    """
-    Send article titles to Gemini 2.5 Flash.
-    Returns a deduplicated subset of `articles`, preserving order.
-    Falls back to returning all articles unchanged on any error.
-    """
     if not articles:
         return articles
 
@@ -620,11 +513,8 @@ def deduplicate_articles(articles):
         return articles
 
     try:
-        client = genai.Client(api_key=api_key)
-
-        titles_text = "\n".join(
-            [f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)]
-        )
+        client      = genai.Client(api_key=api_key)
+        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
         response = client.models.generate_content(
             model=DEDUP_MODEL,
@@ -659,8 +549,8 @@ def deduplicate_articles(articles):
             return articles
 
         keep_indices = sorted(set(keep_indices))
-        deduped = [articles[i] for i in keep_indices]
-        dropped = len(articles) - len(deduped)
+        deduped      = [articles[i] for i in keep_indices]
+        dropped      = len(articles) - len(deduped)
         if dropped:
             print(f"Dedup: removed {dropped} near-duplicate title(s).")
         return deduped
@@ -681,7 +571,6 @@ def _fresh_channel(root, feed_title, feed_description):
 
 def _load_or_create(output_file, feed_title, feed_description):
     ET.register_namespace("media", MEDIA_NS)
-
     if Path(output_file).exists():
         try:
             tree    = ET.parse(output_file)
@@ -693,7 +582,6 @@ def _load_or_create(output_file, feed_title, feed_description):
             return tree, root, channel
         except ET.ParseError:
             pass
-
     root    = ET.Element("rss", {"version": "2.0"})
     tree    = ET.ElementTree(root)
     channel = _fresh_channel(root, feed_title, feed_description)
@@ -718,7 +606,7 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
         if not link or link in existing_links:
             continue
 
-        item = ET.SubElement(channel, "item")
+        item         = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text       = a.get("title", "") or ""
         ET.SubElement(item, "link").text        = link
         guid_val     = a.get("id") or link
@@ -769,14 +657,14 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
 
 def print_stats():
     print("\nFetch statistics:")
-    print(f"  Timestamp:            {STATS.get('timestamp')}")
-    print(f"  Total fetched:        {STATS['total_fetched']}  (raw entries from all feeds)")
-    print(f"  Passed age cut:       {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
-    print(f"  New (unseen):         {STATS['total_new']}")
-    print(f"    ├─ Bangla titles:   {STATS['total_new_bangla']}")
-    print(f"    └─ Other titles:    {STATS['total_new_other']}")
-    print(f"  Signal (classified):  {STATS['total_signal']}")
-    print(f"  Signal (after dedup): {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
+    print(f"  Timestamp:               {STATS.get('timestamp')}")
+    print(f"  Total fetched:           {STATS['total_fetched']}  (raw entries from all feeds)")
+    print(f"  Passed age cut:          {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
+    print(f"  New (unseen):            {STATS['total_new']}")
+    print(f"    ├─ Bangla (classified): {STATS['total_bangla']}")
+    print(f"    └─ Non-Bangla (skipped): {STATS['total_skipped_non_bangla']}")
+    print(f"  Signal (classified):     {STATS['total_signal']}")
+    print(f"  Signal (after dedup):    {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
         print(f"    {method}: {cnt}")
@@ -795,50 +683,41 @@ def main():
 
     STATS["total_new"] = len(new_articles)
 
-    # --- Split into Bangla vs non-Bangla --------------------------------------
-    bangla_articles = [a for a in new_articles if is_bangla_title(a.get("title", ""))]
-    other_articles  = [a for a in new_articles if not is_bangla_title(a.get("title", ""))]
+    # --- Filter: Bangla only --------------------------------------------------
+    bangla_articles       = [a for a in new_articles if is_bangla_title(a.get("title", ""))]
+    non_bangla_count      = len(new_articles) - len(bangla_articles)
 
-    STATS["total_new_bangla"] = len(bangla_articles)
-    STATS["total_new_other"]  = len(other_articles)
+    STATS["total_bangla"]              = len(bangla_articles)
+    STATS["total_skipped_non_bangla"]  = non_bangla_count
 
-    print(f"New articles: {len(new_articles)} total  |  {len(bangla_articles)} Bangla  |  {len(other_articles)} other")
+    print(f"New articles: {len(new_articles)} total  |  {len(bangla_articles)} Bangla (classifying)  |  {non_bangla_count} non-Bangla (skipped)")
 
-    # --- Step 1a: classify non-Bangla articles --------------------------------
-    signal_articles = []
+    if not bangla_articles:
+        print("No new Bangla articles to classify.")
+        STATS["timestamp"] = datetime.utcnow().isoformat()
+        save_stats()
+        print_stats()
+        return
 
-    if other_articles:
-        print(f"Classifying {len(other_articles)} non-Bangla article(s)...")
-        result_other   = send_to_gemini(other_articles, PROMPT)
-        signal_other   = [
-            other_articles[i]
-            for i in result_other.get("signal", [])
-            if isinstance(i, int) and 0 <= i < len(other_articles)
-        ]
-        print(f"  → {len(signal_other)} signal")
-        signal_articles.extend(signal_other)
-
-    # --- Step 1b: classify Bangla editorial titles ----------------------------
-    if bangla_articles:
-        print(f"Classifying {len(bangla_articles)} Bangla article(s)...")
-        result_bangla  = send_to_gemini(bangla_articles, BANGLA_PROMPT)
-        signal_bangla  = [
-            bangla_articles[i]
-            for i in result_bangla.get("signal", [])
-            if isinstance(i, int) and 0 <= i < len(bangla_articles)
-        ]
-        print(f"  → {len(signal_bangla)} signal")
-        signal_articles.extend(signal_bangla)
+    # --- Step 1: classify Bangla editorials -----------------------------------
+    print(f"Classifying {len(bangla_articles)} Bangla article(s)...")
+    result          = send_to_gemini(bangla_articles)
+    signal_articles = [
+        bangla_articles[i]
+        for i in result.get("signal", [])
+        if isinstance(i, int) and 0 <= i < len(bangla_articles)
+    ]
+    print(f"  → {len(signal_articles)} signal")
 
     STATS["total_signal"] = len(signal_articles)
 
-    # --- Step 2: deduplicate merged signal set --------------------------------
+    # --- Step 2: deduplicate --------------------------------------------------
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
     signal_articles = deduplicate_articles(signal_articles)
 
     STATS["total_signal_deduped"] = len(signal_articles)
 
-    # --- Step 3: write to the shared XML feed ---------------------------------
+    # --- Step 3: write XML feed -----------------------------------------------
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
@@ -848,6 +727,8 @@ def main():
 
     save_selected_articles(signal_articles)
 
+    # Mark ALL new articles (bangla + non-bangla) as processed so they
+    # are never re-evaluated on the next run.
     processed_data.setdefault("article_ids",   []).extend([a["id"]   for a in new_articles if a.get("id")])
     processed_data.setdefault("article_links", []).extend([a["link"] for a in new_articles if a.get("link")])
     save_processed_articles(processed_data)
