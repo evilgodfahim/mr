@@ -52,7 +52,7 @@ MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
 ALLOW_OLDER           = False
 MAX_FEED_ITEMS        = 500
-RETENTION_DAYS        = 10          # how long to remember processed articles
+RETENTION_DAYS        = 10
 
 # -- BANGLA FILTER -------------------------------------------------------------
 
@@ -64,26 +64,26 @@ def is_bangla_title(title: str) -> bool:
 
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a strict news classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi English-language newspapers — including hard news, editorials, op-eds, and essays. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH.
+PROMPT = """You are a strict editorial classification engine. Every input is an op-ed, essay, or editorial — no hard news. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH.
 
-STEP 1 — INSTANT NOISE. Stop here if the title is any of:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or commemorative · praise of a person, party, or institution · isolated local incident (one district, one institution, one community)
+STEP 1 — INSTANT NOISE. Reject immediately if the piece is any of:
+  Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a person, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
 
-STEP 2 — IS BANGLADESH DIRECTLY INVOLVED?
+STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
 
-  YES → SIGNAL if:
-  a) National scale: affects the whole country or a significant portion of the population. Cause is irrelevant — government decision, economic condition, failing public system, environmental crisis, infrastructure breakdown, natural disaster, social emergency, health situation. If the reach is national, it is SIGNAL.
-  b) Foreign affairs: any substantive BD external development — bilateral talks or disputes, international pressure or sanctions on BD, foreign aid or loans, cross-border issues (water, trade, security, migration), BD at international forums, international bodies acting on BD. If BD is a direct party, it is SIGNAL. Do not mistake substantive diplomacy for routine ceremony.
-  c) Editorial naming a concrete national-scale domain or condition → SIGNAL. Vague sentiment with no named domain → NOISE. Party strategy or partisan praise → NOISE.
+  YES → SIGNAL if the editorial addresses a concrete, named domain at national scale:
+  a) Any of: economic or business condition (trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate), governance failure, public institution breakdown, environmental or climate crisis, infrastructure, natural disaster, social emergency, health system. National reach = SIGNAL.
+  b) Foreign affairs: bilateral disputes, international pressure or sanctions on BD, foreign aid or loans, cross-border issues (water, trade, security, migration), BD at international forums. If BD is a direct party, it is SIGNAL.
+  c) Editorial naming a concrete national-scale domain → SIGNAL. Vague sentiment with no named domain → NOISE. Partisan framing or party strategy → NOISE.
 
   NO → SIGNAL if:
-  a) Multinational bodies acting collectively: UN and agencies, NATO, IMF, World Bank, WTO, G7/G20, BRICS, IAEA, ICC, ICJ, regional alliances. Their resolutions, findings, and interventions are SIGNAL by nature.
-  b) Multi-country events: wars, conflicts, cross-border crises, multilateral treaties, regional instability, international sanctions.
-  c) Single-country decision with cross-border consequence — two types:
-     Immediate: moves something the world depends on (global energy supply, global financial systems, pandemic-level health, global trade architecture).
-     Strategic/slow-burn: shifts power, security, or stability even without immediate surface effect — nuclear decisions, major arms deals or military build-up, upstream water control affecting downstream countries, military base shifts, significant cyber operations, treaty withdrawals. Ask: does this change what is possible or what is threatened in the world?
+  a) Multinational bodies acting collectively: UN and agencies, NATO, IMF, World Bank, WTO, G7/G20, BRICS, IAEA, ICC, ICJ, regional alliances. Their actions, findings, and failures are SIGNAL by nature.
+  b) Multi-country events analysed as a subject: wars, conflicts, cross-border crises, multilateral treaties, regional instability, international sanctions.
+  c) Single-country decision with cross-border consequence:
+     Immediate: moves something the world depends on (global energy, global financial systems, pandemic-level health, global trade architecture).
+     Strategic/slow-burn: shifts power, security, or stability — nuclear decisions, major arms deals, upstream water control, military base shifts, significant cyber operations, treaty withdrawals.
+  d) Global analytical essay: an editorial examining a global war, humanitarian catastrophe, great-power shift, or international economic crisis as its primary subject — with clear analytical or argumentative intent — is SIGNAL even with no direct Bangladesh angle.
   All other single-country internal affairs → NOISE.
-  d) Global crises covered as a subject in their own right: Bangladeshi editors sometimes write analytical editorials about global wars, humanitarian catastrophes, international economic crises, or great-power shifts that have no direct bearing on Bangladesh. If the title addresses such a global event or trend with clear analytical intent — not a news report, but an opinion or essay — it is SIGNAL.
 
 WHEN IN DOUBT → NOISE.
 
@@ -93,7 +93,7 @@ EXAMPLES:
 
 Input:
 0. US and China sign landmark trade agreement
-1. Premier League club sacks manager
+1. The Meaning Behind the Game
 2. Bangladesh central bank raises interest rates amid inflation crisis
 3. UK Conservative Party elects new leader
 4. UN warns of imminent famine across the Horn of Africa
@@ -109,7 +109,9 @@ Input:
 14. India builds new dam on Brahmaputra upstream of Bangladesh
 15. The World Watches Gaza and Does Nothing
 16. Why the Global South Must Rethink Its Dependence on Western Finance
-Output: {{"signal": [0, 2, 4, 6, 8, 10, 11, 12, 13, 14, 15, 16]}}
+17. Bangladesh's foreign reserves fall below $20bn as taka hits record low
+18. Hope Springs Eternal for Our Nation
+Output: {{"signal": [0, 2, 4, 6, 8, 10, 11, 12, 13, 14, 15, 16, 17]}}
 
 Input:
 0. India and Pakistan exchange fire across Line of Control
@@ -125,7 +127,9 @@ Input:
 10. The Slow Collapse of Bangladesh's River Systems
 11. Why Bangladesh's Public Hospitals Are Failing the Poor
 12. The Climate Crisis Is an Existential Threat to Civilisation
-Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11, 12]}}
+13. A Brighter Future Is Possible If We Choose It
+14. Garment exports decline 12% amid global slowdown, threatening Bangladesh's growth
+Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11, 12, 14]}}
 
 Article titles:
 {titles}
@@ -777,8 +781,8 @@ def main():
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
-        feed_title="Curated News",
-        feed_description="AI-curated signal: international affairs, Bangladesh news, and English editorials",
+        feed_title="Curated Editorials",
+        feed_description="AI-curated signal: English editorials on Bangladesh and world affairs",
     )
 
     save_selected_articles(signal_articles)
