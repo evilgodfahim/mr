@@ -1,4 +1,4 @@
-name: RSS Feed Processor
+name: RSS Feed Processor BDIT
 
 on:
   schedule:
