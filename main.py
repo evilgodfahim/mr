@@ -36,31 +36,21 @@ except Exception:
 FEED_URLS = [
     "https://evilgodfahim.github.io/gpd/daily_feed.xml",
     "https://evilgodfahim.github.io/bdl/final.xml",
-
-"https://evilgodfahim.github.io/daily/daily_master.xml",
-
-"https://evilgodfahim.github.io/int/final.xml",
-
-"https://evilgodfahim.github.io/fp/final.xml",
-
-"https://evilgodfahim.github.io/org/daily_feed.xml",
-
-"https://evilgodfahim.github.io/bangladesh/feed.xml"
+    "https://evilgodfahim.github.io/daily/daily_master.xml",
+    "https://evilgodfahim.github.io/int/final.xml",
+    "https://evilgodfahim.github.io/fp/final.xml",
+    "https://evilgodfahim.github.io/org/daily_feed.xml",
+    "https://evilgodfahim.github.io/bangladesh/feed.xml",
 ]
 
 EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/gpd/daily_feed.xml",
     "https://evilgodfahim.github.io/bdl/final.xml",
-
-"https://evilgodfahim.github.io/daily/daily_master.xml",
-
-"https://evilgodfahim.github.io/int/final.xml",
-
-"https://evilgodfahim.github.io/fp/final.xml",
-
-"https://evilgodfahim.github.io/org/daily_feed.xml",
-
-"https://evilgodfahim.github.io/bangladesh/feed.xml"
+    "https://evilgodfahim.github.io/daily/daily_master.xml",
+    "https://evilgodfahim.github.io/int/final.xml",
+    "https://evilgodfahim.github.io/fp/final.xml",
+    "https://evilgodfahim.github.io/org/daily_feed.xml",
+    "https://evilgodfahim.github.io/bangladesh/feed.xml",
 }
 
 KL_API_FEEDS = set()
@@ -78,6 +68,7 @@ MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
 ALLOW_OLDER           = False
 MAX_FEED_ITEMS        = 500          # rolling cap per output file
+RETENTION_DAYS        = 100          # how long to remember processed articles
 
 # -- PROMPT --------------------------------------------------------------------
 
@@ -180,26 +171,73 @@ STATS = {
 # -- I/O -----------------------------------------------------------------------
 
 def load_processed_articles():
-    if Path(PROCESSED_FILE).exists():
-        try:
-            with open(PROCESSED_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            return {
-                "article_ids":   data.get("article_ids", []),
-                "article_links": data.get("article_links", []),
-                "last_updated":  data.get("last_updated"),
-            }
-        except Exception:
-            pass
-    return {"article_ids": [], "article_links": [], "last_updated": None}
+    empty = {
+        "article_ids":      [],
+        "article_links":    [],
+        "id_timestamps":    {},
+        "link_timestamps":  {},
+        "last_updated":     None,
+    }
+    if not Path(PROCESSED_FILE).exists():
+        return empty
+    try:
+        with open(PROCESSED_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return empty
+
+    cutoff = (datetime.utcnow() - timedelta(days=RETENTION_DAYS)).isoformat()
+
+    # Prune timestamps dicts, keeping only entries newer than cutoff
+    id_ts   = {k: v for k, v in data.get("id_timestamps",   {}).items() if v >= cutoff}
+    link_ts = {k: v for k, v in data.get("link_timestamps", {}).items() if v >= cutoff}
+
+    return {
+        "article_ids":      list(id_ts.keys()),
+        "article_links":    list(link_ts.keys()),
+        "id_timestamps":    id_ts,
+        "link_timestamps":  link_ts,
+        "last_updated":     data.get("last_updated"),
+    }
 
 
 def save_processed_articles(data):
-    data["article_ids"]   = list(dict.fromkeys(data.get("article_ids", [])))
-    data["article_links"] = list(dict.fromkeys(data.get("article_links", [])))
-    data["last_updated"]  = datetime.utcnow().isoformat()
+    now_iso = datetime.utcnow().isoformat()
+    cutoff  = (datetime.utcnow() - timedelta(days=RETENTION_DAYS)).isoformat()
+
+    # Load what's already on disk so we never lose existing entries
+    existing = {"id_timestamps": {}, "link_timestamps": {}}
+    if Path(PROCESSED_FILE).exists():
+        try:
+            with open(PROCESSED_FILE, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+        except Exception:
+            pass
+
+    id_ts   = existing.get("id_timestamps",   {})
+    link_ts = existing.get("link_timestamps", {})
+
+    # Stamp any new ids/links that aren't already tracked
+    for aid in data.get("article_ids", []):
+        if aid and aid not in id_ts:
+            id_ts[aid] = now_iso
+    for lnk in data.get("article_links", []):
+        if lnk and lnk not in link_ts:
+            link_ts[lnk] = now_iso
+
+    # Prune entries older than RETENTION_DAYS
+    id_ts   = {k: v for k, v in id_ts.items()   if v >= cutoff}
+    link_ts = {k: v for k, v in link_ts.items() if v >= cutoff}
+
+    out = {
+        "article_ids":      list(id_ts.keys()),
+        "article_links":    list(link_ts.keys()),
+        "id_timestamps":    id_ts,
+        "link_timestamps":  link_ts,
+        "last_updated":     now_iso,
+    }
     with open(PROCESSED_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(out, f, indent=2, ensure_ascii=False)
 
 
 def save_selected_articles(articles):
@@ -732,7 +770,7 @@ def main():
     # --- Step 1: classify with Gemini ----------------------------------------
     result = send_to_gemini(new_articles)
 
-    signal_indices = [i for i in result.get("signal", []) if isinstance(i, int) and 0 <= i < len(new_articles)]
+    signal_indices  = [i for i in result.get("signal", []) if isinstance(i, int) and 0 <= i < len(new_articles)]
     signal_articles = [new_articles[i] for i in signal_indices]
 
     STATS["total_signal"] = len(signal_articles)
