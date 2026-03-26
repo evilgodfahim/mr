@@ -34,9 +34,7 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
-    "https://evilgodfahim.github.io/bdl/final.xml",
-    "https://evilgodfahim.github.io/daily/daily_master.xml",
+ "https://evilgodfahim.github.io/bdl/final.xml",
     "https://evilgodfahim.github.io/int/final.xml",
     "https://evilgodfahim.github.io/fp/final.xml",
     "https://evilgodfahim.github.io/org/daily_feed.xml",
@@ -44,10 +42,8 @@ FEED_URLS = [
 ]
 
 EXISTING_API_FEEDS = {
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
-    "https://evilgodfahim.github.io/bdl/final.xml",
-    "https://evilgodfahim.github.io/daily/daily_master.xml",
-    "https://evilgodfahim.github.io/int/final.xml",
+ "https://evilgodfahim.github.io/bdl/final.xml",
+ "https://evilgodfahim.github.io/int/final.xml",
     "https://evilgodfahim.github.io/fp/final.xml",
     "https://evilgodfahim.github.io/org/daily_feed.xml",
     "https://evilgodfahim.github.io/bangladesh/feed.xml",
