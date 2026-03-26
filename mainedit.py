@@ -52,7 +52,7 @@ MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
 ALLOW_OLDER           = False
 MAX_FEED_ITEMS        = 500
-RETENTION_DAYS        = 100          # how long to remember processed articles
+RETENTION_DAYS        = 10          # how long to remember processed articles
 
 # -- BANGLA FILTER -------------------------------------------------------------
 
