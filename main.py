@@ -80,7 +80,7 @@ STEP 1 — INSTANT NOISE. Stop here if the title is any of:
 STEP 2 — IS BANGLADESH DIRECTLY INVOLVED?
 
   YES → SIGNAL if:
-  a) National scale: affects the whole country or a significant portion of the population. Cause is irrelevant — government decision, economic condition, failing public system, environmental crisis, infrastructure breakdown, natural disaster, social emergency, health situation. If the reach is national, it is SIGNAL.
+  a) National scale: affects the whole country or a significant portion of the population. Cause is irrelevant — economic or business condition (trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate), government decision, failing public system, environmental crisis, infrastructure breakdown, natural disaster, social emergency, health situation. If the reach is national, it is SIGNAL.
   b) Foreign affairs: any substantive BD external development — bilateral talks or disputes, international pressure or sanctions on BD, foreign aid or loans, cross-border issues (water, trade, security, migration), BD at international forums, international bodies acting on BD. If BD is a direct party, it is SIGNAL. Do not mistake substantive diplomacy for routine ceremony.
   c) Editorial naming a concrete national-scale domain or condition → SIGNAL. Vague sentiment with no named domain → NOISE. Party strategy or partisan praise → NOISE.
 
@@ -129,7 +129,9 @@ Input:
 9. IAEA raises alarm over Iran's uranium enrichment levels
 10. The Slow Collapse of Bangladesh's River Systems
 11. Why Bangladesh's Public Hospitals Are Failing the Poor
-Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11]}}
+12. Bangladesh's foreign reserves fall below $20bn as taka hits record low
+13. Garment exports decline 12% amid global slowdown, threatening Bangladesh's growth
+Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11, 12, 13]}}
 
 Article titles:
 {titles}
@@ -188,7 +190,6 @@ def load_processed_articles():
 
     cutoff = (datetime.utcnow() - timedelta(days=RETENTION_DAYS)).isoformat()
 
-    # Prune timestamps dicts, keeping only entries newer than cutoff
     id_ts   = {k: v for k, v in data.get("id_timestamps",   {}).items() if v >= cutoff}
     link_ts = {k: v for k, v in data.get("link_timestamps", {}).items() if v >= cutoff}
 
@@ -205,7 +206,6 @@ def save_processed_articles(data):
     now_iso = datetime.utcnow().isoformat()
     cutoff  = (datetime.utcnow() - timedelta(days=RETENTION_DAYS)).isoformat()
 
-    # Load what's already on disk so we never lose existing entries
     existing = {"id_timestamps": {}, "link_timestamps": {}}
     if Path(PROCESSED_FILE).exists():
         try:
@@ -217,7 +217,6 @@ def save_processed_articles(data):
     id_ts   = existing.get("id_timestamps",   {})
     link_ts = existing.get("link_timestamps", {})
 
-    # Stamp any new ids/links that aren't already tracked
     for aid in data.get("article_ids", []):
         if aid and aid not in id_ts:
             id_ts[aid] = now_iso
@@ -225,7 +224,6 @@ def save_processed_articles(data):
         if lnk and lnk not in link_ts:
             link_ts[lnk] = now_iso
 
-    # Prune entries older than RETENTION_DAYS
     id_ts   = {k: v for k, v in id_ts.items()   if v >= cutoff}
     link_ts = {k: v for k, v in link_ts.items() if v >= cutoff}
 
