@@ -53,7 +53,7 @@ MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
 ALLOW_OLDER           = False
 MAX_FEED_ITEMS        = 500
-RETENTION_DAYS        = 10          # how long to remember processed articles
+RETENTION_DAYS        = 10
 
 # -- BANGLA FILTER -------------------------------------------------------------
 
@@ -72,16 +72,16 @@ Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER H
 CORE QUESTION: Does this title name a concrete, substantive domain of national public concern — or engage seriously with a significant global phenomenon?
 
 STEP 1 — INSTANT NOISE. Stop here if the title is any of:
-  Tribute or memorial · praise of a leader, party, or institution · commemorative piece · sports or entertainment · lifestyle or human-interest · single-district or single-institution issue with no national implication · personal or religious inspiration with no policy dimension · cultural nostalgia
+  Tribute or memorial · praise of a leader, party, or institution · commemorative piece · sports or entertainment · lifestyle or human-interest · single-district or single-institution issue with no national implication · personal or religious inspiration with no policy dimension · cultural nostalgia · vague moral or aspirational sentiment with no named domain (e.g. "আমাদের এগিয়ে যেতে হবে", "পরিবর্তনের স্বপ্ন", "আলোর পথে এগিয়ে চলি")
 
 STEP 2 — SIGNAL if the title:
-  a) Names a concrete national-scale domain or condition — economy, inflation, banking, governance failure, public health system, environmental crisis, river erosion, flood, infrastructure breakdown, education quality, labour rights, energy, food security, law and order, judicial system, press freedom, constitutional matters. The domain must be explicitly inferable from the title.
+  a) Names a concrete national-scale domain or condition — economic or business condition (trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate), governance failure, public health system, environmental crisis, river erosion, flood, infrastructure breakdown, education quality, labour rights, energy, food security, law and order, judicial system, press freedom, constitutional matters. The domain must be explicitly inferable from the title.
   b) Critiques or analyses a specific policy, institution, or systemic condition at national scale — not vague exhortation.
   c) Addresses a Bangladesh foreign-affairs dimension from an editorial or analytical angle — water rights (Teesta, Brahmaputra), bilateral disputes, trade, migration, cross-border security.
   d) Engages substantively with a significant global phenomenon — even if Bangladesh is not named and is not directly affected. Bangladeshi editors regularly write about global wars, international economic crises, climate accords, great-power rivalry, and humanitarian catastrophes as subjects in their own right. If the title clearly addresses such a global event or trend with analytical intent, it is SIGNAL.
 
 STEP 3 — NOISE if:
-  Aspirational or exhortational with no named domain ("আমাদের এগিয়ে যেতে হবে", "পরিবর্তনের স্বপ্ন") · Partisan praise or attack · Vague moral commentary · Personal biography
+  Aspirational or exhortational with no named domain · Partisan praise or attack · Vague moral commentary · Personal biography
 
 WHEN IN DOUBT → NOISE.
 
@@ -101,7 +101,9 @@ Input:
 8. দলীয় আদর্শই আমাদের পথ দেখাবে
 9. শিক্ষাব্যবস্থার সংকট ও করণীয়
 10. জলবায়ু পরিবর্তন ও বৈশ্বিক রাজনীতির নতুন সমীকরণ
-Output: {{"signal": [0, 2, 4, 6, 7, 9, 10]}}
+11. বৈদেশিক মুদ্রার রিজার্ভ কমছে, কী করবে বাংলাদেশ
+12. পোশাক রপ্তানিতে ধস ও অর্থনীতির ঝুঁকি
+Output: {{"signal": [0, 2, 4, 6, 7, 9, 10, 11, 12]}}
 
 Input:
 0. গণমাধ্যমের স্বাধীনতা ও রাষ্ট্রের দায়িত্ব
@@ -728,11 +730,11 @@ def main():
     STATS["total_new"] = len(new_articles)
 
     # --- Filter: Bangla only --------------------------------------------------
-    bangla_articles       = [a for a in new_articles if is_bangla_title(a.get("title", ""))]
-    non_bangla_count      = len(new_articles) - len(bangla_articles)
+    bangla_articles  = [a for a in new_articles if is_bangla_title(a.get("title", ""))]
+    non_bangla_count = len(new_articles) - len(bangla_articles)
 
-    STATS["total_bangla"]              = len(bangla_articles)
-    STATS["total_skipped_non_bangla"]  = non_bangla_count
+    STATS["total_bangla"]             = len(bangla_articles)
+    STATS["total_skipped_non_bangla"] = non_bangla_count
 
     print(f"New articles: {len(new_articles)} total  |  {len(bangla_articles)} Bangla (classifying)  |  {non_bangla_count} non-Bangla (skipped)")
 
@@ -765,8 +767,8 @@ def main():
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
-        feed_title="Curated News",
-        feed_description="AI-curated signal: international affairs, Bangladesh news, and Bangla editorials",
+        feed_title="Curated Bangla Editorials",
+        feed_description="AI-curated signal: Bangla editorials on Bangladesh and world affairs",
     )
 
     save_selected_articles(signal_articles)
