@@ -58,6 +58,7 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git commit -m "Update feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to commit."
