@@ -67,7 +67,7 @@ def is_bangla_title(title: str) -> bool:
 
 BANGLA_PROMPT = """You are a strict editorial classifier for Bangladeshi Bengali-language opinion journalism.
 Input: numbered Bengali editorial and op-ed titles from Bangladeshi newspapers.
-Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is ULTRA HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 CORE QUESTION: Does this title name a concrete, substantive domain of national public concern — or engage seriously with a significant global phenomenon?
 
