@@ -62,7 +62,7 @@ RETENTION_DAYS        = 10          # how long to remember processed articles
 
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a geopolitics classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is HIGH.
+PROMPT = """You are a geopolitics classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 GEOPOLITICS = the interplay of power between states, alliances, and international bodies — across military, diplomatic, and strategic dimensions.
 
