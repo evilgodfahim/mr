@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Curated News</title>
+    <link>https://yourusername.github.io/yourrepo/</link>
+    <description>AI-curated signal: international affairs and Bangladesh news</description>
+  </channel>
+</rss>
