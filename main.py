@@ -55,10 +55,10 @@ KL_API_FEEDS = set()
 
 GEMINI_MODEL          = "gemini-3-flash-preview"
 DEDUP_MODEL           = "gemini-2.5-flash"
-PROCESSED_FILE        = "processed_articles.json"
-SELECTED_FILE         = "selected_articles.json"
+PROCESSED_FILE        = "processed_articles_main.json"
+SELECTED_FILE         = "selected_articles_main.json"
 OUTPUT_XML            = "curated_feed.xml"
-STATS_FILE            = "fetch_stats.json"
+STATS_FILE            = "fetch_stats_main.json"
 MAX_ARTICLES_PER_FEED = 100
 MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
