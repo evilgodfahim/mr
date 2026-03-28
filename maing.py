@@ -34,15 +34,13 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
-    "https://evilgodfahim.github.io/daily/daily_master.xml",
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
+"https://evilgodfahim.github.io/gpd/daily_feed.xml",
 
 "https://evilgodfahim.github.io/cd/curated_feed.xml"
 ]
 
 EXISTING_API_FEEDS = {
-    "https://evilgodfahim.github.io/daily/daily_master.xml",
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
+      "https://evilgodfahim.github.io/gpd/daily_feed.xml",
 
 "https://evilgodfahim.github.io/cd/curated_feed.xml"
 }
