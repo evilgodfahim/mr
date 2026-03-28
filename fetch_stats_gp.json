@@ -1,0 +1,24 @@
+{
+  "per_feed": {
+    "https://evilgodfahim.github.io/daily/daily_master.xml": {
+      "fetched": 91,
+      "passed_age": 91,
+      "capped": 91
+    },
+    "https://evilgodfahim.github.io/gpd/daily_feed.xml": {
+      "fetched": 38,
+      "passed_age": 34,
+      "capped": 34
+    }
+  },
+  "per_method": {
+    "KL": 0,
+    "DIRECT": 129
+  },
+  "total_fetched": 129,
+  "total_passed_age": 125,
+  "total_new": 125,
+  "total_signal": 97,
+  "total_signal_deduped": 79,
+  "timestamp": "2026-03-28T03:36:32.206693"
+}
