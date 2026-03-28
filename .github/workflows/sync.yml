@@ -30,7 +30,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase origin main
+          git stash pop
           git add curated_feed_edit.xml curated_feed_bdit.xml
           git diff --cached --quiet || git commit -m "sync: append missing items from overflow/filtered feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
