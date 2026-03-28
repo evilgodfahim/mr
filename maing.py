@@ -40,7 +40,7 @@ FEED_URLS = [
 ]
 
 EXISTING_API_FEEDS = {
-      "https://evilgodfahim.github.io/gpd/daily_feed.xml",
+"https://evilgodfahim.github.io/gpd/daily_feed.xml",
 
 "https://evilgodfahim.github.io/cd/curated_feed.xml"
 }
