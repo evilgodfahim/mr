@@ -9,15 +9,6 @@ overwrites existing content) any missing items formatted in curated style.
 Feed pairs:
   filtered_feed_overflow.xml  →  curated_feed_edit.xml
   filtered_feed.xml           →  curated_feed_bdit.xml
-
-Curated item format produced:
-  <item>
-    <title>...</title>
-    <link>...</link>
-    <guid isPermaLink="true">...</guid>
-    <description>...</description>   (or self-closing if empty)
-    <pubDate>NOW in +0600</pubDate>
-  </item>
 """
 
 import sys
@@ -45,7 +36,7 @@ FEED_PAIRS = [
 ]
 
 HOURS_WINDOW = 26
-BD_TZ = timezone(timedelta(hours=6))   # +0600 Bangladesh Time
+BD_TZ = timezone(timedelta(hours=6))  # +0600 Bangladesh Time
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -125,25 +116,27 @@ def xml_escape(text: str) -> str:
 
 def build_curated_item(src_item: ET.Element, pub_now: str) -> str:
     """
-    Produce a curated-style <item> string matching the format already in
-    curated_feed_edit.xml / curated_feed_bdit.xml:
+    Produce a curated-style <item> string.
 
       <item>
         <title>...</title>
-        <link>URL</link>
-        <guid isPermaLink="true">URL</guid>
-        <description>text</description>   or   <description />
+        <link>URL</link>                        ← & escaped to &amp;
+        <guid isPermaLink="true">URL</guid>     ← & escaped to &amp;
+        <description>text</description>         ← or <description />
         <pubDate>RFC-822 +0600</pubDate>
       </item>
 
-    pubDate is set to the current curation run time (BD timezone),
-    exactly as mainedit.py / mainbdit.py do it.
+    pubDate is the current curation run time in BD timezone (+0600).
+    The raw link is used for dedup comparison; link_escaped is written to XML.
     """
     title_el = src_item.find("title")
     title = xml_escape(title_el.text.strip()) if (title_el is not None and title_el.text) else ""
 
     link_el = src_item.find("link")
-    link = link_el.text.strip() if (link_el is not None and link_el.text) else ""
+    link_raw = link_el.text.strip() if (link_el is not None and link_el.text) else ""
+    # Escape & in query strings (e.g. ?at_medium=RSS&at_campaign=rss → &amp;)
+    # Unescaped & is invalid XML and causes feed readers to reject the file.
+    link_escaped = xml_escape(link_raw)
 
     desc_el = src_item.find("description")
     if desc_el is not None and desc_el.text and desc_el.text.strip():
@@ -154,8 +147,8 @@ def build_curated_item(src_item: ET.Element, pub_now: str) -> str:
     return "\n".join([
         "    <item>",
         f"      <title>{title}</title>",
-        f"      <link>{link}</link>",
-        f'      <guid isPermaLink="true">{xml_escape(link)}</guid>',
+        f"      <link>{link_escaped}</link>",
+        f'      <guid isPermaLink="true">{link_escaped}</guid>',
         f"      {description}",
         f"      <pubDate>{pub_now}</pubDate>",
         "    </item>",
@@ -198,7 +191,7 @@ def process_pair(remote_url: str, local_file: str, label: str) -> None:
         sys.exit(1)
 
     # Fetch remote
-    print("  Fetching remote feed…")
+    print("  Fetching remote feed...")
     try:
         remote_root = parse_xml_text(fetch_xml_text(remote_url))
     except Exception as e:
@@ -224,11 +217,13 @@ def process_pair(remote_url: str, local_file: str, label: str) -> None:
     existing = collect_existing_links(local_channel)
     print(f"  Existing items in local     : {len(existing)}")
 
-    # Diff
-    missing = [
-        item for item in recent
-        if (lnk := get_item_link(item)) and lnk not in existing
-    ]
+    # Diff — use raw (unescaped) link for comparison
+    missing = []
+    for item in recent:
+        lnk = get_item_link(item)
+        if lnk and lnk not in existing:
+            missing.append(item)
+
     print(f"  New items to append         : {len(missing)}")
     if not missing:
         print("  Already up-to-date. Nothing to do.")
@@ -246,8 +241,8 @@ def process_pair(remote_url: str, local_file: str, label: str) -> None:
 
     # Build & append
     pub_now = now_bd_rfc822()
-    new_xml  = [build_curated_item(item, pub_now) for item in missing]
-    count    = append_items_to_local(local_path, new_xml)
+    new_xml = [build_curated_item(item, pub_now) for item in missing]
+    count   = append_items_to_local(local_path, new_xml)
     print(f"\n  ✓  Appended {count} item(s) → '{local_file}'")
     print(f"     pubDate set to: {pub_now}")
 
