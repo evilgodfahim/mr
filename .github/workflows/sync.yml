@@ -1,0 +1,36 @@
+name: Sync Curated Feeds
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 10:30 AM BD (+0600) — runs after your curation scripts
+  workflow_dispatch:        # manual trigger from Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run sync script
+        run: python sync_curated_feeds.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add curated_feed_edit.xml curated_feed_bdit.xml
+          git diff --cached --quiet || git commit -m "sync: append missing items from overflow/filtered feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
