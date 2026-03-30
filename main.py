@@ -516,6 +516,23 @@ def get_new_articles(all_articles, processed_data):
             new.append(a)
     return new
 
+
+def dedup_by_link(articles):
+    """Remove articles with duplicate links, keeping the first occurrence."""
+    seen_links = set()
+    deduped = []
+    for a in articles:
+        link = a.get("link") or ""
+        if link and link in seen_links:
+            continue
+        if link:
+            seen_links.add(link)
+        deduped.append(a)
+    dropped = len(articles) - len(deduped)
+    if dropped:
+        print(f"Link dedup: removed {dropped} duplicate link(s) before API call.")
+    return deduped
+
 # -- GEMINI --------------------------------------------------------------------
 
 def extract_json_object(text):
@@ -762,6 +779,9 @@ def main():
     processed_data = load_processed_articles()
     all_articles   = fetch_all_feeds()
     new_articles   = get_new_articles(all_articles, processed_data)
+
+    # --- Link dedup: collapse duplicate URLs before hitting the API ----------
+    new_articles = dedup_by_link(new_articles)
 
     STATS["total_new"] = len(new_articles)
 
