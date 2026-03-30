@@ -20,7 +20,7 @@
   "total_new": 99,
   "total_bangla": 99,
   "total_skipped_non_bangla": 0,
-  "total_signal": 0,
-  "total_signal_deduped": 0,
-  "timestamp": "2026-03-30T03:52:25.811042"
+  "total_signal": 71,
+  "total_signal_deduped": 45,
+  "timestamp": "2026-03-30T04:50:44.137223"
 }
