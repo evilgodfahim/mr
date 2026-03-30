@@ -754,8 +754,6 @@ def main():
 
     if not english_articles:
         print("No new English articles to classify.")
-        STATS["timestamp"] = datetime.utcnow().isoformat()
-        save_stats()
         print_stats()
         return
 
@@ -770,6 +768,12 @@ def main():
     print(f"  → {len(signal_articles)} signal")
 
     STATS["total_signal"] = len(signal_articles)
+
+    # --- Early exit: nothing classified, skip all file writes ----------------
+    if not signal_articles:
+        print("No signal articles this run. Skipping all file writes.")
+        print_stats()
+        return
 
     # --- Step 2: deduplicate --------------------------------------------------
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
