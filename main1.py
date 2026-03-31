@@ -64,6 +64,7 @@ MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_main.json"
 SELECTED_FILE         = "selected_articles_main.json"
 OUTPUT_XML            = "curated_feed.xml"
+EXCLUDED_XML          = "ex.xml"
 STATS_FILE            = "fetch_stats_main.json"
 MAX_ARTICLES_PER_FEED = 100
 MAX_AGE_HOURS         = 26
@@ -812,6 +813,7 @@ def main():
 
     signal_indices  = sorted(set(gemini_indices) & set(mistral_indices))
     signal_articles = [new_articles[i] for i in signal_indices]
+    excluded_articles = [new_articles[i] for i in range(len(new_articles)) if i not in set(signal_indices)]
 
     STATS["total_signal"] = len(signal_articles)
 
@@ -830,6 +832,13 @@ def main():
         output_file=OUTPUT_XML,
         feed_title="Curated News",
         feed_description="AI-curated signal: international affairs and Bangladesh news",
+    )
+
+    generate_xml_feed(
+        excluded_articles,
+        output_file=EXCLUDED_XML,
+        feed_title="Excluded News",
+        feed_description="AI-curated excluded articles after model intersection",
     )
 
     save_selected_articles(signal_articles)
