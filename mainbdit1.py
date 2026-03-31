@@ -782,10 +782,17 @@ def main():
     STATS["total_signal_gemini"]  = len(gemini_indices)
     STATS["total_signal_mistral"] = len(mistral_indices)
 
+    print(f"  → Gemini: {len(gemini_indices)}  Mistral: {len(mistral_indices)}")
+
+    if not gemini_indices or not mistral_indices:
+        print("One or both models returned 0 signal. Skipping all file writes.")
+        print_stats()
+        return
+
     signal_indices  = sorted(set(gemini_indices) & set(mistral_indices))
     signal_articles = [bangla_articles[i] for i in signal_indices]
 
-    print(f"  → Gemini: {len(gemini_indices)}  Mistral: {len(mistral_indices)}  Intersection: {len(signal_articles)}")
+    print(f"  Intersection: {len(signal_articles)}")
 
     STATS["total_signal"] = len(signal_articles)
 
