@@ -6,9 +6,9 @@ Feed: edit/daily_feed.xml
 Only non-Bengali-script titles are classified. Bangla titles are skipped entirely.
 
 Outputs:
-  english_editorial_feed.xml
+  curated_feed_edit.xml
 Stats:
-  english_editorial_stats.json
+  fetch_stats_edit.json
 """
 
 import feedparser
@@ -20,7 +20,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from google import genai
-from mistralai.client import Mistral
+from mistralai import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -42,7 +42,6 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-GEMINI_MODEL          = "gemini-3-flash-preview"
 DEDUP_MODEL           = "gemini-2.5-flash"
 MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_edit.json"
@@ -167,7 +166,6 @@ STATS = {
     "total_new":             0,
     "total_english":         0,
     "total_skipped_bangla":  0,
-    "total_signal_gemini":   0,
     "total_signal_mistral":  0,
     "total_signal":          0,
     "total_signal_deduped":  0,
@@ -542,32 +540,6 @@ def extract_json_object(text):
     return result
 
 
-def send_to_gemini(articles):
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key or not articles:
-        return []
-
-    try:
-        client      = genai.Client(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        full_prompt = PROMPT.format(titles=titles_text)
-
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=full_prompt,
-            config={"response_mime_type": "application/json"},
-        )
-
-        if hasattr(response, "parsed") and response.parsed:
-            return [i for i in response.parsed.get("signal", []) if isinstance(i, int)]
-
-        return extract_json_object(response.text).get("signal", [])
-
-    except Exception as e:
-        print(f"Gemini classification error: {e}")
-        return []
-
-
 def send_to_mistral(articles):
     api_key = os.environ.get("MS")
     if not api_key or not articles:
@@ -750,9 +722,7 @@ def print_stats():
     print(f"  New (unseen):            {STATS['total_new']}")
     print(f"    ├─ English (classified): {STATS['total_english']}")
     print(f"    └─ Bangla (skipped):     {STATS['total_skipped_bangla']}")
-    print(f"  Signal (Gemini):         {STATS['total_signal_gemini']}")
     print(f"  Signal (Mistral):        {STATS['total_signal_mistral']}")
-    print(f"  Signal (intersection):   {STATS['total_signal']}")
     print(f"  Signal (after dedup):    {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
@@ -787,33 +757,20 @@ def main():
 
     print(f"Classifying {len(english_articles)} English article(s)...")
 
-    gemini_indices  = send_to_gemini(english_articles)
-    gemini_indices  = [i for i in gemini_indices if 0 <= i < len(english_articles)]
-
     mistral_indices = send_to_mistral(english_articles)
     mistral_indices = [i for i in mistral_indices if 0 <= i < len(english_articles)]
 
-    STATS["total_signal_gemini"]  = len(gemini_indices)
     STATS["total_signal_mistral"] = len(mistral_indices)
+    STATS["total_signal"]         = len(mistral_indices)
 
-    print(f"  → Gemini: {len(gemini_indices)}  Mistral: {len(mistral_indices)}")
+    print(f"  → Mistral: {len(mistral_indices)}")
 
-    if not gemini_indices or not mistral_indices:
-        print("One or both models returned 0 signal. Skipping all file writes.")
+    if not mistral_indices:
+        print("Mistral returned 0 signal. Skipping all file writes.")
         print_stats()
         return
 
-    signal_indices  = sorted(set(gemini_indices) & set(mistral_indices))
-    signal_articles = [english_articles[i] for i in signal_indices]
-
-    print(f"  Intersection: {len(signal_articles)}")
-
-    STATS["total_signal"] = len(signal_articles)
-
-    if not signal_articles:
-        print("No signal articles this run. Skipping all file writes.")
-        print_stats()
-        return
+    signal_articles = [english_articles[i] for i in mistral_indices]
 
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
     signal_articles = deduplicate_articles(signal_articles)
