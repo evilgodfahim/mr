@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-RSS Feed Processor with Gemini API Integration (robust date/content handling + thumbnails)
+RSS Feed Processor — Geopolitics Pipeline
 
-All articles from all feeds go to one Gemini call.
-Gemini classifies each headline into signal or noise.
-A second Gemini call deduplicates near-identical titles within the signal bucket.
+All articles from all feeds go to one Mistral call.
+Mistral classifies each headline into signal or noise.
+A Gemini call deduplicates near-identical signal titles.
 
 Outputs:
   curated_feed_gp.xml  - signal articles
-  ex.xml               - excluded articles after intersection
+  ex.xml               - excluded articles
 Stats:
   fetch_stats_gp.json
 """
@@ -22,7 +22,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from google import genai
-from mistralai.client import Mistral
+from mistralai import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -49,7 +49,6 @@ KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-GEMINI_MODEL          = "gemini-3-flash-preview"
 DEDUP_MODEL           = "gemini-2.5-flash"
 MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_gp.json"
@@ -61,8 +60,8 @@ MAX_ARTICLES_PER_FEED = 100
 MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
 ALLOW_OLDER           = False
-MAX_FEED_ITEMS        = 500          # rolling cap per output file
-RETENTION_DAYS        = 10           # how long to remember processed articles
+MAX_FEED_ITEMS        = 500
+RETENTION_DAYS        = 10
 
 # -- PROMPT --------------------------------------------------------------------
 
@@ -175,7 +174,6 @@ STATS = {
     "total_fetched":         0,
     "total_passed_age":      0,
     "total_new":             0,
-    "total_signal_gemini":   0,
     "total_signal_mistral":  0,
     "total_signal":          0,
     "total_signal_deduped":  0,
@@ -531,7 +529,6 @@ def get_new_articles(all_articles, processed_data):
 # -- CLASSIFICATION ------------------------------------------------------------
 
 def extract_json_object(text):
-    """Parse {"signal": [...]} from model response."""
     text = text.replace("```json", "").replace("```", "").strip()
     match = re.search(r"\{.*\}", text, flags=re.DOTALL)
     if match:
@@ -551,34 +548,6 @@ def extract_json_object(text):
         except Exception:
             pass
     return result
-
-
-def send_to_gemini(articles):
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key or not articles:
-        return []
-
-    try:
-        client      = genai.Client(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=f"Article titles:\n{titles_text}",
-            config={
-                "system_instruction": PROMPT,
-                "response_mime_type": "application/json",
-            },
-        )
-
-        if hasattr(response, "parsed") and response.parsed:
-            return [i for i in response.parsed.get("signal", []) if isinstance(i, int)]
-
-        return extract_json_object(response.text).get("signal", [])
-
-    except Exception as e:
-        print(f"Gemini classification error: {e}")
-        return []
 
 
 def send_to_mistral(articles):
@@ -763,9 +732,7 @@ def print_stats():
     print(f"  Total fetched:        {STATS['total_fetched']}  (raw entries from all feeds)")
     print(f"  Passed age cut:       {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
     print(f"  New (unseen):         {STATS['total_new']}")
-    print(f"  Signal (Gemini):      {STATS['total_signal_gemini']}")
     print(f"  Signal (Mistral):     {STATS['total_signal_mistral']}")
-    print(f"  Signal (intersection):{STATS['total_signal']}")
     print(f"  Signal (after dedup): {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
@@ -785,30 +752,19 @@ def main():
 
     STATS["total_new"] = len(new_articles)
 
-    gemini_indices  = send_to_gemini(new_articles)
-    gemini_indices  = [i for i in gemini_indices if 0 <= i < len(new_articles)]
-
     mistral_indices = send_to_mistral(new_articles)
     mistral_indices = [i for i in mistral_indices if 0 <= i < len(new_articles)]
 
-    STATS["total_signal_gemini"]  = len(gemini_indices)
     STATS["total_signal_mistral"] = len(mistral_indices)
+    STATS["total_signal"]         = len(mistral_indices)
 
-    if not gemini_indices or not mistral_indices:
-        print("One or both models returned 0 signal. Skipping all file writes.")
+    if not mistral_indices:
+        print("Mistral returned 0 signal. Skipping all file writes.")
         print_stats()
         return
 
-    signal_indices   = sorted(set(gemini_indices) & set(mistral_indices))
-    signal_articles  = [new_articles[i] for i in signal_indices]
-    excluded_articles = [new_articles[i] for i in range(len(new_articles)) if i not in set(signal_indices)]
-
-    STATS["total_signal"] = len(signal_articles)
-
-    if not signal_articles:
-        print("No signal articles this run. Skipping all file writes.")
-        print_stats()
-        return
+    signal_articles   = [new_articles[i] for i in mistral_indices]
+    excluded_articles = [new_articles[i] for i in range(len(new_articles)) if i not in set(mistral_indices)]
 
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
     signal_articles = deduplicate_articles(signal_articles)
@@ -826,7 +782,7 @@ def main():
         excluded_articles,
         output_file=EXCLUDED_XML,
         feed_title="Excluded News",
-        feed_description="AI-curated excluded articles after model intersection",
+        feed_description="Articles excluded after Mistral classification",
     )
 
     save_selected_articles(signal_articles)
