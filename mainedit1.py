@@ -69,7 +69,7 @@ def is_bangla_title(title: str) -> bool:
 PROMPT = """You are a strict editorial classification engine. Every input is an op-ed, essay, or editorial — no hard news. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Reject immediately if the piece is any of:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a person, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
+  Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a leader, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
 
 STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
 
@@ -796,10 +796,17 @@ def main():
     STATS["total_signal_gemini"]  = len(gemini_indices)
     STATS["total_signal_mistral"] = len(mistral_indices)
 
+    print(f"  → Gemini: {len(gemini_indices)}  Mistral: {len(mistral_indices)}")
+
+    if not gemini_indices or not mistral_indices:
+        print("One or both models returned 0 signal. Skipping all file writes.")
+        print_stats()
+        return
+
     signal_indices  = sorted(set(gemini_indices) & set(mistral_indices))
     signal_articles = [english_articles[i] for i in signal_indices]
 
-    print(f"  → Gemini: {len(gemini_indices)}  Mistral: {len(mistral_indices)}  Intersection: {len(signal_articles)}")
+    print(f"  Intersection: {len(signal_articles)}")
 
     STATS["total_signal"] = len(signal_articles)
 
