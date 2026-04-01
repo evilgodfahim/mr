@@ -12,6 +12,9 @@ Feed pairs:
 """
 
 import sys
+import os
+import re
+import json
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -36,7 +39,22 @@ FEED_PAIRS = [
 ]
 
 HOURS_WINDOW = 26
-BD_TZ = timezone(timedelta(hours=6))  # +0600 Bangladesh Time
+BD_TZ        = timezone(timedelta(hours=6))  # +0600 Bangladesh Time
+DEDUP_MODEL  = "gemini-2.5-flash"
+
+DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
+Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
+Titles that cover clearly distinct topics must all be kept.
+
+Rules:
+- Return only the indices (0-based) of titles to KEEP, as a JSON array of integers.
+- Always keep at least one title from each duplicate group (the one with the lowest index).
+- If all titles are unique, return all indices.
+- Return only valid JSON. No markdown, no backticks, no preamble. Example output: [0, 1, 3, 5]
+
+Article titles:
+{titles}
+"""
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -62,6 +80,13 @@ def get_item_link(item: ET.Element) -> str | None:
     return None
 
 
+def get_item_title(item: ET.Element) -> str:
+    el = item.find("title")
+    if el is not None and el.text:
+        return el.text.strip()
+    return ""
+
+
 def get_item_pubdate(item: ET.Element) -> datetime | None:
     pd = item.find("pubDate")
     if pd is None or not pd.text:
@@ -84,6 +109,17 @@ def collect_existing_links(channel: ET.Element) -> set[str]:
             if el is not None and el.text and el.text.strip():
                 links.add(el.text.strip().rstrip("/"))
     return links
+
+
+def collect_recent_local_items(channel: ET.Element, hours: int) -> list[ET.Element]:
+    """Return local items whose pubDate falls within the past N hours."""
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    recent = []
+    for item in channel.findall("item"):
+        pub = get_item_pubdate(item)
+        if pub is not None and pub >= cutoff:
+            recent.append(item)
+    return recent
 
 
 def filter_recent_items(channel: ET.Element, hours: int) -> list[ET.Element]:
@@ -115,27 +151,11 @@ def xml_escape(text: str) -> str:
 
 
 def build_curated_item(src_item: ET.Element, pub_now: str) -> str:
-    """
-    Produce a curated-style <item> string.
-
-      <item>
-        <title>...</title>
-        <link>URL</link>                        ← & escaped to &amp;
-        <guid isPermaLink="true">URL</guid>     ← & escaped to &amp;
-        <description>text</description>         ← or <description />
-        <pubDate>RFC-822 +0600</pubDate>
-      </item>
-
-    pubDate is the current curation run time in BD timezone (+0600).
-    The raw link is used for dedup comparison; link_escaped is written to XML.
-    """
     title_el = src_item.find("title")
     title = xml_escape(title_el.text.strip()) if (title_el is not None and title_el.text) else ""
 
     link_el = src_item.find("link")
     link_raw = link_el.text.strip() if (link_el is not None and link_el.text) else ""
-    # Escape & in query strings (e.g. ?at_medium=RSS&at_campaign=rss → &amp;)
-    # Unescaped & is invalid XML and causes feed readers to reject the file.
     link_escaped = xml_escape(link_raw)
 
     desc_el = src_item.find("description")
@@ -156,10 +176,6 @@ def build_curated_item(src_item: ET.Element, pub_now: str) -> str:
 
 
 def append_items_to_local(local_path: Path, new_items_xml: list[str]) -> int:
-    """
-    Insert new <item> blocks before the final </channel> tag.
-    Pure string-level insert — never rewrites or truncates existing content.
-    """
     if not new_items_xml:
         return 0
 
@@ -171,6 +187,88 @@ def append_items_to_local(local_path: Path, new_items_xml: list[str]) -> int:
     insert_block = "\n" + "\n".join(new_items_xml) + "\n  "
     local_path.write_text(raw[:pos] + insert_block + raw[pos:], encoding="utf-8")
     return len(new_items_xml)
+
+
+# ---------------------------------------------------------------------------
+# Deduplication
+# ---------------------------------------------------------------------------
+
+def deduplicate_missing(
+    missing: list[ET.Element],
+    local_recent: list[ET.Element],
+) -> list[ET.Element]:
+    """
+    Build a combined title list: local_recent titles first (anchors), then
+    missing titles. Send to Gemini dedup. Return only the missing items whose
+    combined indices survived.
+
+    Index layout passed to Gemini:
+      0 … len(local_recent)-1   → existing local 26h items (anchors)
+      len(local_recent) … end   → incoming missing items
+
+    Any missing item whose combined index is NOT in keep_indices is a near-
+    duplicate of something already in the local XML and gets dropped.
+    """
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("    [WARN] GEMINI_API_KEY not set — skipping title dedup.")
+        return missing
+
+    anchor_count = len(local_recent)
+    combined     = local_recent + missing
+
+    titles_text = "\n".join(
+        f"{i}. {get_item_title(item)}" for i, item in enumerate(combined)
+    )
+
+    try:
+        from google import genai
+        client   = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
+            model=DEDUP_MODEL,
+            contents=DEDUP_PROMPT.format(titles=titles_text),
+            config={"response_mime_type": "application/json"},
+        )
+        raw = getattr(response, "text", "") or ""
+        raw = raw.replace("```json", "").replace("```", "").strip()
+
+        keep_indices = None
+        try:
+            parsed = json.loads(raw)
+            if isinstance(parsed, list):
+                keep_indices = [i for i in parsed if isinstance(i, int) and 0 <= i < len(combined)]
+        except Exception:
+            pass
+
+        if keep_indices is None:
+            m = re.search(r"\[[\d,\s]+\]", raw)
+            if m:
+                try:
+                    keep_indices = [
+                        i for i in json.loads(m.group(0))
+                        if isinstance(i, int) and 0 <= i < len(combined)
+                    ]
+                except Exception:
+                    pass
+
+        if keep_indices is None:
+            print("    [WARN] Dedup: could not parse Gemini response — keeping all missing items.")
+            return missing
+
+        # Only care about indices that fall in the missing slice
+        surviving = [
+            combined[i]
+            for i in sorted(set(keep_indices))
+            if i >= anchor_count
+        ]
+        dropped = len(missing) - len(surviving)
+        if dropped:
+            print(f"    Dedup: removed {dropped} near-duplicate(s) against local 26h window.")
+        return surviving
+
+    except Exception as e:
+        print(f"    [WARN] Dedup error: {e} — keeping all missing items.")
+        return missing
 
 
 # ---------------------------------------------------------------------------
@@ -203,30 +301,41 @@ def process_pair(remote_url: str, local_file: str, label: str) -> None:
         print("  [ERROR] No <channel> in remote feed.")
         sys.exit(1)
 
-    # Filter to window
+    # Filter remote to window
     recent = filter_recent_items(remote_channel, HOURS_WINDOW)
     print(f"  Remote items in last {HOURS_WINDOW}h : {len(recent)}")
     if not recent:
         print("  Nothing recent to sync.")
         return
 
-    # Load local & get existing links
-    local_tree = ET.parse(local_path)
-    local_root = local_tree.getroot()
+    # Load local
+    local_tree    = ET.parse(local_path)
+    local_root    = local_tree.getroot()
     local_channel = local_root.find("channel") or local_root
-    existing = collect_existing_links(local_channel)
+    existing      = collect_existing_links(local_channel)
     print(f"  Existing items in local     : {len(existing)}")
 
-    # Diff — use raw (unescaped) link for comparison
+    # Link-level dedup (exact)
     missing = []
     for item in recent:
         lnk = get_item_link(item)
         if lnk and lnk not in existing:
             missing.append(item)
 
-    print(f"  New items to append         : {len(missing)}")
+    print(f"  New items (link-dedup)      : {len(missing)}")
     if not missing:
         print("  Already up-to-date. Nothing to do.")
+        return
+
+    # Collect local 26h items as anchor pool for title-level dedup
+    local_recent = collect_recent_local_items(local_channel, HOURS_WINDOW)
+    print(f"  Local items in 26h window   : {len(local_recent)}  (dedup anchors)")
+
+    # Title-level dedup via Gemini
+    missing = deduplicate_missing(missing, local_recent)
+    print(f"  Items after title-dedup     : {len(missing)}")
+    if not missing:
+        print("  All new items were near-duplicates. Nothing to append.")
         return
 
     # Preview
