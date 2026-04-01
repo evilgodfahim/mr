@@ -64,6 +64,8 @@ MAX_FEED_ITEMS        = 500
 RETENTION_DAYS        = 10
 
 # -- PROMPT --------------------------------------------------------------------
+# NOTE: All literal { } in the prompt that are NOT {titles} must be doubled
+# as {{ }} so that PROMPT.format(titles=...) does not raise a KeyError.
 
 PROMPT = """You are a geopolitics classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
@@ -103,7 +105,7 @@ STEP 2 — IS THIS GEOPOLITICAL? It is SIGNAL if any of the following apply:
 
 WHEN IN DOUBT → NOISE.
 
-Output only: {"signal": [0-based indices]}. Valid JSON, no markdown, no explanation.
+Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
 
 EXAMPLES:
 
@@ -124,7 +126,7 @@ Input:
 13. Australia holds federal election
 14. Germany agrees to send Leopard 2 tanks to Ukraine
 15. The Geopolitics of Water: How Upstream Dams Are Redrawing South Asia
-Output: {"signal": [0, 3, 4, 5, 7, 9, 10, 11, 14, 15]}
+Output: {{"signal": [0, 3, 4, 5, 7, 9, 10, 11, 14, 15]}}
 
 Input:
 0. India and Pakistan exchange fire across Line of Control
@@ -140,7 +142,7 @@ Input:
 10. Bangladesh's foreign reserves fall below $20bn as taka hits record low
 11. Myanmar junta launches cross-border shelling into Bangladesh territory
 12. How the Russia–Ukraine War Is Reshaping European Security Architecture
-Output: {"signal": [0, 3, 5, 6, 8, 9, 11, 12]}
+Output: {{"signal": [0, 3, 5, 6, 8, 9, 11, 12]}}
 
 Article titles:
 {titles}
@@ -526,6 +528,22 @@ def get_new_articles(all_articles, processed_data):
             new.append(a)
     return new
 
+
+def dedup_by_link(articles):
+    seen_links = set()
+    deduped = []
+    for a in articles:
+        link = a.get("link") or ""
+        if link and link in seen_links:
+            continue
+        if link:
+            seen_links.add(link)
+        deduped.append(a)
+    dropped = len(articles) - len(deduped)
+    if dropped:
+        print(f"Link dedup: removed {dropped} duplicate link(s) before API call.")
+    return deduped
+
 # -- CLASSIFICATION ------------------------------------------------------------
 
 def extract_json_object(text):
@@ -556,30 +574,17 @@ def send_to_mistral(articles):
         return []
 
     try:
+        client      = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
-        # Direct REST call — bypasses mistralai SDK entirely.
-        # The SDK raises a cryptic '"signal"' error on the Actions runner
-        # regardless of import path or response_format setting.
-        resp = requests.post(
-            "https://api.mistral.ai/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type":  "application/json",
-            },
-            json={
-                "model":    MISTRAL_MODEL,
-                "messages": [{"role": "user", "content": PROMPT.format(titles=titles_text)}],
-            },
-            timeout=120,
+        response = client.chat.complete(
+            model=MISTRAL_MODEL,
+            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
+            response_format={"type": "json_object"},
         )
-        resp.raise_for_status()
 
-        text = resp.json()["choices"][0]["message"]["content"] or ""
-        print(f"[Mistral] Raw response (first 300 chars): {text[:300]}")
-        indices = extract_json_object(text).get("signal", [])
-        print(f"[Mistral] Parsed signal indices: {indices}")
-        return indices
+        text = response.choices[0].message.content or ""
+        return extract_json_object(text).get("signal", [])
 
     except Exception as e:
         print(f"Mistral classification error: {e}")
@@ -762,6 +767,8 @@ def main():
     processed_data = load_processed_articles()
     all_articles   = fetch_all_feeds()
     new_articles   = get_new_articles(all_articles, processed_data)
+
+    new_articles = dedup_by_link(new_articles)
 
     STATS["total_new"] = len(new_articles)
 
