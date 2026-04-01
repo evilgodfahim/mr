@@ -21,9 +21,11 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests google-genai
 
       - name: Run sync script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python sync_curated_feeds.py
 
       - name: Commit and push if changed
