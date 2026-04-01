@@ -1456,5 +1456,487 @@
     "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
     "thumbnail": "https://opinion-images.wsj.net/im-66332906",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/iran-war-cyber-attack-hacking-kash-patel-lockheed-martin-handala/",
+    "title": "Iran Flexes Its Cyber Chops",
+    "link": "https://foreignpolicy.com/2026/03/31/iran-war-cyber-attack-hacking-kash-patel-lockheed-martin-handala/",
+    "description": "Hackers linked to the regime are escalating attacks against the United States and Israel as the war rages.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/iran-threat-us-tech-companies-irgc-hegseth-strait-hormuz-esfahan-oil-prices/",
+    "title": "Iran Says It Will Target U.S. Tech Companies in the Middle East",
+    "link": "https://foreignpolicy.com/2026/03/31/iran-threat-us-tech-companies-irgc-hegseth-strait-hormuz-esfahan-oil-prices/",
+    "description": "The threat comes as U.S. Defense Secretary Pete Hegseth warned of a decisive next few days in the war.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/scenarios-ground-war-iran-trump-israel-kharg-hormuz-oil/",
+    "title": "Five Scenarios for a U.S. Ground War on Iran",
+    "link": "https://foreignpolicy.com/2026/03/31/scenarios-ground-war-iran-trump-israel-kharg-hormuz-oil/",
+    "description": "A vexing geography offers no clean entry point.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/xWwb1/https://www.project-syndicate.org/commentary/cuba-oil-blockade-crisis-opportunity-to-open-up-to-the-world-by-enrique-krauze-2026-03",
+    "title": "Cuba’s Third Chance",
+    "link": "https://archive.is/o/xWwb1/https://www.project-syndicate.org/commentary/cuba-oil-blockade-crisis-opportunity-to-open-up-to-the-world-by-enrique-krauze-2026-03",
+    "description": "<p>While the ongoing US oil blockade has exacerbated Cuba’s economic and humanitarian crisis, the primary responsibility for its current predicament lies with the communist regime. If Cubans use this crisis as an opportunity to pursue ambitious economic and political reforms, they may yet restore the prosperity they once knew.</p>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/iran-cuba-syria-israel-gulf-saudi-fragmentation/",
+    "title": "Does Iran’s Future Look Like Cuba, Syria, or North Korea?",
+    "link": "https://foreignpolicy.com/2026/03/31/iran-cuba-syria-israel-gulf-saudi-fragmentation/",
+    "description": "The Gulf and Israel are pursuing rival strategies toward Iran, but neither is likely to get what they want.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/islamic-state-sahel-terrorism-issp-transnational-threat-mali-burkina-faso/",
+    "title": "The Islamic State Sahel Threat Is Transnational",
+    "link": "https://foreignpolicy.com/2026/03/31/islamic-state-sahel-terrorism-issp-transnational-threat-mali-burkina-faso/",
+    "description": "Jihadism’s global hub is shifting, and its reach expanding.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/myanmar-fuel-energy-shortage-iran-war-instability/",
+    "title": "Fuel Shortages Raise Stability Risks in Myanmar",
+    "link": "https://foreignpolicy.com/2026/03/31/myanmar-fuel-energy-shortage-iran-war-instability/",
+    "description": "After a string of political victories, the military regime might now grapple with fresh upheaval.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://thediplomat.com/2026/03/iran-israel-us-wars-quiet-shock-on-indias-fertilizer-imports/",
+    "title": "Iran-Israel-US War’s Quiet Shock on India’s Fertilizer Imports",
+    "link": "https://thediplomat.com/2026/03/iran-israel-us-wars-quiet-shock-on-indias-fertilizer-imports/",
+    "description": "India must redesign its structures of dependence on external sources of fertilizer in the face of the ongoing Gulf war.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://thediplomat.com/2026/03/breaking-down-the-belarus-north-korea-summit/",
+    "title": "Breaking Down the Belarus-North Korea Summit",
+    "link": "https://thediplomat.com/2026/03/breaking-down-the-belarus-north-korea-summit/",
+    "description": "Lukashenko’s visit reflects a broader evolution in North Korea’s foreign policy, which is slowly expanding in the post-COVID era and is increasingly influenced by ties with the Kremlin.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/russia-sanctions-evasion-cryptocurrency-a7a5-kyrgyzstan-exports-dual-use-technology/",
+    "title": "Russia’s Sanctions-Busting Cryptocurrency Empire",
+    "link": "https://foreignpolicy.com/2026/03/31/russia-sanctions-evasion-cryptocurrency-a7a5-kyrgyzstan-exports-dual-use-technology/",
+    "description": "A Kremlin-backed fintech company is linked to massive trade in dual-use goods.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/03/31/iraq-iran-war-kurdistan/",
+    "title": "Iraq’s Uniquely Fraught Position in the Iran War",
+    "link": "https://foreignpolicy.com/2026/03/31/iraq-iran-war-kurdistan/",
+    "description": "Its northern Kurdistan Region is being hit by both sides.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://www.foreignaffairs.com/united-states/how-geopolitics-overran-globalization",
+    "title": "How Geopolitics Overran Globalization",
+    "link": "https://www.foreignaffairs.com/united-states/how-geopolitics-overran-globalization",
+    "description": "The end of the dream of economic integration.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/1c4189e9-36af-4779-b862-d868cf2aff76",
+    "title": "Foreign central banks sell US Treasuries in wake of Iran war",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/1c4189e9-36af-4779-b862-d868cf2aff76",
+    "description": "International official holdings at New York Federal Reserve fall to lowest level since 2012",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/7b964e41-4f79-4607-af25-1ee637ba6f12",
+    "title": "Cracks appear in US-UK security co-operation after Trump-Starmer tensions",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/7b964e41-4f79-4607-af25-1ee637ba6f12",
+    "description": "Differences over war in Iran are hitting working relationships between diplomats, officials and military personnel",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/b2c83041-9291-41ac-9377-257d8b1b53ad",
+    "title": "Oil jumps above $115 after drone strike on Kuwaiti tanker",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/b2c83041-9291-41ac-9377-257d8b1b53ad",
+    "description": "Stocks in Japan and South Korea slide as authorities in Dubai extinguish fire on vessel",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says",
+    "title": "Ukraine war briefing: allies asked Kyiv about reducing attacks on Russian energy sector, Zelenskyy says",
+    "link": "https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says",
+    "description": "<p>President says he is open to scaling back strikes on oil and wider energy industry if Moscow reciprocates. What we know on day 1,496</p> <a href=\"https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/09b6bcfe6394c4326cbe08e0c3a1f36a7bfdd068/1122_616_6082_4866/master/6082.jpg?width=700&quality=85&auto=format&fit=max&s=c1d488e424dd54a051c14345fe286689",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.theguardian.com/commentisfree/2026/mar/31/viktor-orban-us-russian-support-hungary-iran-war-voters",
+    "title": "Viktor Orbán has the support of both Russia and the US – but that could be a double-edged sword | Péter Krekó",
+    "link": "https://www.theguardian.com/commentisfree/2026/mar/31/viktor-orban-us-russian-support-hungary-iran-war-voters",
+    "description": "<p>In Hungary, the Iran war is exposing tensions. Voters may decide on 12 April that the prime minister’s geopolitical contortions are a liability</p><p>On 3 March, Viktor Orbán held a <a href=\"http://en.kremlin.ru/events/president/news/79248\">phone conversation</a> with Vladimir Putin. According to official Hungarian reporting, the discussion focused on “energy issues” and other routine matters. What followed was anything but routine. Within days, the Hungarian foreign minister, <a href=\"https://www.theguardian.com/world/2026/mar/23/hungarian-election-candidate-peter-magyar-viktor-orban-alleged-leak-eu-russia\">Péter Szijjártó</a>, had flown to Moscow, and <a href=\"https://telex.hu/english/2026/03/05/szijjarto-says-putin-didn-t-ask-for-anything-in-exchange-for-releasing-pows\">returned </a>with <a href=\"https://telex.hu/english/2026/03/05/szijjarto-says-putin-didn-t-ask-for-anything-in-exchange-for-releasing-pows\">two freed prisoners of war</a>, dual citizens of Ukraine and Hungary.</p><p>Hungary is not part of the military conflict in Ukraine, but the message was unmistakable. With his PoW diplomacy, Putin was not only signalling goodwill towards Hungary, he was effectively endorsing Orbán’s re-election on 12 April.</p><p>Péter Krekó is a political scientist, behavioural scientist, economist and director of the independent thinktank the Political Capital Institute in Budapest</p> <a href=\"https://www.theguardian.com/commentisfree/2026/mar/31/viktor-orban-us-russian-support-hungary-iran-war-voters\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/fb3465e64fb309afbf0c5635eafe4e643246ad2f/741_0_5291_4232/master/5291.jpg?width=700&quality=85&auto=format&fit=max&s=f6d5b5c015a897237475d4caac9c7f71",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/2026/03/30/world/middleeast/iran-middle-east-war-recap-monday.html",
+    "title": "Here’s What Happened in the War in the Middle East on Monday",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/03/30/world/middleeast/iran-middle-east-war-recap-monday.html",
+    "description": "Iran maintained that no negotiations have been held with the United States, and said none would while the fighting continues.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/30/multimedia/30israel-iran-front-by-front1-zklf/30israel-iran-front-by-front1-zklf-mediumSquareAt3X.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.wsj.com/world/asia/japan-is-fortifying-this-string-of-islands-close-to-china-4b9e7b9d",
+    "title": "Japan Is Fortifying This String of Islands Close to China",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/world/asia/japan-is-fortifying-this-string-of-islands-close-to-china-4b9e7b9d",
+    "description": "Tokyo’s fortifications to protect its southwestern islands have an added advantage: They complicate China’s freedom of maneuver.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-46352702",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.wsj.com/world/iran-war-chokes-off-helium-supply-critical-for-ai-bf020a3f",
+    "title": "Iran War Chokes Off Helium Supply Critical for AI",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/world/iran-war-chokes-off-helium-supply-critical-for-ai-bf020a3f",
+    "description": "The shortage is threatening the production of everything from semiconductors to military drone components and space rockets.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-81556311",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.wsj.com/world/middle-east/trump-iran-war-strait-of-hormuz-ee950ad4",
+    "title": "Trump Tells Aides He’s Willing to End War Without Reopening Hormuz",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/world/middle-east/trump-iran-war-strait-of-hormuz-ee950ad4",
+    "description": "Administration officials assess that forcing the waterway back open would mean extending the military mission.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-17648171",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.newstatesman.com/?p=521907",
+    "title": "The axis of autocracies is winning",
+    "link": "https://www.newstatesman.com/international-politics/2026/03/the-axis-of-autocracies-is-winning",
+    "description": "The Iran war is enriching Russia and China at the expense of the West",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/94ovq/https://www.lemonde.fr/en/international/article/2026/03/31/with-god-s-help-we-will-kill-our-enemies-israel-introduces-the-death-penalty-for-palestinians-accused-of-terrorist-murder_6751965_4.html",
+    "title": "'With God's help, we will kill our enemies': Israel introduces the death penalty for Palestinians accused of 'terrorist' murder",
+    "link": "https://archive.is/o/94ovq/https://www.lemonde.fr/en/international/article/2026/03/31/with-god-s-help-we-will-kill-our-enemies-israel-introduces-the-death-penalty-for-palestinians-accused-of-terrorist-murder_6751965_4.html",
+    "description": "",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/strait-of-hormuz-toll-iran",
+    "title": "Iran advances a plan to charge a toll for ships to traverse the Strait of Hormuz.",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/strait-of-hormuz-toll-iran",
+    "description": "",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/22/multimedia/30israel-iran-Hormuz-Toll1/22biz-iran-hormuz-kmvc-mediumSquareAt3X.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.businessinsider.com/allies-ukraine-anti-drone-tech-just-buying-isnt-enough-interceptors-2026-3",
+    "title": "US allies are scrambling to buy Ukraine's counter-drone tech, but gear alone isn't enough to defeat the Shahed threat",
+    "link": "https://www.businessinsider.com/allies-ukraine-anti-drone-tech-just-buying-isnt-enough-interceptors-2026-3",
+    "description": "Allies are interested in Ukraine's counter-drone tech amid drone attacks in the Middle East. But buying an interceptor is just one step in preparing.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.insider.com/69cbc6828e5f53c45ea2dc65?format=jpeg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "tag:theatlantic.com,2026:50-686626",
+    "title": "Trump Can’t Scare Iran and Reassure Oil Markets at the Same Time",
+    "link": "https://www.theatlantic.com/ideas/2026/03/trump-iran-markets-messaging/686626/",
+    "description": "But he’s trying.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://cdn.theatlantic.com/thumbor/75WzoTmGEqyWzsWEmQHZ050OFM8=/media/img/mt/2026/03/2026_03_30_Trump_Cant_Scare_Iran_and_Reassure_the_Markets_at_the_Same_Time/original.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://time.com/article/2026/03/31/trump-warning-to-united-kingdom-nations-iran-war-strait-of-hormuz-oil/",
+    "title": "Trump Says U.K. and Others Should Go to Strait of Hormuz and 'Take' Oil",
+    "link": "https://time.com/article/2026/03/31/trump-warning-to-united-kingdom-nations-iran-war-strait-of-hormuz-oil/",
+    "description": "",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://time.com/article/2026/03/31/hegseth-says-us-will-negotiate-with-bombs-until-iran-cease-fire-deal/",
+    "title": "Hegseth Says U.S. Will 'Negotiate With Bombs' Until Iran Cease-Fire Deal Is Reached",
+    "link": "https://time.com/article/2026/03/31/hegseth-says-us-will-negotiate-with-bombs-until-iran-cease-fire-deal/",
+    "description": "\"Our job is to ensure that we compel Iran to realize that this new regime, this regime in charge, is in a better place if they make a deal.\"",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/d8450a8d-5068-4613-a1b4-100049ca2c37",
+    "title": "The EU doesn’t have an Iran war strategy either",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/d8450a8d-5068-4613-a1b4-100049ca2c37",
+    "description": "European leaders blame the US for lacking a long-term plan, but they must slay their own sacred cows to weather this crisis",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/146faa0e-c1c8-4565-bf8e-25869ce8ec98",
+    "title": "Israel to ‘demolish’ all houses in Lebanese border villages",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/146faa0e-c1c8-4565-bf8e-25869ce8ec98",
+    "description": "Defence minister Israel Katz plans ‘security control’ of area stretching dozens of kilometres into neighbour’s territory",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/d4d380df-13fa-44f7-a1df-d0a2a5580089",
+    "title": "Trump rebukes France as tensions rise with Europe over Iran war",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/d4d380df-13fa-44f7-a1df-d0a2a5580089",
+    "description": "Italy refuses US warplanes permission to refuel, adding to transatlantic divisions over conflict",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/aa4d791d-40d7-4edf-b6cf-6d653c6bfef6",
+    "title": "Chagos ruling paves way for islanders to stay on archipelago",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/aa4d791d-40d7-4edf-b6cf-6d653c6bfef6",
+    "description": "Landmark case is latest twist in battle with UK government over remote Indian Ocean territory",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/cab1ea0d-f55a-4ef3-bb4f-7d55c35cdc71",
+    "title": "Russian oil tanker docks in Cuba despite US blockade",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/cab1ea0d-f55a-4ef3-bb4f-7d55c35cdc71",
+    "description": "Donald Trump allows shipment, but its crude cargo offers only a temporary lifeline for the crisis-hit country",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/050b6e92-49cc-430d-a954-6557aedcc5bb",
+    "title": "Japan deploys first long-range missiles as it steps up deterrence",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/050b6e92-49cc-430d-a954-6557aedcc5bb",
+    "description": "Domestically built munitions with 1,000km range could reach Chinese coast",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.theguardian.com/world/2026/mar/31/pakistan-china-propose-five-part-peace-plan-middle-east",
+    "title": "Pakistan and China propose five-part peace plan for Middle East",
+    "link": "https://www.theguardian.com/world/2026/mar/31/pakistan-china-propose-five-part-peace-plan-middle-east",
+    "description": "<p>Foreign ministers Ishaq Dar and Wang Yi met in Beijing as Pakistan pushes for peacemaker role</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/31/iran-latest-updates-trump-threats-oil-spill-dubai-tehran-jerusalem-strikes\">Middle East crisis – live updates</a></p></li></ul><p>Pakistan and China have released a joint five-part proposal for peace in the Middle East, after Pakistan’s foreign minister flew to Beijing on Tuesday to seek Chinese support for the country’s faltering efforts to negotiate an end to end the war.</p><p>The one-day meeting between Ishaq Dar and his Chinese counterpart, Wang Yi, came as Pakistan continues to push for the role of peacemaker between the United States and Iran, even as the war shows little sign of relenting.</p> <a href=\"https://www.theguardian.com/world/2026/mar/31/pakistan-china-propose-five-part-peace-plan-middle-east\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/3efb07ad1b3e1c4583f3b5cc1c45dbb62df91eb7/234_319_1175_939/master/1175.jpg?width=700&quality=85&auto=format&fit=max&s=41fad12d0806f601ed3bc01c84b3f782",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.theguardian.com/world/2026/mar/31/destruction-us-radar-plane-saudi-base-raises-surveillance-concerns",
+    "title": "Attack on US radar plane at Saudi base raises concern over Iran’s capabilities",
+    "link": "https://www.theguardian.com/world/2026/mar/31/destruction-us-radar-plane-saudi-base-raises-surveillance-concerns",
+    "description": "<p>Ukraine says Russian spy satellite had photographed base before strike, as Moscow accused of helping Tehran</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/31/iran-latest-updates-trump-threats-oil-spill-dubai-tehran-jerusalem-strikes\">Middle East crisis – live updates</a></p></li></ul><p>The destruction of a US E-3 Sentry airborne warning and control system (AWACS) aircraft in an Iranian strike on a Saudi Arabian airbase has raised questions over how a critical surveillance asset was left unprotected, and how Iran was able to launch a direct strike on the plane.</p><p>The plane was one of 16 operational E-3s, which first went into production in the 1960s and carry sophisticated monitoring equipment that allow them to warn of airborne threats such as missiles, as well as surveil and monitor their assigned battle space including communications, troop and equipment movements and air defence sites.</p> <a href=\"https://www.theguardian.com/world/2026/mar/31/destruction-us-radar-plane-saudi-base-raises-surveillance-concerns\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/6ab1eb6eeac807397bf2402aa53ed1ca6cb947ab/142_0_1394_1115/master/1394.jpg?width=700&quality=85&auto=format&fit=max&s=64d4d39d64da937cda96829b0584db4e",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.theguardian.com/world/2026/mar/31/italy-denies-sicily-airbase-us-planes-carrying-weapons-iran-war",
+    "title": "Italy denies use of Sicily airbase to US planes carrying weapons for Iran war",
+    "link": "https://www.theguardian.com/world/2026/mar/31/italy-denies-sicily-airbase-us-planes-carrying-weapons-iran-war",
+    "description": "<p>Defence ministry says US failed to request authorisation in time for parliament to give approval as required by international treaty</p><p>Italy has denied the use of an airbase in Sicily to US military planes carrying weapons for the war in Iran after the US did not follow the required authorisation procedure.</p><p>A source at the Italian defence ministry confirmed a report in Corriere della Sera that “some US bombers” had been due to land at Sigonella – one of seven US navy bases in Italy – before heading to the Middle East, but that use of the base had been denied because the US sought authorisation to land only while the aircraft were already en route to Sicily.</p> <a href=\"https://www.theguardian.com/world/2026/mar/31/italy-denies-sicily-airbase-us-planes-carrying-weapons-iran-war\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/1c21dbd59f2fd86ddee60dfbda5d73c795cbccf5/439_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=a8d7637dabd97c429ef0c893eb4da250",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.theguardian.com/business/2026/mar/31/us-average-fuel-prices-iran-war",
+    "title": "US average fuel prices pass $4 per gallon for first time in four years amid Iran war",
+    "link": "https://www.theguardian.com/business/2026/mar/31/us-average-fuel-prices-iran-war",
+    "description": "<p>National average hit $4.02, according to AAA data, capping an extraordinary rise from $2.98 just a month ago</p><p>Average US fuel prices have crossed $4 per gallon for the first time in four years, piling pressure on drivers as Donald Trump’s war on Iran continues to boost oil markets.</p><p>The nationwide average climbed to almost $4.02 on Tuesday, according to AAA data, capping an extraordinary rise from $2.98 just a month ago. It has not been this high since August 2022.</p> <a href=\"https://www.theguardian.com/business/2026/mar/31/us-average-fuel-prices-iran-war\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/488d28fa383d5a824ca65daf53023048501c0bed/109_0_2870_2297/master/2870.jpg?width=700&quality=85&auto=format&fit=max&s=7d216d7ce21132f095e0fa69a079ac92",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump",
+    "title": "Iran War Live Updates: B-52s Start Flying Missions Over Iran, Pentagon Says",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump",
+    "description": "U.S. bombers have free rein for the first time in the war, even though Defense Secretary Pete Hegseth said that Iran still retains the ability to launch missiles after a month of U.S.-Israeli attacks.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/31/multimedia/31israel-iran-promo-1030am/31israel-iran-promo-1030am-mediumSquareAt3X.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/2026/03/31/world/middleeast/arab-countries-war-economic-impact.html",
+    "title": "Arab World Faces ‘Profound’ Economic Crisis From Iran War, U.N. Agency Warns",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/03/31/world/middleeast/arab-countries-war-economic-impact.html",
+    "description": "An economic simulation warned that the region’s economy could lose more than $190 billion in just one month, and that Gulf states that have often bankrolled reconstruction efforts will be less able to help.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/31/multimedia/31israel-iran-economic-impact-bqvt/31israel-iran-economic-impact-bqvt-mediumSquareAt3X-v2.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/2026/03/31/world/asia/senators-taiwan-military.html",
+    "title": "U.S. Senators Press Taiwan to Raise Military Spending, as China Protests",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/03/31/world/asia/senators-taiwan-military.html",
+    "description": "Four visiting senators urged Taiwan to break an impasse over a $40 billion budget proposal, highlighting concerns in Washington about the threat from China.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/31/multimedia/31int-taiwan-US-senators-qvwc/31int-taiwan-US-senators-qvwc-mediumSquareAt3X.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/2026/03/31/world/europe/europe-spending-problem-military-domestic.html",
+    "title": "Europe Has a ‘Guns vs. Butter’ Problem. War in Iran Makes It Worse.",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/03/31/world/europe/europe-spending-problem-military-domestic.html",
+    "description": "After decades of prioritizing domestic over military spending, the continent’s leaders are trying to pivot. That is straining national budgets and could anger voters.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/30/world/00int-Europe-Guns-Butter-abol/00int-Europe-Guns-Butter-abol-mediumSquareAt3X.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.wsj.com/world/china/the-u-s-and-china-are-in-a-strategic-stalemate-what-comes-next-a6d68978",
+    "title": "The U.S. and China Are in a Strategic Stalemate. What Comes Next.",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/world/china/the-u-s-and-china-are-in-a-strategic-stalemate-what-comes-next-a6d68978",
+    "description": "Plus, why the ‘frown curve’ explains the modern Chinese market.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-00336600",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.wsj.com/economy/malaysia-says-iran-allowing-its-vessels-to-pass-through-strait-of-hormuz-toll-free-30439a71",
+    "title": "Malaysia Says Iran Allowing Its Vessels to Pass Through Strait of Hormuz Toll-Free",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/economy/malaysia-says-iran-allowing-its-vessels-to-pass-through-strait-of-hormuz-toll-free-30439a71",
+    "description": "Malaysia has secured assurances from Iran that its vessels will be granted safe and toll-free passage through the Strait of Hormuz, the country’s transport minister said.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-59538667",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "gjvpShnNJHQE7HWJrozx7T",
+    "title": "Trump threatens to destroy Iran’s civilian infrastructure",
+    "link": "https://theweek.com/world-news/trump-threatens-iran-civilian-infrastructure",
+    "description": "Experts warned that this could constitute a potential war crime",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://cdn.mos.cms.futurecdn.net/G4MSt6vNjZZ6BmJTAy69EL-1280-80.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "69cbbce689cbdc32deb6bab5",
+    "title": "The Broken System That Keeps Shipping Crews Stranded in the Strait of Hormuz",
+    "link": "https://www.wired.com/story/legal-loopholes-leave-shipping-crews-stranded-in-the-strait-of-hormuz/",
+    "description": "Vessels are increasingly being abandoned during the war on Iran, revealing a hidden failure in the global systems that keep goods—and people—moving.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://media.wired.com/photos/69cbbce5ca50bc3f79921fbd/master/pass/Stranded_Lead.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://archive.is/o/94ovq/https://www.lemonde.fr/en/international/article/2026/03/31/ukraine-strikes-russia-s-lifeblood-by-targeting-oil-ports_6751982_4.html",
+    "title": "Ukraine strikes Russia's lifeblood by targeting oil ports",
+    "link": "https://archive.is/o/94ovq/https://www.lemonde.fr/en/international/article/2026/03/31/ukraine-strikes-russia-s-lifeblood-by-targeting-oil-ports_6751982_4.html",
+    "description": "",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/94ovq/https://www.lemonde.fr/en/international/article/2026/03/31/macron-visits-japan-and-south-korea-both-worried-about-war-in-iran_6751980_4.html",
+    "title": "Macron visits Japan and South Korea, both worried about war in Iran",
+    "link": "https://archive.is/o/94ovq/https://www.lemonde.fr/en/international/article/2026/03/31/macron-visits-japan-and-south-korea-both-worried-about-war-in-iran_6751980_4.html",
+    "description": "",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.theguardian.com/world/2026/mar/31/polish-irish-leaders-condemn-hungarian-foreign-minister-alleged-links-to-russia",
+    "title": "Polish and Irish leaders condemn Hungarian foreign minister’s alleged links to Russia",
+    "link": "https://www.theguardian.com/world/2026/mar/31/polish-irish-leaders-condemn-hungarian-foreign-minister-alleged-links-to-russia",
+    "description": "<p>Leaked audio appeared to capture Péter Szijjártó telling Moscow he would try to amend EU sanctions list to its liking</p><p>Polish and Irish leaders have called the Hungarian government’s actions “repulsive” and “sinister”, after leaked audio appeared to capture its foreign minister telling Moscow he would try to amend the EU sanctions list to its liking.</p><p>On Tuesday – days <a href=\"https://www.theguardian.com/world/2026/mar/23/viktor-orban-celebrated-europe-far-right-hungary-election\">before an election</a> in which Hungary’s Viktor Orbán is facing the toughest battle of his 16 years in power – a joint media investigation <a href=\"https://vsquare.org/kremlin-hotline-hungary-colluded-with-russia-to-delist-sanctioned-oligarchs-companies-and-banks/\">published a report that </a>it said was based on leaked phone calls between Péter Szijjártó and his Russian counterpart, Sergei Lavrov.</p> <a href=\"https://www.theguardian.com/world/2026/mar/31/polish-irish-leaders-condemn-hungarian-foreign-minister-alleged-links-to-russia\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/798721d6ff0db24083e80a33de65b78a725fb090/1775_101_6470_5176/master/6470.jpg?width=700&quality=85&auto=format&fit=max&s=7e0d24b0bb3bcdbc924d75d5447e8f3a",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.theguardian.com/world/2026/mar/31/uk-troops-gulf-donald-trump-jibes-british-military-involvement",
+    "title": "UK sends more troops to Gulf amid Trump jibes over British military role",
+    "link": "https://www.theguardian.com/world/2026/mar/31/uk-troops-gulf-donald-trump-jibes-british-military-involvement",
+    "description": "<p>John Healey says extra deployment is defensive response to ‘expanding threat’ from Iran</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/31/iran-latest-updates-trump-threats-oil-spill-dubai-tehran-jerusalem-strikes\">Middle East crisis – live updates</a></p></li><li><p><a href=\"https://www.theguardian.com/politics/live/2026/mar/31/doctors-strike-starmer-bma-nhs-labour-conservatives-reform-farage-latest-news-updates\">UK politics live – latest updates</a></p></li></ul><p>The UK is sending more military support to the Gulf, taking the total deployment to 1,000 troops, amid more jibes from Donald Trump about Britain’s refusal to get involved in offensive operations against Iran.</p><p>Speaking from Qatar where he met UK troops, the defence secretary, John Healey, said the extra deployment was in response to an “expanding threat” from Iran.</p> <a href=\"https://www.theguardian.com/world/2026/mar/31/uk-troops-gulf-donald-trump-jibes-british-military-involvement\">Continue reading...</a>",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://i.guim.co.uk/img/media/707fa6dca61db0f510cec097efd050fdf297398f/343_0_3409_2727/master/3409.jpg?width=700&quality=85&auto=format&fit=max&s=00c391014bff93f56972b25f4531c262",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/2026/03/31/us/politics/trump-regime-change-iran.html",
+    "title": "Trump Redefines ‘Regime Change’ in Iran War",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/03/31/us/politics/trump-regime-change-iran.html",
+    "description": "President Trump and his aides have made contradictory statements on whether the United States and Israel have transformed the Iranian government through violence.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/31/multimedia/31dc-regine-change-01-bjhk/31dc-regine-change-01-bjhk-mediumSquareAt3X.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/2026/03/31/world/middleeast/isfahan-iran-bombing-trump-video.html",
+    "title": "Trump Shares Video of Bombing in Iranian City of Isfahan",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/03/31/world/middleeast/isfahan-iran-bombing-trump-video.html",
+    "description": "President Trump shared a video of the attack, which the Pentagon said had targeted an ammunition depot.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.wsj.com/opinion/america-faces-tough-choices-in-iran-44ebbf4f",
+    "title": "Opinion | America Faces Tough Choices in Iran",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/opinion/america-faces-tough-choices-in-iran-44ebbf4f",
+    "description": "Even taking Kharg Island will require significant forces and a wider air operation.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://opinion-images.wsj.net/im-04226259",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.nytimes.com/2026/03/31/opinion/iran-war.html",
+    "title": "An Ominous U.S. Threat Against Iran",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/03/31/opinion/iran-war.html",
+    "description": "Readers criticize President Trump over his bellicose statements on Iran. Also: Education for every child, citizen or not; the cost of war.",
+    "published": "Wed, 01 Apr 2026 10:48:08 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
   }
 ]
