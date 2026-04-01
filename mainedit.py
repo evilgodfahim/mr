@@ -34,6 +34,8 @@ except Exception:
 
 FEED_URLS = [
     "https://evilgodfahim.github.io/edit/daily_feed.xml",
+
+"https://evilgodfahim.github.io/cd/longread.xml"
 ]
 
 EXISTING_API_FEEDS = set(FEED_URLS)
