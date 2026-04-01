@@ -556,18 +556,26 @@ def send_to_mistral(articles):
         return []
 
     try:
-        client      = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
-        # NOTE: response_format removed — passing a raw dict broke older SDK
-        # versions, raising a KeyError on "signal". The prompt already enforces
-        # strict JSON output, and extract_json_object handles robust parsing.
-        response = client.chat.complete(
-            model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
+        # Direct REST call — bypasses mistralai SDK entirely.
+        # The SDK raises a cryptic '"signal"' error on the Actions runner
+        # regardless of import path or response_format setting.
+        resp = requests.post(
+            "https://api.mistral.ai/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type":  "application/json",
+            },
+            json={
+                "model":    MISTRAL_MODEL,
+                "messages": [{"role": "user", "content": PROMPT.format(titles=titles_text)}],
+            },
+            timeout=120,
         )
+        resp.raise_for_status()
 
-        text = response.choices[0].message.content or ""
+        text = resp.json()["choices"][0]["message"]["content"] or ""
         print(f"[Mistral] Raw response (first 300 chars): {text[:300]}")
         indices = extract_json_object(text).get("signal", [])
         print(f"[Mistral] Parsed signal indices: {indices}")
