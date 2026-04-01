@@ -22,7 +22,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from google import genai
-from mistralai.client import Mistral
+from mistralai import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -559,14 +559,19 @@ def send_to_mistral(articles):
         client      = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
+        # NOTE: response_format removed — passing a raw dict broke older SDK
+        # versions, raising a KeyError on "signal". The prompt already enforces
+        # strict JSON output, and extract_json_object handles robust parsing.
         response = client.chat.complete(
             model=MISTRAL_MODEL,
             messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
-            response_format={"type": "json_object"},
         )
 
         text = response.choices[0].message.content or ""
-        return extract_json_object(text).get("signal", [])
+        print(f"[Mistral] Raw response (first 300 chars): {text[:300]}")
+        indices = extract_json_object(text).get("signal", [])
+        print(f"[Mistral] Parsed signal indices: {indices}")
+        return indices
 
     except Exception as e:
         print(f"Mistral classification error: {e}")
