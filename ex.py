@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-RSS Feed Processor — Daily Master Pipeline
-Feeds: daily/daily_master.xml
+RSS Feed Processor — Bangla Editorial Pipeline
+Feeds: bdit/daily_feed.xml + bdit/daily_feed_2.xml
+Only Bengali-script titles are classified. Non-Bangla titles are skipped entirely.
 Outputs:
-  curated_feed_daily.xml
+  curated_feed_bdit.xml
 Stats:
-  fetch_stats_daily.json
+  fetch_stats_bdit.json
 """
 
 import feedparser
@@ -19,6 +20,7 @@ import xml.etree.ElementTree as ET
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
+
 import requests
 
 try:
@@ -29,7 +31,8 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
-    "https://evilgodfahim.github.io/daily/daily_master.xml"
+    "https://evilgodfahim.github.io/bdit/daily_feed.xml",
+    "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
 ]
 
 EXISTING_API_FEEDS = set(FEED_URLS)
@@ -38,11 +41,11 @@ KL_API_FEEDS       = set()
 # -- CONFIG --------------------------------------------------------------------
 
 MISTRAL_MODEL         = "mistral-large-latest"
-PROCESSED_FILE        = "processed_articles_daily.json"
-SELECTED_FILE         = "selected_articles_daily.json"
-OUTPUT_XML            = "curated_feed_daily.xml"
-EXCLUDED_XML          = "ex_daily.xml"
-STATS_FILE            = "fetch_stats_daily.json"
+PROCESSED_FILE        = "processed_articles_bdit.json"
+SELECTED_FILE         = "selected_articles_bdit.json"
+OUTPUT_XML            = "curated_feed_bdit.xml"
+EXCLUDED_XML          = "ex_bdit.xml"
+STATS_FILE            = "fetch_stats_bdit.json"
 MAX_ARTICLES_PER_FEED = 100
 MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
@@ -50,23 +53,57 @@ ALLOW_OLDER           = False
 MAX_FEED_ITEMS        = 500
 RETENTION_DAYS        = 10
 
+# -- BANGLA FILTER -------------------------------------------------------------
+
+def is_bangla_title(title: str) -> bool:
+    """Return True only if the title contains ≥4 Bengali-script characters."""
+    if not title:
+        return False
+    return sum(1 for c in title if "\u0980" <= c <= "\u09FF") >= 4
+
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a master news classification engine. Input: numbered article titles. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+BANGLA_PROMPT = """You are a strict editorial classifier for Bangladeshi Bengali-language opinion journalism.
+Every input is an op-ed, essay, or editorial — no hard news. Classify each as SIGNAL or NOISE.
+Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
-STEP 1 — INSTANT NOISE. Stop here if:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or commemorative · routine crime or local accidents · partisan bickering · generic business updates.
+STEP 1 — INSTANT NOISE. Reject immediately if the piece is any of:
+  Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a leader, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
 
-STEP 2 — IS THIS SIGNAL? It is SIGNAL if any of the following apply:
-  A) MAJOR GEOPOLITICS & INTERNATIONAL RELATIONS: Wars, treaties, high-level summits, sanctions, great-power dynamics.
-  B) SIGNIFICANT NATIONAL NEWS (Bangladesh or Major Global): Major policy shifts, national economic crises, major elections, constitutional changes, large-scale disasters.
-  C) MACROECONOMICS: Global inflation, significant central bank moves, massive shifts in energy/commodity markets.
-  D) GROUNDBREAKING SCIENCE & TECH: Major AI breakthroughs, significant space exploration milestones, pandemic-level health news.
+STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
+YES → SIGNAL if the editorial addresses a concrete, named domain at national scale:
+  a) Any of: economic or business condition (trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate), governance failure, public health system, environmental crisis, river erosion, flood, infrastructure breakdown, education quality, labour rights, energy, food security, law and order, judicial system, press freedom, constitutional matters.
+The domain must be explicitly inferable from the title. 
+  b) Critiques or analyses a specific policy, institution, or systemic condition at national scale — not vague exhortation.
+  c) Addresses a Bangladesh foreign-affairs dimension from an editorial or analytical angle — water rights (Teesta, Brahmaputra), bilateral disputes, trade, migration, cross-border security.
+  d) Engages substantively with a significant global phenomenon — even if Bangladesh is not named and is not directly affected.
+Bangladeshi editors regularly write about global wars, international economic crises, climate accords, great-power rivalry, and humanitarian catastrophes as subjects in their own right.
+If the title clearly addresses such a global event or trend with analytical intent, it is SIGNAL.
 
-DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event. Keep only the first occurrence (lowest index) for each duplicate group.
+STEP 3 — NOISE if: Aspirational or exhortational with no named domain · Partisan praise or attack · Vague moral commentary · Personal biography WHEN IN DOUBT → NOISE.
 
-Output only: {{"signal": [0-based indices]}}.
-Valid JSON, no markdown, no explanation.
+DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline.
+Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}.
+Valid JSON, no markdown, no explanation. 
+
+EXAMPLES: 
+Input: 
+0. বাংলাদেশের বিদ্যুৎ সংকট কি স্থায়ী সমাধানের পথে 
+1. আমাদের এগিয়ে যেতে হবে 
+2. তিস্তার পানি ও বাংলাদেশের কৃষির ভবিষ্যৎ 
+3. এক মহান নেতার প্রতি শ্রদ্ধাঞ্জলি 
+4. সরকারি হাসপাতালে দুর্নীতি ও জনভোগান্তি 
+5. স্বপ্নের বাংলাদেশ গড়ার প্রতিশ্রুতি 
+6. মূল্যস্ফীতির চাপে সাধারণ মানুষের জীবন 
+7. গাজায় গণহত্যা ও আন্তর্জাতিক আইনের সংকট 
+8. দলীয় আদর্শই আমাদের পথ দেখাবে 
+9. শিক্ষাব্যবস্থার সংকট ও করণীয় 
+10. জলবায়ু পরিবর্তন ও বৈশ্বিক রাজনীতির নতুন সমীকরণ 
+11. বৈদেশিক মুদ্রার রিজার্ভ ও অর্থনীতির চ্যালেঞ্জ
+12. ধর্মীয় সম্প্রীতির অনুপ্রেরণায় এগিয়ে চলি 
+13. স্বাস্থ্যসেবায় বৈষম্য ও রাষ্ট্রের ব্যর্থতা 
+14. মার্কিন-চীন বাণিজ্যযুদ্ধ ও বৈশ্বিক অর্থনীতির গতিপথ 
+Output: {{"signal": [0, 2, 4, 6, 7, 9, 10, 11, 13, 14]}}
 
 Article titles:
 {titles}
@@ -86,6 +123,8 @@ STATS = {
     "total_fetched":         0,
     "total_passed_age":      0,
     "total_new":             0,
+    "total_bangla":          0,
+    "total_skipped_non_bangla": 0,
     "total_signal_mistral":  0,
     "total_signal":          0,
     "total_signal_deduped":  0,
@@ -463,9 +502,7 @@ def extract_json_object(text):
         try:
             obj = json.loads(match.group(0))
             if isinstance(obj, dict):
-                return {
-                    "signal": [i for i in obj.get("signal", []) if isinstance(i, int)],
-                }
+                return {"signal": [i for i in obj.get("signal", []) if isinstance(i, int)]}
         except Exception:
             pass
     result = {"signal": []}
@@ -489,7 +526,7 @@ def send_to_mistral(articles):
 
         response = client.chat.complete(
             model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
+            messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
             response_format={"type": "json_object"},
         )
 
@@ -604,6 +641,8 @@ def print_stats():
     print(f"  Total fetched:        {STATS['total_fetched']}  (raw entries from all feeds)")
     print(f"  Passed age cut:       {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
     print(f"  New (unseen):         {STATS['total_new']}")
+    print(f"    ├─ Bangla (classified):       {STATS['total_bangla']}")
+    print(f"    └─ Non-Bangla (skipped):      {STATS['total_skipped_non_bangla']}")
     print(f"  Signal (Mistral):     {STATS['total_signal_mistral']}")
     print(f"  Signal (after dedup): {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
@@ -626,8 +665,17 @@ def main():
 
     STATS["total_new"] = len(new_articles)
 
-    mistral_indices = send_to_mistral(new_articles)
-    mistral_indices = [i for i in mistral_indices if 0 <= i < len(new_articles)]
+    bangla_articles = []
+    for a in new_articles:
+        if is_bangla_title(a.get("title", "")):
+            bangla_articles.append(a)
+        else:
+            STATS["total_skipped_non_bangla"] += 1
+
+    STATS["total_bangla"] = len(bangla_articles)
+
+    mistral_indices = send_to_mistral(bangla_articles)
+    mistral_indices = [i for i in mistral_indices if 0 <= i < len(bangla_articles)]
 
     STATS["total_signal_mistral"] = len(mistral_indices)
     STATS["total_signal"]         = len(mistral_indices)
@@ -638,14 +686,14 @@ def main():
         print_stats()
         return
 
-    signal_articles   = [new_articles[i] for i in mistral_indices]
-    excluded_articles = [new_articles[i] for i in range(len(new_articles)) if i not in set(mistral_indices)]
+    signal_articles   = [bangla_articles[i] for i in mistral_indices]
+    excluded_articles = [bangla_articles[i] for i in range(len(bangla_articles)) if i not in set(mistral_indices)]
 
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
-        feed_title="Curated News Daily",
-        feed_description="AI-curated signal: top tier daily news",
+        feed_title="Curated News",
+        feed_description="AI-curated signal: Bangladeshi Bengali-language opinion journalism",
     )
 
     generate_xml_feed(
@@ -657,8 +705,8 @@ def main():
 
     save_selected_articles(signal_articles)
 
-    processed_data.setdefault("article_ids",   []).extend([a["id"]   for a in new_articles if a.get("id")])
-    processed_data.setdefault("article_links", []).extend([a["link"] for a in new_articles if a.get("link")])
+    processed_data.setdefault("article_ids",   []).extend([a["id"]   for a in bangla_articles if a.get("id")])
+    processed_data.setdefault("article_links", []).extend([a["link"] for a in bangla_articles if a.get("link")])
     save_processed_articles(processed_data)
 
     STATS["timestamp"] = datetime.utcnow().isoformat()
