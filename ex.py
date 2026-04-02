@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
 """
-RSS Feed Processor — Geopolitics Pipeline
-
-All articles from all feeds go to one Mistral call.
-Mistral classifies each headline into signal or noise, and deduplicates near-identical signal titles.
-
+RSS Feed Processor — Daily Master Pipeline
+Feeds: daily/daily_master.xml
 Outputs:
-  curated_feed_gp.xml  - signal articles
-  ex.xml               - excluded articles
+  curated_feed_daily.xml
 Stats:
-  fetch_stats_gp.json
+  fetch_stats_daily.json
 """
 
 import feedparser
@@ -23,7 +19,6 @@ import xml.etree.ElementTree as ET
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
-
 import requests
 
 try:
@@ -34,29 +29,20 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
-    "https://evilgodfahim.github.io/cd/curated_feed.xml",
-    "https://evilgodfahim.github.io/cd/longread.xml",
     "https://evilgodfahim.github.io/daily/daily_master.xml"
 ]
 
-EXISTING_API_FEEDS = {
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
-    "https://evilgodfahim.github.io/cd/curated_feed.xml",
-    "https://evilgodfahim.github.io/cd/longread.xml",
-    "https://evilgodfahim.github.io/daily/daily_master.xml"
-}
-
-KL_API_FEEDS = set()
+EXISTING_API_FEEDS = set(FEED_URLS)
+KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
 MISTRAL_MODEL         = "mistral-large-latest"
-PROCESSED_FILE        = "processed_articles_gp.json"
-SELECTED_FILE         = "selected_articles_gp.json"
-OUTPUT_XML            = "curated_feed_gp.xml"
-EXCLUDED_XML          = "ex.xml"
-STATS_FILE            = "fetch_stats_gp.json"
+PROCESSED_FILE        = "processed_articles_daily.json"
+SELECTED_FILE         = "selected_articles_daily.json"
+OUTPUT_XML            = "curated_feed_daily.xml"
+EXCLUDED_XML          = "ex_daily.xml"
+STATS_FILE            = "fetch_stats_daily.json"
 MAX_ARTICLES_PER_FEED = 100
 MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
@@ -65,94 +51,22 @@ MAX_FEED_ITEMS        = 500
 RETENTION_DAYS        = 10
 
 # -- PROMPT --------------------------------------------------------------------
-# NOTE: All literal { } in the prompt that are NOT {titles} must be doubled
-# as {{ }} so that PROMPT.format(titles=...) does not raise a KeyError.
-PROMPT = """You are a geopolitics classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
-GEOPOLITICS = the interplay of power between states, alliances, and international bodies — across military, diplomatic, and strategic dimensions.
+PROMPT = """You are a master news classification engine. Input: numbered article titles. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Stop here if:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or commemorative · domestic economic data (inflation, stock markets, GDP) with no foreign-policy dimension · internal party elections or partisan politics · isolated local incidents · corporate or business news with no state-level strategic dimension · natural disasters or health crises unless used as a geopolitical instrument
+  Sports · entertainment · celebrity · lifestyle · human interest · tribute or commemorative · routine crime or local accidents · partisan bickering · generic business updates.
 
-STEP 2 — IS THIS GEOPOLITICAL? It is SIGNAL if any of the following apply:
+STEP 2 — IS THIS SIGNAL? It is SIGNAL if any of the following apply:
+  A) MAJOR GEOPOLITICS & INTERNATIONAL RELATIONS: Wars, treaties, high-level summits, sanctions, great-power dynamics.
+  B) SIGNIFICANT NATIONAL NEWS (Bangladesh or Major Global): Major policy shifts, national economic crises, major elections, constitutional changes, large-scale disasters.
+  C) MACROECONOMICS: Global inflation, significant central bank moves, massive shifts in energy/commodity markets.
+  D) GROUNDBREAKING SCIENCE & TECH: Major AI breakthroughs, significant space exploration milestones, pandemic-level health news.
 
-  A) INTER-STATE RELATIONS
-     Bilateral or multilateral diplomacy: summits, negotiations, state visits with strategic significance, treaties or agreements with territorial or security implications, rupture or normalisation of ties.
-If two or more states are directly engaged as parties → SIGNAL.
-B) ARMED CONFLICT & MILITARY
-     Active wars, military operations, airstrikes, invasions, territorial advances or losses, ceasefires, peace negotiations.
-Arms deals, military build-up, troop deployments, foreign base agreements. Nuclear decisions, weapons proliferation, missile tests. → SIGNAL.
-C) COERCIVE INSTRUMENTS
-     Sanctions regimes targeting a state or government.
-Foreign-targeted cyber operations attributed to a state actor. Blockades, trade warfare used as geopolitical leverage (distinct from routine trade policy).
-→ SIGNAL.
-
-  D) MULTILATERAL BODIES ACTING ON SECURITY OR POWER
-     UN Security Council resolutions or vetoes.
-NATO or allied-force decisions. IAEA findings on nuclear programs. ICC / ICJ rulings or proceedings on state conduct.
-G7/G20 acting on geopolitical crises (sanctions, aid to conflict zones). → SIGNAL.
-Routine IMF loans or World Bank disbursements with no geopolitical string → NOISE.
-E) STRATEGIC POWER DYNAMICS
-     Great-power competition (US–China, US–Russia, China–India, etc.).
-Regional hegemonies and shifts in the balance of power. Alliance realignments, new security pacts, withdrawal from treaties.
-Strategic infrastructure (ports, pipelines, bases) with geopolitical significance. → SIGNAL.
-F) TERRITORIAL & MARITIME DISPUTES
-     Land border conflicts, island or resource-zone claims between states, upstream water control affecting downstream countries as a pressure tool.
-→ SIGNAL.
-
-  G) INTELLIGENCE & STRATEGIC SIGNALING
-     Espionage operations between states.
-Significant intelligence disclosures affecting interstate relations. Credible threats of military action. → SIGNAL.
-H) BANGLADESH FOREIGN AFFAIRS
-     Any substantive external development directly involving Bangladesh: bilateral talks or disputes (especially with India, China, US, Myanmar), international pressure or sanctions on BD, cross-border issues (water, security, migration), BD at international forums where it is a direct party.
-→ SIGNAL. BD domestic policy, internal political affairs, or BD economic data alone → NOISE.
-I) GEOPOLITICAL ANALYSIS & ESSAYS
-     An essay or op-ed is SIGNAL only if it names a concrete state-level geopolitical event, conflict, or power dynamic.
-Vague geopolitical sentiment, civilisational musings, or partisan commentary with no named states or events → NOISE.
-WHEN IN DOUBT → NOISE.
-
-DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline.
-Keep only the first occurrence (lowest index) for each duplicate group.
+DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event. Keep only the first occurrence (lowest index) for each duplicate group.
 
 Output only: {{"signal": [0-based indices]}}.
 Valid JSON, no markdown, no explanation.
-
-EXAMPLES:
-
-Input:
-0. US and China sign landmark trade agreement amid tariff war
-1. Premier League club sacks manager
-2. Bangladesh inflation hits record high
-3. Russia launches missile strikes on Kyiv infrastructure
-4. NATO approves new rapid deployment force for eastern flank
-5. India and Pakistan exchange fire across Line of Control
-6. How to Think About Civilisation
-7. Iran enriches uranium to 60%, IAEA warns of breakout risk
-8. UK Conservative Party elects new leader
-9. China begins live-fire drills around Taiwan
-10. Bangladesh foreign minister holds talks with India over Teesta water sharing
-11. US imposes sanctions on Iranian oil export network
-12. IMF approves emergency loan for Egypt
-13. Australia holds federal election
-14. Germany agrees to send Leopard 2 tanks to Ukraine
-15. The Geopolitics of Water: How Upstream Dams Are Redrawing South Asia
-Output: {{"signal": [0, 3, 4, 5, 7, 9, 10, 11, 14, 15]}}
-
-Input:
-0. India and Pakistan exchange fire across Line of Control
-1. Dhaka garment workers strike shuts down hundreds of factories
-2. Australia holds federal election
-3. US threatens secondary sanctions on countries buying Russian oil
-4. BNP's Path Forward After the Election
-5. China's Naval Expansion and What It Means for the Indo-Pacific
-6. North Korea tests intercontinental ballistic missile
-7. Why [Party Leader] Is the Leader Bangladesh Deserves
-8. IAEA raises alarm over Iran's uranium enrichment levels
-9. Turkey blocks Sweden's NATO bid over extradition demands
-10. Bangladesh's foreign reserves fall below $20bn as taka hits record low
-11. Myanmar junta launches cross-border shelling into Bangladesh territory
-12. How the Russia–Ukraine War Is Reshaping European Security Architecture
-Output: {{"signal": [0, 3, 5, 6, 8, 9, 11, 12]}}
 
 Article titles:
 {titles}
@@ -730,8 +644,8 @@ def main():
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
-        feed_title="Curated News",
-        feed_description="AI-curated signal: geopolitical and Bangladesh foreign-affairs news",
+        feed_title="Curated News Daily",
+        feed_description="AI-curated signal: top tier daily news",
     )
 
     generate_xml_feed(
