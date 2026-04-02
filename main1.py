@@ -4,7 +4,7 @@ RSS Feed Processor
 
 All articles from all feeds go to one Mistral call.
 Mistral classifies each headline into signal or noise.
-A Gemini call deduplicates near-identical signal titles.
+A separate deduplication step removes near-duplicate signal titles.
 
 Outputs:
   curated_feed.xml  - signal articles
@@ -21,7 +21,6 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from google import genai
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
@@ -59,7 +58,6 @@ KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-DEDUP_MODEL           = "gemini-3-flash-preview"
 MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_main.json"
 SELECTED_FILE         = "selected_articles_main.json"
@@ -97,7 +95,9 @@ STEP 2 — IS BANGLADESH DIRECTLY INVOLVED?
 
 WHEN IN DOUBT → NOISE.
 
-Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline.
+Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}.
+Valid JSON, no markdown, no explanation.
 
 EXAMPLES:
 
@@ -135,20 +135,6 @@ Input:
 12. Bangladesh's foreign reserves fall below $20bn as taka hits record low
 13. Garment exports decline 12% amid global slowdown, threatening Bangladesh's growth
 Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11, 12, 13]}}
-
-Article titles:
-{titles}
-"""
-
-DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
-Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
-Titles that cover clearly distinct topics must all be kept.
-
-Rules:
-- Return only the indices (0-based) of titles to KEEP, as a JSON array of integers.
-- Always keep at least one title from each duplicate group (the one with the lowest index).
-- If all titles are unique, return all indices.
-- Return only valid JSON. No markdown, no backticks, no preamble. Example output: [0, 1, 3, 5]
 
 Article titles:
 {titles}
@@ -201,7 +187,7 @@ def load_processed_articles():
         "article_ids":      list(id_ts.keys()),
         "article_links":    list(link_ts.keys()),
         "id_timestamps":    id_ts,
-        "link_timestamps":  link_ts,
+        "link_timestamps":   link_ts,
         "last_updated":     data.get("last_updated"),
     }
 
@@ -583,60 +569,72 @@ def send_to_mistral(articles):
         return []
 
 
-def deduplicate_articles(articles):
+def normalize_title_for_dedup(title):
+    title = (title or "").lower().strip()
+    title = re.sub(r"https?://\S+", " ", title)
+    title = re.sub(r"[^a-z0-9]+", " ", title)
+    tokens = [t for t in title.split() if t not in {
+        "a", "an", "the", "of", "in", "on", "for", "to", "from", "by", "with",
+        "and", "or", "at", "as", "is", "are", "was", "were", "be", "been",
+        "being", "after", "before", "over", "under", "amid", "into", "about",
+        "news", "report", "reports", "says", "said"
+    }]
+    return " ".join(tokens)
+
+
+def are_near_duplicates(title_a, title_b):
+    a = normalize_title_for_dedup(title_a)
+    b = normalize_title_for_dedup(title_b)
+
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    if a in b or b in a:
+        return True
+
+    a_tokens = set(a.split())
+    b_tokens = set(b.split())
+    if not a_tokens or not b_tokens:
+        return False
+
+    intersection = len(a_tokens & b_tokens)
+    union = len(a_tokens | b_tokens)
+    jaccard = intersection / union if union else 0.0
+
+    seq_ratio = 0.0
+    try:
+        from difflib import SequenceMatcher
+        seq_ratio = SequenceMatcher(None, a, b).ratio()
+    except Exception:
+        pass
+
+    return jaccard >= 0.80 or seq_ratio >= 0.86
+
+
+def deduplicate_signal_articles(articles):
     if not articles:
         return articles
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return articles
+    kept = []
+    kept_titles = []
 
-    try:
-        client      = genai.Client(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
+    for article in articles:
+        title = article.get("title", "")
+        duplicate = False
+        for prev_title in kept_titles:
+            if are_near_duplicates(title, prev_title):
+                duplicate = True
+                break
+        if duplicate:
+            continue
+        kept.append(article)
+        kept_titles.append(title)
 
-        response = client.models.generate_content(
-            model=DEDUP_MODEL,
-            contents=DEDUP_PROMPT.format(titles=titles_text),
-            config={"response_mime_type": "application/json"},
-        )
-
-        raw = response.text if hasattr(response, "text") else ""
-        raw = raw.replace("```json", "").replace("```", "").strip()
-
-        keep_indices = None
-        try:
-            parsed = json.loads(raw)
-            if isinstance(parsed, list):
-                keep_indices = [i for i in parsed if isinstance(i, int) and 0 <= i < len(articles)]
-        except Exception:
-            pass
-
-        if keep_indices is None:
-            m = re.search(r"\[[\d,\s]+\]", raw)
-            if m:
-                try:
-                    keep_indices = [
-                        i for i in json.loads(m.group(0))
-                        if isinstance(i, int) and 0 <= i < len(articles)
-                    ]
-                except Exception:
-                    pass
-
-        if keep_indices is None:
-            print("Dedup: could not parse response, keeping all articles.")
-            return articles
-
-        keep_indices = sorted(set(keep_indices))
-        deduped = [articles[i] for i in keep_indices]
-        dropped = len(articles) - len(deduped)
-        if dropped:
-            print(f"Dedup: removed {dropped} near-duplicate title(s).")
-        return deduped
-
-    except Exception as e:
-        print(f"Gemini dedup error: {e}")
-        return articles
+    dropped = len(articles) - len(kept)
+    if dropped:
+        print(f"Dedup: removed {dropped} near-duplicate signal title(s).")
+    return kept
 
 # -- XML -----------------------------------------------------------------------
 
@@ -779,7 +777,7 @@ def main():
     excluded_articles = [new_articles[i] for i in range(len(new_articles)) if i not in set(mistral_indices)]
 
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
-    signal_articles = deduplicate_articles(signal_articles)
+    signal_articles = deduplicate_signal_articles(signal_articles)
 
     STATS["total_signal_deduped"] = len(signal_articles)
 
