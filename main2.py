@@ -61,7 +61,7 @@ RETENTION_DAYS        = 10
 
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a strict news classification engine. Input: numbered article titles from Bangla-language news sources covering Bangladesh economy and business, and international economic and financial affairs. Titles may be in Bengali script, transliteration, or mixed. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is EXTREME. (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+PROMPT = """You are a strict news classification engine. Input: numbered article titles from Bangla-language news sources covering Bangladesh economy and business, and international economic and financial affairs. Titles may be in Bengali script, transliteration, or mixed. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Stop here if the title is any of:
   Personal finance tips · individual company product launches or rebrands · celebrity business deals · lifestyle spending · business awards or rankings with no macro consequence · motivational or entrepreneurship advice · individual trader or investor profiles · local market price lists with no systemic implication · routine AGMs or dividend announcements of a single firm
