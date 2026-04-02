@@ -35,23 +35,11 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
- "https://evilgodfahim.github.io/bdl/final.xml",
-    "https://evilgodfahim.github.io/int/final.xml",
-    "https://evilgodfahim.github.io/fp/final.xml",
-    "https://evilgodfahim.github.io/org/daily_feed.xml",
-    "https://evilgodfahim.github.io/bangladesh/feed.xml",
-
-"https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+ "https://evilgodfahim.github.io/bdlb/final.xml"
 ]
 
 EXISTING_API_FEEDS = {
- "https://evilgodfahim.github.io/bdl/final.xml",
- "https://evilgodfahim.github.io/int/final.xml",
-    "https://evilgodfahim.github.io/fp/final.xml",
-    "https://evilgodfahim.github.io/org/daily_feed.xml",
-    "https://evilgodfahim.github.io/bangladesh/feed.xml",
-
-"https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+ "https://evilgodfahim.github.io/bdlb/final.xml"
 }
 
 KL_API_FEEDS = set()
