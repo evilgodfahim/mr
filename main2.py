@@ -61,25 +61,25 @@ RETENTION_DAYS        = 10
 
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a strict news classification engine. Input: numbered article titles from news outlets, geopolitical journals, and Bangladeshi newspapers — including hard news, editorials, op-eds, and essays. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is ETREME.; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+PROMPT = """You are a strict news classification engine. Input: numbered article titles from Bangla-language news sources covering Bangladesh economy and business, and international economic and financial affairs. Titles may be in Bengali script, transliteration, or mixed. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is EXTREME. (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Stop here if the title is any of:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or commemorative · praise of a person, party, or institution · isolated local incident (one district, one institution, one community)
+  Personal finance tips · individual company product launches or rebrands · celebrity business deals · lifestyle spending · business awards or rankings with no macro consequence · motivational or entrepreneurship advice · individual trader or investor profiles · local market price lists with no systemic implication · routine AGMs or dividend announcements of a single firm
 
 STEP 2 — IS BANGLADESH DIRECTLY INVOLVED?
 
   YES → SIGNAL if:
-  a) National scale: affects the whole country or a significant portion of the population. Cause is irrelevant — economic or business condition (trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate), government decision, failing public system, environmental crisis, infrastructure breakdown, natural disaster, social emergency, health situation. If the reach is national, it is SIGNAL.
-  b) Foreign affairs: any substantive BD external development — bilateral talks or disputes, international pressure or sanctions on BD, foreign aid or loans, cross-border issues (water, trade, security, migration), BD at international forums, international bodies acting on BD. If BD is a direct party, it is SIGNAL. Do not mistake substantive diplomacy for routine ceremony.
-  c) Editorial naming a concrete national-scale domain or condition → SIGNAL. Vague sentiment with no named domain → NOISE. Party strategy or partisan praise → NOISE.
+  a) National-scale economic condition: affects the economy as a whole or a major sector — trade, exports (especially garments, remittances), imports, inflation, currency and exchange rate, foreign reserves, banking sector health, NPL crisis, stock market structural developments, budget and fiscal policy, taxation, fuel and energy pricing, government borrowing, economic growth data. If the reach is nationwide or sector-wide, it is SIGNAL.
+  b) Foreign economic affairs: any substantive BD external development — bilateral trade deals or disputes, international loans or aid (IMF, World Bank, ADB), foreign direct investment decisions, trade access and GSP status, cross-border economic issues, sanctions or pressure with economic consequence, BD at international economic forums. If BD is a direct party, it is SIGNAL.
+  c) Editorial naming a concrete national-scale economic domain or condition → SIGNAL. Vague sentiment or general development optimism with no named domain → NOISE. Party economic promises or partisan praise → NOISE.
 
   NO → SIGNAL if:
-  a) Multinational bodies acting collectively: UN and agencies, NATO, IMF, World Bank, WTO, G7/G20, BRICS, IAEA, ICC, ICJ, regional alliances. Their resolutions, findings, and interventions are SIGNAL by nature.
-  b) Multi-country events: wars, conflicts, cross-border crises, multilateral treaties, regional instability, international sanctions.
-  c) Single-country decision with cross-border consequence — two types:
-     Immediate: moves something the world depends on (global energy supply, global financial systems, pandemic-level health, global trade architecture).
-     Strategic/slow-burn: shifts power, security, or stability even without immediate surface effect — nuclear decisions, major arms deals or military build-up, upstream water control affecting downstream countries, military base shifts, significant cyber operations, treaty withdrawals. Ask: does this change what is possible or what is threatened in the world?
-  All other single-country internal affairs → NOISE.
+  a) Multinational economic bodies acting collectively: IMF, World Bank, WTO, ADB, G7/G20, BRICS, OECD, BIS, FATF, regional development banks. Their decisions, findings, warnings, and interventions are SIGNAL by nature.
+  b) Multi-country economic events: global trade wars, coordinated sanctions, international commodity shocks (oil, gas, food), cross-border financial contagion, multilateral trade agreements, global debt crises.
+  c) Single-country economic decision with cross-border consequence — two types:
+     Immediate: directly moves something the global economy depends on (US Federal Reserve rate decisions, Chinese export controls on critical materials, OPEC+ production cuts, major sovereign debt defaults).
+     Strategic/slow-burn: shifts global economic power or supply chain architecture even without immediate surface effect — major industrial policy shifts by large economies, significant currency interventions, trade bloc restructuring, critical mineral dominance moves. Ask: does this change what is possible or threatened in the global economy?
+  All other single-country internal economic news with no cross-border consequence → NOISE.
 
 WHEN IN DOUBT → NOISE.
 
@@ -90,39 +90,35 @@ Valid JSON, no markdown, no explanation.
 EXAMPLES:
 
 Input:
-0. US and China sign landmark trade agreement
-1. Premier League club sacks manager
-2. Bangladesh central bank raises interest rates amid inflation crisis
-3. UK Conservative Party elects new leader
-4. UN warns of imminent famine across the Horn of Africa
-5. The Promise of a New Bangladesh
-6. We Must Fix Bangladesh's Broken Irrigation System
-7. Saluting the Spirit of Our Freedom Fighters
-8. Bangladesh slashes fuel subsidies nationwide
-9. India's internal border dispute heats up
-10. Bangladesh foreign minister holds talks with India over Teesta water sharing
-11. US warns Bangladesh over labour rights ahead of trade review
-12. China pledges $3bn infrastructure investment in Bangladesh
-13. NATO expands eastern flank military presence
-14. India builds new dam on Brahmaputra upstream of Bangladesh
-Output: {{"signal": [0, 2, 4, 6, 8, 10, 11, 12, 13, 14]}}
+0. বাংলাদেশের বৈদেশিক মুদ্রার রিজার্ভ ২০ বিলিয়ন ডলারের নিচে নামল
+1. তরুণ উদ্যোক্তার সাফল্যের গল্প
+2. আইএমএফ বাংলাদেশকে ৪.৭ বিলিয়ন ডলার ঋণ অনুমোদন করল
+3. মার্কিন ফেডারেল রিজার্ভ সুদের হার অপরিবর্তিত রাখল
+4. ঢাকা স্টক এক্সচেঞ্জে সূচক ধারাবাহিক পতন
+5. অমুক কোম্পানির বার্ষিক সাধারণ সভা অনুষ্ঠিত
+6. পোশাক রফতানি ১২ শতাংশ কমেছে, বৈশ্বিক মন্দার প্রভাব
+7. উদ্যোক্তা হওয়ার দশটি সহজ উপায়
+8. বাংলাদেশ ব্যাংক ঋণের সুদের হার বাড়াল
+9. ওপেক+ উৎপাদন কমানোর সিদ্ধান্তে বৈশ্বিক তেলের বাজারে অস্থিরতা
+10. ভারত-চীন বাণিজ্য উত্তেজনায় বৈশ্বিক সরবরাহ শৃঙ্খলে চাপ
+11. বাংলাদেশ থেকে গ্যাস-সংকটে বিদ্যুৎ উৎপাদন বিপর্যস্ত
+12. বিশ্ব বাণিজ্য সংস্থায় বাংলাদেশের জিএসপি মর্যাদা পর্যালোচনা শুরু
+Output: {{"signal": [0, 2, 3, 4, 6, 8, 9, 10, 11, 12]}}
 
 Input:
-0. India and Pakistan exchange fire across Line of Control
-1. Dhaka garment workers strike shuts down hundreds of factories
-2. Australia holds federal election
-3. IMF approves emergency loan for Bangladesh
-4. BNP's Path Forward After the Election
-5. How Microfinance Is Changing Lives in Sylhet
-6. How Poor Water Management Is Destroying Bangladesh's Agriculture
-7. The Geopolitics of the Indo-Pacific and What It Means for the World
-8. Why [Party Leader] Is the Leader Bangladesh Deserves
-9. IAEA raises alarm over Iran's uranium enrichment levels
-10. The Slow Collapse of Bangladesh's River Systems
-11. Why Bangladesh's Public Hospitals Are Failing the Poor
-12. Bangladesh's foreign reserves fall below $20bn as taka hits record low
-13. Garment exports decline 12% amid global slowdown, threatening Bangladesh's growth
-Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11, 12, 13]}}
+0. টাকার বিপরীতে ডলারের দাম রেকর্ড উচ্চতায়
+1. শেয়ারবাজারে বিনিয়োগের সেরা কৌশল
+2. বিশ্বব্যাংক বাংলাদেশে অবকাঠামো উন্নয়নে ২ বিলিয়ন ডলার দেবে
+3. জি-২০ দেশগুলো বৈশ্বিক ন্যূনতম কর চুক্তি চূড়ান্ত করল
+4. উন্নয়নের পথে বাংলাদেশ এগিয়ে যাচ্ছে
+5. বাংলাদেশের ব্যাংকিং খাতে খেলাপি ঋণ নতুন রেকর্ডে
+6. চীনের রফতানি নিয়ন্ত্রণে বৈশ্বিক সেমিকন্ডাক্টর সংকট গভীর হচ্ছে
+7. কোটিপতি ব্যবসায়ীর জীবনযাপনের গল্প
+8. বাংলাদেশে মূল্যস্ফীতি টানা ছয় মাস দুই অঙ্কে
+9. বাংলাদেশের পোশাক খাতে নতুন মজুরি কাঠামো ঘোষণা
+10. আইএমএফ বৈশ্বিক প্রবৃদ্ধির পূর্বাভাস কমাল
+11. ঢাকার একটি শপিং মলে নতুন শাখা খুলল বিদেশি ব্র্যান্ড
+Output: {{"signal": [0, 2, 3, 5, 6, 8, 9, 10]}}
 
 Article titles:
 {titles}
