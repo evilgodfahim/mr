@@ -1,0 +1,20 @@
+{
+  "per_feed": {
+    "https://evilgodfahim.github.io/bdlb/final.xml": {
+      "fetched": 78,
+      "passed_age": 69,
+      "capped": 69
+    }
+  },
+  "per_method": {
+    "KL": 0,
+    "DIRECT": 78
+  },
+  "total_fetched": 78,
+  "total_passed_age": 69,
+  "total_new": 69,
+  "total_signal_mistral": 19,
+  "total_signal": 19,
+  "total_signal_deduped": 19,
+  "timestamp": "2026-04-02T11:03:39.462042"
+}
