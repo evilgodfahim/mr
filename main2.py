@@ -47,11 +47,11 @@ KL_API_FEEDS = set()
 # -- CONFIG --------------------------------------------------------------------
 
 MISTRAL_MODEL         = "mistral-large-latest"
-PROCESSED_FILE        = "processed_articles_main.json"
-SELECTED_FILE         = "selected_articles_main.json"
-OUTPUT_XML            = "curated_feed.xml"
-EXCLUDED_XML          = "ex.xml"
-STATS_FILE            = "fetch_stats_main.json"
+PROCESSED_FILE        = "processed_articles_mainb.json"
+SELECTED_FILE         = "selected_articles_mainb.json"
+OUTPUT_XML            = "curated_feedb.xml"
+EXCLUDED_XML          = "exb.xml"
+STATS_FILE            = "fetch_stats_mainb.json"
 MAX_ARTICLES_PER_FEED = 100
 MAX_AGE_HOURS         = 26
 ALLOW_MISSING_DATES   = True
