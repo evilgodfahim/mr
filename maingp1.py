@@ -39,14 +39,18 @@ FEED_URLS = [
     "https://evilgodfahim.github.io/gpd/daily_feed.xml",
     "https://evilgodfahim.github.io/cd/curated_feed.xml",
 
-"https://evilgodfahim.github.io/cd/longread.xml"
+"https://evilgodfahim.github.io/cd/longread.xml",
+
+"https://evilgodfahim.github.io/daily/daily_master.xml"
 ]
 
 EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/gpd/daily_feed.xml",
     "https://evilgodfahim.github.io/cd/curated_feed.xml",
 
-"https://evilgodfahim.github.io/cd/longread.xml"
+"https://evilgodfahim.github.io/cd/longread.xml",
+
+."https://evilgodfahim.github.io/daily/daily_master.xml"
 }
 
 KL_API_FEEDS = set()
