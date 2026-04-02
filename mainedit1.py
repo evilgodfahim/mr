@@ -19,7 +19,6 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from google import genai
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
@@ -42,7 +41,6 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-DEDUP_MODEL           = "gemini-3-flash-preview"
 MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_edit.json"
 SELECTED_FILE         = "selected_articles_edit.json"
@@ -88,7 +86,9 @@ STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
 
 WHEN IN DOUBT → NOISE.
 
-Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline.
+Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}.
+Valid JSON, no markdown, no explanation.
 
 EXAMPLES:
 
@@ -131,20 +131,6 @@ Input:
 13. A Brighter Future Is Possible If We Choose It
 14. Garment exports decline 12% amid global slowdown, threatening Bangladesh's growth
 Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11, 12, 14]}}
-
-Article titles:
-{titles}
-"""
-
-DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
-Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
-Titles that cover clearly distinct topics must all be kept.
-
-Rules:
-- Return only the indices (0-based) of titles to KEEP, as a JSON array of integers.
-- Always keep at least one title from each duplicate group (the one with the lowest index).
-- If all titles are unique, return all indices.
-- Return only valid JSON. No markdown, no backticks, no preamble. Example output: [0, 1, 3, 5]
 
 Article titles:
 {titles}
@@ -562,62 +548,6 @@ def send_to_mistral(articles):
         print(f"Mistral classification error: {e}")
         return []
 
-
-def deduplicate_articles(articles):
-    if not articles:
-        return articles
-
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return articles
-
-    try:
-        client      = genai.Client(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-
-        response = client.models.generate_content(
-            model=DEDUP_MODEL,
-            contents=DEDUP_PROMPT.format(titles=titles_text),
-            config={"response_mime_type": "application/json"},
-        )
-
-        raw = response.text if hasattr(response, "text") else ""
-        raw = raw.replace("```json", "").replace("```", "").strip()
-
-        keep_indices = None
-        try:
-            parsed = json.loads(raw)
-            if isinstance(parsed, list):
-                keep_indices = [i for i in parsed if isinstance(i, int) and 0 <= i < len(articles)]
-        except Exception:
-            pass
-
-        if keep_indices is None:
-            m = re.search(r"\[[\d,\s]+\]", raw)
-            if m:
-                try:
-                    keep_indices = [
-                        i for i in json.loads(m.group(0))
-                        if isinstance(i, int) and 0 <= i < len(articles)
-                    ]
-                except Exception:
-                    pass
-
-        if keep_indices is None:
-            print("Dedup: could not parse response, keeping all articles.")
-            return articles
-
-        keep_indices = sorted(set(keep_indices))
-        deduped      = [articles[i] for i in keep_indices]
-        dropped      = len(articles) - len(deduped)
-        if dropped:
-            print(f"Dedup: removed {dropped} near-duplicate title(s).")
-        return deduped
-
-    except Exception as e:
-        print(f"Gemini dedup error: {e}")
-        return articles
-
 # -- XML -----------------------------------------------------------------------
 
 def _fresh_channel(root, feed_title, feed_description):
@@ -771,9 +701,6 @@ def main():
         return
 
     signal_articles = [english_articles[i] for i in mistral_indices]
-
-    print(f"Deduplicating {len(signal_articles)} signal article(s)...")
-    signal_articles = deduplicate_articles(signal_articles)
 
     STATS["total_signal_deduped"] = len(signal_articles)
 
