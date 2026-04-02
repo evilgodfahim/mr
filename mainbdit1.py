@@ -19,7 +19,6 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from google import genai
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
@@ -43,7 +42,6 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-DEDUP_MODEL           = "gemini-3-flash-preview"
 MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_bdit.json"
 SELECTED_FILE         = "selected_articles_bdit.json"
@@ -84,6 +82,8 @@ STEP 2 — SIGNAL if the title:
 STEP 3 — NOISE if:
   Aspirational or exhortational with no named domain · Partisan praise or attack · Vague moral commentary · Personal biography
 
+DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline. Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+
 WHEN IN DOUBT → NOISE.
 
 Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
@@ -117,20 +117,6 @@ Input:
 7. স্বাস্থ্যসেবায় বৈষম্য ও রাষ্ট্রের ব্যর্থতা
 8. মার্কিন-চীন বাণিজ্যযুদ্ধ ও বৈশ্বিক অর্থনীতির গতিপথ
 Output: {{"signal": [0, 2, 4, 5, 7, 8]}}
-
-Article titles:
-{titles}
-"""
-
-DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
-Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
-Titles that cover clearly distinct topics must all be kept.
-
-Rules:
-- Return only the indices (0-based) of titles to KEEP, as a JSON array of integers.
-- Always keep at least one title from each duplicate group (the one with the lowest index).
-- If all titles are unique, return all indices.
-- Return only valid JSON. No markdown, no backticks, no preamble. Example output: [0, 1, 3, 5]
 
 Article titles:
 {titles}
@@ -549,60 +535,50 @@ def send_to_mistral(articles):
         return []
 
 
+def _normalize_title_for_dedup(title: str) -> str:
+    title = (title or "").strip().lower()
+    title = re.sub(r"[\u200c\u200d]", "", title)
+    title = re.sub(r"[\W_]+", " ", title, flags=re.UNICODE)
+    title = re.sub(r"\s+", " ", title).strip()
+    return title
+
+
+def _title_similarity(a: str, b: str) -> float:
+    from difflib import SequenceMatcher
+    return SequenceMatcher(None, a, b).ratio()
+
+
 def deduplicate_articles(articles):
     if not articles:
         return articles
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return articles
+    kept = []
+    normalized_seen = []
 
-    try:
-        client      = genai.Client(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
+    for article in articles:
+        title = article.get("title", "") or ""
+        norm_title = _normalize_title_for_dedup(title)
+        is_duplicate = False
 
-        response = client.models.generate_content(
-            model=DEDUP_MODEL,
-            contents=DEDUP_PROMPT.format(titles=titles_text),
-            config={"response_mime_type": "application/json"},
-        )
+        for prev in normalized_seen:
+            if norm_title == prev:
+                is_duplicate = True
+                break
+            if norm_title and prev and _title_similarity(norm_title, prev) >= 0.88:
+                is_duplicate = True
+                break
+            if norm_title in prev or prev in norm_title:
+                is_duplicate = True
+                break
 
-        raw = response.text if hasattr(response, "text") else ""
-        raw = raw.replace("```json", "").replace("```", "").strip()
+        if not is_duplicate:
+            kept.append(article)
+            normalized_seen.append(norm_title)
 
-        keep_indices = None
-        try:
-            parsed = json.loads(raw)
-            if isinstance(parsed, list):
-                keep_indices = [i for i in parsed if isinstance(i, int) and 0 <= i < len(articles)]
-        except Exception:
-            pass
-
-        if keep_indices is None:
-            m = re.search(r"\[[\d,\s]+\]", raw)
-            if m:
-                try:
-                    keep_indices = [
-                        i for i in json.loads(m.group(0))
-                        if isinstance(i, int) and 0 <= i < len(articles)
-                    ]
-                except Exception:
-                    pass
-
-        if keep_indices is None:
-            print("Dedup: could not parse response, keeping all articles.")
-            return articles
-
-        keep_indices = sorted(set(keep_indices))
-        deduped      = [articles[i] for i in keep_indices]
-        dropped      = len(articles) - len(deduped)
-        if dropped:
-            print(f"Dedup: removed {dropped} near-duplicate title(s).")
-        return deduped
-
-    except Exception as e:
-        print(f"Gemini dedup error: {e}")
-        return articles
+    dropped = len(articles) - len(kept)
+    if dropped:
+        print(f"Dedup: removed {dropped} near-duplicate title(s).")
+    return kept
 
 # -- XML -----------------------------------------------------------------------
 
