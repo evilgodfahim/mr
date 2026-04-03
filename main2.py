@@ -46,6 +46,10 @@ FEED_URLS = [
     "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
     "https://evilgodfahim.github.io/kal/articles.xml",
     "https://evilgodfahim.github.io/bb-rss/feed.xml",
+
+"https://evilgodfahim.github.io/pade/output/articles.xml",
+
+"https://evilgodfahim.github.io/pade/output/articles_2.xml"
 ]
 
 EXISTING_API_FEEDS = {
@@ -60,6 +64,10 @@ EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
     "https://evilgodfahim.github.io/kal/articles.xml",
     "https://evilgodfahim.github.io/bb-rss/feed.xml",
+
+"https://evilgodfahim.github.io/pade/output/articles.xml",
+
+"https://evilgodfahim.github.io/pade/output/articles_2.xml"
 }
 
 KL_API_FEEDS = set()
