@@ -89,77 +89,6 @@ RETENTION_DAYS        = 10
 
 # -- PROMPTS -------------------------------------------------------------------
 
-PROMPT = """You are a strict news classification engine. Input: numbered article titles from news outlets and Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. Only English language titles will be considered. The bar is SUPER HIGH; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
-
-STEP 1 — INSTANT NOISE. Mark as NOISE immediately if the title is any of:
-  - Sports, entertainment, celebrity, lifestyle, human interest
-  - Tribute, commemorative, or anniversary pieces
-  - Praise or criticism of a person, party, or institution
-  - Any isolated or discrete incident: one arrest, one clash, one crime, one accident, one fire, one death, one protest at one location — no matter how dramatic the title sounds
-  - Anything affecting only one district, one institution, one community, or one individual
-
-STEP 2 — SCOPE CHECK.
-
-  BANGLADESH: SIGNAL only if the event or decision affects the entire country or a nationally significant portion of it:
-  - Economic data or official decisions: central bank actions, national budget, trade figures, remittance data, fuel/utility price changes, foreign reserve status, currency moves, stock market circuit breakers, IMF/World Bank actions on BD
-  - Government or institutional actions at the national level: cabinet decisions, parliament acts, nationwide policy rollouts, supreme court rulings, election commission decisions
-  - Infrastructure or public systems at national scale: nationwide power outages, countrywide internet disruption, collapse of a national system (not one hospital, one road, one factory)
-  - Natural disasters or health emergencies declared at national or divisional scale (not one district)
-  - Foreign affairs: official bilateral talks, international sanctions or pressure on BD, cross-border agreements or disputes (Teesta, Rohingya, trade), BD at UN/IMF/WTO, foreign loans or aid formally approved
-  - Anything sub-national, sub-institutional, or about a single individual → NOISE
-
-  INTERNATIONAL: SIGNAL only for concrete events with verified cross-border consequences:
-  - Active armed conflicts between states, or formal declarations of war or ceasefire
-  - Multinational body decisions: UN Security Council resolutions, IMF/World Bank program approvals, WTO rulings, NATO formal decisions, IAEA findings, ICC/ICJ verdicts
-  - Formal multilateral treaties signed or collapsed
-  - A single country's decision only if it moves something the world depends on immediately: global energy supply disruption, collapse of a major financial system, verified nuclear weapons development milestone, formal treaty withdrawal with immediate effect
-  - Internal politics, elections, leadership changes, and domestic policy of any single foreign country → NOISE unless the direct cross-border consequence is stated in the title itself
-
-WHEN IN DOUBT → NOISE.
-
-Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
-
-EXAMPLES:
-
-Input:
-0. US and China sign landmark trade agreement
-1. Premier League club sacks manager
-2. Bangladesh central bank raises interest rates amid inflation crisis
-3. UK Conservative Party elects new leader
-4. UN Security Council votes to deploy peacekeepers to Sudan
-5. The Promise of a New Bangladesh
-6. We Must Fix Bangladesh's Broken Irrigation System
-7. Bangladesh slashes fuel subsidies nationwide
-8. India arrests opposition leader
-9. Bangladesh foreign minister holds talks with India over Teesta water sharing
-10. US warns Bangladesh over labour rights ahead of GSP review
-11. China pledges $3bn infrastructure loan to Bangladesh, deal signed
-12. NATO formally approves expansion of eastern flank forces
-13. Student clash reported in Dhaka university campus
-14. Why Bangladesh's Economy Is at a Crossroads
-Output: {{"signal": [0, 2, 4, 7, 9, 10, 11, 12]}}
-
-Input:
-0. Pakistan and India exchange fire across Line of Control, casualties confirmed
-1. Dhaka garment workers strike shuts down hundreds of factories nationwide
-2. Australia holds federal election
-3. IMF formally approves $4.7bn loan for Bangladesh
-4. BNP's Path Forward After the Election
-5. How Microfinance Is Changing Lives in Sylhet
-6. The Geopolitics of the Indo-Pacific and What It Means for the World
-7. IAEA confirms Iran has enriched uranium to 84 percent purity
-8. Man arrested in Chattogram over murder
-9. Bangladesh foreign reserves fall below $20bn, taka hits record low
-10. Garment exports decline 12% in Q1, Bangladesh Bank reports
-11. ICC issues arrest warrant for sitting head of state
-12. Fire breaks out at Tejgaon factory, 3 killed
-13. Bangladesh parliament passes new cybersecurity law
-Output: {{"signal": [0, 1, 3, 7, 9, 10, 11, 13]}}
-
-Article titles:
-{titles}
-"""
-
 BANGLA_PROMPT = """You are a strict news classification engine. Input: numbered article titles in Bengali script from Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. Only Bengali language titles will be considered. The bar is SUPER HIGH; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Mark as NOISE immediately if the title is any of:
@@ -638,13 +567,6 @@ def extract_json_object(text):
     return result
 
 
-def is_bangla_title(title):
-    """Return True if the title contains Bengali Unicode characters."""
-    if not title:
-        return False
-    return any('\u0980' <= ch <= '\u09FF' for ch in title)
-
-
 def send_to_mistral(articles):
     api_key = os.environ.get("MS")
     if not api_key or not articles:
@@ -653,41 +575,15 @@ def send_to_mistral(articles):
     try:
         client = Mistral(api_key=api_key)
 
-        # Split articles into Bangla and English by index
-        bangla_indices  = [i for i, a in enumerate(articles) if is_bangla_title(a.get("title", ""))]
-        english_indices = [i for i, a in enumerate(articles) if not is_bangla_title(a.get("title", ""))]
-
-        signal_indices = []
-
-        # Classify Bangla batch
-        if bangla_indices:
-            bangla_articles    = [articles[i] for i in bangla_indices]
-            bangla_titles_text = "\n".join([f"{j}. {a.get('title', '')}" for j, a in enumerate(bangla_articles)])
-            bangla_response    = client.chat.complete(
-                model=MISTRAL_MODEL,
-                messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=bangla_titles_text)}],
-                response_format={"type": "json_object"},
-            )
-            bangla_text    = bangla_response.choices[0].message.content or ""
-            bangla_local   = extract_json_object(bangla_text).get("signal", [])
-            # Map local indices back to original indices
-            signal_indices += [bangla_indices[j] for j in bangla_local if 0 <= j < len(bangla_indices)]
-
-        # Classify English batch
-        if english_indices:
-            english_articles    = [articles[i] for i in english_indices]
-            english_titles_text = "\n".join([f"{j}. {a.get('title', '')}" for j, a in enumerate(english_articles)])
-            english_response    = client.chat.complete(
-                model=MISTRAL_MODEL,
-                messages=[{"role": "user", "content": PROMPT.format(titles=english_titles_text)}],
-                response_format={"type": "json_object"},
-            )
-            english_text    = english_response.choices[0].message.content or ""
-            english_local   = extract_json_object(english_text).get("signal", [])
-            # Map local indices back to original indices
-            signal_indices += [english_indices[j] for j in english_local if 0 <= j < len(english_indices)]
-
-        return sorted(signal_indices)
+        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
+        response = client.chat.complete(
+            model=MISTRAL_MODEL,
+            messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
+            response_format={"type": "json_object"},
+        )
+        text = response.choices[0].message.content or ""
+        signal_indices = extract_json_object(text).get("signal", [])
+        return sorted([i for i in signal_indices if isinstance(i, int)])
 
     except Exception as e:
         print(f"Mistral classification error: {e}")
