@@ -35,15 +35,31 @@ except Exception:
 # -- FEEDS ---------------------------------------------------------------------
 
 FEED_URLS = [
- "https://evilgodfahim.github.io/bdlb/final.xml",
-
-"https://evilgodfahim.github.io/bint/final.xml"
+    "https://evilgodfahim.github.io/bdlb/final.xml",
+    "https://evilgodfahim.github.io/bint/final.xml",
+    "https://www.kalerkantho.com/rss.xml",
+    "https://www.prothomalo.com/feed/",
+    "https://evilgodfahim.github.io/ju/rss.xml",
+    "https://evilgodfahim.github.io/dnpbb/feed.xml",
+    "https://evilgodfahim.github.io/jnp/editorial_news.xml",
+    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part2.xml",
+    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
+    "https://evilgodfahim.github.io/kal/articles.xml",
+    "https://evilgodfahim.github.io/bb-rss/feed.xml",
 ]
 
 EXISTING_API_FEEDS = {
- "https://evilgodfahim.github.io/bdlb/final.xml",
-
-"https://evilgodfahim.github.io/bint/final.xml"
+    "https://evilgodfahim.github.io/bdlb/final.xml",
+    "https://evilgodfahim.github.io/bint/final.xml",
+    "https://www.kalerkantho.com/rss.xml",
+    "https://www.prothomalo.com/feed/",
+    "https://evilgodfahim.github.io/ju/rss.xml",
+    "https://evilgodfahim.github.io/dnpbb/feed.xml",
+    "https://evilgodfahim.github.io/jnp/editorial_news.xml",
+    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part2.xml",
+    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
+    "https://evilgodfahim.github.io/kal/articles.xml",
+    "https://evilgodfahim.github.io/bb-rss/feed.xml",
 }
 
 KL_API_FEEDS = set()
@@ -63,70 +79,150 @@ ALLOW_OLDER           = False
 MAX_FEED_ITEMS        = 500
 RETENTION_DAYS        = 10
 
-# -- PROMPT --------------------------------------------------------------------
+# -- PROMPTS -------------------------------------------------------------------
 
-PROMPT = """You are a strict news classification engine. Input: numbered article titles from Bangla-language news sources covering Bangladesh economy and business, and international economic and financial affairs. Titles may be in Bengali script, transliteration, or mixed. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+PROMPT = """You are a strict news classification engine. Input: numbered article titles from news outlets and Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. Only English language titles will be considered. The bar is SUPER HIGH; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
-STEP 1 — INSTANT NOISE. Stop here if the title is any of:
-  Personal finance tips · individual company product launches or rebrands · celebrity business deals · lifestyle spending · business awards or rankings with no macro consequence · motivational or entrepreneurship advice · individual trader or investor profiles · local market price lists with no systemic implication · routine AGMs or dividend announcements of a single firm
+STEP 1 — INSTANT NOISE. Mark as NOISE immediately if the title is any of:
+  - Sports, entertainment, celebrity, lifestyle, human interest
+  - Tribute, commemorative, or anniversary pieces
+  - Praise or criticism of a person, party, or institution
+  - Any isolated or discrete incident: one arrest, one clash, one crime, one accident, one fire, one death, one protest at one location — no matter how dramatic the title sounds
+  - Anything affecting only one district, one institution, one community, or one individual
 
-STEP 2 — IS BANGLADESH DIRECTLY INVOLVED?
+STEP 2 — SCOPE CHECK.
 
-  YES → SIGNAL if:
-  a) National-scale economic condition: affects the economy as a whole or a major sector — trade, exports (especially garments, remittances), imports, inflation, currency and exchange rate, foreign reserves, banking sector health, NPL crisis, stock market structural developments, budget and fiscal policy, taxation, fuel and energy pricing, government borrowing, economic growth data. If the reach is nationwide or sector-wide, it is SIGNAL.
-  b) Foreign economic affairs: any substantive BD external development — bilateral trade deals or disputes, international loans or aid (IMF, World Bank, ADB), foreign direct investment decisions, trade access and GSP status, cross-border economic issues, sanctions or pressure with economic consequence, BD at international economic forums. If BD is a direct party, it is SIGNAL.
-  c) Editorial naming a concrete national-scale economic domain or condition → SIGNAL. Vague sentiment or general development optimism with no named domain → NOISE. Party economic promises or partisan praise → NOISE.
+  BANGLADESH: SIGNAL only if the event or decision affects the entire country or a nationally significant portion of it:
+  - Economic data or official decisions: central bank actions, national budget, trade figures, remittance data, fuel/utility price changes, foreign reserve status, currency moves, stock market circuit breakers, IMF/World Bank actions on BD
+  - Government or institutional actions at the national level: cabinet decisions, parliament acts, nationwide policy rollouts, supreme court rulings, election commission decisions
+  - Infrastructure or public systems at national scale: nationwide power outages, countrywide internet disruption, collapse of a national system (not one hospital, one road, one factory)
+  - Natural disasters or health emergencies declared at national or divisional scale (not one district)
+  - Foreign affairs: official bilateral talks, international sanctions or pressure on BD, cross-border agreements or disputes (Teesta, Rohingya, trade), BD at UN/IMF/WTO, foreign loans or aid formally approved
+  - Anything sub-national, sub-institutional, or about a single individual → NOISE
 
-  NO → SIGNAL if:
-  a) Multinational economic bodies acting collectively: IMF, World Bank, WTO, ADB, G7/G20, BRICS, OECD, BIS, FATF, regional development banks. Their decisions, findings, warnings, and interventions are SIGNAL by nature.
-  b) Multi-country economic events: global trade wars, coordinated sanctions, international commodity shocks (oil, gas, food), cross-border financial contagion, multilateral trade agreements, global debt crises.
-  c) Single-country economic decision with cross-border consequence — two types:
-     Immediate: directly moves something the global economy depends on (US Federal Reserve rate decisions, Chinese export controls on critical materials, OPEC+ production cuts, major sovereign debt defaults).
-     Strategic/slow-burn: shifts global economic power or supply chain architecture even without immediate surface effect — major industrial policy shifts by large economies, significant currency interventions, trade bloc restructuring, critical mineral dominance moves. Ask: does this change what is possible or threatened in the global economy?
-  All other single-country internal economic news with no cross-border consequence → NOISE.
+  INTERNATIONAL: SIGNAL only for concrete events with verified cross-border consequences:
+  - Active armed conflicts between states, or formal declarations of war or ceasefire
+  - Multinational body decisions: UN Security Council resolutions, IMF/World Bank program approvals, WTO rulings, NATO formal decisions, IAEA findings, ICC/ICJ verdicts
+  - Formal multilateral treaties signed or collapsed
+  - A single country's decision only if it moves something the world depends on immediately: global energy supply disruption, collapse of a major financial system, verified nuclear weapons development milestone, formal treaty withdrawal with immediate effect
+  - Internal politics, elections, leadership changes, and domestic policy of any single foreign country → NOISE unless the direct cross-border consequence is stated in the title itself
 
 WHEN IN DOUBT → NOISE.
 
-DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline.
-Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}.
-Valid JSON, no markdown, no explanation.
+Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
 
 EXAMPLES:
 
 Input:
-0. বাংলাদেশের বৈদেশিক মুদ্রার রিজার্ভ ২০ বিলিয়ন ডলারের নিচে নামল
-1. তরুণ উদ্যোক্তার সাফল্যের গল্প
-2. আইএমএফ বাংলাদেশকে ৪.৭ বিলিয়ন ডলার ঋণ অনুমোদন করল
-3. মার্কিন ফেডারেল রিজার্ভ সুদের হার অপরিবর্তিত রাখল
-4. ঢাকা স্টক এক্সচেঞ্জে সূচক ধারাবাহিক পতন
-5. অমুক কোম্পানির বার্ষিক সাধারণ সভা অনুষ্ঠিত
-6. পোশাক রফতানি ১২ শতাংশ কমেছে, বৈশ্বিক মন্দার প্রভাব
-7. উদ্যোক্তা হওয়ার দশটি সহজ উপায়
-8. বাংলাদেশ ব্যাংক ঋণের সুদের হার বাড়াল
-9. ওপেক+ উৎপাদন কমানোর সিদ্ধান্তে বৈশ্বিক তেলের বাজারে অস্থিরতা
-10. ভারত-চীন বাণিজ্য উত্তেজনায় বৈশ্বিক সরবরাহ শৃঙ্খলে চাপ
-11. বাংলাদেশ থেকে গ্যাস-সংকটে বিদ্যুৎ উৎপাদন বিপর্যস্ত
-12. বিশ্ব বাণিজ্য সংস্থায় বাংলাদেশের জিএসপি মর্যাদা পর্যালোচনা শুরু
-Output: {{"signal": [0, 2, 3, 4, 6, 8, 9, 10, 11, 12]}}
+0. US and China sign landmark trade agreement
+1. Premier League club sacks manager
+2. Bangladesh central bank raises interest rates amid inflation crisis
+3. UK Conservative Party elects new leader
+4. UN Security Council votes to deploy peacekeepers to Sudan
+5. The Promise of a New Bangladesh
+6. We Must Fix Bangladesh's Broken Irrigation System
+7. Bangladesh slashes fuel subsidies nationwide
+8. India arrests opposition leader
+9. Bangladesh foreign minister holds talks with India over Teesta water sharing
+10. US warns Bangladesh over labour rights ahead of GSP review
+11. China pledges $3bn infrastructure loan to Bangladesh, deal signed
+12. NATO formally approves expansion of eastern flank forces
+13. Student clash reported in Dhaka university campus
+14. Why Bangladesh's Economy Is at a Crossroads
+Output: {{"signal": [0, 2, 4, 7, 9, 10, 11, 12]}}
 
 Input:
-0. টাকার বিপরীতে ডলারের দাম রেকর্ড উচ্চতায়
-1. শেয়ারবাজারে বিনিয়োগের সেরা কৌশল
-2. বিশ্বব্যাংক বাংলাদেশে অবকাঠামো উন্নয়নে ২ বিলিয়ন ডলার দেবে
-3. জি-২০ দেশগুলো বৈশ্বিক ন্যূনতম কর চুক্তি চূড়ান্ত করল
-4. উন্নয়নের পথে বাংলাদেশ এগিয়ে যাচ্ছে
-5. বাংলাদেশের ব্যাংকিং খাতে খেলাপি ঋণ নতুন রেকর্ডে
-6. চীনের রফতানি নিয়ন্ত্রণে বৈশ্বিক সেমিকন্ডাক্টর সংকট গভীর হচ্ছে
-7. কোটিপতি ব্যবসায়ীর জীবনযাপনের গল্প
-8. বাংলাদেশে মূল্যস্ফীতি টানা ছয় মাস দুই অঙ্কে
-9. বাংলাদেশের পোশাক খাতে নতুন মজুরি কাঠামো ঘোষণা
-10. আইএমএফ বৈশ্বিক প্রবৃদ্ধির পূর্বাভাস কমাল
-11. ঢাকার একটি শপিং মলে নতুন শাখা খুলল বিদেশি ব্র্যান্ড
-Output: {{"signal": [0, 2, 3, 5, 6, 8, 9, 10]}}
+0. Pakistan and India exchange fire across Line of Control, casualties confirmed
+1. Dhaka garment workers strike shuts down hundreds of factories nationwide
+2. Australia holds federal election
+3. IMF formally approves $4.7bn loan for Bangladesh
+4. BNP's Path Forward After the Election
+5. How Microfinance Is Changing Lives in Sylhet
+6. The Geopolitics of the Indo-Pacific and What It Means for the World
+7. IAEA confirms Iran has enriched uranium to 84 percent purity
+8. Man arrested in Chattogram over murder
+9. Bangladesh foreign reserves fall below $20bn, taka hits record low
+10. Garment exports decline 12% in Q1, Bangladesh Bank reports
+11. ICC issues arrest warrant for sitting head of state
+12. Fire breaks out at Tejgaon factory, 3 killed
+13. Bangladesh parliament passes new cybersecurity law
+Output: {{"signal": [0, 1, 3, 7, 9, 10, 11, 13]}}
 
 Article titles:
 {titles}
 """
+
+BANGLA_PROMPT = """You are a strict news classification engine. Input: numbered article titles in Bengali script from Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. Only Bengali language titles will be considered. The bar is SUPER HIGH; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+
+STEP 1 — INSTANT NOISE. Mark as NOISE immediately if the title is any of:
+  - খেলাধুলা, বিনোদন, সেলিব্রিটি, লাইফস্টাইল, মানবিক আগ্রহের গল্প
+  - কোনো ব্যক্তি, দল বা প্রতিষ্ঠানের প্রশংসা বা সমালোচনা
+  - শ্রদ্ধাঞ্জলি, স্মরণ বা বার্ষিকী সংক্রান্ত লেখা
+  - যেকোনো বিচ্ছিন্ন ঘটনা: একটি গ্রেপ্তার, একটি সংঘর্ষ, একটি অপরাধ, একটি দুর্ঘটনা, একটি আগুন, একটি মৃত্যু, একটি স্থানে একটি বিক্ষোভ — শিরোনাম যতই নাটকীয় হোক না কেন
+  - শুধুমাত্র একটি জেলা, একটি প্রতিষ্ঠান, একটি সম্প্রদায় বা একজন ব্যক্তিকে প্রভাবিত করে এমন যেকোনো বিষয়
+
+STEP 2 — SCOPE CHECK.
+
+  বাংলাদেশ: SIGNAL শুধুমাত্র যদি ঘটনা বা সিদ্ধান্ত সমগ্র দেশ বা জাতীয়ভাবে গুরুত্বপূর্ণ একটি বড় অংশকে প্রভাবিত করে:
+  - অর্থনৈতিক তথ্য বা সরকারি সিদ্ধান্ত: কেন্দ্রীয় ব্যাংকের পদক্ষেপ, জাতীয় বাজেট, বাণিজ্য পরিসংখ্যান, রেমিট্যান্স তথ্য, জ্বালানি/ইউটিলিটি মূল্য পরিবর্তন, বৈদেশিক মুদ্রার রিজার্ভ, মুদ্রার মান, শেয়ারবাজারে সার্কিট ব্রেকার, IMF/বিশ্বব্যাংকের বাংলাদেশ-সংক্রান্ত পদক্ষেপ
+  - জাতীয় পর্যায়ে সরকার বা প্রতিষ্ঠানের পদক্ষেপ: মন্ত্রিসভার সিদ্ধান্ত, সংসদীয় আইন, দেশব্যাপী নীতি বাস্তবায়ন, সুপ্রিম কোর্টের রায়, নির্বাচন কমিশনের সিদ্ধান্ত
+  - জাতীয় স্কেলে অবকাঠামো বা পাবলিক সিস্টেম: দেশব্যাপী বিদ্যুৎ বিভ্রাট, দেশজুড়ে ইন্টারনেট বিঘ্ন, একটি জাতীয় ব্যবস্থার পতন (একটি হাসপাতাল, একটি রাস্তা বা একটি কারখানা নয়)
+  - জাতীয় বা বিভাগীয় স্তরে ঘোষিত প্রাকৃতিক দুর্যোগ বা স্বাস্থ্য জরুরি অবস্থা (একটি জেলা নয়)
+  - বৈদেশিক বিষয়: দ্বিপক্ষীয় আলোচনা, বাংলাদেশের উপর আন্তর্জাতিক চাপ বা নিষেধাজ্ঞা, সীমান্ত-অতিক্রান্ত চুক্তি বা বিরোধ (তিস্তা, রোহিঙ্গা, বাণিজ্য), UN/IMF/WTO-তে বাংলাদেশ, বিদেশী ঋণ বা সাহায্য আনুষ্ঠানিকভাবে অনুমোদিত
+  - উপ-জাতীয়, উপ-প্রতিষ্ঠানিক বা একজন ব্যক্তি সম্পর্কিত যেকোনো বিষয় → NOISE
+
+  আন্তর্জাতিক: SIGNAL শুধুমাত্র যাচাইযোগ্য সীমান্ত-অতিক্রান্ত পরিণতি সহ কংক্রিট ঘটনার জন্য:
+  - রাষ্ট্রগুলির মধ্যে সক্রিয় সশস্ত্র সংঘাত, বা যুদ্ধের আনুষ্ঠানিক ঘোষণা বা যুদ্ধবিরতি
+  - বহুজাতিক সংস্থার সিদ্ধান্ত: জাতিসংঘ নিরাপত্তা পরিষদের প্রস্তাব, IMF/বিশ্বব্যাংক কর্মসূচি অনুমোদন, WTO রায়, NATO আনুষ্ঠানিক সিদ্ধান্ত, IAEA-র ফলাফল, ICC/ICJ রায়
+  - আনুষ্ঠানিক বহুপাক্ষিক চুক্তি স্বাক্ষরিত বা ভেঙে পড়া
+  - একটি দেশের সিদ্ধান্ত শুধুমাত্র যদি তা বিশ্ব অর্থনীতিতে সরাসরি প্রভাব ফেলে: বৈশ্বিক জ্বালানি সরবরাহ বিঘ্ন, বড় আর্থিক ব্যবস্থার পতন, পারমাণবিক অস্ত্র উন্নয়নের যাচাইকৃত মাইলফলক, তাৎক্ষণিক কার্যকর প্রভাব সহ আনুষ্ঠানিক চুক্তি প্রত্যাহার
+  - যেকোনো একক বিদেশী দেশের অভ্যন্তরীণ রাজনীতি, নির্বাচন, নেতৃত্ব পরিবর্তন এবং গার্হস্থ্য নীতি → NOISE যদি না শিরোনামে সরাসরি সীমান্ত-অতিক্রান্ত পরিণতি উল্লেখ থাকে
+
+সন্দেহ হলে → NOISE।
+
+Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+
+EXAMPLES:
+
+Input:
+0. যুক্তরাষ্ট্র ও চীন ঐতিহাসিক বাণিজ্য চুক্তি স্বাক্ষর করেছে
+1. বাংলাদেশ ব্যাংক মূল্যস্ফীতি নিয়ন্ত্রণে সুদের হার বাড়াল
+2. ঢাকা বিশ্ববিদ্যালয়ে ছাত্র সংঘর্ষ
+3. জাতিসংঘ নিরাপত্তা পরিষদ সুদানে শান্তিরক্ষী মোতায়েনের পক্ষে ভোট দিয়েছে
+4. নতুন বাংলাদেশের প্রতিশ্রুতি
+5. বাংলাদেশ সারাদেশে জ্বালানি ভর্তুকি হ্রাস করল
+6. তিস্তা পানি বণ্টন নিয়ে বাংলাদেশের পররাষ্ট্রমন্ত্রীর ভারতের সঙ্গে আলোচনা
+7. কোনো একটি ক্লাবের কোচ বরখাস্ত
+8. যুক্তরাষ্ট্র জিএসপি পর্যালোচনার আগে শ্রম অধিকার নিয়ে বাংলাদেশকে সতর্ক করল
+9. চীন বাংলাদেশে ৩০০ কোটি ডলারের অবকাঠামো ঋণ দেওয়ার চুক্তি করল
+10. টেজগাঁওয়ের কারখানায় আগুন, ৩ নিহত
+11. বাংলাদেশ সংসদে নতুন সাইবার নিরাপত্তা আইন পাস
+Output: {{"signal": [0, 1, 3, 5, 6, 8, 9, 11]}}
+
+Input:
+0. পাকিস্তান ও ভারত নিয়ন্ত্রণ রেখায় গোলাগুলি, হতাহতের খবর নিশ্চিত
+1. ঢাকার পোশাকশ্রমিকদের ধর্মঘটে শত শত কারখানা বন্ধ
+2. আইএমএফ বাংলাদেশে ৪৭০ কোটি ডলার ঋণ আনুষ্ঠানিকভাবে অনুমোদন করেছে
+3. বিএনপির ভবিষ্যৎ পথচলা
+4. সিলেটে ক্ষুদ্রঋণ কীভাবে জীবন বদলাচ্ছে
+5. IAEA নিশ্চিত করেছে ইরান ৮৪ শতাংশ বিশুদ্ধতায় ইউরেনিয়াম সমৃদ্ধ করেছে
+6. চট্টগ্রামে হত্যা মামলায় এক ব্যক্তি গ্রেপ্তার
+7. বাংলাদেশের বৈদেশিক মুদ্রার রিজার্ভ ২০০ কোটি ডলারের নিচে, টাকার রেকর্ড পতন
+8. প্রথম প্রান্তিকে পোশাক রপ্তানি ১২ শতাংশ কমেছে, বাংলাদেশ ব্যাংকের প্রতিবেদন
+9. ICC কোনো দেশের বর্তমান রাষ্ট্রপ্রধানের বিরুদ্ধে গ্রেপ্তারি পরোয়ানা জারি করেছে
+10. বাংলাদেশ সংসদে নতুন সাইবার নিরাপত্তা আইন পাস
+Output: {{"signal": [0, 1, 2, 5, 7, 8, 9, 10]}}
+
+Article titles:
+{titles}
+"""
+
+DEDUP_PROMPT = """You are a news deduplication engine. Identify groups of titles covering the same story. For each group keep only the lowest index, discard the rest. Distinct topics must all be kept.
+
+Return only the 0-based indices to KEEP as a JSON array of integers. No markdown, no preamble.
+
+Article titles:
+{titles}"""
 
 # -- CONSTANTS -----------------------------------------------------------------
 
@@ -534,23 +630,56 @@ def extract_json_object(text):
     return result
 
 
+def is_bangla_title(title):
+    """Return True if the title contains Bengali Unicode characters."""
+    if not title:
+        return False
+    return any('\u0980' <= ch <= '\u09FF' for ch in title)
+
+
 def send_to_mistral(articles):
     api_key = os.environ.get("MS")
     if not api_key or not articles:
         return []
 
     try:
-        client      = Mistral(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
+        client = Mistral(api_key=api_key)
 
-        response = client.chat.complete(
-            model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
-            response_format={"type": "json_object"},
-        )
+        # Split articles into Bangla and English by index
+        bangla_indices  = [i for i, a in enumerate(articles) if is_bangla_title(a.get("title", ""))]
+        english_indices = [i for i, a in enumerate(articles) if not is_bangla_title(a.get("title", ""))]
 
-        text = response.choices[0].message.content or ""
-        return extract_json_object(text).get("signal", [])
+        signal_indices = []
+
+        # Classify Bangla batch
+        if bangla_indices:
+            bangla_articles    = [articles[i] for i in bangla_indices]
+            bangla_titles_text = "\n".join([f"{j}. {a.get('title', '')}" for j, a in enumerate(bangla_articles)])
+            bangla_response    = client.chat.complete(
+                model=MISTRAL_MODEL,
+                messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=bangla_titles_text)}],
+                response_format={"type": "json_object"},
+            )
+            bangla_text    = bangla_response.choices[0].message.content or ""
+            bangla_local   = extract_json_object(bangla_text).get("signal", [])
+            # Map local indices back to original indices
+            signal_indices += [bangla_indices[j] for j in bangla_local if 0 <= j < len(bangla_indices)]
+
+        # Classify English batch
+        if english_indices:
+            english_articles    = [articles[i] for i in english_indices]
+            english_titles_text = "\n".join([f"{j}. {a.get('title', '')}" for j, a in enumerate(english_articles)])
+            english_response    = client.chat.complete(
+                model=MISTRAL_MODEL,
+                messages=[{"role": "user", "content": PROMPT.format(titles=english_titles_text)}],
+                response_format={"type": "json_object"},
+            )
+            english_text    = english_response.choices[0].message.content or ""
+            english_local   = extract_json_object(english_text).get("signal", [])
+            # Map local indices back to original indices
+            signal_indices += [english_indices[j] for j in english_local if 0 <= j < len(english_indices)]
+
+        return sorted(signal_indices)
 
     except Exception as e:
         print(f"Mistral classification error: {e}")
@@ -560,7 +689,7 @@ def send_to_mistral(articles):
 def normalize_title_for_dedup(title):
     title = (title or "").lower().strip()
     title = re.sub(r"https?://\S+", " ", title)
-    title = re.sub(r"[^a-z0-9]+", " ", title)
+    title = re.sub(r"[^a-z0-9\u0980-\u09FF]+", " ", title)
     tokens = [t for t in title.split() if t not in {
         "a", "an", "the", "of", "in", "on", "for", "to", "from", "by", "with",
         "and", "or", "at", "as", "is", "are", "was", "were", "be", "been",
