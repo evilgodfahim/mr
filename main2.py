@@ -47,7 +47,11 @@ FEED_URLS = [
     "https://evilgodfahim.github.io/kal/articles.xml",
     "https://evilgodfahim.github.io/bb-rss/feed.xml",
     "https://evilgodfahim.github.io/pade/output/articles.xml",
-    "https://evilgodfahim.github.io/pade/output/articles_2.xml"
+    "https://evilgodfahim.github.io/pade/output/articles_2.xml",
+
+"https://evilgodfahim.github.io/dstar/feeds/bangla_feed.xml",
+
+"https://evilgodfahim.github.io/dt/bangla.xml" 
 ]
 
 EXISTING_API_FEEDS = {
@@ -63,7 +67,11 @@ EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/kal/articles.xml",
     "https://evilgodfahim.github.io/bb-rss/feed.xml",
     "https://evilgodfahim.github.io/pade/output/articles.xml",
-    "https://evilgodfahim.github.io/pade/output/articles_2.xml"
+    "https://evilgodfahim.github.io/pade/output/articles_2.xml",
+
+"https://evilgodfahim.github.io/dstar/feeds/bangla_feed.xml",
+
+"https://evilgodfahim.github.io/dt/bangla.xml"
 }
 
 KL_API_FEEDS = set()
