@@ -46,10 +46,8 @@ FEED_URLS = [
     "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
     "https://evilgodfahim.github.io/kal/articles.xml",
     "https://evilgodfahim.github.io/bb-rss/feed.xml",
-
-"https://evilgodfahim.github.io/pade/output/articles.xml",
-
-"https://evilgodfahim.github.io/pade/output/articles_2.xml"
+    "https://evilgodfahim.github.io/pade/output/articles.xml",
+    "https://evilgodfahim.github.io/pade/output/articles_2.xml"
 ]
 
 EXISTING_API_FEEDS = {
@@ -64,10 +62,8 @@ EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
     "https://evilgodfahim.github.io/kal/articles.xml",
     "https://evilgodfahim.github.io/bb-rss/feed.xml",
-
-"https://evilgodfahim.github.io/pade/output/articles.xml",
-
-"https://evilgodfahim.github.io/pade/output/articles_2.xml"
+    "https://evilgodfahim.github.io/pade/output/articles.xml",
+    "https://evilgodfahim.github.io/pade/output/articles_2.xml"
 }
 
 KL_API_FEEDS = set()
@@ -92,30 +88,30 @@ RETENTION_DAYS        = 10
 BANGLA_PROMPT = """You are a strict news classification engine. Input: numbered article titles in Bengali script from Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. Only Bengali language titles will be considered. The bar is SUPER HIGH; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Mark as NOISE immediately if the title is any of:
-  - খেলাধুলা, বিনোদন, সেলিব্রিটি, লাইফস্টাইল, মানবিক আগ্রহের গল্প
-  - কোনো ব্যক্তি, দল বা প্রতিষ্ঠানের প্রশংসা বা সমালোচনা
-  - শ্রদ্ধাঞ্জলি, স্মরণ বা বার্ষিকী সংক্রান্ত লেখা
-  - যেকোনো বিচ্ছিন্ন ঘটনা: একটি গ্রেপ্তার, একটি সংঘর্ষ, একটি অপরাধ, একটি দুর্ঘটনা, একটি আগুন, একটি মৃত্যু, একটি স্থানে একটি বিক্ষোভ — শিরোনাম যতই নাটকীয় হোক না কেন
-  - শুধুমাত্র একটি জেলা, একটি প্রতিষ্ঠান, একটি সম্প্রদায় বা একজন ব্যক্তিকে প্রভাবিত করে এমন যেকোনো বিষয়
+  - sports, entertainment, celebrities, lifestyle, or human-interest stories
+  - any praise or criticism of a person, group, or institution
+  - tributes, memorials, or anniversary pieces
+  - any isolated event: one arrest, one clash, one crime, one accident, one fire, one death, one protest in one place — no matter how dramatic the headline sounds
+  - anything affecting only one district, one institution, one community, or one person
 
 STEP 2 — SCOPE CHECK.
 
-  বাংলাদেশ: SIGNAL শুধুমাত্র যদি ঘটনা বা সিদ্ধান্ত সমগ্র দেশ বা জাতীয়ভাবে গুরুত্বপূর্ণ একটি বড় অংশকে প্রভাবিত করে:
-  - অর্থনৈতিক তথ্য বা সরকারি সিদ্ধান্ত: কেন্দ্রীয় ব্যাংকের পদক্ষেপ, জাতীয় বাজেট, বাণিজ্য পরিসংখ্যান, রেমিট্যান্স তথ্য, জ্বালানি/ইউটিলিটি মূল্য পরিবর্তন, বৈদেশিক মুদ্রার রিজার্ভ, মুদ্রার মান, শেয়ারবাজারে সার্কিট ব্রেকার, IMF/বিশ্বব্যাংকের বাংলাদেশ-সংক্রান্ত পদক্ষেপ
-  - জাতীয় পর্যায়ে সরকার বা প্রতিষ্ঠানের পদক্ষেপ: মন্ত্রিসভার সিদ্ধান্ত, সংসদীয় আইন, দেশব্যাপী নীতি বাস্তবায়ন, সুপ্রিম কোর্টের রায়, নির্বাচন কমিশনের সিদ্ধান্ত
-  - জাতীয় স্কেলে অবকাঠামো বা পাবলিক সিস্টেম: দেশব্যাপী বিদ্যুৎ বিভ্রাট, দেশজুড়ে ইন্টারনেট বিঘ্ন, একটি জাতীয় ব্যবস্থার পতন (একটি হাসপাতাল, একটি রাস্তা বা একটি কারখানা নয়)
-  - জাতীয় বা বিভাগীয় স্তরে ঘোষিত প্রাকৃতিক দুর্যোগ বা স্বাস্থ্য জরুরি অবস্থা (একটি জেলা নয়)
-  - বৈদেশিক বিষয়: দ্বিপক্ষীয় আলোচনা, বাংলাদেশের উপর আন্তর্জাতিক চাপ বা নিষেধাজ্ঞা, সীমান্ত-অতিক্রান্ত চুক্তি বা বিরোধ (তিস্তা, রোহিঙ্গা, বাণিজ্য), UN/IMF/WTO-তে বাংলাদেশ, বিদেশী ঋণ বা সাহায্য আনুষ্ঠানিকভাবে অনুমোদিত
-  - উপ-জাতীয়, উপ-প্রতিষ্ঠানিক বা একজন ব্যক্তি সম্পর্কিত যেকোনো বিষয় → NOISE
+  Bangladesh: SIGNAL only if the event or decision affects the whole country or a large nationally important segment:
+  - economic data or government decisions: central bank actions, national budget, trade figures, remittance data, energy or utility price changes, foreign exchange reserves, currency value, stock market circuit breaker, IMF/World Bank actions related to Bangladesh
+  - national-level government or institutional actions: cabinet decisions, parliamentary laws, nationwide policy implementation, Supreme Court rulings, Election Commission decisions
+  - nationwide infrastructure or public system issues: countrywide power outage, nationwide internet disruption, collapse of a national system (not a single hospital, road, or factory)
+  - nationally or divisionaly declared natural disasters or health emergencies (not a district-level event)
+  - foreign affairs: bilateral talks, international pressure or sanctions on Bangladesh, cross-border agreements or disputes (Teesta, Rohingya, trade), Bangladesh at the UN/IMF/WTO, foreign loans or aid formally approved
+  - anything subnational, sub-institutional, or about one person → NOISE
 
-  আন্তর্জাতিক: SIGNAL শুধুমাত্র যাচাইযোগ্য সীমান্ত-অতিক্রান্ত পরিণতি সহ কংক্রিট ঘটনার জন্য:
-  - রাষ্ট্রগুলির মধ্যে সক্রিয় সশস্ত্র সংঘাত, বা যুদ্ধের আনুষ্ঠানিক ঘোষণা বা যুদ্ধবিরতি
-  - বহুজাতিক সংস্থার সিদ্ধান্ত: জাতিসংঘ নিরাপত্তা পরিষদের প্রস্তাব, IMF/বিশ্বব্যাংক কর্মসূচি অনুমোদন, WTO রায়, NATO আনুষ্ঠানিক সিদ্ধান্ত, IAEA-র ফলাফল, ICC/ICJ রায়
-  - আনুষ্ঠানিক বহুপাক্ষিক চুক্তি স্বাক্ষরিত বা ভেঙে পড়া
-  - একটি দেশের সিদ্ধান্ত শুধুমাত্র যদি তা বিশ্ব অর্থনীতিতে সরাসরি প্রভাব ফেলে: বৈশ্বিক জ্বালানি সরবরাহ বিঘ্ন, বড় আর্থিক ব্যবস্থার পতন, পারমাণবিক অস্ত্র উন্নয়নের যাচাইকৃত মাইলফলক, তাৎক্ষণিক কার্যকর প্রভাব সহ আনুষ্ঠানিক চুক্তি প্রত্যাহার
-  - যেকোনো একক বিদেশী দেশের অভ্যন্তরীণ রাজনীতি, নির্বাচন, নেতৃত্ব পরিবর্তন এবং গার্হস্থ্য নীতি → NOISE যদি না শিরোনামে সরাসরি সীমান্ত-অতিক্রান্ত পরিণতি উল্লেখ থাকে
+  International: SIGNAL only for concrete events with verifiable cross-border consequences:
+  - active armed conflict between states, or an official declaration of war or ceasefire
+  - decisions by multinational bodies: UN Security Council resolutions, IMF/World Bank program approvals, WTO rulings, NATO formal decisions, IAEA findings, ICC/ICJ judgments
+  - formal multilateral treaties signed or broken down
+  - a country's decision only if it directly affects the world economy: global energy supply disruption, collapse of a major financial system, verified milestones in nuclear weapons development, formal treaty withdrawal with immediate effect
+  - any single foreign country's domestic politics, elections, leadership changes, and internal policies → NOISE unless the headline explicitly mentions cross-border consequences
 
-সন্দেহ হলে → NOISE।
+When in doubt → NOISE.
 
 Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
 
@@ -177,7 +173,7 @@ STATS = {
     "total_new":             0,
     "total_signal_mistral":  0,
     "total_signal":          0,
-    "total_signal_deduped":  0,
+    "total_signal_deduped":   0,
     "timestamp":             None,
 }
 
