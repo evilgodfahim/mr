@@ -20,6 +20,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime, format_datetime
 from pathlib import Path
+from mistralai.client import Mistral
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -40,7 +41,7 @@ FEED_PAIRS = [
 
 HOURS_WINDOW = 26
 BD_TZ        = timezone(timedelta(hours=6))  # +0600 Bangladesh Time
-DEDUP_MODEL  = "gemini-2.5-flash"
+DEDUP_MODEL  = "mistral-large-latest"
 
 DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
 Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
@@ -199,19 +200,19 @@ def deduplicate_missing(
 ) -> list[ET.Element]:
     """
     Build a combined title list: local_recent titles first (anchors), then
-    missing titles. Send to Gemini dedup. Return only the missing items whose
+    missing titles. Send to Mistral dedup. Return only the missing items whose
     combined indices survived.
 
-    Index layout passed to Gemini:
+    Index layout passed to Mistral:
       0 … len(local_recent)-1   → existing local 26h items (anchors)
       len(local_recent) … end   → incoming missing items
 
     Any missing item whose combined index is NOT in keep_indices is a near-
     duplicate of something already in the local XML and gets dropped.
     """
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("MS")
     if not api_key:
-        print("    [WARN] GEMINI_API_KEY not set — skipping title dedup.")
+        print("    [WARN] MS not set — skipping title dedup.")
         return missing
 
     anchor_count = len(local_recent)
@@ -222,14 +223,24 @@ def deduplicate_missing(
     )
 
     try:
-        from google import genai
-        client   = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
+        client = Mistral(api_key=api_key)
+        response = client.chat.complete(
             model=DEDUP_MODEL,
-            contents=DEDUP_PROMPT.format(titles=titles_text),
-            config={"response_mime_type": "application/json"},
+            messages=[
+                {
+                    "role": "user",
+                    "content": DEDUP_PROMPT.format(titles=titles_text),
+                }
+            ],
+            response_format={"type": "json_object"},
         )
-        raw = getattr(response, "text", "") or ""
+
+        raw = ""
+        try:
+            raw = response.choices[0].message.content or ""
+        except Exception:
+            raw = str(response)
+
         raw = raw.replace("```json", "").replace("```", "").strip()
 
         keep_indices = None
@@ -237,6 +248,12 @@ def deduplicate_missing(
             parsed = json.loads(raw)
             if isinstance(parsed, list):
                 keep_indices = [i for i in parsed if isinstance(i, int) and 0 <= i < len(combined)]
+            elif isinstance(parsed, dict):
+                for key in ("keep_indices", "indices", "keep"):
+                    value = parsed.get(key)
+                    if isinstance(value, list):
+                        keep_indices = [i for i in value if isinstance(i, int) and 0 <= i < len(combined)]
+                        break
         except Exception:
             pass
 
@@ -252,7 +269,7 @@ def deduplicate_missing(
                     pass
 
         if keep_indices is None:
-            print("    [WARN] Dedup: could not parse Gemini response — keeping all missing items.")
+            print("    [WARN] Dedup: could not parse Mistral response — keeping all missing items.")
             return missing
 
         # Only care about indices that fall in the missing slice
@@ -331,7 +348,7 @@ def process_pair(remote_url: str, local_file: str, label: str) -> None:
     local_recent = collect_recent_local_items(local_channel, HOURS_WINDOW)
     print(f"  Local items in 26h window   : {len(local_recent)}  (dedup anchors)")
 
-    # Title-level dedup via Gemini
+    # Title-level dedup via Mistral
     missing = deduplicate_missing(missing, local_recent)
     print(f"  Items after title-dedup     : {len(missing)}")
     if not missing:
