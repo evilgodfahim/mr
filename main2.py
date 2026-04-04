@@ -37,11 +37,15 @@ except Exception:
 FEED_URLS = [
     "https://evilgodfahim.github.io/bdlb/final.xml",
     "https://evilgodfahim.github.io/bint/final.xml",
+
+"https://evilgodfahim.github.io/bdcdb/curated_feed.xml"
 ]
 
 EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/bdlb/final.xml",
-    "https://evilgodfahim.github.io/bint/final.xml"
+    "https://evilgodfahim.github.io/bint/final.xml",
+
+"https://evilgodfahim.github.io/bdcdb/curated_feed.xml"
 }
 
 KL_API_FEEDS = set()
