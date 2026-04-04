@@ -6260,5 +6260,773 @@
     "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
     "thumbnail": "https://outspoken.newagebd.com/files/img/202604/3647939864f51a76daced64aa1069fa5_medium.jpg",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/world/usa/news/trump-orders-new-pharma-tariff-reshapes-metal-duties-4142886",
+    "title": "Trump orders new pharma tariff Reshapes metal duties",
+    "link": "https://www.thedailystar.net/news/world/usa/news/trump-orders-new-pharma-tariff-reshapes-metal-duties-4142886",
+    "description": "<b>Importance:</b> 54.6 | <b>Covered by:</b> 5 feeds | <b>Reputation:</b> 9.2<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.newagebd.net/post/trade-commerce/295668/trump-orders-new-pharma-tariff-reshapes-metal-duties\">Trump orders new pharma tariff, reshapes metal duties</a><br />- <a href=\"https://bdnews24.com/business/f8d1b4153e9b\">Trump sets new drug tariffs, adjusts metals duties</a><br />- <a href=\"https://www.tbsnews.net/world/year-after-liberation-day-trump-sets-new-drug-tariffs-adjusts-metals-duties-1401441\">A year after 'Liberation Day,' Trump sets new drug tariffs, adjusts metals duties</a><br />- <a href=\"https://www.theguardian.com/us-news/2026/apr/02/trump-100-tariff-us-pharmaceutical-drug-makers\">Trump threatens 100% tariff on US drug makers that don’t strike deals to lower prices</a>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/aviation/news/bangladesh-japan-advance-dhaka-airport-third-terminal-negotiations-fresh-high-level-talks-4142586",
+    "title": "Bangladesh, Japan advance Dhaka airport third terminal negotiations at fresh high-level talks",
+    "link": "https://www.thedailystar.net/business/economy/aviation/news/bangladesh-japan-advance-dhaka-airport-third-terminal-negotiations-fresh-high-level-talks-4142586",
+    "description": "<b>Importance:</b> 44.8 | <b>Covered by:</b> 4 feeds | <b>Reputation:</b> 9.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://today.thefinancialexpress.com.bd/first-page/dhaka-tokyo-move-closer-to-deal-1775239809\">Dhaka, Tokyo move closer to deal</a><br />- <a href=\"https://dailynewnation.com/news/816787\">Dhaka airport third terminal: Bangladesh, Japan advance negotiations at fresh high-level talks</a><br />- <a href=\"https://www.tbsnews.net/bangladesh/bangladesh-japan-discuss-dhaka-airports-third-terminal-operation-deal-yet-be-finalised\">Bangladesh, Japan discuss Dhaka airport's third terminal operation; deal yet to be finalised</a>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/news/bangladeshs-exports-fall-eighth-consecutive-month-4141921",
+    "title": "Bangladesh’s exports fall for eighth consecutive month",
+    "link": "https://www.thedailystar.net/business/news/bangladeshs-exports-fall-eighth-consecutive-month-4141921",
+    "description": "<b>Importance:</b> 44.6 | <b>Covered by:</b> 4 feeds | <b>Reputation:</b> 9.2<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.newagebd.net/post/trade-commerce/295596/exports-fall-for-eighth-month\">Exports fall for eighth month</a><br />- <a href=\"https://www.dhakatribune.com/business/406805/export-earnings-continue-to-fall-drops-by-18%25-in\">Export earnings continue to fall, drops by 18% in March</a><br />- <a href=\"https://tob.news/exports-slump-18-in-march/\">Exports slump 18% in March</a>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/corporates/wfp-launches-new-food-support-approach-rohingya-refugees-1401471",
+    "title": "WFP launches new food support approach for Rohingya refugees",
+    "link": "https://www.tbsnews.net/economy/corporates/wfp-launches-new-food-support-approach-rohingya-refugees-1401471",
+    "description": "<b>Importance:</b> 25.2 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 10.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.newagebd.net/post/foreign-affairs/295620/wfp-adopts-needs-based-food-aid-for-rohingyas\">WFP adopts needs-based food aid for Rohingyas</a>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/bangladesh/march-remittance-hits-record-375b",
+    "title": "March remittance hits record $3.75b",
+    "link": "https://thefinancialexpress.com.bd/economy/bangladesh/march-remittance-hits-record-375b",
+    "description": "<b>Importance:</b> 25.2 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 10.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://bdnews24.com/economy/e1c6354c6fbc\">March remittance hits record $3.75bn</a>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.newagebd.net/post/economy/295649/me-war-pushes-food-prices-higher-fao",
+    "title": "ME war pushes food prices higher: FAO",
+    "link": "https://www.newagebd.net/post/economy/295649/me-war-pushes-food-prices-higher-fao",
+    "description": "<b>Importance:</b> 22.5 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 5.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/world/866601/world-food-price-rise-set-to-continue-if-iran-war-lasts-fao\">World food price rise set to continue if Iran war lasts: FAO</a>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/global-economy/brent-crude-stay-high-short-term-decline-sharply-h2-2026-eia-1401541",
+    "title": "Brent crude to stay high short term, decline sharply in H2 2026: EIA",
+    "link": "https://www.tbsnews.net/world/global-economy/brent-crude-stay-high-short-term-decline-sharply-h2-2026-eia-1401541",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/corporates/city-bank-undp-sign-mou-boost-climate-finance-1401456",
+    "title": "City Bank, UNDP sign MoU to boost climate finance",
+    "link": "https://www.tbsnews.net/economy/corporates/city-bank-undp-sign-mou-boost-climate-finance-1401456",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/aviation/17-flights-cancelled-ctg-airport-two-days-239-middle-east-war-beginning-1401461",
+    "title": "17 flights cancelled at Ctg airport in two days; 239 since Middle East war beginning",
+    "link": "https://www.tbsnews.net/economy/aviation/17-flights-cancelled-ctg-airport-two-days-239-middle-east-war-beginning-1401461",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/extra-tk-45b-sought-to-foot-bloated-lng-import-bills-only-for-april",
+    "title": "Extra Tk 45b sought to foot bloated LNG-import bills only for April",
+    "link": "https://thefinancialexpress.com.bd/economy/extra-tk-45b-sought-to-foot-bloated-lng-import-bills-only-for-april",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://bdnews24.com/business/f8385c39bcd2",
+    "title": "Oil prices jump after Trump vows more Iran attacks",
+    "link": "https://bdnews24.com/business/f8385c39bcd2",
+    "description": "<b>Importance:</b> 15.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 10.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://en.prothomalo.com/business/local/ddiznkkw29",
+    "title": "NBR data: Bangladesh’s goods exports fall nearly 20pc in March",
+    "link": "https://en.prothomalo.com/business/local/ddiznkkw29",
+    "description": "<b>Importance:</b> 14.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 8.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://scour.ing/redirect/https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fcrude-above-100-will-push-inflation-beyond-6-trigger-rate-hikes-hsbc%2F20260403.htm",
+    "title": "Crude above $100 will push inflation beyond 6%, trigger rate hikes: HSBC",
+    "link": "https://scour.ing/redirect/https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fcrude-above-100-will-push-inflation-beyond-6-trigger-rate-hikes-hsbc%2F20260403.htm",
+    "description": "<b>Importance:</b> 10.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 1.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.businessinsider.com/us-economy-oil-inflation-recession-iran-war-supply-chain-disruptions-2026-4",
+    "title": "3 predictions for how Iran-war supply-chain disruptions will impact the US economy",
+    "link": "https://www.businessinsider.com/us-economy-oil-inflation-recession-iran-war-supply-chain-disruptions-2026-4",
+    "description": "<b>Importance:</b> 10.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 1.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://scour.ing/redirect/https%3A%2F%2Fwww.businessinsider.com%2Fus-economy-oil-inflation-recession-iran-war-supply-chain-disruptions-2026-4?utm_source=rss\">Recession, stagflation, growth: 3 ways Iran supply chain chaos will hit the US economy</a>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://scour.ing/redirect/https%3A%2F%2Fwww.scmp.com%2Fweek-asia%2Feconomics%2Farticle%2F3348911%2Findonesia-rebalances-energy-policy-iran-war-spurs-new-projects",
+    "title": "Indonesia rebalances energy policy as Iran war spurs new projects",
+    "link": "https://scour.ing/redirect/https%3A%2F%2Fwww.scmp.com%2Fweek-asia%2Feconomics%2Farticle%2F3348911%2Findonesia-rebalances-energy-policy-iran-war-spurs-new-projects",
+    "description": "<b>Importance:</b> 10.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 1.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/866584/rmg-stakeholders-call-for-urgent-energy-transition-as-era-of-cheap-power-ends",
+    "title": "RMG stakeholders call for urgent energy transition as ‘era of cheap power’ ends",
+    "link": "https://www.daily-sun.com/business/866584/rmg-stakeholders-call-for-urgent-energy-transition-as-era-of-cheap-power-ends",
+    "description": "<b>Importance:</b> 10.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 1.0",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/iran-shoots-down-us-fighter-jet-one-pilot-rescued-media-say",
+    "title": "Iran shoots down US fighter jet, one pilot rescued, media say",
+    "link": "https://thefinancialexpress.com.bd/world/iran-shoots-down-us-fighter-jet-one-pilot-rescued-media-say",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/russia-china-france-veto-arab-plan-use-force-reopen-hormuz-1401751",
+    "title": "Russia, China, France veto Arab plan to use force to reopen Hormuz",
+    "link": "https://www.tbsnews.net/world/russia-china-france-veto-arab-plan-use-force-reopen-hormuz-1401751",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/america/us-experts-say-american-strikes-on-iran-may-amount-to-war-crimes",
+    "title": "US experts say American strikes on Iran may amount to war crimes",
+    "link": "https://thefinancialexpress.com.bd/world/america/us-experts-say-american-strikes-on-iran-may-amount-to-war-crimes",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/trump-threatens-to-strike-irans-bridges-and-electric-power-plants/182816",
+    "title": "Trump threatens to strike Iran's bridges and electric power plants",
+    "link": "https://unb.com.bd/category/World/trump-threatens-to-strike-irans-bridges-and-electric-power-plants/182816",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/drone-attack-damages-kuwait-oil-refinery-1401606",
+    "title": "Drone attack damages Kuwait oil refinery",
+    "link": "https://www.tbsnews.net/world/drone-attack-damages-kuwait-oil-refinery-1401606",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/iran-warns-un-security-council-against-provocative-action-hormuz-1401631",
+    "title": "Iran warns UN Security Council against 'provocative action' on Hormuz",
+    "link": "https://www.tbsnews.net/world/iran-warns-un-security-council-against-provocative-action-hormuz-1401631",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.scmp.com/news/world/middle-east/article/3348961/israel-strikes-over-3500-lebanon-targets-month-says-military",
+    "title": "Israel strikes over 3,500 Lebanon targets in month with 1,000 militants dead: military",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3348961/israel-strikes-over-3500-lebanon-targets-month-says-military",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/israel-under-fire-trump-warns-destroying-iranian-infrastructure-1401666",
+    "title": "Israel under fire as Trump warns of destroying Iranian infrastructure",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/israel-under-fire-trump-warns-destroying-iranian-infrastructure-1401666",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://asiatimes.com/2026/04/defenses-not-annihilated-iran-reportedly-downs-two-us-planes/",
+    "title": "Defenses not ‘annihilated,’ Iran reportedly downs two US planes",
+    "link": "https://asiatimes.com/2026/04/defenses-not-annihilated-iran-reportedly-downs-two-us-planes/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/pakistan-raises-diesel-rates-54-hikes-petrol-nearly-43-amid-us-iran-war-1401936",
+    "title": "Pakistan raises diesel rates by 54%, hikes petrol nearly by 43% amid US-Iran war",
+    "link": "https://www.tbsnews.net/world/pakistan-raises-diesel-rates-54-hikes-petrol-nearly-43-amid-us-iran-war-1401936",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/un-to-vote-on-hormuz-resolution-as-china-opposes-authorisation-of-force",
+    "title": "UN to vote on Hormuz resolution, China opposes use of force",
+    "link": "https://thefinancialexpress.com.bd/world/un-to-vote-on-hormuz-resolution-as-china-opposes-authorisation-of-force",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/4/3/israel-threatens-to-destroy-more-lebanon-bridges-as-crisis-mounts?traffic_source=rss",
+    "title": "Israel threatens to destroy more Lebanon bridges as crisis mounts",
+    "link": "https://www.aljazeera.com/news/2026/4/3/israel-threatens-to-destroy-more-lebanon-bridges-as-crisis-mounts?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/4/3/iran-war-what-is-happening-on-day-35-of-us-israeli-attacks?traffic_source=rss",
+    "title": "Iran war: What is happening on day 35 of US-Israeli attacks?",
+    "link": "https://www.aljazeera.com/news/2026/4/3/iran-war-what-is-happening-on-day-35-of-us-israeli-attacks?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/4/3/iran-vows-retaliation-after-deadly-us-strike-on-bridge-in-karaj?traffic_source=rss",
+    "title": "Iran vows retaliation after deadly US strike on bridge in Karaj",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/4/3/iran-vows-retaliation-after-deadly-us-strike-on-bridge-in-karaj?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/5-indians-among-12-injured-in-abu-dhabi-during-aerial-interception-as-iran-vows-retaliatory-strikes-101775218832963.html",
+    "title": "5 Indians among 12 injured in Abu Dhabi during aerial interception as Iran vows retaliatory strikes",
+    "link": "https://www.hindustantimes.com/world-news/5-indians-among-12-injured-in-abu-dhabi-during-aerial-interception-as-iran-vows-retaliatory-strikes-101775218832963.html",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/14-dead-as-russia-launches-new-daytime-attacks-on-ukraine/article70821399.ece",
+    "title": "14 dead as Russia launches new daytime attacks on Ukraine",
+    "link": "https://www.thehindu.com/news/international/14-dead-as-russia-launches-new-daytime-attacks-on-ukraine/article70821399.ece",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/4/3/at-least-one-killed-at-uaes-habshan-gas-facility-after-intercepted-attack?traffic_source=rss",
+    "title": "At least one killed at UAE’s Habshan gas facility after intercepted attack",
+    "link": "https://www.aljazeera.com/news/2026/4/3/at-least-one-killed-at-uaes-habshan-gas-facility-after-intercepted-attack?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/china-says-peace-talks-advance-between-afghanistan-and-pakistan",
+    "title": "China says peace talks advance between Afghanistan and Pakistan",
+    "link": "https://thefinancialexpress.com.bd/world/china-says-peace-talks-advance-between-afghanistan-and-pakistan",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.com/news/articles/cly0zp1xgz3o?at_medium=RSS&at_campaign=rss",
+    "title": "Burkina Faso must 'forget' about democracy, military leader says",
+    "link": "https://www.bbc.com/news/articles/cly0zp1xgz3o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/4/3/trump-says-with-more-time-us-can-take-the-oil-in-iran?traffic_source=rss",
+    "title": "Trump says with more time, US can ‘take the oil’ in Iran",
+    "link": "https://www.aljazeera.com/news/2026/4/3/trump-says-with-more-time-us-can-take-the-oil-in-iran?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/kuwait-oil-refinery-units-on-fire-after-drone-attack-state-media/article70818784.ece",
+    "title": "Kuwait oil refinery units on fire after drone attack: state media",
+    "link": "https://www.thehindu.com/news/international/kuwait-oil-refinery-units-on-fire-after-drone-attack-state-media/article70818784.ece",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/4/3/more-than-20-attacks-on-iranian-healthcare-facilities-since-march-1-who?traffic_source=rss",
+    "title": "More than 20 attacks on Iranian healthcare facilities since March 1: WHO",
+    "link": "https://www.aljazeera.com/news/2026/4/3/more-than-20-attacks-on-iranian-healthcare-facilities-since-march-1-who?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/trump-says-us-can-take-strait-of-hormuz-with-more-time/article70819945.ece",
+    "title": "Trump says U.S. can take Strait of Hormuz with more time",
+    "link": "https://www.thehindu.com/news/international/trump-says-us-can-take-strait-of-hormuz-with-more-time/article70819945.ece",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.middleeasteye.net/news/iran-says-it-rejects-trump-offer-48-hour-ceasefire-report",
+    "title": "Iran says it rejects Trump offer of 48-hour ceasefire: Report",
+    "link": "https://www.middleeasteye.net/news/iran-says-it-rejects-trump-offer-48-hour-ceasefire-report",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.middleeastmonitor.com/20260403-macron-war-will-not-resolve-irans-nuclear-issue/",
+    "title": "Macron: War will not resolve Iran’s nuclear issue",
+    "link": "https://www.middleeastmonitor.com/20260403-macron-war-will-not-resolve-irans-nuclear-issue/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/dhaka-tokyo-hold-2nd-round-of-talks-to-operationalise-hsia-3rd-terminal/182840",
+    "title": "Dhaka, Tokyo hold 2nd round of talks to operationalise HSIA 3rd terminal",
+    "link": "https://unb.com.bd/category/Bangladesh/dhaka-tokyo-hold-2nd-round-of-talks-to-operationalise-hsia-3rd-terminal/182840",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/dhaka-delhi-high-level-talks-could-bring-fresh-momentum-to-strained-ties/182837",
+    "title": "Dhaka-Delhi high-level talks could bring fresh momentum to strained ties",
+    "link": "https://unb.com.bd/category/Bangladesh/dhaka-delhi-high-level-talks-could-bring-fresh-momentum-to-strained-ties/182837",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/bangladesh-us-relationship-matters-more-than-ever-paul-kapur/182825",
+    "title": "Bangladesh-US relationship matters more than ever: Paul Kapur",
+    "link": "https://unb.com.bd/category/Bangladesh/bangladesh-us-relationship-matters-more-than-ever-paul-kapur/182825",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/866577/us-reaffirms-importance-of-bangladesh-ties-at-national-day-reception",
+    "title": "US reaffirms importance of Bangladesh ties at National Day reception",
+    "link": "https://www.daily-sun.com/diplomacy/866577/us-reaffirms-importance-of-bangladesh-ties-at-national-day-reception",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.ipsnews.net/2026/04/ugandan-farmers-sue-eacop-in-london-in-last-minute-effort-to-stop-crude-oil-pipeline/",
+    "title": "Ugandan Farmers Sue EACOP in London in Last Minute Effort to Stop Crude Oil Pipeline",
+    "link": "https://www.ipsnews.net/2026/04/ugandan-farmers-sue-eacop-in-london-in-last-minute-effort-to-stop-crude-oil-pipeline/",
+    "description": "Environmental activists and farmer groups opposed to the construction of the East African Crude Oil Pipeline (EACOP), the world&#8217;s longest heated oil pipeline, are mounting a last-ditch legal effort meant to stop its construction in a suit they plan to have filed in London, UK,  believing that it stands a chance to stop the controversial [&#8230;]",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.dawn.com/news/1987928/bangladeshi-farmers-test-solar-irrigation-as-fuel-costs-bite",
+    "title": "Bangladeshi farmers test solar irrigation as fuel costs bite",
+    "link": "https://www.dawn.com/news/1987928/bangladeshi-farmers-test-solar-irrigation-as-fuel-costs-bite",
+    "description": "<p>CHUADANGA: In Bangladesh’s farm belt, solar-powered irrigation pumps are promoted as a way to cut diesel use, lower irrigation costs and, when pumps are idle, generate extra income for farmers who can sell surplus electricity to the grid.</p>\n\n<p>Solar panels installed in or beside crop fields to power groundwater irrigation pumps can be a better alternative to paying for rising cost of fuel for traditional generators, experts say.</p>\n\n<p>But the technology still has limited uptake. The Bangladesh Agricultural Development Corporation’s latest irrigation survey found about 71 per cent of power-operated irrigation equipment was diesel-run and 29pc electric, while only 4,058 solar-powered units were identified nationwide.</p>\n\n<p>But that could change due to the Iran war and the resulting sharp rise in energy prices. Bangladesh has started rationing fuel while trying to secure sufficient diesel for its farmers and industry owners.</p>\n\n<p>The country’s latest climate plan, submitted under the Paris Agreement, aims to install 45,000 solar irrigation pumps by 2035. But progress has been slow, held back by high upfront costs, licensing hurdles and uncertainty over how operators would sell their surplus power to the grid to improve returns.</p>\n\n<p>For Mohammad Anisur Rahman, a 50-year-old farmer in southwestern Bangladesh’s Jhenaidah district, the switch to solar irrigation has reduced his costs and dependence on diesel.</p>\n\n<p>“The diesel crunch and power outages have already hit farmers and who knows if the problem may get worse,” Rahman said. Last year, he set up solar panels over part of his maize fields and linked them to a submersible solar irrigation pump.</p>\n\n<p>Solar irrigation is cheaper, he said. </p>\n\n<p>In southwestern Bangladesh, irrigation with solar energy can cost between $87 and $99 an acre, compared to $125 to $150 using diesel pumps, according to field estimates shared by farmers and pump operators.</p>\n\n<p>Developers and researchers say one way to improve the business case is to connect more solar irrigation pumps to the grid so operators can sell unused electricity outside the main irrigation season.</p>\n\n<p>Wave Foundation, an NGO working on solar irrigation in the country’s west, said it had already connected three solar pumps to the grid, and plans to set up 39 more.</p>\n\n<p>But while operators may export surplus electricity to the grid, they still face restrictions or uncertainty around drawing power from it for irrigation when solar falls short.</p>\n\n<p>“This barrier to get power from the grid weakens the economics of solar irrigation,” said Ketab Ali, a risk management expert at the Wave Foundation.</p>\n\n<p>Shafiqul Alam, lead analyst for Bangladesh energy at the Institute for Energy Economics and Financial Analysis, said wider grid connection for solar irrigation could also help Bangladesh reduce fossil fuel generation during periods when irrigation demand is low.</p>\n\n<p><strong>Water risks</strong>   </p>\n\n<p>However, some researchers and water experts warn that cheaper solar irrigation could increase pressure on groundwater in regions already facing declining water tables.</p>\n\n<p>In northwest Bangladesh in particular, groundwater depletion has long been a concern because of intensive dry-season cultivation and heavy dependence on groundwater irrigation.</p>\n\n<p>But Mohammad Faiz Alam, a senior regional researcher at the International Water Management Institute, said research suggests farmers using solar do not necessarily extract more water than diesel users.</p>\n\n<p>He said that because many systems are supervised by NGOs or local organisations with farmers paying a fee for the irrigation, there is often some built-in discipline in how water is delivered and charged for.</p>\n\n<p>Still, he said, scaling solar irrigation in water-stressed areas would likely require stronger groundwater regulation, more recharge efforts, more use of surface water where feasible, and region-specific planning rather than a one-size-fits-all approach.</p>\n\n<p><em>Published in Dawn, April 3rd, 2026</em></p>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://i.dawn.com/large/2026/04/03091507eb07091.webp",
+    "thumbnail_type": "image/webp"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/bangladesh/news/austerity-measures-office-hours-now-9-4-shops-close-6-4142301",
+    "title": "Austerity Measures: Office hours now 9 to 4, shops to close by 6",
+    "link": "https://www.thedailystar.net/news/bangladesh/news/austerity-measures-office-hours-now-9-4-shops-close-6-4142301",
+    "description": "The government yesterday announced a series of austerity measures, including curtailing office hours and early closure of shopping malls and shops, as the fallout of the US-Israel war on Iran strains the energy sector.",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/bangladesh/news/measles-has-spread-56-64-dists-4142271",
+    "title": "Measles has spread to 56 of 64 dists",
+    "link": "https://www.thedailystar.net/news/bangladesh/news/measles-has-spread-56-64-dists-4142271",
+    "description": "At least 56 of the 64 districts have reported measles cases as of March 28, officials said citing reports from both the government and the World Health Organisation -- indicating widespread national transmission of the infectious disease.",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "f473810d214e7c7f7140db4e4f142ad70195d4d7",
+    "title": "UN set to vote on a watered-down proposal to open Strait of Hormuz",
+    "link": "https://apnews.com/article/iran-strait-of-hormuz-un-vote-f2a2fafe3e1691b9f0be5e7d691a90d0",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/b18458c/2147483647/strip/true/crop/2438x1626+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcb%2F0c%2F13e5556b03af3fcf965d823f4834%2F53fea9e90cb94a8fb868ced559969dfb\" /><br />UN set to vote on a watered-down proposal to open Strait of Hormuz",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/b18458c/2147483647/strip/true/crop/2438x1626+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcb%2F0c%2F13e5556b03af3fcf965d823f4834%2F53fea9e90cb94a8fb868ced559969dfb",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://tob.news/exports-slump-18-in-march/",
+    "title": "Exports slump 18% in March",
+    "link": "https://tob.news/exports-slump-18-in-march/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://tob.news/rooppur-n-plant-moves-to-fuel-loading-phase/",
+    "title": "Rooppur N-plant moves to fuel loading phase",
+    "link": "https://tob.news/rooppur-n-plant-moves-to-fuel-loading-phase/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/march-posts-1807pc-negative-growth",
+    "title": "March posts 18.07pc negative growth",
+    "link": "https://thefinancialexpress.com.bd/trade/march-posts-1807pc-negative-growth",
+    "description": "Merchandise-export earnings of Bangladesh have been on a climb-down for eight consecutive months with the single-month tally for last March having registered an 18.07-percent year-on-year negative growth.\nIn March 2026, Bangladesh received US$3.48 billion in export earnings which was US$4.28 billi",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/energy/lpg-imports-us-surge-higher-cost-mideast-supply-falters-1401386",
+    "title": "LPG imports from US surge at higher cost as Mideast supply falters",
+    "link": "https://www.tbsnews.net/bangladesh/energy/lpg-imports-us-surge-higher-cost-mideast-supply-falters-1401386",
+    "description": "12kg LPG cylinder price soars to Tk1,728",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/04/03/ctg_gas_cylinder_photos_1.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/environment/natural-resources/energy/news/eastern-refinery-shutdown-risk-how-secure-bangladeshs-fuel-supply-4142416",
+    "title": "Eastern Refinery shutdown risk: How secure is Bangladesh’s fuel supply?",
+    "link": "https://www.thedailystar.net/news/environment/natural-resources/energy/news/eastern-refinery-shutdown-risk-how-secure-bangladeshs-fuel-supply-4142416",
+    "description": "Prolonged disruption could expose structural vulnerabilities",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/world/news/un-security-council-vote-authorising-force-protect-hormuz-4142391",
+    "title": "UN Security Council to vote on authorising force to protect Hormuz",
+    "link": "https://www.thedailystar.net/news/world/news/un-security-council-vote-authorising-force-protect-hormuz-4142391",
+    "description": "Trump on Wednesday called for struggling countries to go get their own oil in the Strait of Hormuz",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/bangladesh/866578/foreign-aid-disbursement-falls-debt-repayment-pressure-rises",
+    "title": "Foreign aid disbursement falls, debt repayment pressure rises",
+    "link": "https://www.daily-sun.com/bangladesh/866578/foreign-aid-disbursement-falls-debt-repayment-pressure-rises",
+    "description": "Fluctuations in exchange rates have further intensified the burden in local currency terms.",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/04/03/medium/Dollar-69cf465de4bdf.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "7dda3e7e4e590c3ca71d4e2354a891e1208ae4b3",
+    "title": "Iran fires on targets across Mideast while Israel and US hit Tehran as war shows no signs of slowing",
+    "link": "https://apnews.com/article/iran-us-israel-trump-lebanon-april-3-2026-a6365c6123cc8a696474f576d4ce7668",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/fb2ca2e/2147483647/strip/true/crop/6000x4000+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F66%2Ffd%2F540d785cdd48e5882f82d8530041%2F388c2818ab4643079272f9b9b0ee0b4f\" /><br />Iran fires on targets across Mideast while Israel and US hit Tehran as war shows no signs of slowing",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/fb2ca2e/2147483647/strip/true/crop/6000x4000+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F66%2Ffd%2F540d785cdd48e5882f82d8530041%2F388c2818ab4643079272f9b9b0ee0b4f",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://tob.news/iran-offers-transit-deal-for-strait-of-hormuz/",
+    "title": "Iran offers transit deal for using Strait of Hormuz",
+    "link": "https://tob.news/iran-offers-transit-deal-for-strait-of-hormuz/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://tob.news/govt-sets-9am-4pm-office-hours-markets-shut-by-6pm/",
+    "title": "Govt sets 9am-4pm office hours, markets shut by 6pm",
+    "link": "https://tob.news/govt-sets-9am-4pm-office-hours-markets-shut-by-6pm/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://bdnews24.com/neighbours/a20501852674",
+    "title": "Pakistan hikes fuel prices sharply",
+    "link": "https://bdnews24.com/neighbours/a20501852674",
+    "description": "[Neighbours] Pakistan hikes fuel prices sharply",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://cdn.bdnews24.com/bdnews24/media/english/imgAll/2026April/SM/pakistan-oil-prices-rise-030426-01-1775187918.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "26ddae68-5c58-47f7-a167-8a9d49e32a6b",
+    "title": "Measles spreads to 56 districts, WHO concerned",
+    "link": "https://en.prothomalo.com/bangladesh/5woey9ph6a",
+    "description": "<p>The World Health Organization (WHO) says that the \"immunity gap\" in routine childhood immunisation over the past two years in Bangladesh is the primary reason behind the current measles outbreak. The disease has spread to 56 districts across the country.</p><p>The WHO’s Dhaka office shared this information in writing with Prothom Alo on Thursday. The newspaper had contacted the WHO regarding the measles situation, and in response, the organisation provided its latest available data.</p><p>According to the WHO, 69 per cent of measles-infected children are under the age of two, while 34 per cent are under nine months. The United Nations’ specialised health agency has expressed deep concern over the measles situation in Bangladesh.</p><p>In line with the WHO South-East Asia region’s targets, Bangladesh aims to eliminate endemic (continuous presence) transmission of measles and rubella viruses by 2026. This means ensuring the absence of measles and rubella transmission for at least 12 months. </p><p>In this context, Bangladesh had been making good progress toward elimination. The measles incidence per one million populations was 1.41 per cent in 2022, 1.60 in 2023, 1.43 in 2024, and 0.72 in 2025. Currently, it has risen to 16.8 per cent.</p><p>The WHO reported that as of 30 March, a total of 2,190 suspected measles cases have been identified in the country, of which 676 have been laboratory-confirmed. The infection has spread to 56 districts. Measles cases have not been detected in eight districts—Rangamati, Bagerhat, Meherpur, Joypurhat, Gaibandha, Lalmonirhat, Panchagarh, and Bandarban.</p><p>At the national level, the incidence rate is currently around 16.8 per one million population, which the WHO says clearly indicates nationwide spread. The Dhaka office informed the WHO headquarters in Geneva about the situation on 18 March.</p><p>Meanwhile, according to information collected by Prothom Alo correspondents across the country, the number of deaths from measles has exceeded 50.</p><p>In Bangladesh, the WHO works closely with the Ministry of Health and Family Welfare, the Directorate General of Health Services, and the Expanded Programme on Immunisation (EPI).</p><h3>Why the outbreak</h3><p>Bangladesh’s Expanded Programme on Immunisation (EPI) has long been considered successful. So why has such an outbreak occurred now? In response to this question, the WHO said its preliminary assessment points to immunity gaps as the main cause.</p><p>Children under two years of age—especially those who missed one or more doses of the measles vaccine over the past two years for various reasons—are the most affected. Of those infected, 69 per cent are under two years old, including 34 per cent who are under nine months, indicating high vulnerability among the youngest population.</p><p>This deterioration in the public health situation is occurring at a time when the country had set a target to eliminate measles and rubella by 2026. Although infection rates remained largely under control between 2022 and 2025 (below 1 per million), they have now surged sharply.</p><p>Although infections have spread to 56 districts, some areas have been identified as hotspots. The highest number of cases has been detected in Dhaka division, while higher incidence rates are being observed in Rajshahi, Mymensingh, and Barishal divisions. Several districts and city corporation areas have become centres of infection.</p><p>Bangladesh had previously achieved high vaccination coverage through the EPI. According to assessment surveys in 2019 and 2023, the full immunisation rate by 12 months of age was 83.9 per cent and 81.6 per cent, respectively. Like many other countries, Bangladesh faced challenges in maintaining high vaccination coverage during the COVID-19 pandemic, which contributed to an increase in zero-dose and partially vaccinated children.</p><p>In addition, limitations in the first and second doses of the measles vaccine and lower coverage rates can collectively create a susceptible population that grows at or above the birth rate. As a result, a specific age group develops immunity gaps. When vaccination coverage is insufficient across populations or when the number of under-vaccinated children increases over time, measles outbreaks can occur.</p><p>The WHO’s assessment is that the current outbreak reflects immunity gaps resulting from a combination of missed routine doses, unequal vaccination coverage across areas and populations, and barriers to accessing services in recent years.</p><p>In response to a question about where the situation might lead, the WHO said it will depend on the speed and quality of response activities, particularly supplementary immunisation campaigns. If case detection and surveillance are strengthened and rapid, high-coverage vaccination campaigns are implemented in affected and high-risk areas, the outbreak can be controlled. However, if immunity gaps persist, there is a risk of further increases in cases and spread to new areas.</p><h3>Recommendations for the government</h3><p>In light of the nationwide spread of measles, the WHO has advised the Bangladesh government to strengthen and accelerate response measures. These include: rapidly implementing high-quality nationwide measles and rubella vaccination campaigns targeting children aged six months to five years; strengthening surveillance, rapid notification, and laboratory confirmation; enhancing case management with appropriate clinical care including vitamin A supplementation; improving risk communication and community engagement alongside accurate information dissemination; and strengthening routine immunisation services.</p><p>Former chief scientific officer of the government’s Institute of Epidemiology, Disease Control and Research, Mushtaq Hossain—who has experience working on WHO committees on epidemiology, outbreaks, and pandemics—told Prothom Alo that the recommendations should be properly implemented.</p><p>He noted that there are shortages of appropriate personnel not only at the field level but also at central and district levels. These gaps must be addressed by placing the right people in the right positions, and without community engagement, the objectives will not be achieved.</p>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-04-01/tied57lf/prothomalo-bangla2026-04-01g2oilfjiUV9627051756.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.bssnews.net/international/374072",
+    "title": "Middle East war: global economic fallout",
+    "link": "https://www.bssnews.net/international/374072",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.bssnews.net/news-flash/374029",
+    "title": "Iran vows 'crushing' attacks as strikes hit regional infrastructure",
+    "link": "https://www.bssnews.net/news-flash/374029",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/bangladesh/866583/govt-faces-economic-strain-as-crises-mount",
+    "title": "Govt pushes for economic recovery as structural gaps emerge",
+    "link": "https://www.daily-sun.com/bangladesh/866583/govt-faces-economic-strain-as-crises-mount",
+    "description": "Measles claims children's lives daily, despite Bangladesh's former status as a global role model for immunisation.",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/04/03/medium/Mostafa-Kamal-69a913482fc70-69abade68d335-69cf57e2e417c.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "76a1468cc79b32b105ac959391e8aad0473ca39f",
+    "title": "French and South Korean leaders say they’ll work together on the Strait of Hormuz",
+    "link": "https://apnews.com/article/south-korea-france-lee-macron-trump-iran-3b0c39d11cdc7e23b98dc0f8dbe0f491",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/b76fcce/2147483647/strip/true/crop/5688x3816+0+0/resize/599x402!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F08%2F99%2Fb2cb3f0c8a52f60dc2aaa089d79c%2F01828c0cbda24cdf9997d902d2d9edf3\" /><br />French and South Korean leaders say they’ll work together on the Strait of Hormuz",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/b76fcce/2147483647/strip/true/crop/5688x3816+0+0/resize/599x402!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F08%2F99%2Fb2cb3f0c8a52f60dc2aaa089d79c%2F01828c0cbda24cdf9997d902d2d9edf3",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://tob.news/trump-says-more-to-follow-after-destroying-irans-largest-bridge/",
+    "title": "Trump says ‘more to follow’ after destroying Iran’s largest bridge",
+    "link": "https://tob.news/trump-says-more-to-follow-after-destroying-irans-largest-bridge/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/bb-mandates-bangla-qr-for-all-digital-payments",
+    "title": "BB mandates 'Bangla QR' for all digital payments",
+    "link": "https://thefinancialexpress.com.bd/trade/bb-mandates-bangla-qr-for-all-digital-payments",
+    "description": "Bangladesh Bank (BB) has made it mandatory for all banks and payment service providers to adopt a single, interoperable QR code system -- 'Bangla QR' -- across all merchant points by June 30, in a major push to streamline and secure the country's digital payment ecosystem.\nIn a circular issued on",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/146138/bb.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/myanmars-parliament-elects-ruling-general-as-president-keeping-the-army-in-charge/182815",
+    "title": "Myanmar's parliament elects ruling general as president, keeping the army in charge",
+    "link": "https://unb.com.bd/category/World/myanmars-parliament-elects-ruling-general-as-president-keeping-the-army-in-charge/182815",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.bssnews.net/international/374088",
+    "title": "Iran warns against 'provocative action' ahead of UN vote on Hormuz force",
+    "link": "https://www.bssnews.net/international/374088",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://tob.news/drone-strike-sparks-fires-at-kuwait-oil-refinery/",
+    "title": "Drone strike sparks fires at Kuwait oil refinery",
+    "link": "https://tob.news/drone-strike-sparks-fires-at-kuwait-oil-refinery/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://bdnews24.com/world/e3a255d352bb",
+    "title": "Trump's anger over Iran thrusts NATO into fresh crisis",
+    "link": "https://bdnews24.com/world/e3a255d352bb",
+    "description": "[World] Trump's anger over Iran thrusts NATO into fresh crisis",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://cdn.bdnews24.com/bdnews24/media/english/imgAll/2026April/SM/nato-flag-030426-01-1775200700.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/bangladesh-eyes-african-energy-ease-crisis-1401566",
+    "title": "Bangladesh eyes African energy to ease crisis",
+    "link": "https://www.tbsnews.net/bangladesh/bangladesh-eyes-african-energy-ease-crisis-1401566",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/03/20/fuel_station.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/india-raising-its-pitch-keeping-hormuz-strait-open-1401571",
+    "title": "India raising its pitch on keeping Hormuz Strait open",
+    "link": "https://www.tbsnews.net/world/india-raising-its-pitch-keeping-hormuz-strait-open-1401571",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/04/03/india_hormuz.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/russia-conducting-rolling-aerial-attack-ukraine-kyiv-says-1401581",
+    "title": "Russia conducting rolling aerial attack on Ukraine, Kyiv says",
+    "link": "https://www.tbsnews.net/world/russia-conducting-rolling-aerial-attack-ukraine-kyiv-says-1401581",
+    "description": "The bombardment is the second ​time this week Russia has followed a overnight drone barrage ⁠with heavy daytime attacks, a new tactic as Moscow probes ways to ​penetrate Ukraine's air defences.",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/04/03/kyiv_attack.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://tob.news/iran-claims-second-us-f-35-fighter-jet-shot-down/",
+    "title": "Iran claims second US F-35 fighter jet shot down",
+    "link": "https://tob.news/iran-claims-second-us-f-35-fighter-jet-shot-down/",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://scour.ing/redirect/https%3A%2F%2Fenglish.elpais.com%2Feconomy-and-business%2F2026-04-03%2Firans-war-revives-the-risk-of-stagflation-50-years-after-the-last-major-crisis.html?utm_source=rss",
+    "title": "Iran war revives the risk of stagflation 50 years after the last major crisis",
+    "link": "https://scour.ing/redirect/https%3A%2F%2Fenglish.elpais.com%2Feconomy-and-business%2F2026-04-03%2Firans-war-revives-the-risk-of-stagflation-50-years-after-the-last-major-crisis.html",
+    "description": "<p>European political and economic authorities warn about the danger of entering a phase of low growth and high inflation of up to 6%, if the conflict in the Middle East becomes entrenched</p>\n<hr /><p><a href=\"https://scour.ing/p/https://english.elpais.com/economy-and-business/2026-04-03/irans-war-revives-the-risk-of-stagflation-50-years-after-the-last-major-crisis.html\">View Post on Scour ↗</a></p><p><img alt=\"\" height=\"16\" src=\"https://scour.ing/static/icons/scour-logo.svg\" style=\"vertical-align: middle; margin-right: 4px;\" width=\"16\" /><b>Rate this post to improve your feed: </b><br /><a href=\"https://scour.ing/react/love/https://english.elpais.com/economy-and-business/2026-04-03/irans-war-revives-the-risk-of-stagflation-50-years-after-the-last-major-crisis.html\">🌰 Love</a>&nbsp;&nbsp;<a href=\"https://scour.ing/react/like/https://english.elpais.com/economy-and-business/2026-04-03/irans-war-revives-the-risk-of-stagflation-50-years-after-the-last-major-crisis.html\">👍 Like</a>&nbsp;&nbsp;<a href=\"https://scour.ing/react/dislike/https://english.elpais.com/economy-and-business/2026-04-03/irans-war-revives-the-risk-of-stagflation-50-years-after-the-last-major-crisis.html\">👎 Dislike</a>&nbsp;&nbsp;</p><hr />",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://scour.ing/static/icons/scour-logo.svg",
+    "thumbnail_type": "image/svg+xml"
+  },
+  {
+    "id": "20f970c3f355ee70635c7375bc5da7d411da4534",
+    "title": "Gulf kingdom of Bahrain cracks down on dissent as Iran war reignites internal unrest",
+    "link": "https://apnews.com/article/iran-us-war-bahrain-protests-dissent-952f20a5bafd31d91b2a83454e8f9985",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/6b191eb/2147483647/strip/true/crop/3375x2250+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F24%2F744cf4c3242d56470c96bfb15b37%2F054c7643ecd146c38c6608d4e0f8de70\" /><br />Gulf kingdom of Bahrain cracks down on dissent as Iran war reignites internal unrest",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/6b191eb/2147483647/strip/true/crop/3375x2250+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F24%2F744cf4c3242d56470c96bfb15b37%2F054c7643ecd146c38c6608d4e0f8de70",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "74cf925898250406ae026e1842a61ffd3bc86693",
+    "title": "Paramilitary forces in Sudan kill at least 10 people in hospital drone attack, medical group says",
+    "link": "https://apnews.com/article/sudan-hospital-doctors-attack-drone-strike-army-rapid-support-forces-8b4a43addd4acb65176b72686b7f4958",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/d7e66f3/2147483647/strip/true/crop/1200x792+0+0/resize/599x395!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F49%2Fb9%2F5c901c9c2a8d1f6cae71f5f4fda8%2Fcfca5794e641410eaf3e406bf4fe6741\" /><br />Paramilitary forces in Sudan kill at least 10 people in hospital drone attack, medical group says",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/d7e66f3/2147483647/strip/true/crop/1200x792+0+0/resize/599x395!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F49%2Fb9%2F5c901c9c2a8d1f6cae71f5f4fda8%2Fcfca5794e641410eaf3e406bf4fe6741",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bangla.dhakatribune.com/international/101267/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%AA-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%A4%E0%A6%BF%E0%A6%A8",
+    "title": "হরমুজ খুলতে ইরানকে চাপ প্রয়োগের প্রস্তাবে তিন দেশ ভেটো দিতে পারে",
+    "link": "https://bangla.dhakatribune.com/international/101267/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%AA-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%A4%E0%A6%BF%E0%A6%A8",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://bdnews24.com/world/eec870b9dc07",
+    "title": "Afghan-Pak peace talks advance: China",
+    "link": "https://bdnews24.com/world/eec870b9dc07",
+    "description": "[World] Afghan-Pak peace talks advance: China",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://cdn.bdnews24.com/bdnews24/media/english/imgAll/2026April/SM/kabul-attack-030426-1775209779.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/world/europe/2eb03c50636d",
+    "title": "Poland scrambles jets as Russia attacks Ukraine",
+    "link": "https://bdnews24.com/world/europe/2eb03c50636d",
+    "description": "[Europe] Poland scrambles jets as Russia attacks Ukraine",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://cdn.bdnews24.com/bdnews24/media/english/imgAll/2025September/SM/poland-jets-130925-01-1757788103.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/economy/ac2a28129d5b",
+    "title": "World food prices rise further in March: FAO",
+    "link": "https://bdnews24.com/economy/ac2a28129d5b",
+    "description": "[Economy] World food prices rise further in March: FAO",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://cdn.bdnews24.com/bdnews24/media/english/imgAll/2026April/SM/food-price-030426-1775205932.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "7c5174b2-e177-4119-98af-8af3f61a8851",
+    "title": "Israel under fire from Iran missiles as Trump issues new warning",
+    "link": "https://en.prothomalo.com/international/middle-east/mdbm8j4v0v",
+    "description": "ISRAEL-IRAN-US-WAR\n<p>Israel said Friday it was under attack from a new barrage of Iranian missiles, as President Donald Trump warned the United States had yet to begin “destroying what’s left” with more of the Islamic republic’s infrastructure in his sights.</p><p>The war started more than a month ago with US-Israeli strikes on Iran, triggering retaliation that spread the conflict throughout the Middle East, convulsing the global economy and impacting millions of people worldwide.</p><p>The Strait of Hormuz—a conduit for one-fifth of the world’s oil and liquefied natural gas—has come into sharp focus after Iran effectively closed it, with Gulf nations pushing for a force to protect shipping there, but a UN vote set for Friday was delayed.</p><p>Trump has threatened to bomb Iran “back to the Stone Ages” and warned US attacks would intensify if Tehran did not reach a negotiated settlement, while Iran has vowed in response to carry out “crushing” attacks against the US and Israel.</p><p>Israel’s military reported a new missile salvo from Iran on Friday, with its air defences operating to down them, but there were no immediate reports of casualties.</p><p>Israeli emergency services reported some damage to houses and cars from an unintercepted cluster missile, while Israeli military radio said a train station in Tel Aviv was damaged by shrapnel.</p><p>The Iranian fire came as Trump said the US military “hasn’t even started destroying what’s left in Iran. Bridges next, then Electric Power Plants!” on his Truth Social platform, several hours after saying Iran’s tallest bridge had been destroyed.</p><p>Iranian Foreign Minister Abbas Araghchi posted online that “striking civilian structures, including unfinished bridges, will not compel Iranians to surrender.”</p><p>Strikes from both sides have increasingly targeted economic and industrial sites, raising fears of wider disruption to global energy supplies and deepening the conflict’s impact beyond the battlefield.</p><p><strong>New Gulf attacks</strong></p><p>Gulf states once seen as safe havens have become direct threats, accused by Iran of serving as launchpads for US strikes.</p><p>A drone attack on a refinery owned by Kuwait’s national oil company on Friday sparked fires at several of its units, state media said, while the oil-rich emirate’s air defences responded to new missile and drone attacks.</p><p>Iran said one of its latest attacks a day earlier had struck targets in the United Arab Emirates, Bahrain and Israel.</p><p>They included “American steel industries in Abu Dhabi, American aluminium industries in Bahrain, and the Rafael arms factories of the Zionist regime”, it said.</p><p>Despite the ongoing bombardment in Iran, families gathered in Tehran’s Melat Park, with men smoking water pipes and children playing to mark the 13<sup>th</sup> day after Nowruz, the Persian New Year, when people traditionally picnic outdoors.</p><p>A resident said checkpoints manned by the country’s Revolutionary Guards had increased across the city.</p><p>“They gather in the streets in order to show people that they are still in power and nothing is gonna change,” said the 30-year-old man, who requested his name not be used.</p><p>In Israel, Passover celebrations continued, though some marked the holiday underground.</p><p>“This is not my first choice,” said a writer named Jeffrey at a meal in a Tel Aviv bunker.</p><p><strong>Global impact</strong></p><p>The war’s economic impact is rippling far beyond the Middle East.</p><p>Oil prices surged to around $110 a barrel on Thursday after Trump warned of further strikes on Iran. Oil markets were closed on Friday.</p><p>Analysts said that Trump’s prime-time address to the nation failed to provide clarity on an exit strategy from the war, with Deutsche Bank’s Jim Reid noting there was “no signal of the US seeking an imminent off-ramp”.</p><p>The World Bank warned of mounting risks to inflation, jobs and food security worldwide.</p><p>Airlines in China are raising fuel surcharges, Malaysia has asked civil servants to work from home and Pakistan has sharply raised fuel prices.</p><p>Even the Himalayan kingdom of Bhutan is feeling the strain, with fuel shortages triggering long queues in the capital Thimphu.</p><p>“We are helpless,” said resident Karma Kalden.</p><p>Egypt has ordered shops, restaurants and shopping malls to close from 9:00 pm on weekdays, hoping to curb energy bills that have more than doubled because of the war.</p><p>Trump, whose administration has been accused of giving mixed messages about the war’s end game, has suggested that Tehran’s new leadership could prove “more reasonable” in potential peace talks.</p><p>Iran has dismissed US overtures as “maximalist and irrational”.</p><p><strong>UN vote delayed</strong></p><p>There was a flurry of diplomatic activity on Thursday over what to do about the Strait of Hormuz, which Iran has virtually blocked since the war began.</p><p>It has impacted global supplies of vital commodities including oil, liquid natural gas and fertiliser, triggering a sharp rise in energy prices.</p><p>British Foreign Secretary Yvette Cooper convened about 40 countries to demand its “immediate and unconditional” reopening.</p><p>“Iran is trying to hold the global economy hostage in the Strait of Hormuz. They must not prevail,” Cooper said in a statement.</p><p>Underlining the wider repercussions, Italy called for a “humanitarian corridor” for fertiliser and other essentials through the waterway to avoid a food disaster in Africa.</p><p>The UN Security Council postponed a vote scheduled for Friday on authorising the use of “defensive” force to protect shipping in the strait from Iranian attacks, according to the official programme.</p><p>The 15-member body was set to vote Friday morning on a draft resolution brought by Bahrain, but by Thursday night the schedule shifted.</p><p>The reason given was that the United Nations observes Good Friday as a public holiday, according to diplomatic sources—despite this fact being known when the vote was first announced.</p><p>No new date has been given for voting on the draft.</p>",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-03-24/0478941q/351083-01-02-1.jpg?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bangladeshpost.net/posts/un-to-vote-on-diluted-proposal-to-reopen-strait-of-hormuz-168260",
+    "title": "UN to vote on diluted proposal to reopen Strait of Hormuz",
+    "link": "https://bangladeshpost.net/posts/un-to-vote-on-diluted-proposal-to-reopen-strait-of-hormuz-168260",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://bangladeshpost.net/posts/govt-cuts-expenditure-reduces-office-hours-orders-markets-shut-after-6pm-168259",
+    "title": "Govt cuts expenditure, reduces office hours, orders markets shut after 6pm",
+    "link": "https://bangladeshpost.net/posts/govt-cuts-expenditure-reduces-office-hours-orders-markets-shut-after-6pm-168259",
+    "description": "",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/866601/world-food-price-rise-set-to-continue-if-iran-war-lasts-fao",
+    "title": "World food price rise set to continue if Iran war lasts: FAO",
+    "link": "https://www.daily-sun.com/world/866601/world-food-price-rise-set-to-continue-if-iran-war-lasts-fao",
+    "description": "World food prices climbed in March to their highest level since September last year and could rise further if the",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/04/03/medium/Untitled-(1)-69cf9408aea17.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/866619/bangladesh-japan-hold-fresh-talks-on-hsia-third-terminal",
+    "title": "Bangladesh, Japan hold fresh talks on HSIA third terminal",
+    "link": "https://www.daily-sun.com/diplomacy/866619/bangladesh-japan-hold-fresh-talks-on-hsia-third-terminal",
+    "description": "Bangladesh and Japan today held a high-level meeting to advance negotiations on the operation and maintenance of the third terminal",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/04/03/medium/Untitled-(1)-69cfaaaed0113.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "e14ff03e241f5a0a6c1e6554c819ed92d8ae4205",
+    "title": "Russia strikes targets in Kyiv region as Ukraine holds door open for Easter truce",
+    "link": "https://apnews.com/article/russia-ukraine-war-strikes-drone-attack-easter-8122221d6d53f8517ee1e0d7d4df8e9f",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/31b2f87/2147483647/strip/true/crop/4641x3094+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7d%2F88%2Faf812757daea0b3e21b61f1ae1ab%2Fe806f20b46a6453ca3214ea3a9ed08ab\" /><br />Russia strikes targets in Kyiv region as Ukraine holds door open for Easter truce",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/31b2f87/2147483647/strip/true/crop/4641x3094+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7d%2F88%2Faf812757daea0b3e21b61f1ae1ab%2Fe806f20b46a6453ca3214ea3a9ed08ab",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "f8e3155c8292ac70b55c86182ff41702ea35f0cd",
+    "title": "Pakistanis face unprecedented fuel price rise of up to 54% as global oil price spikes",
+    "link": "https://apnews.com/article/pakistan-fuel-prices-increase-iran-war-d649ed3d36e603d57ed5a0e374858832",
+    "description": "Pakistanis face unprecedented fuel price rise of up to 54% as global oil price spikes",
+    "published": "Sat, 04 Apr 2026 09:25:30 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
   }
 ]
