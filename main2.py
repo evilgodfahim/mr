@@ -37,49 +37,11 @@ except Exception:
 FEED_URLS = [
     "https://evilgodfahim.github.io/bdlb/final.xml",
     "https://evilgodfahim.github.io/bint/final.xml",
-    "https://www.kalerkantho.com/rss.xml",
-    "https://www.prothomalo.com/feed/",
-    "https://evilgodfahim.github.io/ju/rss.xml",
-    "https://evilgodfahim.github.io/dnpbb/feed.xml",
-    "https://evilgodfahim.github.io/jnp/editorial_news.xml",
-    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part2.xml",
-    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
-    "https://evilgodfahim.github.io/kal/articles.xml",
-    "https://evilgodfahim.github.io/bb-rss/feed.xml",
-    "https://evilgodfahim.github.io/pade/output/articles.xml",
-    "https://evilgodfahim.github.io/pade/output/articles_2.xml",
-
-"https://evilgodfahim.github.io/dstar/feeds/bangla_feed.xml",
-
-"https://evilgodfahim.github.io/dt/bangla.xml",
-
-"https://evilgodfahim.github.io/tbs/bangla.xml",
-
-"https://evilgodfahim.github.io/skaln/feeds/feed.xml"
 ]
 
 EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/bdlb/final.xml",
-    "https://evilgodfahim.github.io/bint/final.xml",
-    "https://www.kalerkantho.com/rss.xml",
-    "https://www.prothomalo.com/feed/",
-    "https://evilgodfahim.github.io/ju/rss.xml",
-    "https://evilgodfahim.github.io/dnpbb/feed.xml",
-    "https://evilgodfahim.github.io/jnp/editorial_news.xml",
-    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part2.xml",
-    "https://evilgodfahim.github.io/kk/daily_kalerkantho_part1.xml",
-    "https://evilgodfahim.github.io/kal/articles.xml",
-    "https://evilgodfahim.github.io/bb-rss/feed.xml",
-    "https://evilgodfahim.github.io/pade/output/articles.xml",
-    "https://evilgodfahim.github.io/pade/output/articles_2.xml",
-
-"https://evilgodfahim.github.io/dstar/feeds/bangla_feed.xml",
-
-"https://evilgodfahim.github.io/dt/bangla.xml",
-
-"https://evilgodfahim.github.io/tbs/bangla.xml",
-
-"https://evilgodfahim.github.io/skaln/feeds/feed.xml"
+    "https://evilgodfahim.github.io/bint/final.xml"
 }
 
 KL_API_FEEDS = set()
