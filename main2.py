@@ -53,7 +53,9 @@ FEED_URLS = [
 
 "https://evilgodfahim.github.io/dt/bangla.xml",
 
-"https://evilgodfahim.github.io/tbs/bangla.xml"
+"https://evilgodfahim.github.io/tbs/bangla.xml",
+
+"https://evilgodfahim.github.io/skaln/feeds/feed.xml"
 ]
 
 EXISTING_API_FEEDS = {
@@ -75,7 +77,9 @@ EXISTING_API_FEEDS = {
 
 "https://evilgodfahim.github.io/dt/bangla.xml",
 
-"https://evilgodfahim.github.io/tbs/bangla.xml"
+"https://evilgodfahim.github.io/tbs/bangla.xml",
+
+"https://evilgodfahim.github.io/skaln/feeds/feed.xml"
 }
 
 KL_API_FEEDS = set()
