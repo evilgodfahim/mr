@@ -1,283 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
     <title>Curated News</title>
     <link>https://yourusername.github.io/yourrepo/</link>
     <description>AI-curated signal: international affairs and Bangladesh news</description>
-    <item>
-      <title>Energy Crisis to Monetary Policy: Bangladesh’s Three Major Wartime Challenges. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/opinion/864766</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/opinion/864766</guid>
-      <description>Middle East war threatens Bangladesh’s economy with rising oil prices, energy shortages, dollar pressure, and</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>When deaths arrive on schedule each year: Why Bangladesh fails to curb fatalities on the road during Eid. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/features/panorama/when-deaths-arrive-schedule-each-year-why-bangladesh-fails-curb-fatalities-road</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/features/panorama/when-deaths-arrive-schedule-each-year-why-bangladesh-fails-curb-fatalities-road</guid>
-      <description>The script is familiar enough to be called tradition. Eid arrives, millions flood the roads, rails and rivers to reach their villages, and bodies begin to accumulate</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Challenges, solutions for struggling capital. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/294776/challenges-solutions-for-struggling-capital</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/294776/challenges-solutions-for-struggling-capital</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Untapped natural resources. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/294918/untapped-natural-resources</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/294918/untapped-natural-resources</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Ferry terminal disaster rooted in negligence. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/editorial/294916/ferry-terminal-disaster-rooted-in-negligence</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/editorial/294916/ferry-terminal-disaster-rooted-in-negligence</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>US exhausting tools to absorb Iran war oil shock. [ bdnews24 ]</title>
-      <link>https://bdnews24.com/opinion/1e914d1f2ce9</link>
-      <guid isPermaLink="true">https://bdnews24.com/opinion/1e914d1f2ce9</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>The projects we build and the system that breaks them. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/thoughts/projects-we-build-and-system-breaks-them-1395456</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/projects-we-build-and-system-breaks-them-1395456</guid>
-      <description>Why Bangladesh’s public investments miss deadlines and what the government must fix</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Bangladesh Should Capitalize on Diplomatic Endeavors to Tackle Money Laundering. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/349654/bangladesh-should-capitalize-on-diplomatic-endeavors-to-tackle-money-laundering</link>
-      <guid isPermaLink="true">https://dailyasianage.com/news/349654/bangladesh-should-capitalize-on-diplomatic-endeavors-to-tackle-money-laundering</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Rule of Law and Good Governance Are Must for Growth in Investments. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/349653/rule-of-law-and-good-governance-are-must-for-growth-in-investments</link>
-      <guid isPermaLink="true">https://dailyasianage.com/news/349653/rule-of-law-and-good-governance-are-must-for-growth-in-investments</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>July Charter implementation does not hinge on referendum, reform council. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/thoughts/july-charter-implementation-does-not-hinge-referendum-reform-council-1395451</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/july-charter-implementation-does-not-hinge-referendum-reform-council-1395451</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>NGOs &amp; Bangladesh's post-LDC transition. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/views/views/ngos-bangladeshs-post-ldc-transition</link>
-      <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/views/ngos-bangladeshs-post-ldc-transition</guid>
-      <description>&lt;a class="nuxt-link-active" href="https://politepaul.com/"&gt;Matiur Rahman&lt;/a&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Put people first in Dhaka-Delhi relations. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/editorial/865265</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/editorial/865265</guid>
-      <description>Bangladesh High Commissioner to India Riaz Hamidullah has articulated, with commendable clarity, a truth that often risks being lost in</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Implement Personal Data Protection Ordinance. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/editorial/implement-personal-data-protection-ordinance-1774624013</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/implement-personal-data-protection-ordinance-1774624013</guid>
-      <description>The Personal Data Protection Ordinance, 2025 marks a paradigm shift...</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Facilities for investors are still much lower in Bangladesh than other countries. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/349606/facilities-for-investors-are-still-much-lower-in-bangladesh-than-other-countries</link>
-      <guid isPermaLink="true">https://dailyasianage.com/news/349606/facilities-for-investors-are-still-much-lower-in-bangladesh-than-other-countries</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Why Are Parents Losing Trust in Government Schools?. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/editorial/865266</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/editorial/865266</guid>
-      <description>In many developing countries, including Bangladesh, government schools were once regarded as the backbone of the education system. They produced</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Opportunists versus professionals in journalism: The post-uprising reality. [ daily-sun ]</title>
-      <link>https://daily-sun.com/opinion/865192/opportunists-versus-professionals-in-journalism-the-post-uprising-reality</link>
-      <guid isPermaLink="true">https://daily-sun.com/opinion/865192/opportunists-versus-professionals-in-journalism-the-post-uprising-reality</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Primary education needs results and not rhetoric. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/editorial/405569/primary-education-needs-results-and-not-rhetoric</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/editorial/405569/primary-education-needs-results-and-not-rhetoric</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>GHG Emission from Rice Field: Myth vs Scientific Reality. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/opinion/864765</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/opinion/864765</guid>
-      <description>Bangladeshi rice is essential for food security; its environmental impact is balanced as rice plants</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Twelve killed in twin Bangladesh jailbreaks. [ thehindu ]</title>
-      <link>https://www.thehindu.com/news/international/twelve-killed-in-twin-bangladesh-jailbreaks/article68508625.ece</link>
-      <guid isPermaLink="true">https://www.thehindu.com/news/international/twelve-killed-in-twin-bangladesh-jailbreaks/article68508625.ece</guid>
-      <description>The inmates used iron tools and rebar rods to attack guards and broke through the jail’s main gate, forcing army soldiers and jail guards to open fire</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Climate change kills. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/editorial/406290/climate-change-kills</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/editorial/406290/climate-change-kills</guid>
-      <description>Bangladesh has long been feeling the deadly consequences of climate change, and we continue to be among the most vulnerable nations to its adverse...</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Rote learning to real learning: Reforming curriculum and pedagogy in Bangladesh. [ tob ]</title>
-      <link>https://tob.news/rote-learning-to-real-learning-reforming-curriculum-and-pedagogy-in-bangladesh/</link>
-      <guid isPermaLink="true">https://tob.news/rote-learning-to-real-learning-reforming-curriculum-and-pedagogy-in-bangladesh/</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>A brief history of oil: How fuel became a potent geopolitical tool. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/features/big-picture/brief-history-oil-how-fuel-became-potent-geopolitical-tool-1395061</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/features/big-picture/brief-history-oil-how-fuel-became-potent-geopolitical-tool-1395061</guid>
-      <description>Over the centuries, oil evolved from a marginal natural resource to the central force powering modern industry, war, and global geopolitics</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>End sexual harassment in newsrooms. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/editorial/news/end-sexual-harassment-newsrooms-4136266</link>
-      <guid isPermaLink="true">https://www.thedailystar.net/opinion/editorial/news/end-sexual-harassment-newsrooms-4136266</guid>
-      <description />
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>Building ‘strategic capacity’ in fossil fuels isn't the answer to our energy crisis. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/views/news/building-strategic-capacity-fossil-fuels-isnt-the-answer-our-energy-crisis-4136271</link>
-      <guid isPermaLink="true">https://www.thedailystar.net/opinion/views/news/building-strategic-capacity-fossil-fuels-isnt-the-answer-our-energy-crisis-4136271</guid>
-      <description>Bangladesh has been entrapped in medium-term energy challenges because of the US-Israel war against Iran and its consequent impact on crude oil infrastructure and supply chains based around the Strait of Hormuz.</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>How to read Supreme Court’s review judgment on caretaker government. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/views/news/how-read-supreme-courts-review-judgment-caretaker-government-4136286</link>
-      <guid isPermaLink="true">https://www.thedailystar.net/opinion/views/news/how-read-supreme-courts-review-judgment-caretaker-government-4136286</guid>
-      <description>By Khan Khalid Adnan</description>
-      <pubDate>Sat, 28 Mar 2026 09:34:04 +0600</pubDate>
-    </item>
-    <lastBuildDate>Wed, 08 Apr 2026 03:45:17 +0000</lastBuildDate>
-    <item>
-      <title>Ordinance debate falls short of political sagacity. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/editorial/294915/ordinance-debate-falls-short-of-political-sagacity</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/editorial/294915/ordinance-debate-falls-short-of-political-sagacity</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Ordinance debate falls short of political sagacity. [ newagebd ]&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Road we keep dying on. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/294917/road-we-keep-dying-on</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/294917/road-we-keep-dying-on</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Road we keep dying on. [ newagebd ]&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Bangabandhu’s declaration, political reality and the making of Bangladesh. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/op-ed/406336/bangabandhu%E2%80%99s-declaration-political-reality-and</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/op-ed/406336/bangabandhu%E2%80%99s-declaration-political-reality-and</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;March 26, 1971 stands as a particularly significant day in the history of Bangladesh’s independence, rooted in a long experience of political...&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Eid holidays' road tragedies on the rise. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/editorial/eid-holidays-road-tragedies-on-the-rise</link>
-      <guid isPermaLink="true">https://thefinancialexpress.com.bd/editorial/eid-holidays-road-tragedies-on-the-rise</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;As was the case during past Eid-ul-Fitr holidays, the incumbent BNP-led government, too, had no shortage of assurances, nor goodwill, to ensure a safe Eid travel home and back for Eid holidaymakers this year. True, security measures were apparently beefed up, strong monitoring was mounted, addition&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Sorting out Dhaka's trash crisis. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/views/columns/sorting-out-dhakas-trash-crisis</link>
-      <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/columns/sorting-out-dhakas-trash-crisis</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Sorting out Dhaka's trash crisis. [ thefinancialexpress ]&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>War against Iran and Bangladesh’s economy. [ dailynewnation ]</title>
-      <link>https://dailynewnation.com/news/814809</link>
-      <guid isPermaLink="true">https://dailynewnation.com/news/814809</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The ongoing war in the Middle East is not ending as quickly as many had hoped. Many experts believe that there is a strong likelihood...&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Daulatdia tragedy: Is the system sinking on dry land?. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/editorial/865264</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/editorial/865264</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The tragic death of 26 people when a bus lost control and fell into the Padma River at Daulatdia Ferry&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>The Taste of Bangladesh's Independence Versus the Sorrow of Rohingyas and Gazans. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/349602/the-taste-of-bangladeshs-independence-versus-the-sorrow-of-rohingyas-and-gazans</link>
-      <guid isPermaLink="true">https://dailyasianage.com/news/349602/the-taste-of-bangladeshs-independence-versus-the-sorrow-of-rohingyas-and-gazans</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The Taste of Bangladesh's Independence Versus the Sorrow of Rohingyas and Gazans. [ dailyasianage ]&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>An accident in name, killing in reality at Daulatdia. [ dailynewnation ]</title>
-      <link>https://dailynewnation.com/news/814807</link>
-      <guid isPermaLink="true">https://dailynewnation.com/news/814807</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The recovery of at least 26 bodies from the Padma River after a passenger bus plunged into the water on Wednesday might while boarding a...&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Delaying LDC graduation: Preparedness matters. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/editorial/delaying-ldc-graduation-preparedness-matters-1774623988</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/delaying-ldc-graduation-preparedness-matters-1774623988</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh is approaching its scheduled graduation from Least Developed Country...&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>NGOs &amp; Bangladesh's post-LDC transition. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/views-opinion/ngos-bangladeshs-post-ldc-transition-1774623796</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/views-opinion/ngos-bangladeshs-post-ldc-transition-1774623796</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh is approaching one of the most defining transitions in...&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Sorting out Dhaka's  trash crisis. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/editorial/sorting-out-dhakas-trash-crisis-1774623927</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/sorting-out-dhakas-trash-crisis-1774623927</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;There are cities where garbage...&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Bangladesh in the shadow of MidEast crisis: A Gen Z reckoning. [ dailynewnation ]</title>
-      <link>https://dailynewnation.com/news/814808</link>
-      <guid isPermaLink="true">https://dailynewnation.com/news/814808</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;For the developing situation in the Middle East in Bangladesh is not merely a far-off geopolitical issue but rather it is a direct economic problem....&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
-    <item>
-      <title>Fair prices ensure fair work. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/editorial/405570/fair-prices-ensure-fair-work</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/editorial/405570/fair-prices-ensure-fair-work</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Fair prices ensure fair work. [ dhakatribune ]&lt;/p&gt;</description>
-      <pubDate>Sat, 28 Mar 2026 10:56:58 +0600</pubDate>
-    </item>
+    <lastBuildDate>Thu, 09 Apr 2026 03:39:42 +0000</lastBuildDate>
     <item>
       <title>Recurrent road tragedies must stop. [ thedailystar ]</title>
       <link>https://www.thedailystar.net/opinion/editorial/news/recurrent-road-tragedies-must-stop-4136856</link>
@@ -3513,7 +3240,6 @@ Financial Crisis in US?</description>
       <description>Persistent tensions in the Middle East, the resultant disruptions in key shipping routes, and the volatility in fuel access and prices are once again reminding the world of a hard truth: that energy security is no longer just about supply but also about having durable systems and structures in place.</description>
       <pubDate>Wed, 08 Apr 2026 09:45:13 +0600</pubDate>
     </item>
-  
     <item>
       <title>April 1971: When Bengalis Crossed the Rubicon. [ daily-sun ]</title>
       <link>https://www.daily-sun.com/opinion/867042</link>
@@ -3616,82 +3342,82 @@ Return to Sri Lanka&lt;/p&gt;</description>
 &lt;p&gt;“Some members spoke of remittances, which is true. [However,] thankfully, there has been no impact on remittances as of yet,” Aurangzeb said while speaking on the National Assembly floor.&lt;/p&gt;
 &lt;p&gt;“However, the reality is, roughly between 40 to 50 per cent of our remittances are coming from the GCC (Gulf Cooperation Council) countries,” the minister said, pointing out the region’s large contribution.&lt;/p&gt;
 &lt;p&gt;“So we are also reviewing its elasticity, that what difference it can make on the balance of payments and the current account,” he added.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full sm:w-1/2  media--right    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--newskitlink  &quot;&gt;    &lt;/div&gt;
+    &lt;figure class="media  w-full sm:w-1/2  media--right    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--newskitlink  "&gt;    &lt;/div&gt;
         
     &lt;/figure&gt;
 &lt;p&gt;Noting that other lawmakers had “rightfully” wondered what impacts the conflict would have on Pakistan’s economy, Aurangzeb said the government was regularly monitoring several aspects.&lt;/p&gt;
 &lt;p&gt;“Not only is the oil and gas bill increasing, but trade and insurance cost has gone up and the vessels available that bring these molecules,” he added.&lt;/p&gt;
 &lt;p&gt;Commenting on Pakistan’s diplomatic efforts to secure peace in the Middle East, Aurangzeb said, “Pakistan is playing its role, with prime minister &lt;em&gt;sahib&lt;/em&gt;, field marshal &lt;em&gt;sahib&lt;/em&gt;, deputy prime minister &lt;em&gt;sahib&lt;/em&gt;. May God make us take things to the finishing line.”&lt;/p&gt;
-&lt;p&gt;However, he cautioned that even if hostilities cease soon, the resulting crisis would remain for “weeks and months” as &lt;a href=&quot;https://www.dawn.com/news/1983755/iran-attack-wipes-out-17pc-of-qatars-lng-capacity-for-up-to-5-years-energy-company&quot;&gt;energy infrastructure&lt;/a&gt; has been hit and continues to be hit across the Gulf.&lt;/p&gt;
+&lt;p&gt;However, he cautioned that even if hostilities cease soon, the resulting crisis would remain for “weeks and months” as &lt;a href="https://www.dawn.com/news/1983755/iran-attack-wipes-out-17pc-of-qatars-lng-capacity-for-up-to-5-years-energy-company"&gt;energy infrastructure&lt;/a&gt; has been hit and continues to be hit across the Gulf.&lt;/p&gt;
 &lt;p&gt;During his speech, Aurangzeb detailed that government meetings are held on a daily basis, where steps taken by others in South Asia and even those in Southeast Asia are studied.&lt;/p&gt;
-&lt;p&gt;“Rationing has begun in a lot of countries […] even people with deep pockets have already transmitted the price. If you compare internationally, in the UAE, petrol prices were &lt;a href=&quot;https://www.dawn.com/news/1987515&quot;&gt;increased by 30pc&lt;/a&gt; and diesel prices by 70pc,” he said.&lt;/p&gt;
-&lt;p&gt;The minister cited &lt;a href=&quot;https://www.dawn.com/news/1988066/bangladesh-cuts-working-hours-to-save-energy-amid-middle-east-crisis&quot;&gt;Bangladesh&lt;/a&gt;, &lt;a href=&quot;https://www.dawn.com/news/1988651&quot;&gt;Sri Lanka&lt;/a&gt;, &lt;a href=&quot;https://www.dawn.com/news/1989095/gulf-war-batters-indias-glass-heartland-testing-new-delhis-manufacturing-drive&quot;&gt;India&lt;/a&gt;, &lt;a href=&quot;https://www.dawn.com/news/1984904&quot;&gt;Philippines&lt;/a&gt; and Cambodia as examples of nations hit hard by the ongoing crisis.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full sm:w-1/2  media--right    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--newskitlink  &quot;&gt;    &lt;/div&gt;
+&lt;p&gt;“Rationing has begun in a lot of countries […] even people with deep pockets have already transmitted the price. If you compare internationally, in the UAE, petrol prices were &lt;a href="https://www.dawn.com/news/1987515"&gt;increased by 30pc&lt;/a&gt; and diesel prices by 70pc,” he said.&lt;/p&gt;
+&lt;p&gt;The minister cited &lt;a href="https://www.dawn.com/news/1988066/bangladesh-cuts-working-hours-to-save-energy-amid-middle-east-crisis"&gt;Bangladesh&lt;/a&gt;, &lt;a href="https://www.dawn.com/news/1988651"&gt;Sri Lanka&lt;/a&gt;, &lt;a href="https://www.dawn.com/news/1989095/gulf-war-batters-indias-glass-heartland-testing-new-delhis-manufacturing-drive"&gt;India&lt;/a&gt;, &lt;a href="https://www.dawn.com/news/1984904"&gt;Philippines&lt;/a&gt; and Cambodia as examples of nations hit hard by the ongoing crisis.&lt;/p&gt;
+    &lt;figure class="media  w-full sm:w-1/2  media--right    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--newskitlink  "&gt;    &lt;/div&gt;
         
     &lt;/figure&gt;
 &lt;p&gt;In an apparent response to remarks made by other lawmakers, Aurangzeb stressed the need to set some facts straight after “statements were made that had no connection with reality”.&lt;/p&gt;
 &lt;p&gt;The minister highlighted that a blanket subsidy had been given, halting the transmission of oil price hikes to the public from March 14 to April 4.&lt;/p&gt;
-&lt;p&gt;“It is important to reinforce that a blanket subsidy of Rs129 billion was given,” he asserted, pointing out that funds were sourced through &lt;a href=&quot;https://www.dawn.com/news/1980231&quot;&gt;austerity measures&lt;/a&gt;, which were also facing a &lt;a href=&quot;https://www.dawn.com/news/1980758&quot;&gt;third-party audit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;“It is important to reinforce that a blanket subsidy of Rs129 billion was given,” he asserted, pointing out that funds were sourced through &lt;a href="https://www.dawn.com/news/1980231"&gt;austerity measures&lt;/a&gt;, which were also facing a &lt;a href="https://www.dawn.com/news/1980758"&gt;third-party audit&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The budget for Public Sector Development Programme (PSDP) was cut by Rs100bn, Aurangzeb noted, adding that dividends and profits were obtained from state-owned enterprises (SOEs).&lt;/p&gt;
-&lt;p&gt;“On the question of whether the deserving segments were taken care of or not, so a &lt;a href=&quot;https://www.dawn.com/news/1988115&quot;&gt;targeted subsidy&lt;/a&gt; was announced right at that time,” he said, referring to the subsidies aimed at bikers, public transport and small-scale farmers.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full sm:w-1/2  media--right    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--newskitlink  &quot;&gt;    &lt;/div&gt;
+&lt;p&gt;“On the question of whether the deserving segments were taken care of or not, so a &lt;a href="https://www.dawn.com/news/1988115"&gt;targeted subsidy&lt;/a&gt; was announced right at that time,” he said, referring to the subsidies aimed at bikers, public transport and small-scale farmers.&lt;/p&gt;
+    &lt;figure class="media  w-full sm:w-1/2  media--right    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--newskitlink  "&gt;    &lt;/div&gt;
         
     &lt;/figure&gt;
 &lt;p&gt;“We have not just announced the subsidies; the dirbursement are underway and the process had begun on Saturday,” Aurangzeb highlighted.&lt;/p&gt;
 &lt;p&gt;The minister noted that “very constructive suggestions” had come from the treasury and opposition benches.&lt;/p&gt;
 &lt;p&gt;“While we should hope for the best, we have to plan for the worst and hope is not a strategy,” he remarked.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full  w-full  media--left    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--youtube  &quot;&gt;&lt;/div&gt;
+    &lt;figure class="media  w-full  w-full  media--left    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--youtube  "&gt;&lt;/div&gt;
         
     &lt;/figure&gt;
-&lt;h2&gt;&lt;a class=&quot;heading-permalink&quot; href=&quot;https://evilgodfahim.github.io/bangladesh/feed.xml#ppps-sharmila-faruqui-decries-fuel-price-hike&quot; id=&quot;ppps-sharmila-faruqui-decries-fuel-price-hike&quot; title=&quot;Permalink&quot;&gt;&lt;/a&gt;PPP’s Sharmila Faruqui decries fuel price hike&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="heading-permalink" href="https://evilgodfahim.github.io/bangladesh/feed.xml#ppps-sharmila-faruqui-decries-fuel-price-hike" id="ppps-sharmila-faruqui-decries-fuel-price-hike" title="Permalink"&gt;&lt;/a&gt;PPP’s Sharmila Faruqui decries fuel price hike&lt;/h2&gt;
 &lt;p&gt;Speaking on the NA floor before Aurangzeb, PPP’s Sharmila Faruqui decried the recent hikes in petroleum prices.&lt;/p&gt;
-&lt;p&gt;She said that the &lt;a href=&quot;https://www.dawn.com/news/1989320&quot;&gt;briefing&lt;/a&gt; given by Petroleum Minister Ali Pervaiz Malik before the NA on Monday on the increase in oil prices was not satisfactory and he was “unconvincing”.&lt;/p&gt;
+&lt;p&gt;She said that the &lt;a href="https://www.dawn.com/news/1989320"&gt;briefing&lt;/a&gt; given by Petroleum Minister Ali Pervaiz Malik before the NA on Monday on the increase in oil prices was not satisfactory and he was “unconvincing”.&lt;/p&gt;
 &lt;p&gt;Since the February 28 strikes by the US and Israel on Iran triggered the war and pushed up global oil prices, fuel prices in Pakistan have reached record highs.&lt;/p&gt;
-&lt;p&gt;In &lt;a href=&quot;https://www.dawn.com/news/1979341/petrol-bomb-falls-on-pakistan-amid-war&quot;&gt;&lt;u&gt;two&lt;/u&gt;&lt;/a&gt; major &lt;a href=&quot;https://www.dawn.com/news/1987901/govt-hikes-petrol-price-to-rs458-per-litre-hsd-price-to-rs520-per-litre&quot;&gt;&lt;u&gt;hikes&lt;/u&gt;&lt;/a&gt;, petrol prices have risen from Rs266.17 to &lt;a href=&quot;https://www.dawn.com/news/1988282/petrol-price-reduces-to-rs378-per-litre-as-govt-cuts-levy-by-rs80&quot;&gt;&lt;u&gt;Rs378&lt;/u&gt;&lt;/a&gt; — after a &lt;a href=&quot;https://www.dawn.com/news/1988282/petrol-price-reduces-to-rs378-per-litre-as-govt-cuts-levy-by-rs80&quot;&gt;&lt;u&gt;partial reduction&lt;/u&gt;&lt;/a&gt; in a recent hike — while those of high-speed diesel have surged from Rs280.86 to Rs520.35.&lt;/p&gt;
+&lt;p&gt;In &lt;a href="https://www.dawn.com/news/1979341/petrol-bomb-falls-on-pakistan-amid-war"&gt;&lt;u&gt;two&lt;/u&gt;&lt;/a&gt; major &lt;a href="https://www.dawn.com/news/1987901/govt-hikes-petrol-price-to-rs458-per-litre-hsd-price-to-rs520-per-litre"&gt;&lt;u&gt;hikes&lt;/u&gt;&lt;/a&gt;, petrol prices have risen from Rs266.17 to &lt;a href="https://www.dawn.com/news/1988282/petrol-price-reduces-to-rs378-per-litre-as-govt-cuts-levy-by-rs80"&gt;&lt;u&gt;Rs378&lt;/u&gt;&lt;/a&gt; — after a &lt;a href="https://www.dawn.com/news/1988282/petrol-price-reduces-to-rs378-per-litre-as-govt-cuts-levy-by-rs80"&gt;&lt;u&gt;partial reduction&lt;/u&gt;&lt;/a&gt; in a recent hike — while those of high-speed diesel have surged from Rs280.86 to Rs520.35.&lt;/p&gt;
 &lt;p&gt;In her speech, Faruqui claimed Pakistan was the first country in the region to increase oil prices.&lt;/p&gt;
-&lt;p&gt;The PPP leader referred to &lt;a href=&quot;https://www.dawn.com/news/1988282&quot;&gt;recent addresses&lt;/a&gt; by PM Shehbaz and the April 2 &lt;a href=&quot;https://www.dawn.com/news/1987901/govt-hikes-petrol-price-to-rs458-per-litre-hsd-price-to-rs520-per-litre&quot;&gt;press conference&lt;/a&gt; by three ministers on the issue of oil prices, saying they showed a lack of consistency in the government’s policies and decisions.&lt;/p&gt;
+&lt;p&gt;The PPP leader referred to &lt;a href="https://www.dawn.com/news/1988282"&gt;recent addresses&lt;/a&gt; by PM Shehbaz and the April 2 &lt;a href="https://www.dawn.com/news/1987901/govt-hikes-petrol-price-to-rs458-per-litre-hsd-price-to-rs520-per-litre"&gt;press conference&lt;/a&gt; by three ministers on the issue of oil prices, saying they showed a lack of consistency in the government’s policies and decisions.&lt;/p&gt;
 &lt;p&gt;Faruqui noted that in his speeches, PM Shehbaz kept on insisting that prices would not be raised and their impact would not be transferred to the people, but then ministers held a press conference and suddenly prices were increased twice.&lt;/p&gt;
-&lt;p&gt;She suggested that the government hire the services of some consultants in order to have consistent policies, highlighting that no one knew how long the &lt;a href=&quot;https://www.dawn.com/news/1980082&quot;&gt;economic crisis&lt;/a&gt; stemming from the Middle East conflict would last.&lt;/p&gt;
+&lt;p&gt;She suggested that the government hire the services of some consultants in order to have consistent policies, highlighting that no one knew how long the &lt;a href="https://www.dawn.com/news/1980082"&gt;economic crisis&lt;/a&gt; stemming from the Middle East conflict would last.&lt;/p&gt;
 &lt;p&gt;The PPP MNA noted there was a tax of Rs131 per litre on petrol.&lt;/p&gt;
 &lt;p&gt;“What, after all, is this government’s policy? How does it plan to move forward? The price of diesel is also the highest in the region,” she said.&lt;/p&gt;
 &lt;p&gt;Faruqui added that people were asking them how they were supposed to make ends meet.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full  w-full  media--left    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--youtube  &quot;&gt;&lt;/div&gt;
+    &lt;figure class="media  w-full  w-full  media--left    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--youtube  "&gt;&lt;/div&gt;
         
     &lt;/figure&gt;
 &lt;p&gt;She contended that the government talked about motorcyclists only, without realising there were other people being affected too.&lt;/p&gt;
 &lt;p&gt;The PPP leader remarked that even she hesitated while buying petrol, wondering what the situation would be for ordinary people and those with small vehicles.&lt;/p&gt;
 &lt;p&gt;The government should reduce the profit margins of petroleum companies and formulate a comprehensive strategy, the PPP lawmaker suggested.&lt;/p&gt;
-&lt;h2&gt;&lt;a class=&quot;heading-permalink&quot; href=&quot;https://evilgodfahim.github.io/bangladesh/feed.xml#mqm-p-calls-for-briefing-on-regional-situation&quot; id=&quot;mqm-p-calls-for-briefing-on-regional-situation&quot; title=&quot;Permalink&quot;&gt;&lt;/a&gt;MQM-P calls for briefing on regional situation&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="heading-permalink" href="https://evilgodfahim.github.io/bangladesh/feed.xml#mqm-p-calls-for-briefing-on-regional-situation" id="mqm-p-calls-for-briefing-on-regional-situation" title="Permalink"&gt;&lt;/a&gt;MQM-P calls for briefing on regional situation&lt;/h2&gt;
 &lt;p&gt;Meanwhile, Javed Hanif of Muttahida Qaumi Movement-Pakistan (MQM-P) demanded that the NA should be given a comprehensive briefing on the possible fallout of the ongoing regional situation so that they can formulate future policies and decisions.&lt;/p&gt;
 &lt;p&gt;Taking part in the debate, Hanif demanded that Deputy PM and Foreign Minister Ishaq Dar, Defence Minister Khawaja Asif, Aurangzeb, and a team of security officials should brief the house on the Middle East conflict and its possible implications for Pakistan.&lt;/p&gt;
-&lt;p&gt;He appreciated Pakistan’s role and its &lt;a href=&quot;https://www.dawn.com/news/1989217&quot;&gt;mediatory efforts&lt;/a&gt;, saying that everyone was trusting Pakistan and its stature has increased.&lt;/p&gt;
+&lt;p&gt;He appreciated Pakistan’s role and its &lt;a href="https://www.dawn.com/news/1989217"&gt;mediatory efforts&lt;/a&gt;, saying that everyone was trusting Pakistan and its stature has increased.&lt;/p&gt;
 &lt;p&gt;However, the MQM-P leader said, they should be ready for the situation if these efforts remained fruitless.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full  w-full  media--left    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--youtube  &quot;&gt;&lt;/div&gt;
+    &lt;figure class="media  w-full  w-full  media--left    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--youtube  "&gt;&lt;/div&gt;
         
     &lt;/figure&gt;
 &lt;p&gt;He regretted that they were discussing the petroleum prices, which he termed a very trivial matter in the whole crisis. He contended that the entire architecture of the region could change in the future and they were only discussing oil prices.&lt;/p&gt;
 &lt;p&gt;“What if the US acts on its threat?” Hanif asked in an apparent reference to the US president’s threats to wipe out Iran. He cautioned that if it happened, then the statehood in Iran would come to an end.&lt;/p&gt;
 &lt;p&gt;He observed that if Iran retaliated, then the economic system of the Gulf countries would collapse, which could cause serious financial problems for Pakistan.&lt;/p&gt;
 &lt;p&gt;“What will happen with our remittances that are sent by some five million Pakistanis?” Hanif asked.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full sm:w-1/2  media--right    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--newskitlink  &quot;&gt;    &lt;/div&gt;
+    &lt;figure class="media  w-full sm:w-1/2  media--right    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--newskitlink  "&gt;    &lt;/div&gt;
         
     &lt;/figure&gt;
 &lt;p&gt;The MQM-P lawmaker stressed the need to consider what would happen to national unity, keeping in view the emotional attachment of Pakistanis during the crisis.&lt;/p&gt;
 &lt;p&gt;He was of the view that these issues were more serious than the issue of petroleum prices, which they had been discussing for the last few days.&lt;/p&gt;
-&lt;h1&gt;&lt;a class=&quot;heading-permalink&quot; href=&quot;https://evilgodfahim.github.io/bangladesh/feed.xml#achakzai-suggests-formation-of-national-govt&quot; id=&quot;achakzai-suggests-formation-of-national-govt&quot; title=&quot;Permalink&quot;&gt;&lt;/a&gt;Achakzai suggests formation of ‘national govt’&lt;/h1&gt;
+&lt;h1&gt;&lt;a class="heading-permalink" href="https://evilgodfahim.github.io/bangladesh/feed.xml#achakzai-suggests-formation-of-national-govt" id="achakzai-suggests-formation-of-national-govt" title="Permalink"&gt;&lt;/a&gt;Achakzai suggests formation of ‘national govt’&lt;/h1&gt;
 &lt;p&gt;Separately, National Assembly Opposition Leader Mahmood Khan Achakzai suggested the formation of a “national government” to build consensus among the country’s political parties.&lt;/p&gt;
 &lt;p&gt;Speaking in the NA during a debate on the Iran situation, Achakzai said, “We should agree on some democratic points at least — Parliament will be the source of power, supremacy of the Constitution, policies will originate from here.”&lt;/p&gt;
 &lt;p&gt;Stating that the time had passed when they used to blame each other for mistakes, the opposition leader said, “We will have to move toward a national government.”&lt;/p&gt;
 &lt;p&gt;“We will have to agree on some points. We will have to ask the establishment to give some space,” he said.&lt;/p&gt;
-    &lt;figure class=&quot;media  w-full  w-full  media--left    media--uneven  media--stretch&quot;&gt;
-        &lt;div class=&quot;media__item  media__item--youtube  &quot;&gt;&lt;/div&gt;
+    &lt;figure class="media  w-full  w-full  media--left    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--youtube  "&gt;&lt;/div&gt;
         
     &lt;/figure&gt;
 &lt;p&gt;Pointing out a “most dangerous” concern, Achakzai noted that several key politicians, including President Asif Ali Zardari, Prime Minister Shehbaz Sharif and PML-N President Nawaz Sharif, were now of old age.&lt;/p&gt;
@@ -3700,7 +3426,7 @@ Return to Sri Lanka&lt;/p&gt;</description>
 &lt;p&gt;The country, Achakzai said, could only move forward through “collective wisdom”.&lt;/p&gt;
 &lt;p&gt;He maintained that the “establishment” tried to break PTI founder Imran Khan but failed. Achakzai warned of resistance if there was any effort from “within the party or the rulers” to sideline Imran.&lt;/p&gt;
 &lt;p&gt;“Due to our own mistakes, this system is not functional anymore,” claimed Achakzai, also the head of the opposition alliance Tehreek-i-Tahafuz-i-Ayin-i-Pakistan (TTAP).&lt;/p&gt;
-&lt;p&gt;“This system has collapsed; whatever happened after the 2024 elections,” he claimed, referring to the PML-N-led &lt;a href=&quot;https://www.dawn.com/news/1813890&quot;&gt;coalition government&lt;/a&gt; formed after the Feb 8, 2024, &lt;a href=&quot;https://www.dawn.com/news/1812974&quot;&gt;general elections&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;“This system has collapsed; whatever happened after the 2024 elections,” he claimed, referring to the PML-N-led &lt;a href="https://www.dawn.com/news/1813890"&gt;coalition government&lt;/a&gt; formed after the Feb 8, 2024, &lt;a href="https://www.dawn.com/news/1812974"&gt;general elections&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The opposition leader also pointed out the absence of PM Shehbaz from the house. “Shehbaz Sharif is not here; otherwise, I would have spoken to him,” he said.&lt;/p&gt;
 &lt;p&gt;Lashing out at United States President Donald Trump, Achakzai said one individual wanted to push the entire world into war.&lt;/p&gt;
 &lt;p&gt;He added that the US trusted Pakistan and it should take advantage of that. The opposition leader further said that Afghanistan had been Pakistan’s ally and would remain so.&lt;/p&gt;
@@ -3767,8 +3493,506 @@ Return to Sri Lanka&lt;/p&gt;</description>
       <title>In the Rohingya refugee camps, we really want you to keep the gas running | Ajas Khan. [ theguardian ]</title>
       <link>https://www.theguardian.com/global-development/2026/apr/07/rohingya-refugees-cook-cooking-gas-bangladesh-camps-firewood</link>
       <guid isPermaLink="true">https://www.theguardian.com/global-development/2026/apr/07/rohingya-refugees-cook-cooking-gas-bangladesh-camps-firewood</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;Aid cuts mean the ethnically-cleansed refugees from Myanmar face a return to cooking over toxic flames, or keeping children out of school to spend all day scouring for firewood&lt;/p&gt;&lt;p&gt;Four years ago &lt;a href=&quot;https://www.hrw.org/news/2022/03/21/myanmar-us-recognizes-genocide-against-rohingya&quot;&gt;the US recognised&lt;/a&gt; the genocide of my people, and nations around the world came to our aid. Today, we ask the world to reaffirm that commitment. What do we ask for that will save lives, the local habitat and even dollars for Rohingya refugees?&lt;/p&gt;&lt;p&gt;Cooking gas.&lt;/p&gt; &lt;a href=&quot;https://www.theguardian.com/global-development/2026/apr/07/rohingya-refugees-cook-cooking-gas-bangladesh-camps-firewood&quot;&gt;Continue reading...&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;Aid cuts mean the ethnically-cleansed refugees from Myanmar face a return to cooking over toxic flames, or keeping children out of school to spend all day scouring for firewood&lt;/p&gt;&lt;p&gt;Four years ago &lt;a href="https://www.hrw.org/news/2022/03/21/myanmar-us-recognizes-genocide-against-rohingya"&gt;the US recognised&lt;/a&gt; the genocide of my people, and nations around the world came to our aid. Today, we ask the world to reaffirm that commitment. What do we ask for that will save lives, the local habitat and even dollars for Rohingya refugees?&lt;/p&gt;&lt;p&gt;Cooking gas.&lt;/p&gt; &lt;a href="https://www.theguardian.com/global-development/2026/apr/07/rohingya-refugees-cook-cooking-gas-bangladesh-camps-firewood"&gt;Continue reading...&lt;/a&gt;&lt;/p&gt;</description>
       <pubDate>Wed, 08 Apr 2026 11:55:14 +0600</pubDate>
+    </item>
+    <item>
+      <title>When America’s Own Lawyers Say ‘War Crimes’, Can World Stay Silent?. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/opinion/867449</link>
+      <guid isPermaLink="true">https://www.daily-sun.com/opinion/867449</guid>
+      <description>When America’s Own Lawyers Say ‘War Crimes’, Can World Stay Silent?</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>The Price of Maritime Neglect. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/opinion/867501</link>
+      <guid isPermaLink="true">https://www.daily-sun.com/opinion/867501</guid>
+      <description>The Price of Maritime Neglect</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Energy Crisis Fuels Russia’s Return to Sri Lanka. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/opinion/867450</link>
+      <guid isPermaLink="true">https://www.daily-sun.com/opinion/867450</guid>
+      <description>Energy Crisis Fuels Russia’s 
+Return to Sri Lanka</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Temporary truce: Future of Iran War still uncertain. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/editorial/temporary-truce-future-of-iran-war-still-uncertain</link>
+      <guid isPermaLink="true">https://thefinancialexpress.com.bd/editorial/temporary-truce-future-of-iran-war-still-uncertain</guid>
+      <description>Though temporary, the Iran War truce is a relief for the world as a whole and for an oil import-dependent country like Bangladesh, in particular. Less than two hours before the expiry of the deadline set by US President Donald Trump to 'wipe out a whole civilization', Iran and the USA agreed to a c</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Rampant violation of workplace safety. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/columns/rampant-violation-of-workplace-safety</link>
+      <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/columns/rampant-violation-of-workplace-safety</guid>
+      <description />
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>The strategic alignment for economic progress. [ dhakatribune ]</title>
+      <link>https://www.dhakatribune.com/opinion/longform/407307/the-strategic-alignment-for-economic-progress</link>
+      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/longform/407307/the-strategic-alignment-for-economic-progress</guid>
+      <description>The ongoing political and military conflict involving Iran, Israel, and the US has complicated global political and socio-economic conditions. Many...</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>War against Iran: the end game. [ today ]</title>
+      <link>https://today.thefinancialexpress.com.bd/views-opinion/war-against-iran-the-end-game-1775659613</link>
+      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/views-opinion/war-against-iran-the-end-game-1775659613</guid>
+      <description>The Biblical Armageddon between good...</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Hope for global stability in Islamabad dialogue. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/editorial/867691</link>
+      <guid isPermaLink="true">https://www.daily-sun.com/editorial/867691</guid>
+      <description>The announcement of a two-week temporary ceasefire after a month of high-stake war between Washington and Tehran has come like</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Crop Insurance Initiative to Shield Farmers from Climate Risks. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/editorial/867692</link>
+      <guid isPermaLink="true">https://www.daily-sun.com/editorial/867692</guid>
+      <description>The agriculture minister has recently announced the government’s plan to introduce crop insurance to protect farmers from losses caused by</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>A Gulf-Iran deal can end the war for good. [ bangladeshpost ]</title>
+      <link>https://bangladeshpost.net/posts/a-gulf-iran-deal-can-end-the-war-for-good-168475</link>
+      <guid isPermaLink="true">https://bangladeshpost.net/posts/a-gulf-iran-deal-can-end-the-war-for-good-168475</guid>
+      <description />
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>The Broken Compass of Global Politics: Conflicts, Inequality, and Leadership Failure. [ dailynewnation ]</title>
+      <link>https://dailynewnation.com/news/818253</link>
+      <guid isPermaLink="true">https://dailynewnation.com/news/818253</guid>
+      <description>Global politics in the twenty-first century presents a profound paradox. Humanity has achieved extraordinary progress in science, technology, communication, and economic development, yet political systems...</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>War against Iran: the end game. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/views/war-against-iran-the-end-game</link>
+      <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/views/war-against-iran-the-end-game</guid>
+      <description>&lt;a class="nuxt-link-active" href="https://politepaul.com/"&gt;Hasnat Abdul Hye&lt;/a&gt;</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Time for India to reconsider hostile border policy. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/editorial/296218/time-for-india-to-reconsider-hostile-border-policy</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/editorial/296218/time-for-india-to-reconsider-hostile-border-policy</guid>
+      <description />
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Memory, war and the battle for Bangladesh’s soul. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/296222/memory-war-and-the-battle-for-bangladeshs-soul</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/296222/memory-war-and-the-battle-for-bangladeshs-soul</guid>
+      <description />
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Will China exploit US military engagement?. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/296111/will-china-exploit-us-military-engagement</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/296111/will-china-exploit-us-military-engagement</guid>
+      <description />
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Renewable energy stagnation. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/296221/renewable-energy-stagnation</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/296221/renewable-energy-stagnation</guid>
+      <description />
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>'Islamic bomb': The secret Pakistani scheme to make Iran a nuclear power. [ middleeasteye ]</title>
+      <link>https://www.middleeasteye.net/features/islamic-bomb-secret-pakistani-scheme-make-iran-nuclear-power</link>
+      <guid isPermaLink="true">https://www.middleeasteye.net/features/islamic-bomb-secret-pakistani-scheme-make-iran-nuclear-power</guid>
+      <description>&lt;article class="story default clearfix"&gt;
+
+  
+      &lt;h2&gt;
+      &lt;a href="https://www.middleeasteye.net/features/islamic-bomb-secret-pakistani-scheme-make-iran-nuclear-power" rel="bookmark"&gt;
+&lt;span class="field field-title"&gt;'Islamic bomb': The secret Pakistani scheme to make Iran a nuclear power&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+    
+
+          &lt;footer&gt;
+      
+      &lt;div class="author"&gt;
+        Submitted by 
+&lt;span class="field field-uid"&gt;&lt;a href="https://www.middleeasteye.net/users/imran-mulla" lang="lang" title="View user profile."&gt;Imran Mulla&lt;/a&gt;&lt;/span&gt;
+ on 
+&lt;span class="field field-created"&gt;&lt;time datetime="2026-04-08T13:07:15+01:00" title="8 April 2026 13:07 BST"&gt;Wed, 04/08/2026 - 13:07&lt;/time&gt;
+&lt;/span&gt;
+        
+      &lt;/div&gt;
+    &lt;/footer&gt;
+      
+    &lt;div class="content"&gt;
+                &lt;div class="field field-field-subhead"&gt;Scientist AQ Khan, surveilled and targeted by Israel's Mossad, wanted to give Iran nuclear technology to challenge the authority of the West&lt;/div&gt;
+                  &lt;div class="field field-field-main-image"&gt;    
+                  &lt;source height="787" type="image/webp" width="1400" /&gt;
+                  &lt;img alt="Abdul Qadeer Khan sits during a public meeting along with members from the Jamaat-e-Islami party in Islamabad on 26 February 2013 (AFP)" height="383" src="https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/images-story/000_Del6197406%20%281%29.jpg.jpg?itok=vu29wULy" width="681" /&gt;
+
+  
+
+&lt;/div&gt;
+                  &lt;div class="field field-field-cutline"&gt;Abdul Qadeer Khan sits during a public meeting along with members from the Jamaat-e-Islami party in Islamabad on 26 February 2013 (AFP)&lt;/div&gt;
+                  &lt;div class="field field-field-wide-photo-video"&gt;Off&lt;/div&gt;
+                  &lt;div class="field field-body clearfix"&gt;&lt;p&gt;"I want to question the holier-than-thou attitude of the Americans and British. Are these bastards God-appointed guardians of the world?"&lt;/p&gt;
+
+&lt;p&gt;So said Abdul Qadeer Khan, the godfather of Pakistan's nuclear programme, when asked to justify his international network aimed at giving nuclear technology to&amp;nbsp;&lt;a href="https://www.middleeasteye.net/countries/iran" target="_blank"&gt;Iran&lt;/a&gt;,&amp;nbsp;&lt;a href="https://www.middleeasteye.net/countries/libya" target="_blank"&gt;Libya&lt;/a&gt;&amp;nbsp;and North Korea.&lt;/p&gt;
+
+&lt;p&gt;One of the biggest US-Israeli justifications for their war on Iran over the past six weeks has been to stop the Iranians from developing nuclear weapons. Israel is widely known to have nuclear weapons, although it has never admitted this publicly.&lt;/p&gt;
+
+&lt;p&gt;Back in the 1980s, Israel tried and failed to stop another Muslim-majority country from obtaining the bomb: Pakistan.&lt;/p&gt;
+
+&lt;p&gt;The man most crucial to Pakistan's successful nuclear programme, known in his country as AQ Khan, did not simply aim to make his own country a nuclear power.&lt;/p&gt;&lt;div class="block-adsense block-adsense-managed-ad-block"&gt;&lt;div&gt;
+  &lt;div class="adsense responsive"&gt;
+    
+&lt;!-- responsive --&gt;
+&lt;ins class="adsbygoogle mee-auto-ad-wrapper " style="display: block;"&gt;&lt;/ins&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Under surveillance by Israeli spies, Khan aimed to challenge the United States and the West by helping other countries, Iran among them, with their own programmes.&lt;/p&gt;
+
+&lt;p&gt;Former CIA director George Tenet&amp;nbsp;&lt;a href="https://www.bbc.co.uk/news/world-asia-58857827" target="_blank"&gt;later judged&lt;/a&gt;&amp;nbsp;him "at least as dangerous as Osama bin Laden" and ex-Mossad chief Shabtai Shavit &lt;a href="https://www.haaretz.com/israel-news/2021-10-13/ty-article-opinion/.highlight/pakistan-a-q-khan-father-of-muslim-bomb-escaped-israel-mossad-assassination/0000017f-f15f-d487-abff-f3ffe5ed0000" target="_blank"&gt;regretted&lt;/a&gt;&amp;nbsp;not killing him.&lt;/p&gt;
+
+&lt;p&gt;Of the countries Khan assisted, only North Korea became a nuclear power. In the early 2000s, Iran's programme was exposed and destroyed. The story of how the Pakistani scientist got the Iranians so close is extraordinary.&lt;/p&gt;
+
+&lt;h3&gt;'Key to our national survival'&lt;/h3&gt;
+
+&lt;p&gt;Zulfikar Ali Bhutto, twice Pakistan's prime minister in the 70s, masterminded his country's nuclear programme.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;"We were not building a bomb," Munir Ahmad Khan, who oversaw the Pakistan Atomic Energy Commission under Bhutto's direction, later &lt;a href="https://kasurian.com/p/eating-grass-breathing-fire"&gt;reflected&lt;/a&gt;.&amp;nbsp;"We were building a deterrent."&lt;/p&gt;&lt;div class="block-adsense block-adsense-managed-ad-block"&gt;&lt;div&gt;
+  &lt;div class="adsense responsive"&gt;
+    
+&lt;!-- responsive --&gt;
+&lt;ins class="adsbygoogle mee-auto-ad-wrapper " style="display: block;"&gt;&lt;/ins&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bhutto decided to build a bomb after India&amp;nbsp;&lt;a href="https://www.thetimes.com/uk/obituaries/article/abdul-qadeer-khan-obituary-zrskn56x5" target="_blank"&gt;tested&lt;/a&gt;&amp;nbsp;its first nuclear weapon, codenamed Smiling Buddha, on 18 May 1974.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;"We will eat grass or leaves, even go hungry," Bhutto &lt;a href="https://www.middleeasteye.net/news/how-israel-planned-bomb-pakistan-stop-it-building-nuclear-weapons"&gt;vowed&lt;/a&gt;, "but we will get one of our own."&lt;/p&gt;
+
+&lt;p&gt;There was, he said, “a Christian bomb, a Jewish bomb and now a Hindu bomb.&amp;nbsp;Why not an Islamic bomb?”&lt;/p&gt;
+
+&lt;p&gt;He saw the project as existential for the country. "The bomb is not just a weapon," he &lt;a href="https://kasurian.com/p/eating-grass-breathing-fire"&gt;proclaimed&lt;/a&gt;. "It is the very key to our national survival."&lt;/p&gt;
+
+  &lt;figure class="media-block"&gt;
+  &lt;div class="group-inner"&gt;
+    &lt;div alt="Pakistani PM Bhutto (3rd R) with Libya's Colonel Ghadaffi (2nd), Bangladeshi PM Mujibur Rahman (2nd L) and PLO President Yasser Arafat (L) at the Islamic Summit Conference in 1974. (AFP)" class="embedded-entity" title="islamicsummitconf"&gt;  &lt;img alt="Pakistani PM Bhutto (3rd R) with Libya's Colonel Ghadaffi (2nd), Bangladeshi PM Mujibur Rahman (2nd L) and PLO President Yasser Arafat (L) at the Islamic Summit Conference in 1974. (AFP)" height="576" src="https://www.middleeasteye.net/sites/default/files/000_ARP2850723%20%281%29.jpg" title="islamicsummitconf" width="1022" /&gt;
+
+&lt;/div&gt;
+
+    &lt;figcaption&gt;Pakistani PM Bhutto (3rd R) with Libya's Colonel Gaddafi (2nd), Bangladeshi PM Mujibur Rahman (2nd L) and PLO President Yasser Arafat (L) at the Islamic Summit Conference in 1974 (AFP)&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;span&gt;&lt;img height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" title="Click and drag to move" width="15" /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The man who would build that "key", AQ Khan, was in 1974&amp;nbsp;&lt;a href="https://www.thetimes.com/uk/obituaries/article/abdul-qadeer-khan-obituary-zrskn56x5" target="_blank"&gt;working&lt;/a&gt;&amp;nbsp;for a subcontractor of a major nuclear fuel company, Urenco, in Amsterdam.&lt;/p&gt;&lt;div class="block-adsense block-adsense-managed-ad-block"&gt;&lt;div&gt;
+  &lt;div class="adsense responsive"&gt;
+    
+&lt;!-- responsive --&gt;
+&lt;ins class="adsbygoogle mee-auto-ad-wrapper " style="display: block;"&gt;&lt;/ins&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The company supplied enriched uranium fuel for European nuclear reactors.&lt;/p&gt;
+
+&lt;p&gt;Khan had access to top-secret areas of the Urenco facility and blueprints of the world’s best centrifuges, which enriched natural uranium and turned it into bomb fuel.&lt;/p&gt;
+
+&lt;p&gt;He &lt;a href="https://kasurian.com/p/eating-grass-breathing-fire"&gt;sent&lt;/a&gt; a handwritten letter to Pakistan, addressed to Bhutto, saying: "I have acquired very detailed and comprehensive knowledge of the gas centrifuge system and am now in a position to help Pakistan...&amp;nbsp;This is a matter of utmost urgency."&lt;/p&gt;
+
+&lt;p&gt;He later said that he wrote the letter "with full awareness that I could be arrested or killed. But I felt I had no choice. India had tested. We had to respond".&lt;/p&gt;
+
+&lt;h3&gt;'I promised it. I kept that promise'&lt;/h3&gt;
+
+&lt;p&gt;Khan has been&amp;nbsp;&lt;a href="https://www.thetimes.com/uk/obituaries/article/abdul-qadeer-khan-obituary-zrskn56x5" target="_blank"&gt;accused&lt;/a&gt;&amp;nbsp;of having stolen a blueprint for uranium centrifuges, which can turn uranium into weapons-grade fuel, from the Netherlands.&lt;/p&gt;
+
+&lt;p&gt;In July 1976 he&amp;nbsp;&lt;a href="https://www.thetimes.com/uk/obituaries/article/abdul-qadeer-khan-obituary-zrskn56x5" target="_blank"&gt;set up&lt;/a&gt;&amp;nbsp;a research laboratory in Rawalpindi which produced enriched uranium for nuclear weapons.&lt;/p&gt;
+
+&lt;p&gt;Despite Indian and Israeli opposition, China&amp;nbsp;&lt;a href="https://archive.nytimes.com/www.nytimes.com/library/world/asia/060198pakistan-nuke-history.html" target="_blank"&gt;provided&lt;/a&gt;&amp;nbsp;the Pakistanis with enriched uranium, tritium and even scientists.&lt;/p&gt;
+
+&lt;p&gt;US President Jimmy Carter cut aid to Islamabad in April 1979 in response to its programme being exposed, but then&amp;nbsp;&lt;a href="https://archive.nytimes.com/www.nytimes.com/library/world/asia/060198pakistan-nuke-history.html" target="_blank"&gt;reversed&lt;/a&gt;&amp;nbsp;the decision months later when the Soviet Union invaded Afghanistan: America would need the help of neighbouring Pakistan.&lt;/p&gt;
+
+&lt;p&gt;In the 1980s, the US&amp;nbsp;&lt;a href="https://archive.nytimes.com/www.nytimes.com/library/world/asia/060198pakistan-nuke-history.html" target="_blank"&gt;covertly gave&lt;/a&gt;&amp;nbsp;Pakistani nuclear scientists technical training and turned a blind eye to its programme.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;'I felt I had no choice. India had tested. We had to respond'&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;nbsp;- AQ Khan&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But everything changed with the end of the Cold War.&lt;/p&gt;
+
+&lt;p&gt;In October 1990, the US&amp;nbsp;&lt;a href="https://archive.nytimes.com/www.nytimes.com/library/world/asia/060198pakistan-nuke-history.html" target="_blank"&gt;halted&lt;/a&gt;&amp;nbsp;economic and military aid to Pakistan in protest against the nuclear programme. Pakistan then said it would stop developing nuclear weapons.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;AQ Khan later&amp;nbsp;&lt;a href="https://www.thetimes.com/uk/obituaries/article/abdul-qadeer-khan-obituary-zrskn56x5" target="_blank"&gt;revealed&lt;/a&gt;, though, that the production of highly enriched uranium secretly continued.&lt;/p&gt;
+
+&lt;p&gt;On 11 May 1998, India&amp;nbsp;&lt;a href="https://www.thetimes.com/uk/obituaries/article/abdul-qadeer-khan-obituary-zrskn56x5" target="_blank"&gt;tested&lt;/a&gt;&amp;nbsp;its nuclear warheads. Pakistan then successfully tested its own in the Balochistan desert later that month. It had become the world’s seventh nuclear power.&lt;/p&gt;
+
+&lt;p&gt;"I told Bhutto Sahib we would get the bomb," Khan said.&amp;nbsp;"I promised it. I kept that promise."&lt;/p&gt;
+
+&lt;h3&gt;The Iranian programme&lt;/h3&gt;
+
+&lt;p&gt;But throughout this time, Khan was running another, even more daring programme:&amp;nbsp;an international nuclear network that sent technology and designs to Iran, North Korea and Libya.&lt;/p&gt;
+
+&lt;p&gt;Before the Islamic Revolution in 1979, Iran's programme for peaceful nuclear power received western backing, but this vanished once the shah was removed.&lt;/p&gt;
+
+&lt;p&gt;Iranian Supreme Leader Ayatollah Ruhollah Khomeini&amp;nbsp;&lt;a href="https://www.lrb.co.uk/the-paper/v41/n14/owen-bennett-jones/one-screw-short"&gt;issued&lt;/a&gt; a fatwa against the nuclear bomb, saying it violated Islam.&lt;/p&gt;
+
+&lt;p&gt;But behind closed doors in the 1980s, the Iranian government &lt;a href="https://www.lrb.co.uk/the-paper/v41/n14/owen-bennett-jones/one-screw-short"&gt;approached&lt;/a&gt; Pakistan’s military dictator, General Zia-ul-Haq, for help.&lt;/p&gt;
+
+&lt;p&gt;"We had talks with the Pakistanis," Akbar Hashemi Rafsanjani, the Iranian president between 1989 and 1997,&amp;nbsp;&lt;a href="https://www.ibtimes.co.uk/pakistan-sold-nuke-technology-iran-1980s-says-former-president-rafsanjani-1526403"&gt;revealed&lt;/a&gt; in 2015.&lt;/p&gt;
+
+&lt;p&gt;"We were at war, and we wanted to have such an option for the day our enemies wanted to use nuclear weapons. This was our state of mind."&lt;/p&gt;
+
+  &lt;figure class="media-block"&gt;
+  &lt;div class="group-inner"&gt;
+    &lt;div alt="Iranian former president Akbar Hashemi Rafsanjani arrives for a press conference at the interior ministry in Tehran on December 21, 2015. (AFP)" class="embedded-entity" title="akbarhashemi"&gt;  &lt;img alt="Iranian former president Akbar Hashemi Rafsanjani arrives for a press conference at the interior ministry in Tehran on December 21, 2015. (AFP)" height="576" src="https://www.middleeasteye.net/sites/default/files/000_Nic6522168%20%281%29.jpg" title="akbarhashemi" width="1024" /&gt;
+
+&lt;/div&gt;
+
+    &lt;figcaption&gt;Iranian former president Akbar Hashemi Rafsanjani arrives for a press conference at the interior ministry in Tehran on 21 December 2015 (AFP)&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;span&gt;&lt;img height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" title="Click and drag to move" width="15" /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;"Abdul Qadeer Khan believed that the Islamic world had to have a nuclear bomb," Rafsanjani recalled.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;"It was agreed that they [Pakistan] should help us a bit - for example, by delivering second-hand first-generation centrifuges, along with some designs - so that we could build it ourselves. Gradually, we started the work...&lt;/p&gt;
+
+&lt;p&gt;"The Pakistanis gave us 4,000 second-hand first-generation centrifuges, along with designs."&lt;/p&gt;
+
+&lt;h3&gt;The Israeli sabotage attempt&lt;/h3&gt;
+
+&lt;p&gt;The fiercest opposition to Pakistan came from Israel.&amp;nbsp;The Israelis "didn’t want a Muslim country to have the bomb",&amp;nbsp;&lt;a href="https://www.trtworld.com/magazine/mission-majnu-why-india-could-not-thwart-pakistans-nuclear-aspiration-12795176" target="_blank"&gt;according to&lt;/a&gt;&amp;nbsp;Feroz Khan, a former official in Pakistan’s nuclear weapons programme.&lt;/p&gt;
+
+&lt;p&gt;In the early 1980s, Israel&amp;nbsp;&lt;a href="https://economictimes.indiatimes.com/news/defence/19791983-when-israel-was-ready-to-help-india-denuclearise-pakistan-but-the-plan-was-called-off/articleshow/121865026.cms?from=mdr" target="_blank"&gt;proposed&lt;/a&gt;&amp;nbsp;to India that the two collaborate to bomb and destroy Pakistan’s nuclear facility at Kahuta in Pakistan’s Rawalpindi district.&lt;/p&gt;
+
+&lt;div class="mee-readmore mee-readmore-article-story mee-readmore-type-image align-right"&gt;
+  &lt;a class="mee-readmore-img-link" href="https://www.middleeasteye.net/news/how-pakistan-positioned-itself-centre-global-crisis-management"&gt;&lt;img alt="alt" class="mee-readmore-image" height="250" src="https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/063_2237016373.jpg.webp?itok=1ZVDeafU" width="400" /&gt;
+
+&lt;/a&gt;  &lt;div class="mee-readmore-description"&gt;How Pakistan positioned itself at the centre of global crisis management&lt;/div&gt;
+    &lt;a class="mee-readmore-link" href="https://www.middleeasteye.net/news/how-pakistan-positioned-itself-centre-global-crisis-management"&gt;Read More »&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then-Indian Prime Minister Indira Gandhi approved the strike.&lt;/p&gt;
+
+&lt;p&gt;A&amp;nbsp;&lt;a href="https://www.amazon.co.uk/Kahuta-Indo-Israeli-Attack-Pakistans-Nuclear/dp/1791811035" target="_blank"&gt;plan&lt;/a&gt;&amp;nbsp;developed for Israeli F-16 and F-15 fighterjets to take off from the Jamnagar airbase in India’s Gujarat and launch strikes on the facility.&lt;/p&gt;
+
+&lt;p&gt;But Gandhi later&amp;nbsp;&lt;a href="https://economictimes.indiatimes.com/news/defence/19791983-when-israel-was-ready-to-help-india-denuclearise-pakistan-but-the-plan-was-called-off/articleshow/121865026.cms?from=mdr" target="_blank"&gt;backed out&lt;/a&gt;&amp;nbsp;and the plan was shelved.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Khan was&amp;nbsp;&lt;a href="https://www.pbs.org/frontlineworld/stories/pakistan/nytimes03.html" target="_blank"&gt;ordering&lt;/a&gt;&amp;nbsp;double the number of parts the Pakistani nuclear programme required and then secretly selling the excess on.&lt;/p&gt;
+
+&lt;p&gt;By this point, Khan was known in Pakistani military circles variously as the "Invisible General", "Dr AQQ", "Father of the Bomb" and "Mohsin-e-Pakistan" (Saviour of Pakistan).&lt;/p&gt;
+
+&lt;p&gt;Between 1986 and 2001, Pakistan gave Iran key components it needed.&lt;/p&gt;
+
+&lt;h3&gt;A Mossad chief's lament&lt;/h3&gt;
+
+&lt;p&gt;The Mossad had Khan&amp;nbsp;&lt;a href="https://www.haaretz.com/israel-news/2021-10-13/ty-article-opinion/.highlight/pakistan-a-q-khan-father-of-muslim-bomb-escaped-israel-mossad-assassination/0000017f-f15f-d487-abff-f3ffe5ed0000" target="_blank"&gt;under surveillance&lt;/a&gt;&amp;nbsp;as he travelled around the Middle East in the 1980s and 1990s, but failed to work out what the scientist was doing.&lt;/p&gt;
+
+&lt;p&gt;Then-Mossad chief&amp;nbsp;Shabtai&amp;nbsp;&lt;a href="https://www.haaretz.com/israel-news/2021-10-13/ty-article-opinion/.highlight/pakistan-a-q-khan-father-of-muslim-bomb-escaped-israel-mossad-assassination/0000017f-f15f-d487-abff-f3ffe5ed0000" target="_blank"&gt;Shavit&lt;/a&gt;&amp;nbsp;later said that if he had realised Khan’s intentions, he would have considered ordering him to be assassinated to "change the course of history".&lt;/p&gt;
+
+&lt;p&gt;The Pakistani military kept civilian governments in the dark about Khan's international efforts.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Pakistani prime minister Benazir Bhutto, Zulfikar Ali Bhutto’s daughter, was not told a word about a nuclear technology-sharing programme with Iran by her generals.&lt;/p&gt;
+
+&lt;p&gt;She only&amp;nbsp;&lt;a href="https://www.lrb.co.uk/the-paper/v41/n14/owen-bennett-jones/one-screw-short" target="_blank"&gt;found out&lt;/a&gt;&amp;nbsp;about it in 1989 by accident - in Tehran.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Rafsanjani&amp;nbsp;&lt;a href="https://www.lrb.co.uk/the-paper/v41/n14/owen-bennett-jones/one-screw-short" target="_blank"&gt;asked&lt;/a&gt;&amp;nbsp;her whether they could reaffirm the two countries’ agreement on "special defence matters".&lt;/p&gt;
+
+&lt;p&gt;"What exactly are you talking about, Mr President?" asked Bhutto, confused.&lt;/p&gt;
+
+&lt;p&gt;"Nuclear technology, Madam Prime Minister, nuclear technology," replied the Iranian president. Bhutto was stunned.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Six Iranian scientists were &lt;a href="https://carnegieendowment.org/research/2005/09/a-q-khan-nuclear-chronology"&gt;reportedly&lt;/a&gt; trained in Pakistan,&amp;nbsp;at the Institute of Nuclear Science and Technology in Islamabad and the Nuclear Studies Institute.&lt;/p&gt;
+
+&lt;p&gt;There have also been &lt;a href="https://carnegieendowment.org/research/2005/09/a-q-khan-nuclear-chronology"&gt;claims&lt;/a&gt; that Khan himself visited the Iranian reactor at Bushehr in February 1986 and in January 1987, which the scientist denied.&lt;/p&gt;
+
+&lt;p&gt;Between 1989 and 1995, Khan is believed to have &lt;a href="https://carnegieendowment.org/research/2005/09/a-q-khan-nuclear-chronology"&gt;shipped&lt;/a&gt; over 2,000 components and sub-assemblies for centrifuges to Iran.&lt;/p&gt;
+
+&lt;h3&gt;'An astounding transformation'&lt;/h3&gt;
+
+&lt;p&gt;In 2003, the whole operation came crashing down.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Libyan leader&amp;nbsp;Muammar Gaddafi blew Khan’s operation while attempting to win support from the US.&lt;/p&gt;
+
+&lt;div class="mee-readmore mee-readmore-article-mee-life mee-readmore-type-image align-right"&gt;
+  &lt;a class="mee-readmore-img-link" href="https://www.middleeasteye.net/discover/balkans-bengal-persians-culture-imprint-globe"&gt;&lt;img alt="alt" class="mee-readmore-image" height="250" src="https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/Mughal_Troops_Chase_the_Armies_of_Da%27ud%20%281%29.jpg.webp?itok=hBnup23R" width="400" /&gt;
+
+&lt;/a&gt;  &lt;div class="mee-readmore-description"&gt;From the Balkans to Bengal: How Persian culture has left an imprint around the globe&lt;/div&gt;
+    &lt;a class="mee-readmore-link" href="https://www.middleeasteye.net/discover/balkans-bengal-persians-culture-imprint-globe"&gt;Read More »&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Gaddafi&amp;nbsp;&lt;a href="https://www.haaretz.com/israel-news/2021-10-13/ty-article-opinion/.highlight/pakistan-a-q-khan-father-of-muslim-bomb-escaped-israel-mossad-assassination/0000017f-f15f-d487-abff-f3ffe5ed0000" target="_blank"&gt;disclosed&lt;/a&gt;&amp;nbsp;to the CIA and MI6 that Khan was building nuclear sites for his government - some of which were disguised as chicken farms.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The CIA&amp;nbsp;&lt;a href="https://www.nytimes.com/2004/02/12/world/a-tale-of-nuclear-proliferation-how-pakistani-built-his-network.html" target="_blank"&gt;seized&lt;/a&gt;&amp;nbsp;machinery bound for Libya as it was being smuggled through the Suez Canal. Investigators found weapons blueprints in bags from an Islamabad dry cleaner.&lt;/p&gt;
+
+&lt;p&gt;When the operation was exposed, the Americans were horrified.&lt;/p&gt;
+
+&lt;p&gt;"It was an astounding transformation when you think about it, something we've never seen before," a senior American official told the&amp;nbsp;&lt;a href="https://www.nytimes.com/2004/02/12/world/a-tale-of-nuclear-proliferation-how-pakistani-built-his-network.html" target="_blank"&gt;New York Times&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;"First, [Khan] exploits a fragmented market and develops a quite advanced nuclear arsenal.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;"Then he throws the switch, reverses the flow and figures out how to sell the whole kit, right down to the bomb designs, to some of the world's worst governments."&lt;/p&gt;
+
+&lt;h3&gt;The confessions of AQ Khan&lt;/h3&gt;
+
+&lt;p&gt;In 2004, Khan confessed to running the nuclear proliferation network, saying he had provided Iran, Libya and North Korea with nuclear technology.&lt;/p&gt;
+
+&lt;p&gt;That February, he appeared on television and&amp;nbsp;&lt;a href="https://www.thetimes.com/uk/obituaries/article/abdul-qadeer-khan-obituary-zrskn56x5" target="_blank"&gt;insisted&lt;/a&gt;&amp;nbsp;he had acted alone, with no support from the Pakistani government, which then swiftly pardoned him.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Later, Khan&amp;nbsp;&lt;a href="https://www.aljazeera.com/news/2021/10/10/abdul-qadeer-khan-nuclear-hero-in-pakistan-villain-to-the-west" target="_blank"&gt;reflected&lt;/a&gt;&amp;nbsp;that he "saved the country for the first time when I made Pakistan a nuclear nation and saved it again when I confessed and took the whole blame on myself".&lt;/p&gt;
+
+&lt;p&gt;Under intense international pressure, in 2005 Iran &lt;a href="https://www.middleeasteye.net/news/iran-nuclear-deal-jcpoa-explained"&gt;agreed&lt;/a&gt; to develop peaceful nuclear power under the supervision of the International Atomic Energy Agency (IAEA).&lt;/p&gt;
+
+&lt;p&gt;Then in 2015, Iran signed a nuclear agreement with the US, China, France, Germany and Russia, accepting severe restrictions on its civil nuclear programme in exchange for the lifting of sanctions.&lt;/p&gt;
+
+&lt;p&gt;Three years later, the Trump administration pulled out of the agreement and reimposed tough economic sanctions on Iran.&amp;nbsp;&lt;/p&gt;
+
+  &lt;figure class="media-block"&gt;
+  &lt;div class="group-inner"&gt;
+    &lt;div alt="Supporters and officials gather around an ambulance carrying the coffin of AQ Khan following his death in Islamabad on October 10, 2021. (AFP)" class="embedded-entity" title="khancoffin"&gt;  &lt;img alt="Supporters and officials gather around an ambulance carrying the coffin of AQ Khan following his death in Islamabad on October 10, 2021. (AFP)" height="576" src="https://www.middleeasteye.net/sites/default/files/000_9PF8KC%20%281%29.jpg" title="khancoffin" width="1024" /&gt;
+
+&lt;/div&gt;
+
+    &lt;figcaption&gt;Supporters and officials gather around an ambulance carrying the coffin of AQ Khan following his death in Islamabad on 10 October 2021 (AFP)&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;span&gt;&lt;img height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" title="Click and drag to move" width="15" /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;img alt="alt" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" title="Click and drag to move" width="15" /&gt;&lt;/span&gt;Those who knew AQ Khan insisted he&amp;nbsp;firmly believed what he had done was right.&lt;/p&gt;
+
+&lt;p&gt;His mission was to stand up to the West. "He also said that giving technology to a Muslim country was not a crime," one anonymous acquaintance&amp;nbsp;&lt;a href="https://www.nytimes.com/2004/02/12/world/a-tale-of-nuclear-proliferation-how-pakistani-built-his-network.html" target="_blank"&gt;recalled&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Khan defended what he believed was Iran's right to develop nuclear weapons.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;"If Iran fires a missile then it is wrong, but if Israel does it then it is right," he &lt;a href="https://www.nation.com.pk/09-Nov-2009/aq-khan-backs-irans-right-to-develop-nukes"&gt;remarked&lt;/a&gt; sarcastically in 2009, 12 years before his death in 2021.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Today, Pakistan remains the only Muslim-majority country with nuclear weapons.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;"Don't overlook the fact that no nuclear-capable country has been subjected to aggression or occupied, or had its borders redrawn," Khan &lt;a href="https://www.dawn.com/news/629166/abdul-qadeer-khan-says-bomb-saved-pakistan"&gt;reflected&lt;/a&gt; in 2011.&lt;/p&gt;
+
+&lt;p&gt;"Had Iraq and Libya been nuclear powers, they wouldn't have been destroyed in the way we have seen recently."&lt;/p&gt;
+&lt;/div&gt;
+                  &lt;div class="field field-field-topic"&gt;&lt;a href="https://www.middleeasteye.net/topics/inside-iran" hreflang="en"&gt;Inside Iran&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field-field-coauthor-location"&gt;
+              &lt;div&gt; &lt;/div&gt;
+              &lt;div&gt; &lt;/div&gt;
+              &lt;div&gt; &lt;/div&gt;
+              &lt;div&gt; &lt;/div&gt;
+          &lt;/div&gt;
+              &lt;div class="field field-field-article-location"&gt; &lt;/div&gt;
+                  &lt;div class="field field-field-section"&gt;&lt;a href="https://www.middleeasteye.net/features/all" hreflang="en"&gt;Features&lt;/a&gt;&lt;/div&gt;
+        &lt;div class="field field-field-post-date-override"&gt;
+    &lt;div&gt;Post Date Override&lt;/div&gt;
+              &lt;div&gt;0&lt;/div&gt;
+          &lt;/div&gt;
+  &lt;div class="field field-field-update-date-override"&gt;
+    &lt;div&gt;Update Date&lt;/div&gt;
+              &lt;div&gt;&lt;time datetime="2020-05-04T21:19:45+01:00"&gt;Mon, 05/04/2020 - 21:19&lt;/time&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+  &lt;div class="field field-field-update-date-check"&gt;
+    &lt;div&gt;Update Date Override&lt;/div&gt;
+              &lt;div&gt;0&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;/div&gt;
+  
+&lt;/article&gt;</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+      <media:thumbnail url="https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/images-story/000_Del6197406%20%281%29.jpg.jpg?itok=vu29wULy" />
+      <enclosure url="https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/images-story/000_Del6197406%20%281%29.jpg.jpg?itok=vu29wULy" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Iran war ceasefire pushes energy markets into twilight zone. [ tbsnews ]</title>
+      <link>https://www.tbsnews.net/worldbiz/middle-east/iran-war-ceasefire-pushes-energy-markets-twilight-zone-1406466</link>
+      <guid isPermaLink="true">https://www.tbsnews.net/worldbiz/middle-east/iran-war-ceasefire-pushes-energy-markets-twilight-zone-1406466</guid>
+      <description>Getting tankers out of the Gulf is one thing; persuading shipowners and charterers to send vessels back in is quite another.</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Bangladesh FM in India, most senior visit since 2024 uprising. [ dawn ]</title>
+      <link>https://www.dawn.com/news/1989882/bangladesh-fm-in-india-most-senior-visit-since-2024-uprising</link>
+      <guid isPermaLink="true">https://www.dawn.com/news/1989882/bangladesh-fm-in-india-most-senior-visit-since-2024-uprising</guid>
+      <description>&lt;p&gt;Bangladesh’s foreign minister met his Indian counterpart in New Delhi on Wednesday, the most senior visit by a Dhaka envoy since the &lt;a href="https://www.dawn.com/news/1850245"&gt;2024 revolution&lt;/a&gt; toppled India’s old ally, Sheikh Hasina.&lt;/p&gt;
+&lt;p&gt;Foreign Minister Khalilur Rahman is taking part in a “goodwill visit”, Bangladesh’s state news agency &lt;em&gt;BSS&lt;/em&gt; said, but added that issues of “extradition, trade, water sharing and border security” would be discussed.&lt;/p&gt;
+&lt;p&gt;Indian Foreign Minister Subrahmanyam Jaishankar visited Dhaka in December to attend the &lt;a href="https://www.dawn.com/news/1964271"&gt;funeral of former leader Khaleda Zia&lt;/a&gt;, the mother of the prime minister elected in February, Tarique Rahman.&lt;/p&gt;
+&lt;p&gt;Jaishankar said he had been “pleased to host” Khalilur Rahman, saying in a statement that they had discussed “strengthening our bilateral relationship”, without giving further details.&lt;/p&gt;
+    &lt;figure class="media  w-full  w-full  media--left    media--uneven  media--stretch"&gt;
+        &lt;div class="media__item  media__item--twitter  "&gt;&lt;span&gt;
+    &lt;blockquote class="twitter-tweet" lang="en"&gt;
+        &lt;a href="https://twitter.com/DrSJaishankar/status/2041816596377956717?s=20"&gt;&lt;/a&gt;
+    &lt;/blockquote&gt;
+&lt;/span&gt;&lt;/div&gt;
+        
+    &lt;/figure&gt;
+&lt;p&gt;Relations have improved since Tarique Rahman, leader of the Bangladesh Nationalist Party, &lt;a href="https://www.dawn.com/news/1972853"&gt;won a landslide election victory&lt;/a&gt;, taking over from the interim administration that had led the country of 170 million people since Hasina was ousted.&lt;/p&gt;
+&lt;p&gt;Hasina fled to India, where she has remained in hiding, straining relations between Dhaka and New Delhi.&lt;/p&gt;
+&lt;p&gt;Bangladesh has repeatedly &lt;a href="https://www.dawn.com/news/1955770"&gt;requested&lt;/a&gt; Hasina’s extradition. She was &lt;a href="https://www.dawn.com/news/1921635"&gt;sentenced to death&lt;/a&gt; in absentia in November for orchestrating a deadly crackdown on the uprising.&lt;/p&gt;
+&lt;p&gt;Bangladesh was also expected to seek greater energy supplies from India, as it grapples with the impact of the &lt;a href="https://www.dawn.com/live/iran-israel-war"&gt;Middle East war&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Who will bell the cat? Confronting corruption to secure Bangladesh’s future. [ tbsnews ]</title>
+      <link>https://www.tbsnews.net/thoughts/who-will-bell-cat-confronting-corruption-secure-bangladeshs-future-1406161</link>
+      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/who-will-bell-cat-confronting-corruption-secure-bangladeshs-future-1406161</guid>
+      <description>Corruption in Bangladesh has moved beyond isolated abuses to become a system that shapes governance, distorts markets, and burdens citizens—raising an urgent question: can rhetoric finally give way...</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Bangladesh must adapt as AI transforms diplomacy and state power. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/news/bangladesh-must-adapt-ai-transforms-diplomacy-and-state-power-4146166</link>
+      <guid isPermaLink="true">https://www.thedailystar.net/opinion/news/bangladesh-must-adapt-ai-transforms-diplomacy-and-state-power-4146166</guid>
+      <description>By Mohammad Khorshed A. Khastagir</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Will the Iran war create a new world order?. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/news/will-the-iran-war-create-new-world-order-4146176</link>
+      <guid isPermaLink="true">https://www.thedailystar.net/opinion/news/will-the-iran-war-create-new-world-order-4146176</guid>
+      <description>Operation Epic Fury launched on February 28, 2026, and struck at a moment when the post‑Cold War international order was already trembling, leading the world to sense that something irreversible had begun.</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>Energy austerity demands more than cosmetic measures. [ dhakatribune ]</title>
+      <link>https://www.dhakatribune.com/opinion/editorial/407233/energy-austerity-demands-more-than-cosmetic</link>
+      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/editorial/407233/energy-austerity-demands-more-than-cosmetic</guid>
+      <description>In the wake of the US-Israel attack on Iran and the subsequent unrest in the entirety of the Middle East, Bangladesh, as most nations globally, is...</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
+    </item>
+    <item>
+      <title>These are tough times. Let the budget reflect that. [ dhakatribune ]</title>
+      <link>https://www.dhakatribune.com/opinion/op-ed/407225/these-are-tough-times.-let-the-budget-reflect-that</link>
+      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/op-ed/407225/these-are-tough-times.-let-the-budget-reflect-that</guid>
+      <description>We know that a national budget is not merely a financial plan; it is also a reflection of political commitment. 
+The FY2026–27 budget is being...</description>
+      <pubDate>Thu, 09 Apr 2026 09:39:40 +0600</pubDate>
     </item>
   </channel>
 </rss>
