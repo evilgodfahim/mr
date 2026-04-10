@@ -62,7 +62,7 @@ KL_API_FEEDS = set()
 # -- CONFIG --------------------------------------------------------------------
 
 MISTRAL_MODEL         = "mistral-large-latest"
-GEMINI_MODEL          = "gemini-2.5-flash-preview-05-20"   # update if model name changes
+GEMINI_MODEL          = "gemini-3-flash-preview"   # update if model name changes
 PROCESSED_FILE        = "processed_articles_main.json"
 SELECTED_FILE         = "selected_articles_main.json"
 OUTPUT_XML            = "curated_feed.xml"
