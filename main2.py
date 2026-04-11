@@ -6,16 +6,11 @@ All articles from all feeds go to one Mistral call.
 Mistral classifies each headline into signal or noise.
 A separate deduplication step removes near-duplicate signal titles.
 
-After writing the curated XML, selected titles are sent to Gemini (with web
-search grounding) which produces a daily news digest saved to a separate XML
-that is fully overwritten on every run.
-
 Outputs:
-  curated_feedb.xml  - signal articles  (accumulated, capped at MAX_FEED_ITEMS)
-  exb.xml            - excluded articles
-  digestb.xml        - Gemini daily news digest (overwritten each run)
+  curated_feed.xml  - signal articles
+  ex.xml            - excluded articles
 Stats:
-  fetch_stats_mainb.json
+  fetch_stats_main.json
 """
 
 import feedparser
@@ -42,13 +37,15 @@ except Exception:
 FEED_URLS = [
     "https://evilgodfahim.github.io/bdlb/final.xml",
     "https://evilgodfahim.github.io/bint/final.xml",
-    "https://evilgodfahim.github.io/bdcdb/curated_feed.xml",
+
+"https://evilgodfahim.github.io/bdcdb/curated_feed.xml"
 ]
 
 EXISTING_API_FEEDS = {
     "https://evilgodfahim.github.io/bdlb/final.xml",
     "https://evilgodfahim.github.io/bint/final.xml",
-    "https://evilgodfahim.github.io/bdcdb/curated_feed.xml",
+
+"https://evilgodfahim.github.io/bdcdb/curated_feed.xml"
 }
 
 KL_API_FEEDS = set()
@@ -56,12 +53,10 @@ KL_API_FEEDS = set()
 # -- CONFIG --------------------------------------------------------------------
 
 MISTRAL_MODEL         = "mistral-large-latest"
-GEMINI_MODEL          = "gemini-3-flash-preview"   # update if model name changes
 PROCESSED_FILE        = "processed_articles_mainb.json"
 SELECTED_FILE         = "selected_articles_mainb.json"
 OUTPUT_XML            = "curated_feedb.xml"
 EXCLUDED_XML          = "exb.xml"
-DIGEST_XML            = "digestb.xml"                      # overwritten every run
 STATS_FILE            = "fetch_stats_mainb.json"
 MAX_ARTICLES_PER_FEED = 100
 MAX_AGE_HOURS         = 26
@@ -144,21 +139,6 @@ Return only the 0-based indices to KEEP as a JSON array of integers. No markdown
 Article titles:
 {titles}"""
 
-DIGEST_SYSTEM_PROMPT = """You are a senior news analyst producing a daily briefing. You will receive a list of news headlines selected by an AI classifier as high-signal. Use your web search capability to find the latest details on each story, then write a single unified daily news digest.
-
-Rules for the report:
-- Begin with a short, descriptive title (10 words or fewer) that captures the day's dominant themes — do NOT use a generic title like "Daily News Digest"
-- Write the body as flowing prose, organized by theme, not headline-by-headline
-- Cover every headline provided, but weight space toward the most consequential stories
-- Be factual, objective, and precise — no speculation, no filler
-- Target 600–900 words for the body
-- Do not include source attribution inline; just report the facts
-
-Respond in EXACTLY this format and nothing else:
-TITLE: [your generated title]
-REPORT:
-[your report body]"""
-
 # -- CONSTANTS -----------------------------------------------------------------
 
 MEDIA_NS    = "http://search.yahoo.com/mrss/"
@@ -175,7 +155,7 @@ STATS = {
     "total_new":             0,
     "total_signal_mistral":  0,
     "total_signal":          0,
-    "total_signal_deduped":  0,
+    "total_signal_deduped":   0,
     "timestamp":             None,
 }
 
@@ -206,7 +186,7 @@ def load_processed_articles():
         "article_ids":      list(id_ts.keys()),
         "article_links":    list(link_ts.keys()),
         "id_timestamps":    id_ts,
-        "link_timestamps":  link_ts,
+        "link_timestamps":   link_ts,
         "last_updated":     data.get("last_updated"),
     }
 
@@ -370,9 +350,9 @@ def extract_image_url(entry, base_link=None):
 
     links = entry.get("links")
     if links and isinstance(links, list):
-        for lnk in links:
-            if lnk.get("rel") == "enclosure":
-                href = lnk.get("href")
+        for l in links:
+            if l.get("rel") == "enclosure":
+                href = l.get("href")
                 if href:
                     return normalize_link(href, base=base_link)
 
@@ -453,10 +433,10 @@ def fetch_feed(url):
 
 
 def fetch_all_feeds():
-    now          = datetime.now(timezone.utc)
-    cutoff       = now - timedelta(hours=MAX_AGE_HOURS)
-    bd_now       = datetime.now(BD_TZ)
-    bd_now_str   = bd_now.strftime("%a, %d %b %Y %H:%M:%S +0600")
+    now        = datetime.now(timezone.utc)
+    cutoff     = now - timedelta(hours=MAX_AGE_HOURS)
+    bd_now     = datetime.now(BD_TZ)
+    bd_now_str = bd_now.strftime("%a, %d %b %Y %H:%M:%S +0600")
     all_articles = []
 
     for url in FEED_URLS:
@@ -528,7 +508,7 @@ def get_new_articles(all_articles, processed_data):
 
 def dedup_by_link(articles):
     seen_links = set()
-    deduped    = []
+    deduped = []
     for a in articles:
         link = a.get("link") or ""
         if link and link in seen_links:
@@ -544,13 +524,15 @@ def dedup_by_link(articles):
 # -- CLASSIFICATION ------------------------------------------------------------
 
 def extract_json_object(text):
-    text  = text.replace("```json", "").replace("```", "").strip()
+    text = text.replace("```json", "").replace("```", "").strip()
     match = re.search(r"\{.*\}", text, flags=re.DOTALL)
     if match:
         try:
             obj = json.loads(match.group(0))
             if isinstance(obj, dict):
-                return {"signal": [i for i in obj.get("signal", []) if isinstance(i, int)]}
+                return {
+                    "signal": [i for i in obj.get("signal", []) if isinstance(i, int)],
+                }
         except Exception:
             pass
     result = {"signal": []}
@@ -569,15 +551,17 @@ def send_to_mistral(articles):
         return []
 
     try:
-        client      = Mistral(api_key=api_key)
+        client = Mistral(api_key=api_key)
+
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        response    = client.chat.complete(
+        response = client.chat.complete(
             model=MISTRAL_MODEL,
             messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
             response_format={"type": "json_object"},
         )
         text = response.choices[0].message.content or ""
-        return sorted([i for i in extract_json_object(text).get("signal", []) if isinstance(i, int)])
+        signal_indices = extract_json_object(text).get("signal", [])
+        return sorted([i for i in signal_indices if isinstance(i, int)])
 
     except Exception as e:
         print(f"Mistral classification error: {e}")
@@ -585,9 +569,9 @@ def send_to_mistral(articles):
 
 
 def normalize_title_for_dedup(title):
-    title  = (title or "").lower().strip()
-    title  = re.sub(r"https?://\S+", " ", title)
-    title  = re.sub(r"[^a-z0-9\u0980-\u09FF]+", " ", title)
+    title = (title or "").lower().strip()
+    title = re.sub(r"https?://\S+", " ", title)
+    title = re.sub(r"[^a-z0-9\u0980-\u09FF]+", " ", title)
     tokens = [t for t in title.split() if t not in {
         "a", "an", "the", "of", "in", "on", "for", "to", "from", "by", "with",
         "and", "or", "at", "as", "is", "are", "was", "were", "be", "been",
@@ -603,7 +587,9 @@ def are_near_duplicates(title_a, title_b):
 
     if not a or not b:
         return False
-    if a == b or a in b or b in a:
+    if a == b:
+        return True
+    if a in b or b in a:
         return True
 
     a_tokens = set(a.split())
@@ -612,8 +598,8 @@ def are_near_duplicates(title_a, title_b):
         return False
 
     intersection = len(a_tokens & b_tokens)
-    union        = len(a_tokens | b_tokens)
-    jaccard      = intersection / union if union else 0.0
+    union = len(a_tokens | b_tokens)
+    jaccard = intersection / union if union else 0.0
 
     seq_ratio = 0.0
     try:
@@ -629,12 +615,16 @@ def deduplicate_signal_articles(articles):
     if not articles:
         return articles
 
-    kept        = []
+    kept = []
     kept_titles = []
 
     for article in articles:
-        title     = article.get("title", "")
-        duplicate = any(are_near_duplicates(title, prev) for prev in kept_titles)
+        title = article.get("title", "")
+        duplicate = False
+        for prev_title in kept_titles:
+            if are_near_duplicates(title, prev_title):
+                duplicate = True
+                break
         if duplicate:
             continue
         kept.append(article)
@@ -644,157 +634,6 @@ def deduplicate_signal_articles(articles):
     if dropped:
         print(f"Dedup: removed {dropped} near-duplicate signal title(s).")
     return kept
-
-# -- GEMINI DIGEST -------------------------------------------------------------
-
-def _call_gemini_rest(api_key: str, user_prompt: str, timeout: int = 120):
-    """
-    Call the Gemini REST API with Google Search grounding enabled.
-    Returns the raw text response, or None on failure.
-    """
-    url = (
-        f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{GEMINI_MODEL}:generateContent?key={api_key}"
-    )
-    payload = {
-        "system_instruction": {
-            "parts": [{"text": DIGEST_SYSTEM_PROMPT}]
-        },
-        "contents": [
-            {"role": "user", "parts": [{"text": user_prompt}]}
-        ],
-        "tools": [{"google_search": {}}],
-        "generationConfig": {
-            "temperature": 0.4,
-            "maxOutputTokens": 2048,
-        },
-    }
-    try:
-        resp = requests.post(url, json=payload, timeout=timeout)
-        resp.raise_for_status()
-        data = resp.json()
-
-        # Extract text from the first candidate
-        candidates = data.get("candidates", [])
-        if not candidates:
-            print("Gemini: no candidates returned.")
-            return None
-
-        parts = candidates[0].get("content", {}).get("parts", [])
-        text  = "".join(p.get("text", "") for p in parts if "text" in p).strip()
-        return text or None
-
-    except requests.exceptions.HTTPError as e:
-        print(f"Gemini HTTP error {e.response.status_code}: {e.response.text[:300]}")
-    except Exception as e:
-        print(f"Gemini API error: {e}")
-    return None
-
-
-def _parse_digest_response(raw: str):
-    """
-    Extract (title, report) from Gemini's structured response.
-    Falls back gracefully if the format isn't followed exactly.
-    """
-    title  = None
-    report = None
-
-    # Try to parse the strict TITLE: / REPORT: format
-    title_match  = re.search(r"^TITLE:\s*(.+)$",  raw, re.MULTILINE | re.IGNORECASE)
-    report_match = re.search(r"^REPORT:\s*\n(.*)", raw, re.DOTALL  | re.IGNORECASE)
-
-    if title_match:
-        title = title_match.group(1).strip()
-    if report_match:
-        report = report_match.group(1).strip()
-
-    # Fallback: use the whole response as the report
-    if not report:
-        report = raw.strip()
-    if not title:
-        bd_date = datetime.now(BD_TZ).strftime("%d %B %Y")
-        title   = f"Daily News Digest — {bd_date}"
-
-    return title, report
-
-
-def generate_gemini_digest(signal_articles: list):
-    """
-    Send signal article titles to Gemini with web search grounding.
-    Returns (digest_title: str, digest_report: str) or (None, None) on failure.
-    """
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        print("Gemini digest: GEMINI_API_KEY not set — skipping.")
-        return None, None
-    if not signal_articles:
-        print("Gemini digest: no signal articles — skipping.")
-        return None, None
-
-    titles_block = "\n".join(
-        f"{i + 1}. {a.get('title', '').strip()}"
-        for i, a in enumerate(signal_articles)
-    )
-    user_prompt = (
-        f"Today's selected high-signal headlines ({len(signal_articles)} total):\n\n"
-        f"{titles_block}\n\n"
-        "Search the web for each of these stories and produce the daily digest as instructed."
-    )
-
-    print(f"Gemini digest: sending {len(signal_articles)} titles…")
-    raw = _call_gemini_rest(api_key, user_prompt)
-    if not raw:
-        print("Gemini digest: empty response — skipping XML write.")
-        return None, None
-
-    title, report = _parse_digest_response(raw)
-    print(f"Gemini digest: generated title → \"{title}\"")
-    return title, report
-
-
-def write_digest_xml(digest_title: str, digest_report: str, output_file: str):
-    """
-    Write (overwrite) the digest XML file with a single RSS item.
-    The feed is rebuilt from scratch on every call — no accumulation.
-    """
-    ET.register_namespace("media", MEDIA_NS)
-
-    bd_now     = datetime.now(BD_TZ)
-    bd_now_str = bd_now.strftime("%a, %d %b %Y %H:%M:%S +0600")
-    utc_now    = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
-
-    root    = ET.Element("rss", {"version": "2.0"})
-    channel = ET.SubElement(root, "channel")
-
-    ET.SubElement(channel, "title").text       = "Daily News Digest"
-    ET.SubElement(channel, "link").text        = "https://evilgodfahim.github.io/"
-    ET.SubElement(channel, "description").text = "AI-generated daily news digest with web-search grounding"
-    ET.SubElement(channel, "lastBuildDate").text = utc_now
-
-    item = ET.SubElement(channel, "item")
-    ET.SubElement(item, "title").text       = digest_title
-    ET.SubElement(item, "link").text        = "https://evilgodfahim.github.io/"
-    ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = (
-        f"digest-{bd_now.strftime('%Y%m%d')}-b"
-    )
-    ET.SubElement(item, "pubDate").text     = bd_now_str
-    ET.SubElement(item, "description").text = digest_report
-
-    tree = ET.ElementTree(root)
-    try:
-        ET.indent(tree, space="  ")
-    except AttributeError:
-        pass
-
-    tree.write(output_file, encoding="unicode", xml_declaration=False)
-
-    with open(output_file, "r+", encoding="utf-8") as fh:
-        body = fh.read()
-        fh.seek(0)
-        fh.write('<?xml version="1.0" encoding="UTF-8"?>\n' + body)
-        fh.truncate()
-
-    print(f"Digest XML written → {output_file}")
 
 # -- XML -----------------------------------------------------------------------
 
@@ -845,7 +684,7 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
         if not link or link in existing_links:
             continue
 
-        item         = ET.SubElement(channel, "item")
+        item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text       = a.get("title", "") or ""
         ET.SubElement(item, "link").text        = link
         guid_val     = a.get("id") or link
@@ -954,12 +793,6 @@ def main():
         feed_title="Excluded News",
         feed_description="Articles excluded after Mistral classification",
     )
-
-    # -- Gemini daily digest (runs after primary XML is written) ---------------
-    digest_title, digest_report = generate_gemini_digest(signal_articles)
-    if digest_title and digest_report:
-        write_digest_xml(digest_title, digest_report, DIGEST_XML)
-    # --------------------------------------------------------------------------
 
     save_selected_articles(signal_articles)
 
