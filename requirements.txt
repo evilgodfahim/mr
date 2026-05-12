@@ -1,5 +1,5 @@
-feedparser
-requests
-python-dateutil
-google-genai
-mistralai
+feedparser==6.0.12
+requests==2.33.1
+python-dateutil==2.9.0.post0
+google-genai==2.0.1
+mistralai==2.4.5
