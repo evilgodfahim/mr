@@ -67,7 +67,7 @@ RETENTION_DAYS        = 10
 
 # -- PROMPTS -------------------------------------------------------------------
 
-BANGLA_PROMPT = """You are a strict news classification engine. Input: numbered article titles in Bengali script from Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. Only Bengali language titles will be considered. The bar is SUPER HIGH; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+BANGLA_PROMPT = """You are a strict news classification engine. Input: numbered article titles in Bengali script from Bangladeshi newspapers. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. Only Bengali language titles will be considered. The bar is AVERAGE; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Mark as NOISE immediately if the title is any of:
   - sports, entertainment, celebrities, lifestyle, or human-interest stories
