@@ -2,8 +2,8 @@
 """
 RSS Feed Processor
 
-All articles from all feeds go to one Mistral call.
-Mistral classifies each headline into signal or noise.
+All articles from all feeds go to one Gemini call.
+Gemini classifies each headline into signal or noise.
 A separate deduplication step removes near-duplicate signal titles.
 
 Outputs:
@@ -21,7 +21,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from mistralai.client import Mistral
+import google.generativeai as genai
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -52,7 +52,7 @@ KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "mistral-large-latest"
+GEMINI_MODEL          = "gemini-2.5-flash"
 PROCESSED_FILE        = "processed_articles_mainb.json"
 SELECTED_FILE         = "selected_articles_mainb.json"
 OUTPUT_XML            = "curated_feedb.xml"
@@ -153,9 +153,9 @@ STATS = {
     "total_fetched":         0,
     "total_passed_age":      0,
     "total_new":             0,
-    "total_signal_mistral":  0,
+    "total_signal_gemini":   0,
     "total_signal":          0,
-    "total_signal_deduped":   0,
+    "total_signal_deduped":  0,
     "timestamp":             None,
 }
 
@@ -186,7 +186,7 @@ def load_processed_articles():
         "article_ids":      list(id_ts.keys()),
         "article_links":    list(link_ts.keys()),
         "id_timestamps":    id_ts,
-        "link_timestamps":   link_ts,
+        "link_timestamps":  link_ts,
         "last_updated":     data.get("last_updated"),
     }
 
@@ -493,16 +493,15 @@ def fetch_all_feeds():
 
 
 def get_new_articles(all_articles, processed_data):
-    processed_ids   = set(processed_data.get("article_ids", []))
+    processed_ids   = set(processed_data.get("article_ids",   []))
     processed_links = set(processed_data.get("article_links", []))
     new = []
     for a in all_articles:
-        aid   = a.get("id")
-        alink = a.get("link")
-        if (aid and aid not in processed_ids) and (alink and alink not in processed_links):
-            new.append(a)
-        elif alink and alink not in processed_links and aid not in processed_ids:
-            new.append(a)
+        aid   = a.get("id")   or ""
+        alink = a.get("link") or ""
+        if (aid and aid in processed_ids) or (alink and alink in processed_links):
+            continue
+        new.append(a)
     return new
 
 
@@ -545,26 +544,25 @@ def extract_json_object(text):
     return result
 
 
-def send_to_mistral(articles):
-    api_key = os.environ.get("MS")
+def send_to_gemini(articles):
+    api_key = os.environ.get("GEM")
     if not api_key or not articles:
         return []
-
     try:
-        client = Mistral(api_key=api_key)
-
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        response = client.chat.complete(
-            model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
-            response_format={"type": "json_object"},
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel(
+            GEMINI_MODEL,
+            generation_config=genai.GenerationConfig(
+                response_mime_type="application/json"
+            )
         )
-        text = response.choices[0].message.content or ""
+        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
+        response = model.generate_content(BANGLA_PROMPT.format(titles=titles_text))
+        text = response.text or ""
         signal_indices = extract_json_object(text).get("signal", [])
         return sorted([i for i in signal_indices if isinstance(i, int)])
-
     except Exception as e:
-        print(f"Mistral classification error: {e}")
+        print(f"Gemini classification error: {e}")
         return []
 
 
@@ -739,7 +737,7 @@ def print_stats():
     print(f"  Total fetched:        {STATS['total_fetched']}  (raw entries from all feeds)")
     print(f"  Passed age cut:       {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
     print(f"  New (unseen):         {STATS['total_new']}")
-    print(f"  Signal (Mistral):     {STATS['total_signal_mistral']}")
+    print(f"  Signal (Gemini):      {STATS['total_signal_gemini']}")
     print(f"  Signal (after dedup): {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
@@ -761,19 +759,19 @@ def main():
 
     STATS["total_new"] = len(new_articles)
 
-    mistral_indices = send_to_mistral(new_articles)
-    mistral_indices = [i for i in mistral_indices if 0 <= i < len(new_articles)]
+    gemini_indices = send_to_gemini(new_articles)
+    gemini_indices = [i for i in gemini_indices if 0 <= i < len(new_articles)]
 
-    STATS["total_signal_mistral"] = len(mistral_indices)
-    STATS["total_signal"]         = len(mistral_indices)
+    STATS["total_signal_gemini"] = len(gemini_indices)
+    STATS["total_signal"]        = len(gemini_indices)
 
-    if not mistral_indices:
-        print("Mistral returned 0 signal. Skipping all file writes.")
+    if not gemini_indices:
+        print("Gemini returned 0 signal. Skipping all file writes.")
         print_stats()
         return
 
-    signal_articles   = [new_articles[i] for i in mistral_indices]
-    excluded_articles = [new_articles[i] for i in range(len(new_articles)) if i not in set(mistral_indices)]
+    signal_articles   = [new_articles[i] for i in gemini_indices]
+    excluded_articles = [new_articles[i] for i in range(len(new_articles)) if i not in set(gemini_indices)]
 
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
     signal_articles = deduplicate_signal_articles(signal_articles)
@@ -791,7 +789,7 @@ def main():
         excluded_articles,
         output_file=EXCLUDED_XML,
         feed_title="Excluded News",
-        feed_description="Articles excluded after Mistral classification",
+        feed_description="Articles excluded after Gemini classification",
     )
 
     save_selected_articles(signal_articles)
