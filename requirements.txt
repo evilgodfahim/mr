@@ -3,3 +3,4 @@ requests
 python-dateutil
 google-genai
 mistralai @ https://github.com/mistralai/client-python/archive/refs/tags/v2.4.5.tar.gz
+google-generativeai
