@@ -52,7 +52,7 @@ KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-GEMINI_MODEL          = "gemini-2.5-flash"
+GEMINI_MODEL          = "gemini-3.5-flash"
 PROCESSED_FILE        = "processed_articles_mainb.json"
 SELECTED_FILE         = "selected_articles_mainb.json"
 OUTPUT_XML            = "curated_feedb.xml"
@@ -545,7 +545,7 @@ def extract_json_object(text):
 
 
 def send_to_gemini(articles):
-    api_key = os.environ.get("GEM")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or not articles:
         return []
     try:
