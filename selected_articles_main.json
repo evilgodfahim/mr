@@ -49056,5 +49056,651 @@
     "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
     "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026May/SM/eu-flags-300526-1780150366.jpg",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/fao-warns-global-food-security-emergency-4187651",
+    "title": "FAO warns of global food security emergency",
+    "link": "https://www.thedailystar.net/business/economy/news/fao-warns-global-food-security-emergency-4187651",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/us-cotton-plan-considers-bangladesh-key-market-4187586",
+    "title": "US cotton plan considers Bangladesh a key market",
+    "link": "https://www.thedailystar.net/business/economy/news/us-cotton-plan-considers-bangladesh-key-market-4187586",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/we-need-new-industrial-policy-4187631",
+    "title": "We need a new industrial policy",
+    "link": "https://www.thedailystar.net/business/economy/news/we-need-new-industrial-policy-4187631",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/411191/qurbani-eid-economy-under-strain",
+    "title": "Qurbani Eid economy under strain",
+    "link": "https://www.dhakatribune.com/business/411191/qurbani-eid-economy-under-strain",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/411146/message-of-reform-or-pressure-of-expectations",
+    "title": "Govt's first 100 days: Message of reform or pressure of expectations?",
+    "link": "https://www.dhakatribune.com/business/411146/message-of-reform-or-pressure-of-expectations",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/411412/bangladesh-targets-51.7bn-forex-reserve-by-end-of",
+    "title": "Bangladesh targets $51.7bn forex reserve by end of FY27",
+    "link": "https://www.dhakatribune.com/business/411412/bangladesh-targets-51.7bn-forex-reserve-by-end-of",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/411410/fy27-budget-good-news-for-many-including",
+    "title": "FY27 Budget: Good news for many, including launderers?",
+    "link": "https://www.dhakatribune.com/business/411410/fy27-budget-good-news-for-many-including",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/411407/budget-fy27-nbr-to-add-more-businesses-into-tax",
+    "title": "Budget FY27: NBR to add more businesses into tax net",
+    "link": "https://www.dhakatribune.com/business/411407/budget-fy27-nbr-to-add-more-businesses-into-tax",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/411406/nbr-may-seek-details-of-your-eid-expenses",
+    "title": "NBR may seek details of your Eid expenses",
+    "link": "https://www.dhakatribune.com/business/411406/nbr-may-seek-details-of-your-eid-expenses",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/411404/report-bangladesh-2nd-last-in-south-asia-on",
+    "title": "Report: Bangladesh 2nd last in South Asia on women's economic empowerment",
+    "link": "https://www.dhakatribune.com/business/411404/report-bangladesh-2nd-last-in-south-asia-on",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/stocks/left-behind-bangladeshs-decade-rating-decline-1451291",
+    "title": "Left behind: Bangladesh's decade of rating decline",
+    "link": "https://www.tbsnews.net/economy/stocks/left-behind-bangladeshs-decade-rating-decline-1451291",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/stocks/bsec-orders-special-audit-best-holdings-over-tk3000cr-fund-utilisation-1451306",
+    "title": "BSEC orders special audit into Best Holdings over Tk3,000cr fund utilisation",
+    "link": "https://www.tbsnews.net/economy/stocks/bsec-orders-special-audit-best-holdings-over-tk3000cr-fund-utilisation-1451306",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/bd-import-policy-incompatible-with-new-eu-us-trade-rules",
+    "title": "BD import policy incompatible with new EU, US trade rules",
+    "link": "https://thefinancialexpress.com.bd/economy/bd-import-policy-incompatible-with-new-eu-us-trade-rules",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://today.thefinancialexpress.com.bd/first-page/bd-import-policy-incompatible-with-new-eu-us-trade-rules-1780250684\">BD import policy incompatible  with new EU, US trade rules</a>",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/bangladesh/bangladesh-doesnt-have-the-stability-necessary-for-new-investment-says-riad-mahmud",
+    "title": "Bangladesh doesn’t have the stability necessary for new investment, says Riad Mahmud",
+    "link": "https://thefinancialexpress.com.bd/economy/bangladesh/bangladesh-doesnt-have-the-stability-necessary-for-new-investment-says-riad-mahmud",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://bdnews24.com/business/19f39f66a181",
+    "title": "Fuel prices rise again in June",
+    "link": "https://bdnews24.com/business/19f39f66a181",
+    "description": "<b>Importance:</b> 15.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 10.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://en.prothomalo.com/business/global/ak1rc0fonu",
+    "title": "IMF, World Bank, IEA chiefs warn of summer fuel scarcity if Hormuz strait remains closed",
+    "link": "https://en.prothomalo.com/business/global/ak1rc0fonu",
+    "description": "<b>Importance:</b> 14.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 8.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/business-print/877542",
+    "title": "Duty-free EV bus, truck imports cleared",
+    "link": "https://www.daily-sun.com/business-print/877542",
+    "description": "<b>Importance:</b> 10.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 1.0",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/israeli-forces-seize-beaufort-castle-major-lebanon-offensive-1451016",
+    "title": "Israeli forces seize Beaufort Castle in major Lebanon offensive",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/israeli-forces-seize-beaufort-castle-major-lebanon-offensive-1451016",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/japan-rejects-new-militarism-accuses-china-rapidly-arming-1451226",
+    "title": "Japan rejects 'new militarism', accuses China of rapidly arming",
+    "link": "https://www.tbsnews.net/world/japan-rejects-new-militarism-accuses-china-rapidly-arming-1451226",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/asia/soaring-prices-during-the-iran-war-jeopardize-travel-to-tourism-dependent-countries-in-asia",
+    "title": "Soaring prices during the Iran war jeopardize travel to tourism-dependent countries in Asia",
+    "link": "https://thefinancialexpress.com.bd/world/asia/soaring-prices-during-the-iran-war-jeopardize-travel-to-tourism-dependent-countries-in-asia",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/ukraine-targets-russian-energy-facilities-rejects-claim-of-strike-on-zaporizhzhia-nuclear-plant/187083",
+    "title": "Ukraine Targets Russian Energy Facilities, Rejects Claim of Strike on Zaporizhzhia Nuclear Plant",
+    "link": "https://unb.com.bd/category/World/ukraine-targets-russian-energy-facilities-rejects-claim-of-strike-on-zaporizhzhia-nuclear-plant/187083",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/us-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-101780261078680.html",
+    "title": "US takes step to halt Nvidia AI chip shipments to Chinese firms outside China",
+    "link": "https://www.hindustantimes.com/world-news/us-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-101780261078680.html",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/iran-usa-war-peace-deal-donald-trump-israel-attacks-lebanon-hezbollah-june-1-2026/article71046810.ece",
+    "title": "U.S. not to be trusted, says Iran's chief negotiator, as Trump toughens terms",
+    "link": "https://www.thehindu.com/news/international/iran-usa-war-peace-deal-donald-trump-israel-attacks-lebanon-hezbollah-june-1-2026/article71046810.ece",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/lebanon-says-israeli-dawn-strike-on-south-killed-eight-including-three-women/article71045944.ece",
+    "title": "Lebanon says Israeli dawn strike on south killed eight, including three women",
+    "link": "https://www.thehindu.com/news/international/lebanon-says-israeli-dawn-strike-on-south-killed-eight-including-three-women/article71045944.ece",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/5/31/dozens-killed-in-blast-at-explosives-depot-in-northeastern-myanmar?traffic_source=rss",
+    "title": "Dozens killed in explosives depot blast in northeast Myanmar",
+    "link": "https://www.aljazeera.com/news/2026/5/31/dozens-killed-in-blast-at-explosives-depot-in-northeastern-myanmar?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/5/31/iran-%e2%81%a0says-some-gas-production-restored-at-south-pars-facility?traffic_source=rss",
+    "title": "Iran ⁠restores some gas production at South Pars facility",
+    "link": "https://www.aljazeera.com/news/2026/5/31/iran-%e2%81%a0says-some-gas-production-restored-at-south-pars-facility?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/5/31/ukrainian-drone-attacks-hit-multiple-russian-targets-including-refinery?traffic_source=rss",
+    "title": "Ukrainian drone attacks hit multiple Russian targets, including refinery",
+    "link": "https://www.aljazeera.com/news/2026/5/31/ukrainian-drone-attacks-hit-multiple-russian-targets-including-refinery?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/hundreds-arrested-and-dozens-police-injured-after-champions-league-riots-france-1451161",
+    "title": "Hundreds arrested and dozens of police injured after Champions League riots in France",
+    "link": "https://www.tbsnews.net/world/hundreds-arrested-and-dozens-police-injured-after-champions-league-riots-france-1451161",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/5/31/us-measure-to-deepen-israel-military-cooperation-faces-bipartisan-pushback?traffic_source=rss",
+    "title": "US measure to deepen Israel military cooperation faces bipartisan pushback",
+    "link": "https://www.aljazeera.com/news/2026/5/31/us-measure-to-deepen-israel-military-cooperation-faces-bipartisan-pushback?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/no-agreement-with-us-without-tangible-results-irans-ghalibaf-says/187075",
+    "title": "No agreement with US without tangible results, Iran’s Ghalibaf says",
+    "link": "https://unb.com.bd/category/World/no-agreement-with-us-without-tangible-results-irans-ghalibaf-says/187075",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/national/uk-foreign-secretary-to-visit-india-china-for-talks-on-global-challenges/article71044355.ece",
+    "title": "U.K. Foreign Secretary to visit India, China for talks on global challenges",
+    "link": "https://www.thehindu.com/news/national/uk-foreign-secretary-to-visit-india-china-for-talks-on-global-challenges/article71044355.ece",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/foreign-policy/bangladesh-highlights-migration-key-climate-adaptation-strategy-1451181",
+    "title": "Bangladesh highlights migration as key climate adaptation strategy",
+    "link": "https://www.tbsnews.net/foreign-policy/bangladesh-highlights-migration-key-climate-adaptation-strategy-1451181",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/5/31/israeli-airstrikes-devastate-lebanons-tyre?traffic_source=rss",
+    "title": "Israeli airstrikes devastate Lebanon’s Tyre",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/5/31/israeli-airstrikes-devastate-lebanons-tyre?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.com/news/articles/cpwpeg57777o?at_medium=RSS&at_campaign=rss",
+    "title": "Secret tunnels and unregistered workers: China's coal mine disaster is a reminder of darker days",
+    "link": "https://www.bbc.com/news/articles/cpwpeg57777o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&at_campaign=rss",
+    "title": "Ebola spread in DR Congo 'deeply alarming', MSF warns",
+    "link": "https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/5/31/israeli-forces-push-past-lebanons-litani-river-how-significant-is-it?traffic_source=rss",
+    "title": "Israeli forces push past Lebanon’s Litani River: How significant is it?",
+    "link": "https://www.aljazeera.com/news/2026/5/31/israeli-forces-push-past-lebanons-litani-river-how-significant-is-it?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/5/31/satellite-imagery-shows-erasure-of-southern-gaza-as-israel-expands-control?traffic_source=rss",
+    "title": "Satellite imagery shows erasure of southern Gaza as Israel expands control",
+    "link": "https://www.aljazeera.com/news/2026/5/31/satellite-imagery-shows-erasure-of-southern-gaza-as-israel-expands-control?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle?traffic_source=rss",
+    "title": "Israel issues more displacement orders in Lebanon, seizes strategic castle",
+    "link": "https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle?traffic_source=rss",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/asia/great-indo-pacific-hedge-deeper-defence-ties-us-doubts-grow-and-china-ascends-1451061",
+    "title": "The great Indo-Pacific hedge - deeper defence ties as US doubts grow and China ascends",
+    "link": "https://www.tbsnews.net/worldbiz/asia/great-indo-pacific-hedge-deeper-defence-ties-us-doubts-grow-and-china-ascends-1451061",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/netanyahu-orders-deeper-israeli-incursion-lebanon-hit-hezbollah-1451241",
+    "title": "Netanyahu orders deeper Israeli incursion into Lebanon to hit Hezbollah",
+    "link": "https://www.tbsnews.net/world/netanyahu-orders-deeper-israeli-incursion-lebanon-hit-hezbollah-1451241",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/iran-war-pushes-farmers-towards-organic-fertilisers-chemical-prices-surge-1451031",
+    "title": "Iran war pushes farmers towards organic fertilisers as chemical prices surge",
+    "link": "https://www.tbsnews.net/world/iran-war-pushes-farmers-towards-organic-fertilisers-chemical-prices-surge-1451031",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/ai-vs-humans-in-battlefield-pentagon-divided-over-use-of-artificial-intelligence-in-war-101780235855726.html",
+    "title": "AI vs humans in battlefield: Pentagon divided over use of artificial intelligence in war",
+    "link": "https://www.hindustantimes.com/world-news/ai-vs-humans-in-battlefield-pentagon-divided-over-use-of-artificial-intelligence-in-war-101780235855726.html",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/us-says-it-struck-cargo-ship-attempting-to-breach-iranian-blockade/187048",
+    "title": "US says it struck cargo ship attempting to breach Iranian blockade",
+    "link": "https://unb.com.bd/category/World/us-says-it-struck-cargo-ship-attempting-to-breach-iranian-blockade/187048",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/taiwan-condemns-china-after-new-york-times-reporter-expelled-after-presidential-interview",
+    "title": "Taiwan condemns China after New York Times reporter expelled after presidential interview",
+    "link": "https://www.tbsnews.net/world/taiwan-condemns-china-after-new-york-times-reporter-expelled-after-presidential-interview",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/japan-defence-chief-takes-swipe-at-china-at-security-meet/article71043857.ece",
+    "title": "Japan Defence Chief takes swipe at China at security meet",
+    "link": "https://www.thehindu.com/news/international/japan-defence-chief-takes-swipe-at-china-at-security-meet/article71043857.ece",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/chinas-factory-activity-slows-in-may-raising-questions-over-its-economy/article71043851.ece",
+    "title": "China's factory activity slows in May, raising questions over its economy",
+    "link": "https://www.thehindu.com/news/international/chinas-factory-activity-slows-in-may-raising-questions-over-its-economy/article71043851.ece",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.middleeasteye.net/live-blog/live-blog-update/un-security-council-hold-emergency-meeting-lebanon",
+    "title": "UN Security Council to hold emergency meeting on Lebanon",
+    "link": "https://www.middleeasteye.net/live-blog/live-blog-update/un-security-council-hold-emergency-meeting-lebanon",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-kills-palestinian-worker-he-climbed-west-bank-separation-wall",
+    "title": "Israel kills Palestinian worker as he climbed West Bank separation wall",
+    "link": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-kills-palestinian-worker-he-climbed-west-bank-separation-wall",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.newagebd.net/post/foreign-affairs/301195/dhaka-to-bring-up-border-killing-push-in-at-bgb-bsf-delhi-summit",
+    "title": "Dhaka to bring up border killing, push-in at BGB-BSF Delhi summit",
+    "link": "https://www.newagebd.net/post/foreign-affairs/301195/dhaka-to-bring-up-border-killing-push-in-at-bgb-bsf-delhi-summit",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/unga-presidency-bangladesh-intensifies-final-push-as-vote-nears/187084",
+    "title": "UNGA Presidency: Bangladesh intensifies final push as vote nears",
+    "link": "https://unb.com.bd/category/Bangladesh/unga-presidency-bangladesh-intensifies-final-push-as-vote-nears/187084",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/877498/bangladesh-iom-discuss-climate-linked-migration-challenges",
+    "title": "Bangladesh, IOM discuss climate-linked migration challenges",
+    "link": "https://www.daily-sun.com/diplomacy/877498/bangladesh-iom-discuss-climate-linked-migration-challenges",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/rohingya-response-enters-a-fragile-phase-amid-declining-funding-worsening-camp-conditions-unhcr/187068",
+    "title": "Rohingya response enters a fragile phase amid declining funding, worsening camp conditions: UNHCR",
+    "link": "https://unb.com.bd/category/Bangladesh/rohingya-response-enters-a-fragile-phase-amid-declining-funding-worsening-camp-conditions-unhcr/187068",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://passblue.com/2026/05/31/the-abraham-accords-obstacles-to-peace-in-the-middle-east/",
+    "title": "The Abraham Accords: Obstacles to Peace in the Middle East",
+    "link": "https://passblue.com/2026/05/31/the-abraham-accords-obstacles-to-peace-in-the-middle-east/",
+    "description": "On May 23, President Trump announced that a peace deal with Iran was ”largely negotiated.&#8221; On May 24, United States officials confirmed that a deal had been agreed in principle but not yet signed. More than a week later, nothing has been signed. On May 25, in a post on his Truth Social platform, Trump ... <a class=\"read-more\" href=\"https://passblue.com/2026/05/31/the-abraham-accords-obstacles-to-peace-in-the-middle-east/\" title=\"The Abraham Accords: Obstacles to Peace in the Middle East\">Read more</a>",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/05/1167611",
+    "title": "Under fire, Kharkiv is already building for a peaceful tomorrow",
+    "link": "https://news.un.org/feed/view/en/story/2026/05/1167611",
+    "description": "Every day in Kharkiv begins with uncertainty: air raid sirens interrupt sleep; missiles strike residential neighbourhoods, industrial sites, and roads. Anxious citizens rush into metro stations during bombardments and children study underground.",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.ipsnews.net/2026/05/gef-8-assembly-welcomes-new-green-pledges-highlights-old-access-barriers/",
+    "title": "GEF Council Welcomes New Green Pledges, Highlights Old Access Barriers",
+    "link": "https://www.ipsnews.net/2026/05/gef-8-assembly-welcomes-new-green-pledges-highlights-old-access-barriers/",
+    "description": "The 71st Council meeting of the Global Environment Facility (GEF) opened today amid a sharp divide, with donor nations urging broader and increased funding commitments, while developing countries called for more equitable and accessible pathways to environmental finance. In April, donor countries pledged an initial USD 3.9 billion to the GEF Trust Fund&#8217;s ninth replenishment [&#8230;]",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/changing-geopolitics-tests-quads-strategic-purpose-1451001",
+    "title": "Changing geopolitics tests the Quad's strategic purpose",
+    "link": "https://www.tbsnews.net/world/changing-geopolitics-tests-quads-strategic-purpose-1451001",
+    "description": "US Secretary Marco Rubio said the rationale behind the proposed pilot port project is in response to insufficient port capacity in the Pacific Islands",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2025/07/02/usa_quad_ministers.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/asia/where-china-ask-delegates-asian-defence-forum-1450956",
+    "title": "'Where is China?' ask delegates at Asian defence forum",
+    "link": "https://www.tbsnews.net/worldbiz/asia/where-china-ask-delegates-asian-defence-forum-1450956",
+    "description": "For the second year running, Chinese Defence Minister Dong Jun has given the free-wheeling Singapore security meeting a miss",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/05/31/singapore_shangri-la_dialogue_hegseth.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/asia/japan-refutes-new-militarism-accuses-china-rapidly-arming-1450931",
+    "title": "Japan refutes 'new militarism', accuses China of rapidly arming without transparency",
+    "link": "https://www.tbsnews.net/worldbiz/asia/japan-refutes-new-militarism-accuses-china-rapidly-arming-1450931",
+    "description": "China continues to increase its defence spending at a high level, Koizumi said at the Shangri-La Dialogue in Singapore, adding: \"China's external approach and military activities are matters of serious concern for Japan and the international community at the same time.\"",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/05/31/china_military_parade.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/world/middle-east/2d7515197832",
+    "title": "How Israel has emptied southern Lebanon far beyond the front lines",
+    "link": "https://bdnews24.com/world/middle-east/2d7515197832",
+    "description": "[West Asia] How Israel has emptied southern Lebanon far beyond the front lines",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026May/SM/beirut-southern-strike-310526-01-1780204212.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "c6a8141304f8117b8810b4345c160042e3274c3f",
+    "title": "Concerns mount that Belarus could be a launchpad for a new Russian offensive in Ukraine",
+    "link": "https://apnews.com/article/russia-belarus-ukraine-war-lukashenko-putin-zelenskyy-1c084e433e7caa8503a92396b46c6538",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/d7f7aa6/2147483647/strip/true/crop/5322x3548+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd7%2F11%2Fd69d01a23d0b58cbc4321b2d2099%2F0aea80b0bf67452199b0ad1cdb30b83d\" /><br />Concerns mount that Belarus could be a launchpad for a new Russian offensive in Ukraine",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/d7f7aa6/2147483647/strip/true/crop/5322x3548+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd7%2F11%2Fd69d01a23d0b58cbc4321b2d2099%2F0aea80b0bf67452199b0ad1cdb30b83d",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "966768346f06b2851980ff5d3596ca96683ae02e",
+    "title": "American allies warn division weakens deterrence in calls for global unity to meet new threats",
+    "link": "https://apnews.com/article/koizumi-hegseth-marles-singapore-defense-conference-990438940784f429084996306c0b3960",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/5bc7e04/2147483647/strip/true/crop/6666x4444+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8b%2Fe2%2F9f0b7e86af68294efac2b3902265%2Fd3fe9c726f9f4f998f46d149fd4ea916\" /><br />American allies warn division weakens deterrence in calls for global unity to meet new threats",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/5bc7e04/2147483647/strip/true/crop/6666x4444+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8b%2Fe2%2F9f0b7e86af68294efac2b3902265%2Fd3fe9c726f9f4f998f46d149fd4ea916",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "b3e79f02f3d071c589db4d40c45d4922963d8d3d",
+    "title": "Iran war forces farmers to seek fertilizer alternatives from cow dung to compost",
+    "link": "https://apnews.com/article/fertilizer-shortage-iran-war-alternatives-farming-60523696dadb80bd6fee43ec27d55f08",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/38532a8/2147483647/strip/true/crop/4000x2668+0+0/resize/599x400!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc1%2F1d%2F8d4609b3669c6ff5f664884b09b7%2Fa21e4c2945ef4560b1a6fe099d7e35aa\" /><br />Iran war forces farmers to seek fertilizer alternatives from cow dung to compost",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/38532a8/2147483647/strip/true/crop/4000x2668+0+0/resize/599x400!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc1%2F1d%2F8d4609b3669c6ff5f664884b09b7%2Fa21e4c2945ef4560b1a6fe099d7e35aa",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/877439/iran-reasserts-control-over-hormuz-strait-as-deal-with-us-remains-elusive",
+    "title": "Iran reasserts control over Hormuz Strait as deal with US remains elusive",
+    "link": "https://www.daily-sun.com/world/877439/iran-reasserts-control-over-hormuz-strait-as-deal-with-us-remains-elusive",
+    "description": "Iran asserts control over the Strait of Hormuz, warning foreign vessels of consequences for non-compliance amid US-Iran deal negotiations.",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/05/31/medium/Hormuz-Strait-6a1ba8b1a2fd1.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "fd7fa4a39bf0f66b6c24f9efa8a26999834b6900",
+    "title": "Ukraine hits Russian energy targets and denies striking Kremlin-occupied nuclear plant",
+    "link": "https://apnews.com/article/russia-ukraine-war-drones-nuclear-plant-4168345770d6d3a3808ba9dcb9dc3305",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/2bba635/2147483647/strip/true/crop/7868x5347+0+0/resize/599x407!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb0%2F63%2F27b706fe2500bba6d8fa6aee7917%2Fee40ea1f123e49d9b131ff4e811af73e\" /><br />Ukraine hits Russian energy targets and denies striking Kremlin-occupied nuclear plant",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/2bba635/2147483647/strip/true/crop/7868x5347+0+0/resize/599x407!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb0%2F63%2F27b706fe2500bba6d8fa6aee7917%2Fee40ea1f123e49d9b131ff4e811af73e",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "155d6f893e6316ccf6a3a69bc53123c98629082e",
+    "title": "Israeli army captures strategic castle in Lebanon in deepest incursion into country in 26 years",
+    "link": "https://apnews.com/article/lebanon-israel-capture-castle-beaufort-206c3d6c4dc9a139007f043556a0019b",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/15f251b/2147483647/strip/true/crop/2034x1330+0+0/resize/599x392!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2f%2Fed%2Fb71335cc0aced579c6141036afd3%2Fad9752044d81412787525cf3c9fe27fd\" /><br />Israeli army captures strategic castle in Lebanon in deepest incursion into country in 26 years",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/15f251b/2147483647/strip/true/crop/2034x1330+0+0/resize/599x392!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2f%2Fed%2Fb71335cc0aced579c6141036afd3%2Fad9752044d81412787525cf3c9fe27fd",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/877458/iran-state-tv-says-draft-deal-with-us-includes-releasing-12bn-in-assets",
+    "title": "Iran state TV says draft deal with US includes releasing $12bn in assets",
+    "link": "https://www.daily-sun.com/world/877458/iran-state-tv-says-draft-deal-with-us-includes-releasing-12bn-in-assets",
+    "description": "Iran's state media reported a deal with the US to release $12 billion in frozen assets, despite Trump's contradictory claims.",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/05/31/medium/Iran-(53)-6a1bd919b389c.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/iran-may-have-used-chinese-missile-shoot-down-us-fighter-jet-sources-say-1451191",
+    "title": "Iran may have used Chinese missile to shoot down US fighter jet, sources say",
+    "link": "https://www.tbsnews.net/world/iran-may-have-used-chinese-missile-shoot-down-us-fighter-jet-sources-say-1451191",
+    "description": "The Trump administration brokered a ceasefire with Iran ahead of a key meeting with President Xi Jinping earlier this month",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2019/10/01/new_chinese_missiles.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/iran-says-no-deal-us-unless-its-rights-secured-4187306",
+    "title": "Iran says no deal with US unless its rights secured",
+    "link": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/iran-says-no-deal-us-unless-its-rights-secured-4187306",
+    "description": "",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/energy/octane-petrol-and-kerosene-price-rises-tk5-litre-june-1451331",
+    "title": "Octane, petrol and kerosene price rises Tk5 per litre for June",
+    "link": "https://www.tbsnews.net/bangladesh/energy/octane-petrol-and-kerosene-price-rises-tk5-litre-june-1451331",
+    "description": "Petrol prices have also been increased by Tk5 per litre to Tk140, while kerosene has risen by the same amount to Tk135 per litre.",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/04/27/fuel.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://bdnews24.com/bangladesh/3866a9a36a40",
+    "title": "US resumes immigrant visas for Bangladeshis",
+    "link": "https://bdnews24.com/bangladesh/3866a9a36a40",
+    "description": "[Bangladesh] US resumes immigrant visas for Bangladeshis",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews/import/bangla/imgAll/2026January/SM/us-visa-restriction-140126-1768410335.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/bangladesh/3ee73c0d748c",
+    "title": "PM warns of ‘tough times’ ahead",
+    "link": "https://bdnews24.com/bangladesh/3ee73c0d748c",
+    "description": "[Bangladesh] PM warns of ‘tough times’ ahead",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews/import/bangla/imgAll/2026May/SM/tarique-rahman-pm-bnp-meeting-310526-01-1780235696.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/world/asia-pacific/b718defc0a2a",
+    "title": "Indo-Pacific powers deepen defence ties",
+    "link": "https://bdnews24.com/world/asia-pacific/b718defc0a2a",
+    "description": "[Asia Pacific] Indo-Pacific powers deepen defence ties",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026May/SM/indo-pacific-defence-31052026-01-1780241151.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "5da8d5981136839d35f318bf306826277744407b",
+    "title": "Israeli forces make historic push inside Lebanon and complicate an Iran deal",
+    "link": "https://apnews.com/article/lebanon-israel-hezbollah-explainer-beaufort-45d86ee821798e88d8e0c82576ca4558",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/f8e6726/2147483647/strip/true/crop/5485x3657+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F76%2F40%2F87acc734fd9e2fdb54bf1abb8250%2F1f9a83daebd749fa810eb51fb68aaf33\" /><br />Israeli forces make historic push inside Lebanon and complicate an Iran deal",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/f8e6726/2147483647/strip/true/crop/5485x3657+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F76%2F40%2F87acc734fd9e2fdb54bf1abb8250%2F1f9a83daebd749fa810eb51fb68aaf33",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.dhakatribune.com/bangladesh/411442/bangladesh-continues-major-role-in-un-peacekeeping",
+    "title": "Bangladesh continues major role in UN peacekeeping amid global strains",
+    "link": "https://www.dhakatribune.com/bangladesh/411442/bangladesh-continues-major-role-in-un-peacekeeping",
+    "description": "At a time when wars, geopolitical tensions and economic uncertainty are reshaping the global landscape, United Nations (UN) peacekeeping operations are facing one of the deepest crises in their history.\n\nWhile conflicts continue to escalate across parts of Africa and the Middle East, peacekeeping missions are grappling with shrinking personnel numbers and declining financial support.\n\nAccording to a recent Stockholm International Peace Research Institute (SIPRI) report, UN peacekeeping operations are facing their most severe challenges in 25 years, with global deployments of military, police and civilian personnel nearly halved over the past decade. Funding gaps, geopolitical divisions, AI-driven disinformation, cyber threats and complex regional conflicts have further strained missions worldwide.\n\nDespite this, Bangladesh remains a trusted and consistent contributor to UN peacekeeping, with its personnel continuing to serve with professionalism, humanity and impartiality in some of the world’s most high-risk conflict zones.\n\nStarting in 1988 with just 15 military observers, Bangladesh’s contribution to UN peacekeeping has grown into a major presence, with thousands of Armed Forces and Police personnel now serving across multiple missions. Their work in conflict zones such as South Sudan, the Democratic Republic of the Congo, Lebanon and the Central African Republic has earned global recognition, further strengthened by the growing participation of Bangladeshi women in uniformed roles.\n\nAs the International Day of United Nations Peacekeepers is observed, the focus extends beyond honouring sacrifices to stressing the need for stronger political commitment, funding and international cooperation to sustain peacekeeping in a changing global landscape. Bangladesh remains a key and reliable partner in that effort.\n\nLike many other countries, Bangladesh observes the International Day of United Nations Peacekeepers on May 29 with deep respect and dignity. However, due to the Eid-ul-Azha holidays, the official observance in Bangladesh will be held on June 5 this year.\n\nRashedul Alam Khan, assistant director of the Inter-Services Public Relations Directorate (ISPR), confirmed the matter to Dhaka Tribune.\n\nSince the launch of UN peacekeeping operations in 1948, the iconic \"Blue Helmets\" have worked to maintain peace in some of the world's most conflict-ridden and volatile regions.\n\nAccording to the United Nations, the theme for the 2026 International Day of UN Peacekeepers is \"Invest in Peace.\" The theme underscores the importance of political and financial support to ensure the continued effectiveness of peacekeeping operations in today's complex geopolitical environment.\n\nAccording to UN data from March, around 4,092 members of the Bangladesh Armed Forces and Police are currently serving in 10 UN peacekeeping missions worldwide. Including staff officers and military observers, the total number of Bangladeshi peacekeepers stands at approximately 6,300.\n\nUnder the latest UN ranking published in March 2026, Nepal is the largest troop-contributing country, followed by India, Rwanda and Bangladesh.\n\nNevertheless, Bangladesh has consistently remained among the world's leading contributors to UN peacekeeping missions.\n\nBangladeshi peacekeepers are currently deployed in the Democratic Republic of the Congo (DR Congo), South Sudan, Lebanon, the Central African Republic, the Abyei region, Libya and Cyprus, among other conflict-affected areas. Infantry battalions, naval warships, airfield service units and Formed Police Units (FPUs) are all contributing to these missions.\n\nSIPRI's latest report warns that UN peacekeeping operations are facing their most severe personnel and financial crisis in 25 years.\n\nCurrently, around 50,000 to 51,000 military, police and civilian personnel are serving in 11 UN missions worldwide, nearly 49% fewer than a decade ago.\n\nDelays in financial contributions from major donor countries, including the United States, have resulted in a budget shortfall of approximately $2 billion, significantly affecting mission operations.\n\nSince 1948, nearly 4,500 peacekeepers have lost their lives in the service of global peace. In 2025 alone, 59 peacekeepers died while on duty.\n\nBangladesh has earned a distinguished reputation in global peacekeeping. Its peacekeepers are internationally respected for their professionalism, courage and humanitarian commitment.\n\nBangladesh formally joined UN peacekeeping in 1988 through participation in the United Nations Iran-Iraq Military Observer Group (UNIIMOG), established to monitor the ceasefire following the Iran-Iraq War. The Bangladesh Army initially contributed 15 military observers.\n\nThe same year, Bangladesh Police began its peacekeeping journey by joining the United Nations Transition Assistance Group (UNTAG) mission in Namibia.\n\nIn 1993, Bangladesh deployed its first full infantry battalion to the United Nations Transitional Authority in Cambodia (UNTAC), marking the beginning of its large-scale involvement in peacekeeping operations.\n\nDuring the civil conflicts in Somalia and Rwanda in the 1990s, when many countries withdrew their troops, Bangladesh demonstrated exceptional commitment by deploying additional personnel. The contribution of Bangladeshi peacekeepers in Somalia received widespread international praise.\n\nIn recognition of the Bangladesh Army's humanitarian role in Sierra Leone's post-war reconstruction, then Ahmad Tejan Kabbah declared Bangla an honorary official language of the country in 2002.\n\nIn 2010, Bangladesh deployed naval warships to Lebanon, marking its first participation in a multinational naval task force in the Mediterranean Sea.\n\nThe Bangladesh Air Force has also provided helicopter units and air crews in high-risk missions in DR Congo and South Sudan, offering critical air support under challenging conditions.\n\nAccording to UN assessments, Bangladesh's success in peacekeeping stems from several key factors:\n\nSince its first deployment of 15 military observers in 1988, nearly 190,000 Bangladeshi peacekeepers have served in 54 missions across 40 countries.\n\nMore than 160 Bangladeshi peacekeepers have sacrificed their lives in the cause of global peace.\n\nBangladesh Police began its peacekeeping journey in Namibia in 1989. Since then, it has played a significant role in law enforcement, human rights protection and community policing in numerous countries.\n\nBangladesh Police's Formed Police Units (FPUs) have successfully served in missions in DR Congo, Haiti, Mali and Sudan.\n\nBangladesh has become a global role model in women's participation in peacekeeping.\n\nIn 2015, Bangladesh Police made history by deploying the world's first all-female Muslim Formed Police Unit to the UN Stabilization Mission in Haiti (MINUSTAH).\n\nThe 160-member contingent received international acclaim and was featured in the documentary “A Journey of a Thousand Miles: Peacekeepers.”\n\nBangladesh has also consistently deployed female FPUs to DR Congo. In both 2025 and 2026, Bangladeshi women police officers serving there received UN medals for their outstanding contributions.\n\nWomen and children in conflict-affected regions are often victims of sexual violence and abuse. Many feel more comfortable sharing their experiences with female officers than with male officials.\n\nBangladeshi women peacekeepers have been instrumental in building trust and providing support in such situations. In conservative societies across Africa and the Middle East, they have conducted door-to-door outreach, gathered information, offered psychological support and raised awareness among local women.\n\nBangladesh consistently ranks among the leading contributors of female police officers to UN peacekeeping missions.\n\nThe rise of artificial intelligence, drone-enabled disinformation, regional conflicts and geopolitical rivalries has made peacekeeping increasingly complex. Ongoing crises in Africa and the Middle East continue to present new challenges for peacekeeping operations.\n\nUN Secretary-General António Guterres recently stated that peacekeeping remains an effective and cost-efficient tool for restoring stability and hope in today's turbulent world. However, he stressed that sustained political support and reliable funding are essential for its success.",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://ecdn.dhakatribune.net/contents/uploads/media/2023/11/02/monusco-abel-kavanagh-c5601e48972f3b545d1a19bcc777dc80.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/environment/natural-resources/energy/news/fuel-prices-rise-again-petrol-octane-tk-5-litre-4187466",
+    "title": "Fuel prices rise again: Petrol, octane up by Tk 5 per litre",
+    "link": "https://www.thedailystar.net/news/environment/natural-resources/energy/news/fuel-prices-rise-again-petrol-octane-tk-5-litre-4187466",
+    "description": "Second hike in six weeks takes effect from June 1",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/bangladesh-and-india-set-dg-level-border-talks-new-delhi-1451361",
+    "title": "Bangladesh and India set for DG-level border talks in New Delhi",
+    "link": "https://www.tbsnews.net/bangladesh/bangladesh-and-india-set-dg-level-border-talks-new-delhi-1451361",
+    "description": "A delegation of the Border Guard Bangladesh (BGB) led by its Director General (DG) Maj Gen Mohammad Ashrafuzzaman Siddiqui is expected to be in Delhi between 8 and 11 June for the talks with their counterpart Border Security Force (BSF)",
+    "published": "Mon, 01 Jun 2026 11:30:18 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2020/12/25/border-india_and_bangladesh.jpg",
+    "thumbnail_type": "image/jpeg"
   }
 ]
