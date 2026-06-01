@@ -21,7 +21,8 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -549,15 +550,15 @@ def send_to_gemini(articles):
     if not api_key or not articles:
         return []
     try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(
-            GEMINI_MODEL,
-            generation_config=genai.GenerationConfig(
-                response_mime_type="application/json"
-            )
-        )
+        client = genai.Client(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        response = model.generate_content(BANGLA_PROMPT.format(titles=titles_text))
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=BANGLA_PROMPT.format(titles=titles_text),
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json"
+            ),
+        )
         text = response.text or ""
         signal_indices = extract_json_object(text).get("signal", [])
         return sorted([i for i in signal_indices if isinstance(i, int)])
