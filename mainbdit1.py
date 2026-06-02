@@ -19,8 +19,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from google import genai
-from google.genai import types
+from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -43,7 +42,7 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-GEMINI_MODEL          = "gemini-3.5-flash"
+MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_bdit.json"
 SELECTED_FILE         = "selected_articles_bdit.json"
 OUTPUT_XML            = "curated_feed_bdit.xml"
@@ -139,7 +138,7 @@ STATS = {
     "total_new":             0,
     "total_bangla":          0,
     "total_skipped_non_bangla": 0,
-    "total_signal_gemini":   0,
+    "total_signal_mistral":  0,
     "total_signal":          0,
     "total_signal_deduped":  0,
     "timestamp":             None,
@@ -479,15 +478,16 @@ def fetch_all_feeds():
 
 
 def get_new_articles(all_articles, processed_data):
-    processed_ids   = set(processed_data.get("article_ids",   []))
+    processed_ids   = set(processed_data.get("article_ids", []))
     processed_links = set(processed_data.get("article_links", []))
     new = []
     for a in all_articles:
-        aid   = a.get("id")   or ""
-        alink = a.get("link") or ""
-        if (aid and aid in processed_ids) or (alink and alink in processed_links):
-            continue
-        new.append(a)
+        aid   = a.get("id")
+        alink = a.get("link")
+        if (aid and aid not in processed_ids) and (alink and alink not in processed_links):
+            new.append(a)
+        elif alink and alink not in processed_links and aid not in processed_ids:
+            new.append(a)
     return new
 
 # -- CLASSIFICATION ------------------------------------------------------------
@@ -512,24 +512,26 @@ def extract_json_object(text):
     return result
 
 
-def send_to_gemini(articles):
-    api_key = os.environ.get("GEMINI_API_KEY")
+def send_to_mistral(articles):
+    api_key = os.environ.get("MS")
     if not api_key or not articles:
         return []
+
     try:
-        client = genai.Client(api_key=api_key)
+        client      = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=BANGLA_PROMPT.format(titles=titles_text),
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json"
-            ),
+
+        response = client.chat.complete(
+            model=MISTRAL_MODEL,
+            messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
+            response_format={"type": "json_object"},
         )
-        text = response.text or ""
+
+        text = response.choices[0].message.content or ""
         return extract_json_object(text).get("signal", [])
+
     except Exception as e:
-        print(f"Gemini classification error: {e}")
+        print(f"Mistral classification error: {e}")
         return []
 
 
@@ -682,7 +684,7 @@ def print_stats():
     print(f"  New (unseen):            {STATS['total_new']}")
     print(f"    ├─ Bangla (classified): {STATS['total_bangla']}")
     print(f"    └─ Non-Bangla (skipped): {STATS['total_skipped_non_bangla']}")
-    print(f"  Signal (Gemini):         {STATS['total_signal_gemini']}")
+    print(f"  Signal (Mistral):        {STATS['total_signal_mistral']}")
     print(f"  Signal (after dedup):    {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
@@ -717,20 +719,20 @@ def main():
 
     print(f"Classifying {len(bangla_articles)} Bangla article(s)...")
 
-    gemini_indices = send_to_gemini(bangla_articles)
-    gemini_indices = [i for i in gemini_indices if 0 <= i < len(bangla_articles)]
+    mistral_indices = send_to_mistral(bangla_articles)
+    mistral_indices = [i for i in mistral_indices if 0 <= i < len(bangla_articles)]
 
-    STATS["total_signal_gemini"] = len(gemini_indices)
-    STATS["total_signal"]        = len(gemini_indices)
+    STATS["total_signal_mistral"] = len(mistral_indices)
+    STATS["total_signal"]         = len(mistral_indices)
 
-    print(f"  → Gemini: {len(gemini_indices)}")
+    print(f"  → Mistral: {len(mistral_indices)}")
 
-    if not gemini_indices:
-        print("Gemini returned 0 signal. Skipping all file writes.")
+    if not mistral_indices:
+        print("Mistral returned 0 signal. Skipping all file writes.")
         print_stats()
         return
 
-    signal_articles = [bangla_articles[i] for i in gemini_indices]
+    signal_articles = [bangla_articles[i] for i in mistral_indices]
 
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
     signal_articles = deduplicate_articles(signal_articles)
