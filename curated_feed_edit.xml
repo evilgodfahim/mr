@@ -4,486 +4,7 @@
     <title>Curated News</title>
     <link>https://yourusername.github.io/yourrepo/</link>
     <description>AI-curated signal: international affairs and Bangladesh news</description>
-    <lastBuildDate>Sat, 13 Jun 2026 05:11:19 +0000</lastBuildDate>
-    <item>
-      <title>Beyond connectivity: Bangladesh's telcos must reinvent to survive. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/longform/411694/beyond-connectivity-bangladesh-s-telcos-must</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/longform/411694/beyond-connectivity-bangladesh-s-telcos-must</guid>
-      <description>Imagine a bustling market square in rural Barishal. A farmer stands by his harvest, streaming high-definition video on a digital marketplace to showcase his crop while checking real-time market rates via a third-party app.
-
-On the surface, this scene is the ultimate triumph for Bangladesh’s mobile network operators, who connect over 185 million active SIMs. Yet, behind the screen, a silent financial strain threatens to cripple the sector.
-
-While the farmer’s data consumption soars, the operator providing the invisible highway earns less per gigabyte than ever before. The commoditization of the “dumb pipe” has peaked. Networks are flooded; the capital required to maintain them scales exponentially but financial returns have hit a point of diminishing returns.
-
-From peak to plateau
-
-For nearly three decades, the playbook for Bangladesh’s MNOs was based on a reliable growth formula: Deploy capital, build towers, sell SIMs, and monetize voice and data.
-
-This volume-driven model turned Bangladesh into one of South Asia's most digitally inclusive nations.
-
-However, recent indicators point to a structural exhaustion of this legacy growth model -- a reality underscored by the BTRC’s latest market data. From a peak of approximately 136 million internet subscribers in July 2025, the country lost around seven million users in just six months, dropping mobile subscriptions to 114.22 million by January 2026.
-
-While some contraction stems from a policy restricting SIM ownership per individual, pressure on average revenue per user (ARPU) predates regulatory clean-ups.
-
-OTT applications have eroded voice revenues, data prices are in a race to the floor, and infrastructure costs keep climbing. The pipeline is full of traffic, but the business model built around that pipeline is running dry.
-
-Realism over hype
-
-This is not a Bangladesh-specific phenomenon. According to PwC ’s Global Telecoms Outlook, global telecom service revenues are projected to grow at a compound annual growth rate (CAGR) of just 2.9% through 2028, well below inflation in most markets.
-
-Global mobile ARPU is expected to decline from $6.32 in 2024 to $6.20 by 2029, with inflation-adjusted ARPU already below zero in major markets since 2018. This data proves that selling raw connectivity is a commodity trap.
-
-Globally, the most resilient operators have drawn the same conclusion: The only exit is a fundamental redesign of the telecom business model.
-
-Blueprint for the new telco model
-
-Escaping the commodity trap lies in transforming telcos from simple bandwidth providers into core digital platforms.
-
-This requires a radical rethink of infrastructure, software monetization, and industry convergence. The following four pillars outline a structural blueprint to transition Bangladesh's operators into high-yield technology companies.
-
-Unbundling the network: The most instructive model for structural redesign comes from Europe. In July 2024, Telecom Italia (TIM) sold its fixed-network infrastructure branded ‘NetCo,’ for €22 billion, slashing its net debt by €13.8 billion.
-
-TIM became the first Tier-1 European giant to split into a wholesale-only infrastructure entity and a service-focused retail operator (ServCo), freeing itself from a massive debt pile of depreciating assets to compete on value, agility, and digital services across consumer and enterprise markets. Denmark’s TDC Group originally pioneered this structural blueprint in 2019.
-
-The principle is universal: Infrastructure ownership is a capital anchor in a low-ARPU environment. Unlocking it through structural separation allows the service business to invest in high-margin layers above the pipe.
-
-Experts identify tower companies, neutral fiber sharing, and asset separation as essential capex discipline tools for the 5G-Advanced era. While Bangladesh’s operators have gone beyond tower sharing and made early moves toward active RAN sharing, accelerating toward fully independent infrastructure entities is the financially sound next step.
-
-Monetizing the network API: The second transformation requires opening the network as a programmable asset. The GSMA Open Gateway initiative provides a framework of standardized application programming interfaces (APIs).
-
-These APIs expose core network capabilities including device location, SIM-swap detection, number verification, and quality-on-demand provisioning directly to software developers and enterprise platforms.
-
-Research from NTT DATA projects the global network API market will reach $14.3 billion by 2030 and $27bn by 2033, heavily concentrated in identity verification, fraud prevention, and dynamic quality-of-service provisioning for real-time applications.
-
-For Bangladesh, this model holds massive potential.
-
-A local fintech platform verifying user identities via real-time SIM data, an e-commerce operator tracking account takeovers, or a logistics company securing guaranteed bandwidth for a time-sensitive delivery app should all buy these capabilities through an automated telco marketplace.
-
-This shifts operators from passive, low-yield highways into active, monetization-ready infrastructure partners for the digital economy.
-
-The enterprise frontier : The third transformation is the hardest to execute but offers the highest potential margins: Shifting from bulk connectivity to selling enterprise outcomes.
-
-IoT application enablement platforms are projected to grow at a 31% CAGR between 2024 and 2029 to approach $250bn, while automotive and mobility cellular IoT will more than double to $34.1bn by 2028.
-
-This addressable market is broader than local operators recognize. Bangladesh’s ready-made garment sector needs real-time supply chain tracking, while agricultural value chains require cold-storage and commodity-pricing IoT networks.
-
-Beyond standard connectivity, modern ports, industrial zones, and critical infrastructure demand private 5G networks with guaranteed uptime, zero-trust identity management, and edge AI processing.
-
-The Chittagong Port, which handles over 92% of Bangladesh’s international trade, is a prime target. Operators can sell the port an integrated managed solution combining secure connectivity, tower-mounted counter-intrusion sensing, and sovereign edge compute.
-
-Globally, ports and heavy industries are deploying dedicated infrastructure because they need mission-grade networks rather than best-effort broadband.
-
-Data from Ericsson's Private 5G Resource Centre points to critical infrastructure and defense-adjacent environments as the primary growth frontiers for standalone enterprise networks. Bangladesh’s operators already own the BTS, spectrum, and footprint; they must now build the systems integration capabilities to package this infrastructure as an outcome rather than a connection.
-
-The fintech convergence : The fourth transformation is the convergence of telecom and financial services into something far deeper than a mere referral arrangement.
-
-Bangladesh boasts one of the world's most mature mobile financial services (MFS) ecosystems. What it lacks is the integration of operator datasets, such as recharge behaviour, network consistency, and geographic usage patterns into credit-scoring systems.
-
-Deploying this data would allow fintech platforms and partner banks to deliver nano-loans, micro-insurance, and related savings products directly within an operator’s user interface.
-
-The architecture is available and the data assets exist; only the commercial drive to deploy them is missing.
-
-From pipeline to platform
-
-The telecom roadblock in Bangladesh is not an engineering problem; it is the natural lifecycle end of a legacy business model. The network works, but the business built around it was designed for a world of scarce connectivity that no longer exists.
-
-Structural asset separation, open network APIs, enterprise-grade infrastructure solutions, and embedded financial services are not distant, aspirational concepts. They are the real-word responses of operators globally facing the exact structural pressures Bangladesh encounters today.
-
-However, this blueprint cannot materialize in a regulatory vacuum. Executing it will require BTRC to shift from rigid, layer-locked licensing silos toward a dynamic, ecosystem-driven policy framework.
-
-The operators that adapt alongside far-sighted regulations will survive this transition and define the next chapter of our digital economy.
-
-Those that continue to measure success solely in gigabytes sold will find that the pipeline they spent decades building becomes an expensive monument to a business model the market has already left behind.
-
-Dr Sabbir Ahmad is an engineering and corporate leader with extensive global experience in digital connectivity, energy infrastructure, and sustainable development. He can be reached at sabbir@ieee.org.</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Turning our water bodies into renewable powerhouses. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/op-ed/411692/turning-our-water-bodies-into-renewable</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/op-ed/411692/turning-our-water-bodies-into-renewable</guid>
-      <description>on acquiring more land for renewable energy. The government is seeking unused public land for solar projects, such as a 130-140 MW plant at the National Special Economic Zone.
-
-To accelerate renewable energy growth, Bangladesh must leverage one of its most strategic and underused resources: Water bodies . Prioritizing these areas will allow the country to overcome land constraints and play to its natural strength s .
-
-Bangladesh is one of the world’s most water-rich countries. Rivers, canals, reservoirs, ponds, and other water bodies exist throughout the country. Many are not used for economic purposes, even as the country struggles to find land for large solar projects.
-
-Floating solar panels offer the clearest path forward to leveraging Bangladesh's unique advantages for energy production.
-
-Globally, floating solar power is gaining momentum. For example, as of 2023, China leads the world with over 1.3 gigawatts (GW) of installed floating solar capacity, including some of the largest projects on reservoirs and former mining sites.
-
-India has also rapidly expanded its floating solar initiatives, surpassing 600 megawatts (MW) with major installations on reservoirs and dam sites.
-
-Indonesia, Thailand, and South Korea have each developed floating solar projects in the hundreds of MW, with Thailand’s Sirindhorn Dam project alone generating over 45 MW. Singapore has also installed significant capacity in its reservoirs, demonstrating the viability of floating solar in urban areas.
-
-These examples show that floating solar is not only technically feasible but is being embraced worldwide as a scalable, innovative solution for clean energy generation.
-
-By embracing floating solar, Bangladesh can unlock a game-changing solution and emerge as a regional leader in innovative, sustainable energy.
-
-Solar plants built on land often face pushback because they compete with farming, housing, and industry. In a crowded country where farmland is shrinking, this problem will worsen. Floating solar lets us make clean electricity without using valuable farmland.
-
-This is especially important for Bangladesh, where farming is closely linked to food security, rural jobs, and social stability. Growing renewable energy should not take away farmland.
-
-Floating solar works well in tropical climates. Water keeps the panels cool, making them more efficient than those on hot land. The panels also help reduce water loss from reservoirs and ponds, which will matter more as climate change affects water supplies.
-
-The government’s recent effort to use unused public land through public-private partnerships (PPPs) should be expanded into a broader policy that leverages all unused public assets for renewable energy. This should cover not just empty land but also suitable public water bodies.
-
-Bangladesh already has some promising sites for this.
-
-Kaptai Lake could become the country’s flagship floating solar-hydro hybrid project. Since hydropower infrastructure already exists there, floating solar could complement electricity generation during daytime hours while improving reservoir management.
-
-Urban retention lakes could help, too. Dhaka, for example, has several water bodies that could support small floating solar systems to power city infrastructure, street lights, or nearby public buildings.
-
-Industrial zones are another good option. Many factories and industrial parks have large ponds and water systems. If the government wants to grow renewable energy through BEZA and PPPs, adding floating solar to these water bodies makes sense. Even irrigation canals and fisheries could be used for well-planned pilot projects in the future.
-
-However, Bangladesh needs to move forward with careful planning, not just enthusiasm.
-
-Not all rivers or water bodies are suitable for floating solar. Many rivers in Bangladesh have strong currents, flooding, erosion, cyclones, and high sediment loads. Installing floating solar systems on open rivers without careful study could cause technical and environmental problems.
-
-A better approach is to use floating solar only in stable water bodies such as reservoirs, industrial ponds, managed lakes, and enclosed canals.
-
-Safeguarding will be a critical challenge. Poorly planned floating solar projects can affect aquatic ecosystems, fish breeding, and local livelihoods. We cannot afford another infrastructure rush that ignores ecological consequences.
-
-Handling cyclones is also key. Floating systems in Bangladesh must survive harsh weather and strong winds. This requires better engineering and good maintenance. Money and technology also remain challenges. Floating solar usually costs more initially than regular solar farms.
-
-The government could introduce financing schemes, such as low-interest loans, tax incentives and grants, to support floating solar projects.
-
-International climate funds and development banks, such as the World Bank, ADB, or the Green Climate Fund, are possible sources of funding.
-
-Public-private partnership models can also help by sharing costs and reducing project risks, encouraging more private investment in this area.
-
-Incentives for local manufacturing and workforce training can further strengthen the support systems needed for a competitive renewable energy industry.
-
-While developing solar projects on idle land is promising, Bangladesh's renewable energy strategy must prioritize floating solar on water bodies for true transformative impact.
-
-With its abundant rivers and water bodies, Bangladesh can redefine its renewable energy future by placing water-based floating solar on par with land-based solutions. This will be our nation’s next major leap in clean energy.
-
-Shafiq R Bhuiyan writes on how communication, culture and corporate social responsibility (CSR) converge to shape a more conscious and compassionate society.</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Getting better at making medicines. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/editorial/411691/getting-better-at-making-medicines</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/editorial/411691/getting-better-at-making-medicines</guid>
-      <description>Prime Minister Tarique Rahman’s call for faster registration of patented drugs is timely and urgent, and one that must be heeded.
-
-Bangladesh’s pharmaceutical industry has made remarkable strides, but delays in approving patented medicines sets a worrying and potentially dangerous precedent.
-
-With Bangladesh set to graduate soon from a least developed country (LDC), in the post-LDC era, local pharmaceuticals will be compelled to pay royalties on patented medicines, potentially increasing the cost of life-saving drugs and placing an additional burden on consumers. This is a reality that must be averted, and can only be done so through prudent planning now.
-
-Bangladesh has built a reputation as a producer of affordable generic medicines, supplying both domestic and international markets. But innovation cannot be ignored. Patented drugs represent the cutting edge of medical science, and denying patients timely access undermines both public health and trust in the system.
-
-Of course, faster registration does not mean compromising safety, and rigorous evaluation must remain in place. With that said, efficiency must be prioritized. Streamlined procedures, digital platforms, and clear timelines can ensure that life‑saving drugs reach patients without unnecessary delay.
-
-At the same time, Bangladesh must simultaneously strengthen its intellectual property framework and research capacity, so that local companies can innovate and collaborate with global firms.
-
-The PM’s directive should be treated with the seriousness it warrants. Access to medicine is not a privilege but a right, and it is one that certainly should not be lost for millions of Bangladeshis as we develop further.
-
-The message is clear: Speed up drug registration and save more lives in the future.</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Fuel, electricity price hikes weigh on us. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578121</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578121</guid>
-      <description>Bangladesh is once again witnessing a sharp increase in the cost of living as repeated</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>FOPL on packaged foods should be mandatory. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578115</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578115</guid>
-      <description>&lt;img align="left" alt="FOPL on packaged foods should be mandatory " class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/03/ob_1780496668_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="FOPL on packaged foods should be mandatory " /&gt;&lt;span style="color: #222222;"&gt;The market for processed and packaged foods in Bangladesh is expanding rapidly. Urbanization, busy lifestyles,&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
-		
-Delivered by PolitePaul service</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-      <media:thumbnail url="https://www.observerbd.com:443/2026/06/03/ob_1780496668_th.jpg" />
-      <enclosure url="https://www.observerbd.com:443/2026/06/03/ob_1780496668_th.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Why tobacco taxation is not working in Bangladesh. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/views/columns/why-tobacco-taxation-is-not-working-in-bangladesh</link>
-      <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/columns/why-tobacco-taxation-is-not-working-in-bangladesh</guid>
-      <description>Delivered by PolitePaul service</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Who should bear the cost of power?. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/analysis/who-should-bear-cost-power-1453601</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/analysis/who-should-bear-cost-power-1453601</guid>
-      <description>The tariff adjustment may narrow the gap between costs and revenues, but it is unlikely to eliminate the need for significant budgetary support. The sector will remain exposed to fuel prices and...
-Delivered by PolitePaul service</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>How Far Is Middle East Peace Process?. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/editorial/878117</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/editorial/878117</guid>
-      <description>The Iran war in the Middle East has not yet reached a resolution. The ceasefire agreement that the United States</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Budget 2026–27: Adequate Allocation Needed for Water and Sanitation Budget. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/opinion/877890</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/opinion/877890</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Dividend Payout Decision and Banks’ Resilience. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/opinion/877691</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/opinion/877691</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Geopolitics behind India-Myanmar Meeting. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/editorial/878116</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/editorial/878116</guid>
-      <description>For years, the international discussion on Myanmar has been framed around a familiar moral question. Is the country moving towards</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Inside the Scam Center Strike Force: How US Targets Southeast Asia’s Cybercrime Empire. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/opinion/877891</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/opinion/877891</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Navigability without Cost: The Promise of a Sediment Economy. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/opinion/877690</link>
-      <guid isPermaLink="true">https://www.daily-sun.com/opinion/877690</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Why are people in Bangladesh steadily reduced to penury?. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578116</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578116</guid>
-      <description>&lt;img align="left" alt="Why are people in Bangladesh steadily reduced to penury? " class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/03/ob_1780496625_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="Why are people in Bangladesh steadily reduced to penury? " /&gt;&lt;span style="color: #222222;"&gt;Bangladesh's economic prospects are under increasing pressure. A growing number of people are slipping back&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
-		
-Delivered by PolitePaul service</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-      <media:thumbnail url="https://www.observerbd.com:443/2026/06/03/ob_1780496625_th.jpg" />
-      <enclosure url="https://www.observerbd.com:443/2026/06/03/ob_1780496625_th.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Unlocking Bangladesh’s night-time economy. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/301466/unlocking-bangladeshs-night-time-economy</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/301466/unlocking-bangladeshs-night-time-economy</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Strengthen debt management. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/editorial/strengthen-debt-management-1780497920</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/strengthen-debt-management-1780497920</guid>
-      <description>The Asian Development Bank (ADB) recently stated that Bangladesh's debt-to-GDP ratio has reached around 41 per cent and recommended the formation of an independent Debt Management Office (DMO) to strengthen oversight of public debt and improve overall debt management within the government structure.Although the development has sparked discussions among economists...</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Undesirable developments at Islami Bank Bangladesh. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/editorial/undesirable-developments-at-islami-bank-bangladesh-1780497822</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/undesirable-developments-at-islami-bank-bangladesh-1780497822</guid>
-      <description>The fracas over appointment of a chairman to the Islami Bank Bangladesh PLC exposes the disconcerting fact that financial institutions in this country are yet to come of age. Why should its customers---if they are really so--- organise a protest rally opposing a new chairman and demanding reinstatement of the...</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Why tobacco taxation is not working in Bangladesh. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/editorial/why-tobacco-taxation-is-not-working-in-bangladesh-1780497869</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/why-tobacco-taxation-is-not-working-in-bangladesh-1780497869</guid>
-      <description>According to the Tobacco Atlas, a research organisation that tracks the tobacco epidemic worldwide, about 200,000 people die every year from tobacco-related illness in Bangladesh. This means 548 deaths per day, more than 3,800 deaths per week and over 16,600 deaths per month. In fact, nearly one in every five...</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Cartography of defascistisation. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/301468/cartography-of-defascistisation</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/301468/cartography-of-defascistisation</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Dhaka cannot carry Bangladesh alone. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/views-reviews/dhaka-cannot-carry-bangladesh-alone-1780498149</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/views-reviews/dhaka-cannot-carry-bangladesh-alone-1780498149</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Bangladesh at SDG crossroads. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/301467/bangladesh-at-sdg-crossroads</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/301467/bangladesh-at-sdg-crossroads</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>'Bangladesh faces change on 3 fronts simultaneously; being reactive no longer enough'. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/features/panorama/bangladesh-faces-change-3-fronts-simultaneously-being-reactive-no-longer-enough</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/features/panorama/bangladesh-faces-change-3-fronts-simultaneously-being-reactive-no-longer-enough</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>How Bangladesh's govt websites became a playground for cybercriminals. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578099</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578099</guid>
-      <description>A number of gov.bd domains of government websites in Bangladesh are being used for advertising</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Bangladesh's energy crisis shows why it needs a National Security Council. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/thoughts/bangladeshs-energy-crisis-shows-why-it-needs-national-security-council-1453346</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/bangladeshs-energy-crisis-shows-why-it-needs-national-security-council-1453346</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Poverty Financing: From Crisis to Sustainability. [ bangladeshpost ]</title>
-      <link>https://bangladeshpost.net/posts/poverty-financing-from-crisis-to-sustainability-169649</link>
-      <guid isPermaLink="true">https://bangladeshpost.net/posts/poverty-financing-from-crisis-to-sustainability-169649</guid>
-      <description>By now, majority in Bangladesh have heard of the USAID funding cut to the development sector in the country worth more than $700 million, resulting in job losses of more than 50,00...</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Bangladesh granted 3 more years for LDC graduation. [ english ]</title>
-      <link>https://english.news.cn/20260603/21592786110f43708816eded1f4953d6/c.html</link>
-      <guid isPermaLink="true">https://english.news.cn/20260603/21592786110f43708816eded1f4953d6/c.html</guid>
-      <description>Delivered by PolitePaul service</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Energy audit: Bangladesh’s most overlooked energy solution. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/thoughts/energy-audit-bangladeshs-most-overlooked-energy-solution-1453051</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/energy-audit-bangladeshs-most-overlooked-energy-solution-1453051</guid>
-      <description />
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>Reforming Bangladesh’s FDI law for a new economic era. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/thoughts/reforming-bangladeshs-fdi-law-new-economic-era-1453016</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/reforming-bangladeshs-fdi-law-new-economic-era-1453016</guid>
-      <description>Drafted for a bygone economic era, the 1980 Act now holds Bangladesh back. Rewriting it is the essential first step to restoring investor confidence and securing high-value foreign investment</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>As the budget nears, a word of caution on money printing. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/views/news/the-budget-nears-word-caution-money-printing-4189101</link>
-      <guid isPermaLink="true">https://www.thedailystar.net/opinion/views/news/the-budget-nears-word-caution-money-printing-4189101</guid>
-      <description>Money-printing, or monetary expansion, is often described in a way that makes it sound as if the government runs a printing press.</description>
-      <pubDate>Thu, 04 Jun 2026 11:29:13 +0600</pubDate>
-    </item>
-    <item>
-      <title>What does the future of agriculture look like?. [ dhakatribune ]</title>
-      <link>https://www.dhakatribune.com/opinion/op-ed/410162/what-does-the-future-of-agriculture-look-like</link>
-      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/op-ed/410162/what-does-the-future-of-agriculture-look-like</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;What does the future of agriculture look like?. [ dhakatribune ]&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Human Activities Are Mainly Responsible for Climate Crisis. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/352880/human-activities-are-mainly-responsible-for-climate-crisis</link>
-      <guid isPermaLink="true">https://dailyasianage.com/news/352880/human-activities-are-mainly-responsible-for-climate-crisis</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Climate change is one of the most serious challenges facing humanity in&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Reduce road accidents. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578122</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578122</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Dear Sir,Recently, the number of road accidents have increased at an alarming rate in the&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Transparency in  Recruiting Government Employees Must Be Established. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/352879/transparency-in--recruiting-government-employees-must-be-established</link>
-      <guid isPermaLink="true">https://dailyasianage.com/news/352879/transparency-in--recruiting-government-employees-must-be-established</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Digital Frontier Safety and Preventing Misinformation in Bangladesh. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/352878/digital-frontier-safety-and-preventing-misinformation-in-bangladesh</link>
-      <guid isPermaLink="true">https://dailyasianage.com/news/352878/digital-frontier-safety-and-preventing-misinformation-in-bangladesh</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>PoC in UN peace operations: An approach from mandates to realities. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578117</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578117</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="PoC in UN peace operations: An approach from mandates to realities " class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/03/ob_1780496572_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="PoC in UN peace operations: An approach from mandates to realities " /&gt;&lt;span style="color: #222222;"&gt;Part - 01The Protection of Civilians (PoC) has evolved into a central pillar of modern&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
-		
-Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Quality seeds and durable agri-food systems. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/views-opinion/quality-seeds-and-durable-agri-food-systems-1780497763</link>
-      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/views-opinion/quality-seeds-and-durable-agri-food-systems-1780497763</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh needs to take note of the different dimensions pertaining to the use of proper seeds for improving our agricultural output and also facilitating farmers. The present government has already taken significant measures to assist famers within the paradigm of agriculture in Bangladesh. It is generally noted that the quality...&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Model primary schools under UNO supervision. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578118</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578118</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Model primary schools under UNO supervision" class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/03/ob_1780496536_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="Model primary schools under UNO supervision" /&gt;&lt;span style="color: #222222;"&gt;In the quiet, agrarian landscape of Gafargaon Upazila, a silent revolution is unfolding within the&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
-		
-Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Does Sharia law belie women's rights?. [ observerbd ]</title>
-      <link>https://observerbd.com/news/578119</link>
-      <guid isPermaLink="true">https://observerbd.com/news/578119</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Does Sharia law belie women's rights?" class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/03/ob_1780496494_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="Does Sharia law belie women's rights?" /&gt;&lt;span style="color: #222222;"&gt;The debate over Sharia law and women's rights remains one of the most sensitive and&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
-		
-Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Digital accessibility must become a national commitment. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/thoughts/digital-accessibility-must-become-national-commitment-1453326</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/digital-accessibility-must-become-national-commitment-1453326</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Digital accessibility must become a national commitment. [ tbsnews ]&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>The Pakistani fashion wave hitting Bangladesh. [ tbsnews ]</title>
-      <link>https://www.tbsnews.net/features/mode/pakistani-fashion-wave-hitting-bangladesh-1453171</link>
-      <guid isPermaLink="true">https://www.tbsnews.net/features/mode/pakistani-fashion-wave-hitting-bangladesh-1453171</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;From television dramas to boutique racks and Eid wardrobes, Pakistani fashion has quietly become one of the most influential style movements in Bangladesh, reshaping how women dress and how local...&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Act now to stop irregular migration to Italy. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/editorial/news/act-now-stop-irregular-migration-italy-4189091</link>
-      <guid isPermaLink="true">https://www.thedailystar.net/opinion/editorial/news/act-now-stop-irregular-migration-italy-4189091</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Act now to stop irregular migration to Italy. [ thedailystar ]&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Let the Sundarbans survive, but let the people too. [ tob ]</title>
-      <link>https://tob.news/let-the-sundarbans-survive-but-let-the-people-too/</link>
-      <guid isPermaLink="true">https://tob.news/let-the-sundarbans-survive-but-let-the-people-too/</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Every June, the gates of the Sundarbans swing shut. The…&lt;/p&gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:53:09 +0600</pubDate>
-    </item>
-    <item>
-      <title>Increase in electricity prices: Smooth distribution must be ensured at consumer’s level. [ dailynewnation ]</title>
-      <link>https://dailynewnation.com/news/832038</link>
-      <guid isPermaLink="true">https://dailynewnation.com/news/832038</guid>
-      <description />
-      <pubDate>Fri, 05 Jun 2026 11:05:32 +0600</pubDate>
-    </item>
-    <item>
-      <title>Govt should, rather, treat power-sector malaise. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/editorial/301587/govt-should-rather-treat-power-sector-malaise</link>
-      <guid isPermaLink="true">https://www.newagebd.net/post/editorial/301587/govt-should-rather-treat-power-sector-malaise</guid>
-      <description>THE increase in retail power price by Tk 1.52 a unit or a kilowatt-hour, or 16.68 per cent, as the Energy Regulatory Commission announced on June 3, coming into force on June 1, raises concern amidst fears of a further impact on the majority of people already hit hard by persistent inflation. The commission has also announced an increase in bulk power price and...</description>
-      <pubDate>Fri, 05 Jun 2026 11:05:32 +0600</pubDate>
-    </item>
+    <lastBuildDate>Sun, 14 Jun 2026 05:21:42 +0000</lastBuildDate>
     <item>
       <title>Bangladesh must wake up to its aging crisis. [ dhakatribune ]</title>
       <link>https://www.dhakatribune.com/opinion/editorial/411787/bangladesh-must-wake-up-to-its-aging-crisis</link>
@@ -4796,7 +4317,6 @@ Delivered by PolitePaul service</description>
 &lt;p&gt;The top border officials will next meet in Dhaka in November, the ​statement said.&lt;/p&gt;</description>
       <pubDate>Sat, 13 Jun 2026 11:11:17 +0600</pubDate>
     </item>
-  
     <item>
       <title>Reluctant to graduate. [ dhakatribune ]</title>
       <link>https://www.dhakatribune.com/opinion/op-ed/412034/reluctant-to-graduate</link>
@@ -4862,7 +4382,7 @@ Delivered by PolitePaul service&lt;/p&gt;</description>
       <title>Big boost for education in new budget. [ observerbd ]</title>
       <link>https://observerbd.com/news/579232</link>
       <guid isPermaLink="true">https://observerbd.com/news/579232</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align=&quot;left&quot; alt=&quot;Big boost for education in new budget&quot; class=&quot;iborder img_move radius&quot; src=&quot;https://www.observerbd.com:443/2026/06/12/ob_1781275172_th.jpg&quot; style=&quot;margin-right: 7px; width: 154px; height: 115px;&quot; title=&quot;Big boost for education in new budget&quot; /&gt;&lt;span style=&quot;color: #222222;&quot;&gt;The national budget for FY 2026�27 has delivered one of the most significant increases in&lt;/span&gt;						&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Big boost for education in new budget" class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/12/ob_1781275172_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="Big boost for education in new budget" /&gt;&lt;span style="color: #222222;"&gt;The national budget for FY 2026�27 has delivered one of the most significant increases in&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
 		
 Delivered by PolitePaul service&lt;/p&gt;</description>
       <pubDate>Sat, 13 Jun 2026 14:24:44 +0600</pubDate>
@@ -4871,7 +4391,7 @@ Delivered by PolitePaul service&lt;/p&gt;</description>
       <title>Budget brings farmers new hope. [ observerbd ]</title>
       <link>https://observerbd.com/news/579233</link>
       <guid isPermaLink="true">https://observerbd.com/news/579233</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align=&quot;left&quot; alt=&quot;Budget brings farmers new hope&quot; class=&quot;iborder img_move radius&quot; src=&quot;https://www.observerbd.com:443/2026/06/12/ob_1781275135_th.jpg&quot; style=&quot;margin-right: 7px; width: 154px; height: 115px;&quot; title=&quot;Budget brings farmers new hope&quot; /&gt;&lt;span style=&quot;color: #222222;&quot;&gt;The light of dawn had not yet fully spread. Standing in the village field, farmer&lt;/span&gt;						&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Budget brings farmers new hope" class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/12/ob_1781275135_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="Budget brings farmers new hope" /&gt;&lt;span style="color: #222222;"&gt;The light of dawn had not yet fully spread. Standing in the village field, farmer&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
 		
 Delivered by PolitePaul service&lt;/p&gt;</description>
       <pubDate>Sat, 13 Jun 2026 14:24:44 +0600</pubDate>
@@ -4901,7 +4421,7 @@ Delivered by PolitePaul service&lt;/p&gt;</description>
       <title>Adopt climate-smart agricultural model. [ observerbd ]</title>
       <link>https://observerbd.com/news/579235</link>
       <guid isPermaLink="true">https://observerbd.com/news/579235</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align=&quot;left&quot; alt=&quot;Adopt climate-smart agricultural model&quot; class=&quot;iborder img_move radius&quot; src=&quot;https://www.observerbd.com:443/2026/06/12/ob_1781275042_th.jpg&quot; style=&quot;margin-right: 7px; width: 154px; height: 115px;&quot; title=&quot;Adopt climate-smart agricultural model&quot; /&gt;&lt;span style=&quot;color: #222222;&quot;&gt;Bangladesh stands at the frontline of the global climate crisis while also carrying the enormous&lt;/span&gt;						&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Adopt climate-smart agricultural model" class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/12/ob_1781275042_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="Adopt climate-smart agricultural model" /&gt;&lt;span style="color: #222222;"&gt;Bangladesh stands at the frontline of the global climate crisis while also carrying the enormous&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
 		
 Delivered by PolitePaul service&lt;/p&gt;</description>
       <pubDate>Sat, 13 Jun 2026 14:24:44 +0600</pubDate>
@@ -4994,9 +4514,176 @@ Delivered by PolitePaul service&lt;/p&gt;</description>
       <title>Can Bangladesh rebalance skincare economics?. [ thefinancialexpress ]</title>
       <link>https://thefinancialexpress.com.bd/views/views/can-bangladesh-rebalance-skincare-economics</link>
       <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/views/can-bangladesh-rebalance-skincare-economics</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class=&quot;nuxt-link-active&quot; href=&quot;https://politepaul.com/&quot;&gt;Shajoty Biswas&lt;/a&gt;
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="nuxt-link-active" href="https://politepaul.com/"&gt;Shajoty Biswas&lt;/a&gt;
 Delivered by PolitePaul service&lt;/p&gt;</description>
       <pubDate>Sat, 13 Jun 2026 14:24:44 +0600</pubDate>
+    </item>
+    <item>
+      <title>Non-Inclusive GDP Growth Makes the Rich Richer but Does Little to Eradicate Poverty. [ dailynewnation ]</title>
+      <link>https://dailynewnation.com/news/834545</link>
+      <guid isPermaLink="true">https://dailynewnation.com/news/834545</guid>
+      <description />
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Plunderers’ punishment must precede Islami Bank rescue. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/editorial/302625/plunderers-punishment-must-precede-islami-bank-rescue</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/editorial/302625/plunderers-punishment-must-precede-islami-bank-rescue</guid>
+      <description>THE Bangladesh Bank governor on June 12 said that the emergency liquidity support of Tk 100 billion that Islami Bank Bangladesh Plc had sought would be extended soon. The central bank governor, at a post-budget briefing, has also given an assurance that depositors of the bank can withdraw their deposits at any time, noting that the Bangladesh Bank has a number of tools...</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Who should Bangladesh be trading with?. [ dhakatribune ]</title>
+      <link>https://www.dhakatribune.com/opinion/op-ed/412582/who-should-bangladesh-be-trading-with</link>
+      <guid isPermaLink="true">https://www.dhakatribune.com/opinion/op-ed/412582/who-should-bangladesh-be-trading-with</guid>
+      <description>The first answer is that we've got to stop thinking of it being a “country” that trades. The people within a country, yes. Organizations of companies inside it, yes. But the country itself doesn't trade.
+
+Maybe when the government buys aircraft or something. But nearly all trade is between people and organizations that just happen to be inside some lines on the map, not a country doing something.
+
+Therefore, because it's just people doing their own thing, it's not really for us to determine how much of it is done. It's all up to them -- the buyers and sellers.
+
+But we can still go further than this.
+
+Recent statistics show that China is the major trading partner of Bangladesh (21% of total trade) and then India and the US each about 8.5% -- India slightly ahead. The question we might want to ask ourselves is, well, is that about right?
+
+The standard theory of trade revolves around the “gravity model.” This works just like gravity and the planets -- bigger and closer has more effect than smaller and further away.
+
+So, the standard guide is that an economy will trade more with a larger economy and also more with one that is closer.
+
+So, a large economy that's close to us - China - should be a major trading partner. This seems obvious enough.
+
+The US is a long way away but it's also a very large economy so that seems fine.
+
+India is a very much smaller economy than either of those two yet it's right next door. That too seems fine.
+
+Which is about as far as most applications of this gravity model get. We should note that when people really calculate this, we find that the gravity model really does work. This really does explain global trade numbers.
+
+Except -- we do not mean mere geographical position when we talk about distance here. We mean, instead, economic distance.
+
+This is influenced by geography, yes, but isn't quite the same thing. What we really mean here is: “How difficult is it to do the trade over this distance?” So, transport links matter.
+
+In medieval Europe, for example, it was the sea and rivers that were the easy transport routes. So there could be -- and often was -- more trade between coastal Spain and coastal Italy than there was between the coast and 100 miles inland in either country.
+
+The roads were so bad, compared to water transport, that the economic distance over 500 miles on water could be shorter than that over 50 miles on land.
+
+We can also add in things like language as a barrier to trade, or whether the kings are at war. In this modern world, we also have to think about laws -- tariffs, customs posts, differences in standards that block trade.
+
+It's this last part that we can change. Which is the thing that really makes this concept of economic distance different from geographic distance. We can change economic distance by just changing our own barriers to trade.
+
+Do note that this is an area of economics where there's no right answer. Not one that we can point to and say: “This number should be this.” But once we translate the gravity model to the correct concept of economic - not just geographic - distance, Bangladesh probably doesn't trade enough with India.
+
+Yes, it's a smaller economy than China and the US, but it is also right next door. If that's true -- I would say it is even as others could argue that I'm wrong -- then one of the easy ways to make Bangladesh richer is simply to make it easier to trade with India.
+
+Sort out the land ports, make it easier and faster to clear goods through customs, lower the tariffs, and so on. But then I think Bangladesh should do that anyway, so it's not exactly a difficult conclusion for me to reach.
+
+Tim Worstall is senior fellow at Adam Smith Institute in London.</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>When banks are weak. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/views/when-banks-are-weak</link>
+      <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/views/when-banks-are-weak</guid>
+      <description>A national budget is not only a statement of income and expenditure. It is also a signal. It tells citizens, investors, businesses, banks, and development partners how the government understands the economy. It shows where the state wants to spend, how much it wants to borrow, and how realistic its
+Delivered by PolitePaul service</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Iran war &amp; rising cost of living in Bangladesh. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/views/iran-war-rising-cost-of-living-in-bangladesh</link>
+      <guid isPermaLink="true">https://thefinancialexpress.com.bd/views/views/iran-war-rising-cost-of-living-in-bangladesh</guid>
+      <description>&lt;a class="nuxt-link-active" href="https://politepaul.com/"&gt;Muhammad Mahmood&lt;/a&gt;
+Delivered by PolitePaul service</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Bangladesh Defence Budget 2026-27: The Strategic Imperatives. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/editorial/880061</link>
+      <guid isPermaLink="true">https://www.daily-sun.com/editorial/880061</guid>
+      <description>Bangladesh’s national budget for the fiscal year 2026-27, placed on 11 June 2026 by Finance Minister Amir Khosru Mahmud Chowdhury,</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Inclusive budget without inclusive foundations. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/302622/inclusive-budget-without-inclusive-foundations</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/302622/inclusive-budget-without-inclusive-foundations</guid>
+      <description />
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>The budget is a bet  with high-stakes. [ today ]</title>
+      <link>https://today.thefinancialexpress.com.bd/editorial/the-budget-is-a-bet-with-high-stakes-1781361046</link>
+      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/the-budget-is-a-bet-with-high-stakes-1781361046</guid>
+      <description>When the finance and planning minister formally presented his maiden budget at the national parliament last Thursday, he was aware of the fact that the country's annual public spending plan faces several local and global headwinds. He had to outline the budget for fiscal year 2026-27 in less than four...</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>A calculated hedge. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/302620/a-calculated-hedge</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/302620/a-calculated-hedge</guid>
+      <description />
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Can the budget finally  put education right?. [ today ]</title>
+      <link>https://today.thefinancialexpress.com.bd/editorial/can-the-budget-finally-put-education-right-1781361092</link>
+      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/can-the-budget-finally-put-education-right-1781361092</guid>
+      <description>One of the key features of the proposed national budget for the fiscal year 2026-27 is the strong emphasis placed on the education sector. Long neglected in terms of public investment, education has received a significant boost, both in absolute terms and as a share of gross domestic product (GDP)....</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>In need of prudent power policy. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/302621/in-need-of-prudent-power-policy</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/opinion/302621/in-need-of-prudent-power-policy</guid>
+      <description />
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Balancing compliance and financial inclusion. [ today ]</title>
+      <link>https://today.thefinancialexpress.com.bd/editorial/balancing-compliance-and-financial-inclusion-1781361119</link>
+      <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/balancing-compliance-and-financial-inclusion-1781361119</guid>
+      <description>Reports suggest that the national budget may introduce Taxpayer Identification Number (TIN) registration as a mandatory requirement for opening bank accounts. While the proposal may be intended to strengthen tax compliance and broaden the tax net, its potential implications for financial inclusion deserve careful consideration.Bangladesh has made significant progress in...</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Import dependency risks food security. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/editorial/302624/import-dependency-risks-food-security</link>
+      <guid isPermaLink="true">https://www.newagebd.net/post/editorial/302624/import-dependency-risks-food-security</guid>
+      <description />
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>&lt;span class="color-red"&gt;HIDDEN ARCHITECTURE OF GSOMIA AND ACSA&lt;/span&gt; / Bangladesh’s strategic dilemma in the Bay of Bengal. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/slow-reads/geopolitical-insights/news/bangladeshs-strategic-dilemma-the-bay-bengal-4197946</link>
+      <guid isPermaLink="true">https://www.thedailystar.net/slow-reads/geopolitical-insights/news/bangladeshs-strategic-dilemma-the-bay-bengal-4197946</guid>
+      <description>Sir Walter Raleigh wrote in the sixteenth century: “Whoever commands the sea commands the trade; whoever commands the trade commands the riches; and whoever commands the riches commands the world itself.”
+				
+Delivered by PolitePaul service</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>How extrajudicial punishment erodes democratic values. [ observerbd ]</title>
+      <link>https://observerbd.com/news/579361</link>
+      <guid isPermaLink="true">https://observerbd.com/news/579361</guid>
+      <description>&lt;img align="left" alt="How extrajudicial punishment erodes democratic values" class="iborder img_move radius" src="https://www.observerbd.com:443/2026/06/13/ob_1781374267_th.jpg" style="margin-right: 7px; width: 154px; height: 115px;" title="How extrajudicial punishment erodes democratic values" /&gt;&lt;span style="color: #222222;"&gt;In recent years, Bangladesh has witnessed a worrying rise in incidents of mob violence, public&lt;/span&gt;						&lt;div class="clear"&gt;&lt;/div&gt;
+		
+Delivered by PolitePaul service</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+      <media:thumbnail url="https://www.observerbd.com:443/2026/06/13/ob_1781374267_th.jpg" />
+      <enclosure url="https://www.observerbd.com:443/2026/06/13/ob_1781374267_th.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Can Dhaka and Delhi find a path around key stumbling blocks?. [ tbsnews ]</title>
+      <link>https://www.tbsnews.net/thoughts/can-dhaka-and-delhi-find-path-around-key-stumbling-blocks-1462191</link>
+      <guid isPermaLink="true">https://www.tbsnews.net/thoughts/can-dhaka-and-delhi-find-path-around-key-stumbling-blocks-1462191</guid>
+      <description>Relations between Dhaka and Delhi have never depended on individual diplomats. But even then, the arrival of Dinesh Hiralal Trivedi creates an opportunity to refresh, if not reset relations</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
+    </item>
+    <item>
+      <title>Is no one safe from police excesses?. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/editorial/news/no-one-safe-police-excesses-4197756</link>
+      <guid isPermaLink="true">https://www.thedailystar.net/opinion/editorial/news/no-one-safe-police-excesses-4197756</guid>
+      <description>Police's assault on cricketer Nayeem shows a lack of strong accountability measures.</description>
+      <pubDate>Sun, 14 Jun 2026 11:21:39 +0600</pubDate>
     </item>
   </channel>
 </rss>
