@@ -76618,5 +76618,857 @@
     "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
     "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/medium/China-sends-nuclear-missile-message-as-US-looks-elsewhere-6a4ea43cd09bf.jpg",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/organisation-news/news/al-arafah-islami-bank-partners-upay-expand-digital-services-4220211",
+    "title": "Al-Arafah Islami Bank partners with upay to expand digital services",
+    "link": "https://www.thedailystar.net/business/organisation-news/news/al-arafah-islami-bank-partners-upay-expand-digital-services-4220211",
+    "description": "<b>Importance:</b> 44.8 | <b>Covered by:</b> 4 feeds | <b>Reputation:</b> 9.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://dailynewnation.com/news/840900\">Al-Arafah Islami Bank partners with upay</a><br />- <a href=\"https://thefinancialexpress.com.bd/trade/al-arafah-islami-bank-signs-partnership-agreement-with-upay\">Al-Arafah Islami Bank signs partnership agreement with upay</a><br />- <a href=\"https://www.tbsnews.net/economy/corporates/al-arafah-islami-bank-partners-upay-fund-transfer-remittance-services-1483791\">Al-Arafah Islami Bank partners with upay for fund transfer, remittance services</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/news/adb-cuts-bangladeshs-economic-growth-forecast-45-4219651",
+    "title": "ADB cuts Bangladesh's economic growth forecast to 4.5%",
+    "link": "https://www.thedailystar.net/business/news/adb-cuts-bangladeshs-economic-growth-forecast-45-4219651",
+    "description": "<b>Importance:</b> 43.2 | <b>Covered by:</b> 4 feeds | <b>Reputation:</b> 6.4<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/business/885182/adb-lowers-bangladesh-gdp-growth-forecast-to-4-5\">ADB lowers Bangladesh GDP growth forecast</a><br />- <a href=\"https://tob.news/adb-cuts-bangladesh-gdp-forecast-to-3-7-for-fy26/\">ADB cuts Bangladesh GDP forecast to 3.7% for FY26</a><br />- <a href=\"https://thefinancialexpress.com.bd/economy/adb-cuts-bangladesh-growth-forecast-for-fy26-fy27\">ADB cuts Bangladesh growth forecast for FY26, FY27</a><br />- <a href=\"https://bangladeshpost.net/posts/adb-lowers-bangladesh-gdp-growth-forecast-to-3-7-170973\">ADB lowers Bangladesh GDP growth forecast to 3.7%</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/govt-pursuing-ptas-cepa-to-expand-trade-with-saarc-countries-commerce-minister",
+    "title": "Govt pursuing PTAs, CEPA to expand trade with SAARC countries: Commerce Minister",
+    "link": "https://thefinancialexpress.com.bd/trade/govt-pursuing-ptas-cepa-to-expand-trade-with-saarc-countries-commerce-minister",
+    "description": "<b>Importance:</b> 32.5 | <b>Covered by:</b> 3 feeds | <b>Reputation:</b> 5.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/business/885173/govt-pursuing-ptas-cepa-to-expand-trade-with-saarc-countries-commerce-minister\">Govt pursuing PTAs, CEPA to expand trade with SAARC countries: Commerce minister</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/adb-cuts-growth-forecast-45-energy-banking-concerns-4220141",
+    "title": "ADB cuts growth forecast to 4.5% on energy, banking concerns",
+    "link": "https://www.thedailystar.net/business/economy/news/adb-cuts-growth-forecast-45-energy-banking-concerns-4220141",
+    "description": "<b>Importance:</b> 26.5 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 13.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.tbsnews.net/economy/banking/adb-cuts-bangladeshs-fy2026-growth-forecast-37-amid-inflation-external-headwinds\">ADB cuts Bangladesh FY27 growth forecast to 4.5% over energy, banking sector concerns</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/bangladesh-needs-swift-reforms-stay-competitive-after-ldc-graduation-iccb-1484216",
+    "title": "Bangladesh needs swift reforms to stay competitive after LDC graduation: ICCB",
+    "link": "https://www.tbsnews.net/economy/bangladesh-needs-swift-reforms-stay-competitive-after-ldc-graduation-iccb-1484216",
+    "description": "<b>Importance:</b> 23.8 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 7.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.bssnews.net/news/404068\">Bangladesh must reforms to stay competitive after LDC graduation: ICCB President</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/corporates/universal-pension-payments-now-available-upay-1483826",
+    "title": "Universal pension payments now available on upay",
+    "link": "https://www.tbsnews.net/economy/corporates/universal-pension-payments-now-available-upay-1483826",
+    "description": "<b>Importance:</b> 23.2 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 6.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://tob.news/universal-pension-payments-added-to-upay-digital-platform/\">Universal pension payments added to Upay digital platform</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/gulf-companies-are-set-reveal-unequal-toll-iran-war-1483736",
+    "title": "Gulf companies are set to reveal the unequal toll of Iran war",
+    "link": "https://www.tbsnews.net/world/gulf-companies-are-set-reveal-unequal-toll-iran-war-1483736",
+    "description": "<b>Importance:</b> 22.3 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 4.7<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/business-print/885309\">Gulf companies set to reveal unequal toll of Iran war</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Business/bsec-to-permanently-halt-trading-of-closed-companies-bsec-chairman/190237",
+    "title": "BSEC to permanently halt trading of closed companies: BSEC Chairman",
+    "link": "https://unb.com.bd/category/Business/bsec-to-permanently-halt-trading-of-closed-companies-bsec-chairman/190237",
+    "description": "<b>Importance:</b> 21.2 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 2.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/business/885302\">BSEC to halt trading of non-operational firms</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/govt-plans-to-send-1-crore-skilled-workers-abroad-over-5-years-overseas-employment-minister/190252",
+    "title": "Govt plans to send 1 crore skilled workers abroad over 5 years: Overseas Employment Minister",
+    "link": "https://unb.com.bd/category/Bangladesh/govt-plans-to-send-1-crore-skilled-workers-abroad-over-5-years-overseas-employment-minister/190252",
+    "description": "<b>Importance:</b> 21.0 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 2.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/business/885313\">Govt looks to send 1cr skilled workers abroad in 5 years</a><br />- <a href=\"https://www.daily-sun.com/business-print/885313\">Govt looks to send 1cr skilled workers abroad in 5 years</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/external-sector-holds-steady-growing-risks-ahead-ged-4220146",
+    "title": "External sector holds steady, but growing risks ahead: GED",
+    "link": "https://www.thedailystar.net/business/economy/news/external-sector-holds-steady-growing-risks-ahead-ged-4220146",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/bangladesh-may-face-more-tariffs-ustr-adb-4220151",
+    "title": "Bangladesh may face more tariffs from USTR: ADB",
+    "link": "https://www.thedailystar.net/business/economy/news/bangladesh-may-face-more-tariffs-ustr-adb-4220151",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.thedailystar.net/business/news/bangladesh-may-face-additional-tariff-burden-ustr-latest-review-adb-4220011\">Bangladesh may face additional tariff burden from USTR in latest review: ADB</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/eu-urges-faster-reforms-bangladesh-eyes-fta-talks-4220161",
+    "title": "EU urges faster reforms as Bangladesh eyes FTA talks",
+    "link": "https://www.thedailystar.net/business/economy/news/eu-urges-faster-reforms-bangladesh-eyes-fta-talks-4220161",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/singer-bangladesh-pushed-junk-category-4220181",
+    "title": "Singer Bangladesh pushed into junk category",
+    "link": "https://www.thedailystar.net/business/economy/news/singer-bangladesh-pushed-junk-category-4220181",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/agriculture/news/chattogram-floods-submerge-7400-fish-farms-ponds-losses-hit-tk-39cr-4219866",
+    "title": "Chattogram floods submerge 7,400 fish farms, ponds; losses hit Tk 39cr",
+    "link": "https://www.thedailystar.net/business/agriculture/news/chattogram-floods-submerge-7400-fish-farms-ponds-losses-hit-tk-39cr-4219866",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.thedailystar.net/business/agriculture/news/chattogram-floods-submerge-7400-fish-farms-ponds-losses-hit-tk-39-crore-4219866\">Chattogram floods submerge 7,400 fish farms, ponds; losses hit Tk 39 crore</a>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/fresh-fdi-bangladesh-plunges-70-q1-1484326",
+    "title": "Fresh FDI in Bangladesh plunges 70% in Q1",
+    "link": "https://www.tbsnews.net/economy/fresh-fdi-bangladesh-plunges-70-q1-1484326",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/govt-trade-talks-15-countries-blocs-ease-post-ldc-export-challenges-1484346",
+    "title": "Govt in trade talks with 15 countries, blocs to ease post-LDC export challenges",
+    "link": "https://www.tbsnews.net/economy/govt-trade-talks-15-countries-blocs-ease-post-ldc-export-challenges-1484346",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/america/us-military-carries-out-fresh-strikes-on-iran",
+    "title": "US military carries out fresh strikes on Iran",
+    "link": "https://thefinancialexpress.com.bd/world/america/us-military-carries-out-fresh-strikes-on-iran",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/turkeys-erdogan-gives-nato-leaders-revolver-conundrum-after-summit",
+    "title": "Erdogan gives NATO leaders revolver conundrum after summit",
+    "link": "https://thefinancialexpress.com.bd/world/turkeys-erdogan-gives-nato-leaders-revolver-conundrum-after-summit",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/congos-ebola-death-toll-reaches-600-as-suspected-cases-emerge-in-new-province/190226",
+    "title": "Congo's Ebola death toll reaches 600 as suspected cases emerge in new province",
+    "link": "https://unb.com.bd/category/World/congos-ebola-death-toll-reaches-600-as-suspected-cases-emerge-in-new-province/190226",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/us-seeking-to-curb-irans-ability-to-control-strait-of-hormuz/190189",
+    "title": "US seeking to curb Iran's ability to control Strait of Hormuz",
+    "link": "https://unb.com.bd/category/World/us-seeking-to-curb-irans-ability-to-control-strait-of-hormuz/190189",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/ukrainian-drones-hit-russian-oil-facilities-ignite-tankers-in-sea-of-azov/190210",
+    "title": "Ukrainian drones hit Russian oil facilities, ignite tankers in Sea of Azov",
+    "link": "https://unb.com.bd/category/World/ukrainian-drones-hit-russian-oil-facilities-ignite-tankers-in-sea-of-azov/190210",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/iran-bury-slain-supreme-leader-culmination-mass-funeral-1483781",
+    "title": "Iran to bury slain Supreme Leader in culmination of mass funeral",
+    "link": "https://www.tbsnews.net/world/iran-bury-slain-supreme-leader-culmination-mass-funeral-1483781",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/un-probe-says-mass-killings-rapes-abductions-starvation-sudan-force-amount-genocide-1483656",
+    "title": "UN probe says mass killings, rapes, abductions, starvation by Sudan force amount to genocide",
+    "link": "https://www.tbsnews.net/world/un-probe-says-mass-killings-rapes-abductions-starvation-sudan-force-amount-genocide-1483656",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader",
+    "title": "Iran says it hits US military targets in Gulf, prepares to bury slain leader",
+    "link": "https://thefinancialexpress.com.bd/world/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/israeli-strike-kills-gaza-aid-worker-behind-world-cup-screenings-minutes-egypt-argentina-match",
+    "title": "Israeli strike kills Gaza aid worker behind World Cup screenings minutes before Egypt-Argentina match",
+    "link": "https://www.tbsnews.net/world/israeli-strike-kills-gaza-aid-worker-behind-world-cup-screenings-minutes-egypt-argentina-match",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/ukraines-six-part-strategy-to-survive-the-global-run-on-patriot-missiles-101783591530024.html",
+    "title": "Ukraine’s Six-Part Strategy to Survive the Global Run on Patriot Missiles",
+    "link": "https://www.hindustantimes.com/world-news/ukraines-six-part-strategy-to-survive-the-global-run-on-patriot-missiles-101783591530024.html",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-fired-ten-ballistic-missiles-jordans-azraq-military-base",
+    "title": "Iran fired ten ballistic missiles on Jordan's Azraq military base",
+    "link": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-fired-ten-ballistic-missiles-jordans-azraq-military-base",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/four-die-in-delhi-building-collapse-as-rains-batter-india-trigger-landslides",
+    "title": "Four die in Delhi building collapse as rains batter India",
+    "link": "https://thefinancialexpress.com.bd/world/four-die-in-delhi-building-collapse-as-rains-batter-india-trigger-landslides",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/army-rescues-tourists-restores-roads-floods-and-landslides-batter-cht-1484321",
+    "title": "Army rescues tourists, restores roads as floods and landslides batter CHT",
+    "link": "https://www.tbsnews.net/bangladesh/army-rescues-tourists-restores-roads-floods-and-landslides-batter-cht-1484321",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/cabinet-approves-draft-invest-bangladesh-act-unify-investment-agencies-1484316",
+    "title": "Cabinet approves draft Invest Bangladesh Act to unify investment agencies",
+    "link": "https://www.tbsnews.net/bangladesh/cabinet-approves-draft-invest-bangladesh-act-unify-investment-agencies-1484316",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/eu-launches-new-project-regional-energy-connectivity-south-asia-1484126",
+    "title": "EU launches new project on regional energy connectivity in South Asia",
+    "link": "https://www.tbsnews.net/bangladesh/eu-launches-new-project-regional-energy-connectivity-south-asia-1484126",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/foreign-policy/dhaka-hopes-india-will-come-forward-understanding-importance-ganges-water-treaty",
+    "title": "Dhaka hopes India will come forward understanding importance of Ganges Water Treaty",
+    "link": "https://www.tbsnews.net/foreign-policy/dhaka-hopes-india-will-come-forward-understanding-importance-ganges-water-treaty",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/health/measles-death-toll-rises-747-2-more-children-die-1483861",
+    "title": "Measles: Death toll rises to 747 as 2 more children die",
+    "link": "https://www.tbsnews.net/bangladesh/health/measles-death-toll-rises-747-2-more-children-die-1483861",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/7/9/air-raid-sirens-in-bahrain-after-uneasy-night-of-us-iran-strikes?traffic_source=rss",
+    "title": "Air raid sirens in Bahrain after uneasy night of US-Iran strikes",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/7/9/air-raid-sirens-in-bahrain-after-uneasy-night-of-us-iran-strikes?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
+    "title": "Ukrainian agent accused of murdering Monaco bomb suspect changes story",
+    "link": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/9/explosions-heard-in-iran-as-us-military-denies-involvement?traffic_source=rss",
+    "title": "US military denies involvement after explosions heard in Iran",
+    "link": "https://www.aljazeera.com/news/2026/7/9/explosions-heard-in-iran-as-us-military-denies-involvement?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/economy/2026/7/9/canadian-pm-visits-saudi-arabia-to-strengthen-energy-mining-partnerships?traffic_source=rss",
+    "title": "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships",
+    "link": "https://www.aljazeera.com/economy/2026/7/9/canadian-pm-visits-saudi-arabia-to-strengthen-energy-mining-partnerships?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/9/south-african-protesters-intimidate-migrants-as-aid-group-issues-warning?traffic_source=rss",
+    "title": "South African protesters intimidate migrants as aid group issues warning",
+    "link": "https://www.aljazeera.com/news/2026/7/9/south-african-protesters-intimidate-migrants-as-aid-group-issues-warning?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/9/israeli-attacks-on-gaza-kill-10-people-in-24-hours-despite-ceasefire?traffic_source=rss",
+    "title": "Israeli attacks on Gaza kill 10 people in 24 hours despite ‘ceasefire’",
+    "link": "https://www.aljazeera.com/news/2026/7/9/israeli-attacks-on-gaza-kill-10-people-in-24-hours-despite-ceasefire?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/7/9/videos-show-interception-of-iranian-missiles-in-skies-over-jordan?traffic_source=rss",
+    "title": "Videos show interception of Iranian missiles in skies over Jordan",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/7/9/videos-show-interception-of-iranian-missiles-in-skies-over-jordan?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/9/flooding-from-tropical-storm-maysak-kills-39-in-southern-china?traffic_source=rss",
+    "title": "Flooding from Tropical Storm Maysak kills 39 in southern China",
+    "link": "https://www.aljazeera.com/news/2026/7/9/flooding-from-tropical-storm-maysak-kills-39-in-southern-china?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/economy/2026/7/9/imf-cuts-2026-world-growth-forecast-citing-iran-war-fallout?traffic_source=rss",
+    "title": "IMF cuts 2026 world growth forecast, citing Iran war fallout",
+    "link": "https://www.aljazeera.com/economy/2026/7/9/imf-cuts-2026-world-growth-forecast-citing-iran-war-fallout?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/oman-tells-european-allies-ships-passing-through-strait-of-hormuz-may-have-to-pay-101783617030312.html",
+    "title": "Oman tells European allies ships passing through Strait of Hormuz may have to pay",
+    "link": "https://www.hindustantimes.com/world-news/oman-tells-european-allies-ships-passing-through-strait-of-hormuz-may-have-to-pay-101783617030312.html",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
+    "title": "Ukraine strikes Russian ships near Crimea, escalating attacks on fuel supplies",
+    "link": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/us-approves-sale-of-tomahawk-missiles-to-germany-says-chancellor-merz-101783584699533.html",
+    "title": "US approves sale of Tomahawk missiles to Germany, says Chancellor Merz",
+    "link": "https://www.hindustantimes.com/world-news/us-approves-sale-of-tomahawk-missiles-to-germany-says-chancellor-merz-101783584699533.html",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/chinas-ballistic-missile-launch-seen-as-signal-to-us-say-experts/190219",
+    "title": "China's ballistic missile launch seen as signal to US, say experts",
+    "link": "https://unb.com.bd/category/World/chinas-ballistic-missile-launch-seen-as-signal-to-us-say-experts/190219",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/floods-in-southern-china-kill-39-as-another-typhoon-heads-toward-east-coast/190221",
+    "title": "Floods in southern China kill 39 as another typhoon heads toward east coast",
+    "link": "https://unb.com.bd/category/World/floods-in-southern-china-kill-39-as-another-typhoon-heads-toward-east-coast/190221",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/885198/talks-on-ganges-water-sharing-treaty-with-india-moving-positively-shama",
+    "title": "Talks on Ganges water sharing treaty with India moving positively: Shama",
+    "link": "https://www.daily-sun.com/diplomacy/885198/talks-on-ganges-water-sharing-treaty-with-india-moving-positively-shama",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/unhcr-mourns-rohingya-camp-deaths-urges-stronger-disaster-preparedness/190260",
+    "title": "UNHCR mourns Rohingya camp deaths, urges stronger disaster preparedness",
+    "link": "https://unb.com.bd/category/Bangladesh/unhcr-mourns-rohingya-camp-deaths-urges-stronger-disaster-preparedness/190260",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/Bangladesh/bangladesh-indonesia-eye-stronger-economic-relations/190256",
+    "title": "Bangladesh, Indonesia eye stronger economic relations",
+    "link": "https://unb.com.bd/category/Bangladesh/bangladesh-indonesia-eye-stronger-economic-relations/190256",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/885183/bangladesh-to-host-un-climate-conference-for-first-time",
+    "title": "Bangladesh to host UN climate conference for first time",
+    "link": "https://www.daily-sun.com/diplomacy/885183/bangladesh-to-host-un-climate-conference-for-first-time",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.ipsnews.net/2026/07/poor-governance-enables-violence-against-women-in-cameroon/",
+    "title": "Poor Governance Enables Violence Against Women in Cameroon",
+    "link": "https://www.ipsnews.net/2026/07/poor-governance-enables-violence-against-women-in-cameroon/",
+    "description": "In Cameroon’s Far North region, Adiza, a 57-year-old woman had spent nearly three decades confined to her home by her husband. She was not allowed to leave, receive visitors, or speak with non-family members. When she disobeyed, he beat her. Rosaline, a 44-year-old hairdresser in the southwestern region, went to work at her hair salon [&#8230;]",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1167905",
+    "title": "US-Iran war leaves shipping at near-standstill in Hormuz again",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1167905",
+    "description": "Renewed hostilities between the United States and Iran reportedly brought shipping to a near-standstill in the Strait of Hormuz on Thursday, leaving around 6,000 seafarers stranded aboard hundreds of vessels and Gulf countries on high alert for further attacks.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1167904",
+    "title": "Security Council LIVE: ‘Urgent de-escalation’ needed now amid spike in civilian deaths",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1167904",
+    "description": "The Security Council must use every tool and diplomatic channel to reach an urgent de-escalation, Rosemary DiCarlo, chief of UN political and peacebuilding affairs, told an emergency meeting on Thursday amid escalating deadly Russian drone and missile attacks on Ukrainian civilians. Stay tuned for live updates.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1167906",
+    "title": "Use of explosive weapons ‘must stop’ in eastern DR Congo: Türk",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1167906",
+    "description": "UN High Commissioner for Human Rights Volker Türk&nbsp;urged the armed forces of the Democratic Republic of the Congo and the Rwanda-backed M23 armed group to cease hostilities as he deplored recent civilian deaths on Thursday.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1167910",
+    "title": "World must move faster on Ebola response for DR Congo: UN relief chief",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1167910",
+    "description": "The world must move faster to contain the spread of Ebola in the Democratic Republic of the Congo (DRC), UN relief chief Tom Fletcher said on Thursday.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/a-landslide-at-a-rohingya-camp-in-bangladesh-kills-children/article71203787.ece",
+    "title": "Landslip kills seven children, teacher at Rohingya camp in Bangladesh",
+    "link": "https://www.thehindu.com/news/international/a-landslide-at-a-rohingya-camp-in-bangladesh-kills-children/article71203787.ece",
+    "description": "United Council of Rohingya president Sayed Ullah said the landslip buried an Islamic seminary inside the hilly camp complex under mud and debris during the study hours after days of heavy downpour",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/px2byt/article71203796.ece/alternates/LANDSCAPE_1200/Bangladesh_Rohingya_357_2.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.dawn.com/news/2014109/adb-cuts-pakistan-growth-forecast-to-37pc-on-higher-energy-costs",
+    "title": "ADB cuts Pakistan growth forecast to 3.7pc on higher energy costs",
+    "link": "https://www.dawn.com/news/2014109/adb-cuts-pakistan-growth-forecast-to-37pc-on-higher-energy-costs",
+    "description": "<p>ISLAMABAD: The Asian Development Bank (ADB) on Thursday cut its forecast for Pakistan’s economic growth to 3.7 per cent, citing higher energy costs and anticipated pressure on foreign remittances from Pakistanis abroad.</p>\n<p>In its<a class=\"link--external\" href=\"https://www.adb.org/outlook/editions/july-2026\" rel=\"noopener noreferrer\" target=\"_blank\"> Asian Development Outlook (ADO) July 2026</a>, the Manila-based lender, however, lowered its growth forecast for developing Asia and the Pacific to 4.9pc for 2026 from 5.5pc in 2025, marking a 0.2-percentage-point reduction from its <a href=\"https://www.dawn.com/news/1990480\">April projections</a>.</p>\n    <figure class=\"media  w-full  w-full  media--  media--embed  media--uneven media--tweet\">\n        <div class=\"media__item  media__item--twitter  \"><span>\n    <blockquote class=\"twitter-tweet\" lang=\"en\">\n        <a href=\"https://twitter.com/ADB_HQ/status/2074885675090952378\"></a>\n    </blockquote>\n</span></div>\n        \n    </figure>\n<p>“Preliminary data show Pakistan’s economy growing by 3.7pc in FY2026 (ended 30 June 2026), supported by strong industry and services alongside modest agricultural gains. However, the growth forecast is revised down to 3.7pc for FY2027 due to higher energy costs and pressure on remittances”, said the Asian Development Outlook July 2026.</p>\n<p>ADB had earlier projected a 4.5pc growth rate for the current fiscal year in its April 2026 forecast.</p>\n<p>It also revised upward its inflation forecast for both FY2026 and the current fiscal year compared to its previous estimates made in April 2026.</p>\n<p>“Pakistan’s inflation forecast is revised up to 7.2pc in FY2026on rising food and fuel costs. The forecast for FY2027 is also revised up to 8.3pc, given persistent adverse spillover from the Middle East conflict.”</p>\n<p>In April, the ADB had estimated 6.4pc inflation in FY2026 and 7.2pc for FY2027.</p>\n<p>Meanwhile, the government has set the GDP growth target of 4pc and inflation at 8.2pc for the current year. The IMF anticipates 3.5pc growth for the current year.</p>\n<p>Pakistan is not the only nation in the region to face higher inflation and lower growth this year as the ADB lowered its growth forecast for developing Asia and the Pacific to 4.9pc for 2026 from 5.5pc in 2025, marking a 0.2-percentage-point reduction from its April projections.</p>\n<p>“For 2027, most sub-regional growth projections are unchanged, reflecting expectations of a gradual recovery. Downward revisions are seen in the Caucasus and Central and West Asia as well as South Asia, driven by lower forecasts for Armenia, Bangladesh, Nepal, Pakistan, Sri Lanka, and Turkiye partly because of the continued impact of higher energy prices”, the ADB noted.</p>\n<p>With price pressures intensifying in recent months, headline inflation ran above target in 10 of 17 inflation-targeting economies in March–May. Inflation breached target ranges in early 2026 in Armenia, Georgia, Mongolia, Nepal, Pakistan, the Philippines, and Viet Nam, and remained above target, the ADB said. In response, monetary policy decisions have shifted toward rate holds and selective rate hikes, with central banks calibrating the pace of tightening to contain inflation while limiting drag on growth.</p>\n<p>In April–June, policy rates were raised in Indonesia, Pakistan, and Sri Lanka by 100 basis points; in the Philippines by 50 points; and in Georgia by 25 points. Some central banks used foreign exchange intervention or regulatory measures to stabilise currencies. Bucking the trend, the central bank in Kazakhstan cut rates by 100 basis points in June as annual and monthly inflation eased with lower price increases for food and services.</p>\n<p>Prolonged <a href=\"https://www.dawn.com/news/2003859\">disruptions</a> to energy markets caused by the Middle East conflict have weighed more heavily on the region’s prospects than anticipated, according to the ADB’s latest economic outlook released on Thursday. The lender maintained its 2027 growth forecast at 5.1pc, reflecting an expected recovery in economic activity as these pressures ease.</p>\n<p>The ADB’s outlook expects disruptions to global energy markets to ease only gradually despite a framework agreement signed in June.</p>\n<p>With the impact extending beyond energy to fertilisers, other commodity prices and supply chains, inflationary pressures are likely to persist.</p>\n<p>Regional<a href=\"https://www.dawn.com/news/2007902\"> inflation</a> is now forecast at 4.3pc this year, up from 3pc in 2025 and 0.7 percentage points higher than projected in April. The inflation forecast for 2027 remains unchanged at 3.4pc.</p>\n<p>“Durable implementation of the framework agreement would help normalise global energy markets, but the pace of adjustment is highly uncertain, with significant downside risks,” ADB Chief Economist Albert Park said.</p>\n    <figure class=\"media  w-full sm:w-1/2  media--right  media--embed  media--uneven\">\n        <div class=\"media__item  media__item--newskitlink  \">    </div>\n        \n    </figure>\n<p>“Economic growth in developing Asia and the Pacific remains resilient, but persistent headwinds caused by the conflict require a careful policy balance between supporting growth and containing inflation,” he added.</p>\n<p>The ADB warned that renewed conflict escalation and prolonged geopolitical uncertainty remain key risks to the region’s outlook. These could further tighten energy markets, raise risk premia, and intensify inflationary and external pressures.</p>\n<p>It further warned that tighter global financial conditions posed additional risks, with sovereign bond yields and borrowing costs rising and fiscal deficits projected to widen in several economies.</p>\n<p>It said higher tariffs and elevated trade policy uncertainty could also weigh on economic activity, while rising fertiliser prices continued to threaten agricultural output and food security.</p>\n<p>Growth projections for 2026 were lowered for most subregions, except developing East Asia. Forecasts for the People’s Republic of China remained unchanged at 4.6pc for 2026 and 4.5pc for 2027, supported by strong exports and infrastructure investment.</p>\n<p>India’s growth<a class=\"link--external\" href=\"https://www.google.com/search?q=India%27s+growth+forecast+was+revised+down+to+6.6pc+this+year+as+higher+energy+costs+weigh+on+domestic+demand&amp;rlz=1C1GCEU_enPK1044PK1044&amp;oq=India%27s+growth+forecast+was+revised+down+to+6.6pc+this+year+as+higher+energy+costs+weigh+on+domestic+demand&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBBzU5MGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8\" rel=\"noopener noreferrer\" target=\"_blank\"> forecast </a>was revised down to 6.6pc this year as higher energy costs weigh on domestic demand, while the 2027 forecast was maintained at 7.3pc.</p>\n<p>Growth projections for Southeast Asia and the Pacific were also trimmed, reflecting weaker domestic demand and tourism, rising inflation and higher import costs.</p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://i.dawn.com/large/2026/07/091238101075b9f.webp",
+    "thumbnail_type": "image/webp"
+  },
+  {
+    "id": "https://english.news.cn/20260709/a190440877764d7b85dde8393cd98eac/c.html",
+    "title": "ADB forecasts 4.5 pct economic growth for Bangladesh in FY 2026-27",
+    "link": "https://english.news.cn/20260709/a190440877764d7b85dde8393cd98eac/c.html",
+    "description": "Delivered by PolitePaul service",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml"
+  },
+  {
+    "id": "https://english.news.cn/20260709/1e4c9d9ec4f945b8aed0bc9a5fd59929/c.html",
+    "title": "Landslides claim 7 lives in SE Bangladesh",
+    "link": "https://english.news.cn/20260709/1e4c9d9ec4f945b8aed0bc9a5fd59929/c.html",
+    "description": "Delivered by PolitePaul service",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml"
+  },
+  {
+    "id": "https://www.dawn.com/news/2014003/landslide-kills-8-at-rohingya-school-in-bangladesh",
+    "title": "Landslide kills 8 at Rohingya school in Bangladesh",
+    "link": "https://www.dawn.com/news/2014003/landslide-kills-8-at-rohingya-school-in-bangladesh",
+    "description": "<p>COX’S BAZAR: Heavy rain in Bangladesh triggered a landslide at the world’s largest refugee camp on Wednesday, killing seven children and a teacher during a school class and doubling the death toll from rain-related disasters this week.</p>\n<p>Rescuers clawed through liquid earth to drag out the bodies of the children, who drowned in the mud that swamped their school hut as they studied.</p>\n<p>More than 1.2 million Rohingya refugees, many who fled Myanmar during a brutal <a href=\"https://www.dawn.com/news/1356408\">military crackdown</a> in 2017, live in crowded refugee camps in Bangladesh’s Cox’s Bazar. Many refugees live in crowded, basic shelters on hillsides cleared of forests — making the land unstable when monsoon rains pour down.</p>\n<p>Bangladesh Refugee Relief and Repatriation Commissioner Mohammed Mizanur Rahman said seven children and their teacher had died. “Unfortunately, four died at the scene, while four others died in hospital,” Rahman said.</p>\n<p>Landslides also killed at least eight people as they slept in three different camps on Monday night. Bangladesh’s Flood Forecasting and Warning Centre said torrential rain is likely to continue for four days.</p>\n<p>Refugee representative Sayed Ullah, president of the United Council of Rohingya, said that people needed new land in safer locations.</p>\n<p>“We don’t see proper coordination… over the accommodation of the Rohingya, and that is reflected in these accidents,” he said. The United Nations calls it “one of the world’s largest and most protracted refugee situations”.</p>\n<p>The 2017 Myanmar crackdown, when Rohingya villages were burned and civilians killed, is the subject of a genocide case at the UN’s top court in The Hague.</p>\n<p><em>Published in Dawn, July 9th, 2026</em></p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://i.dawn.com/large/2026/07/09081544032fde2.webp",
+    "thumbnail_type": "image/webp"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/court/sc-orders-merit-based-republication-46199-primary-teacher-recruitment-results",
+    "title": "SC orders merit-based republication of 46,199 primary teacher recruitment results, upholds jobs of 6,531 teachers",
+    "link": "https://www.tbsnews.net/bangladesh/court/sc-orders-merit-based-republication-46199-primary-teacher-recruitment-results",
+    "description": "He said around 84% of the posts were filled under quota provisions.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/01/08/supreme_court_1.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/oecd-warns-shrinking-dev-finance-bangladesh-urges-stronger-multilateral-support-1483636",
+    "title": "OECD warns of shrinking dev finance as Bangladesh urges stronger multilateral support",
+    "link": "https://www.tbsnews.net/economy/oecd-warns-shrinking-dev-finance-bangladesh-urges-stronger-multilateral-support-1483636",
+    "description": "The session brought together experts from South Asia and the OECD to discuss how declining aid, geopolitical fragmentation, and changing donor priorities are reshaping development finance.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/05/21/oecd.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/court/appellate-division-upholds-hc-verdict-restoring-caretaker-government-referendum",
+    "title": "Appellate Division upholds HC verdict restoring caretaker govt, referendum in constitution",
+    "link": "https://www.tbsnews.net/bangladesh/court/appellate-division-upholds-hc-verdict-restoring-caretaker-government-referendum",
+    "description": "The Appellate Division said that any decision regarding the other changes introduced through the 15th Amendment would now rest with the Jatiya Sangsad.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/01/08/supreme_court_1.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "50e3d965-63c0-4a3a-87f1-006aba555dc1",
+    "title": "Iran’s Tehran-Mashhad railway suspended after US strikes: state TV",
+    "link": "https://en.prothomalo.com/international/middle-east/8rt338emfx",
+    "description": "IRAN-US-ISRAEL-WAR-FUNERAL\n<p>The train service between Tehran and Mashhad has been suspended after US strikes, state TV reported on Thursday, hours before late supreme leader Ali Khamenei was due to be buried in the eastern Iranian holy city.</p><p>The Islamic Republic of Iran Railways blamed “a criminal attack by the US-Israeli enemy” on the route and said it had dispatched repair teams, the state broadcaster reported, adding that road transport was being arranged for stranded passengers.</p><p>Earlier, Iran’s Revolutionary Guards accused the United States of targeting “two bridges in the eastern provinces leading toward Mashhad in an effort to overshadow” Khamenei’s funeral, state TV said.</p><p>The burial in Mashhad, Khamenei’s hometown, will be the final act of a multi-day funeral, after Iran’s leader for more than three decades lay in state in Tehran before being processed through the Iranian capital and the holy Iraqi cities of Najaf and Karbala.</p><p>Khamenei was killed in the US-Israeli strikes on February 28 that began the Middle East war.</p><p>While Washington and Tehran have agreed a ceasefire and a memorandum of understanding towards a long-term peace deal, Thursday marked the second night in a row in which the two sides exchanged fire.</p><p>US Central Command said it had hit around 90 military targets, while the Revolutionary Guards said they had hit back against US bases in Kuwait and Bahrain.</p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-09/9kt8c1el/778844-01-02.jpg?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/govt-eyes-new-labour-markets-beyond-middle-east-eyes-thailand-japan-south-korea-1483886",
+    "title": "Govt eyes new labour markets beyond Middle East, eyes Thailand, Japan, South Korea",
+    "link": "https://www.tbsnews.net/bangladesh/govt-eyes-new-labour-markets-beyond-middle-east-eyes-thailand-japan-south-korea-1483886",
+    "description": "The government is also working to reopen restricted labour markets, says the minister.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2025/12/09/labour.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/885075",
+    "title": "FDI hits 5-year high, but lags regional rivals",
+    "link": "https://www.daily-sun.com/business/885075",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/small/DS-'07'09-102-6a4e9c06476c2.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/885073",
+    "title": "Govt sets six-year limit on savings certificate profit claims",
+    "link": "https://www.daily-sun.com/business/885073",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/small/DS-'07'09-103-6a4e9c05d6f9b.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "87d8c2c1-a284-4d17-95e2-c2b3a2243e73",
+    "title": "Next parliamentary election under caretaker govt: Law Minister",
+    "link": "https://en.prothomalo.com/bangladesh/qtyomojc8k",
+    "description": "<p>The next national parliamentary election will be held under a caretaker government, Law Minister Md. Asaduzzaman has said.</p><p>Earlier in the day on Thursday, the apex court of the country dismissed the appeals filed against the High Court verdict concerning the 15th Amendment to the Constitution, which had introduced several changes, including the abolition of the non-party caretaker government system.</p><p>Following this, the law minister shared his reaction at the Secretariat, where he made the remarks in response to questions from journalists.</p><p>A newsperson had enquired whether the next national election would be conducted under a caretaker government.</p><p>In reply, the law minister said, \"Insha'Allah. This is our political commitment. The caretaker government is the fruit of the BNP's movement.\"</p><p>Meanwhile, immediately after the verdict, Attorney General Md. Ruhul Quddus Kazal told newspersons, \"The Appellate Division has dismissed the appeals filed against the High Court judgment. This means the High Court's verdict is upheld. When the writ petition challenging the 15th Amendment was filed, the High Court made observations on four matters. Principal among those was the reinstatement of the non-party caretaker government system into the Constitution, the return of referendums, and the upholding of the ruling that annulled Articles 7A and 7B. Ultimately, the High Court’s verdict has been sustained.\"</p><p>The then Awami League government had introduced the 15th Constitutional Amendment, altering several aspects of the constitution, including the abolition of the caretaker government system.</p><p>The 15th Amendment Bill was passed in Parliament on 30 June 2011.</p><p>The amendment introduced changes to 54 areas of the Constitution. It incorporated provisions for the maximum penalty for the illegal usurpation of power and recognition of Bangabandhu Sheikh Mujibur Rahman as the Father of the Nation, while also restoring the four fundamental state principles to the Constitution: nationalism, socialism, democracy, and secularism.</p><p>Following the fall of the Awami League government in the July mass uprising, two separate writ petitions were filed in the High Court in 2024, challenging the validity of the entire 15th Amendment Act as well as several of its specific sections.</p><p>Following the final hearing, the High Court delivered its verdict on 17 December 2024. In the ruling, Sections 20 and 21 of the said constitutional amendment act, which had excluded the caretaker government system and referendums, were declared null and void.</p><p>The High Court also declared Articles 7A, 7B, and 44(2), which had been incorporated into the Constitution through the 15th Amendment Act, as contradictory to the Constitution and therefore invalid.</p><p>The full text of the High Court's verdict was published on 8 July last year. Against that ruling, four prominent individuals, including Citizens for Good Governance (SHUJAN) Secretary Badiul Alam Majumdar, along with others, filed separate petitions for leave to appeal.</p><p>Subsequently, on 13 November last year, the Appellate Division granted leave to appeal. Following this, three separate appeals were lodged against the High Court verdict, which were dismissed today.</p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-09/w2z8qh7q/Law-Minister-Md.-Asaduzzaman.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/news/adb-forecasts-45-economic-growth-bangladesh-fiscal-year-sees-elevated-inflation-risk-4219651",
+    "title": "ADB forecasts 4.5% economic growth for Bangladesh this fiscal year, sees elevated inflation risk",
+    "link": "https://www.thedailystar.net/business/news/adb-forecasts-45-economic-growth-bangladesh-fiscal-year-sees-elevated-inflation-risk-4219651",
+    "description": "The Asian Development Outlook July 2026 said the economy grew 3.7 percent in FY26",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "96e75ab46c8a6f7baeea43d04b792618221148d6",
+    "title": "Australia agrees to sell uranium to India, ending a long stalemate",
+    "link": "https://apnews.com/article/modi-australia-india-albanese-uranium-32cbec58c8907d2b4aea934f2e241966",
+    "description": "Australia agrees to sell uranium to India, ending a long stalemate",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/opinion/885138/bangladesh-s-banking-sector-in-global-perspective-asset-quality-capital-strength-and-the-reform-agenda",
+    "title": "Bangladesh’s banking sector in global perspective: Asset quality, capital strength, and the reform agenda",
+    "link": "https://www.daily-sun.com/opinion/885138/bangladesh-s-banking-sector-in-global-perspective-asset-quality-capital-strength-and-the-reform-agenda",
+    "description": "Bangladesh’s banking sector is confronting one of the world’s most significant asset quality challenges.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/medium/Kafi-Khan-6a40a8de64dd2-6a4f4b092d563.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/885129/us-and-iran-at-a-deadlock-over-strait-of-hormuz",
+    "title": "US and Iran at a deadlock over Strait of Hormuz",
+    "link": "https://www.daily-sun.com/world/885129/us-and-iran-at-a-deadlock-over-strait-of-hormuz",
+    "description": "Iran and the US face a deadlock over the crucial Strait of Hormuz, impacting negotiations and escalating tensions. Who will",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/medium/air_strike_Iran_Daily_Sun--6a4f4189d5ad0.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/fm-khalilur-rahman-visit-new-york-10-29-july-ahead-unga-81-presidency-1484091",
+    "title": "FM Khalilur to visit New York from 10-29 July ahead of assuming 81st UNGA presidency",
+    "link": "https://www.tbsnews.net/bangladesh/fm-khalilur-rahman-visit-new-york-10-29-july-ahead-unga-81-presidency-1484091",
+    "description": "Bangladesh said the \"landmark\" victory (UNGA Presidency) was a strong testament to the confidence and trust that the international community places in Bangladesh, as well as to the country's growing diplomatic stature and constructive engagement within the multilateral system.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/03/24/untitled_design_15.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/885182/adb-lowers-bangladesh-gdp-growth-forecast-to-4-5",
+    "title": "ADB lowers Bangladesh GDP growth forecast",
+    "link": "https://www.daily-sun.com/business/885182/adb-lowers-bangladesh-gdp-growth-forecast-to-4-5",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/small/ADB-lowers-Bangladesh-GDP-forecast-6a4f891569c11.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "d81ac203-ccd8-4f58-a572-8e69b2e64a1d",
+    "title": "New law proposes up to 7 years in jail for possessing counterfeit notes",
+    "link": "https://en.prothomalo.com/business/local/1eulgty0og",
+    "description": "<p>The government is set to introduce a new law to tackle counterfeit currency, proposing a maximum of seven years imprisonment for knowingly possessing or using fake banknotes.</p><p>The Financial Institutions Division under the Ministry of Finance has prepared an eight-page draft of the Counterfeit Currency Prevention Act, 2026 and circulated it among relevant ministries and agencies for feedback. The draft has also been published on the division's website for public comments.</p><p>The proposed law introduces tougher penalties for offences related to counterfeit currency, including production, distribution, transportation, storage and circulation. It also outlines separate legal provisions for investigation, seizure and prosecution of such offences.</p><p>According to the Financial Institutions Division, the proposed legislation aims to address the limitations of existing laws and strengthen Bangladesh's ability to combat increasingly sophisticated counterfeit currency crimes driven by modern technology.</p><p>Under the draft law, manufacturing or attempting to manufacture counterfeit notes, collecting special paper, ink or security materials used for producing fake currency, as well as importing, exporting, transporting, selling or distributing counterfeit notes, will all be treated as criminal offences.</p><p>The draft also states that anyone who knowingly keeps counterfeit notes in their possession or uses them in financial transactions will face legal action, with a maximum punishment of seven years' imprisonment.</p><h3>Draft law seeks tougher action against counterfeit currency\n\n</h3><p>The proposed Counterfeit Currency Prevention Act, 2026 aims to bring all offences related to counterfeit money under a single legal framework, replacing the current system where such crimes are addressed through scattered provisions in different laws.</p><p>According to the draft, authorities will be empowered to seize and confiscate computers, printing equipment, special paper, ink and other materials used to produce counterfeit notes. Courts will also be able to order the destruction of counterfeit currency and seized equipment, allowing law enforcement not only to recover fake notes but also to dismantle production networks.</p><p>Financial Institutions Division Secretary Nazma Mobarek told Prothom Alo that the draft would be finalised after incorporating feedback before being placed before the Cabinet for approval.</p><p>The proposed law also introduces clear definitions of different forms of counterfeit currency. It classifies tampered notes, bleached notes—where chemicals are used to erase original printing before reprinting and mismatched notes made by combining parts or serial numbers from different banknotes.</p><p>As a result, altering the denomination or security features of genuine notes, chemically modifying them or assembling new notes from different banknotes will all be treated as counterfeiting.</p><p>The draft further proposes assigning Bangladesh Bank-designated currency officers the authority to examine suspicious banknotes and officially certify whether they are counterfeit. Their certification will be admissible as key evidence in court, strengthening investigations and prosecutions.</p><p>Another key provision of the draft is the proposal to classify most counterfeit currency offences as cognisable, non-bailable and non-compoundable. This would allow police to register cases and begin investigations without prior court approval, while limiting the scope for bail or out-of-court settlements. The draft also sets out detailed procedures for investigations, evidence preservation, court jurisdiction and trial proceedings.</p><h3>Counterfeit currency methods evolved over past decade</h3><p>Counterfeit currency operations in Bangladesh have become increasingly sophisticated over the past decade, prompting intensified crackdowns by law enforcement agencies and tighter monitoring by the central bank.</p><p>Since 2015, the Rapid Action Battalion (RAB), Criminal Investigation Department (CID), Detective Branch (DB) of police and Border Guard Bangladesh (BGB) have regularly conducted raids on counterfeit currency factories and organised syndicates, particularly in Dhaka and border areas. Such operations typically increase ahead of Eid-ul-Fitr and Eid-ul-Azha, when higher cash transactions create greater opportunities for circulating fake notes.</p><p>Bangladesh Bank began directing commercial banks in 2016 to strengthen counterfeit note detection by using currency verification machines, promptly sending suspicious notes to the central bank and raising public awareness.</p><p>Investigations since 2018 have found that counterfeiters are increasingly using advanced computers, high-resolution colour printers and digital technologies to produce fake currency. In 2023, law enforcement agencies also reported attempts to trade counterfeit notes through social media platforms.</p><p>Earlier this year, Bangladesh Bank urged the public not to be misled by rumours about counterfeit currency circulating on social media and advised people to verify the security features of banknotes before accepting them.</p><p>Ahead of this year's Eid-ul-Azha, the central bank instructed authorities to set up counterfeit currency detection booths at cattle markets across the country. Around the same time, the Detective Branch (DB) of Dhaka Metropolitan Police seized counterfeit notes worth nearly Tk 3.4 million in separate drives in Tongi and Gulistan.</p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-09/wrjx3wbb/prothomalo-bangla2026-01-1574y80c6hprothomalobangla2024053a06aba5a18e498a9a4e222ec4ff3187SY9476.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "12df4372-5c4b-41ce-abbb-a858084c35f1",
+    "title": "30 killed in floods, landslides; over 1,000 shelters opened in Chattogram region",
+    "link": "https://en.prothomalo.com/bangladesh/q2bgvaeo6j",
+    "description": "<p>Incessant rainfall-triggered floods and landslides have so far claimed 30 lives-19 in Cox’s Bazar, five in Chattogram, five in Bandarban and one in Rangamati, said Disaster Management and Relief Minister Asadul Habib Dulu told parliament on Thursday.</p><p>He said the government is giving the highest priority to ensuring the safety of people affected by floods and landslides in Chattogram and the Chattogram Hill Tracts alongside providing emergency relief assistance.</p><p>Delivering his statement under Rule 300 of the Rules of Procedure in the Jatiya Sangsad, the minister said the government is working on a war footing to protect affected people and meet their immediate humanitarian needs.</p><p>To accommodate displaced people, the government has opened 1,057 shelters - 41 in Chattogram, 640 in Cox’s Bazar, 21 in Rangamati, 135 in Khagrachhari and 220 in Bandarban, he said.</p><p>The minister said 8,340 people have taken shelter in Chattogram, while 126 are staying in shelters in Rangamati, 1,755 in Khagrachhari and 2,173 in Bandarban.</p><p>Dulu said the government initially allocated Tk 1 million in cash under the Gratuitous Relief (GR) programme and 200 metric tonnes of rice to each of the five affected districts on 7 July.</p><p>To strengthen the ongoing response, additional allocations were approved on Thursday, he added.</p><p>Chattogram received Tk 2.5 million, Cox’s Bazar Tk 2 million, while Rangamati, Khagrachhari and Bandarban each received Tk 1 million, the minister said.</p><p>The government also allocated an additional 300 metric tonnes of rice for Chattogram, 250 metric tonnes for Cox’s Bazar and 200 metric tonnes each for Rangamati, Khagrachhari and Bandarban.</p><p>The minister said public announcements through loudspeakers are continuing to encourage residents of vulnerable areas to move to safer locations.</p><p>He said shelters have been equipped with safe drinking water, sanitation facilities, baby food and arrangements for three meals a day for displaced people.</p><p>Dulu also said the Prime Minister’s Relief and Welfare Fund has allocated Tk 2 million for each of the affected districts.</p><p>\"The Prime Minister is closely monitoring the situation and providing necessary directives. More emergency assistance will be allocated if required,\" he added.</p><p>Highlighting the recurring loss of lives from landslides, the minister said the government is prepared to rehabilitate families living on vulnerable hill slopes by constructing houses on khas land and other government land.</p><p>He urged local lawmakers to actively raise public awareness and support the relocation initiative, expressing hope that coordinated efforts would significantly reduce future casualties from landslides.</p><p>Meanwhile, State Minister for Land and Chattogram Hill Tracts Affairs Mir Mohammed Helal Uddin told Parliament that 1,300 metric tonnes of rice have been distributed in the three hill districts on Wednesday.</p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-09/li3tfdx3/1.-RangamatiDisasterhill-tractsWaterRain09072026.JPG?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "f8f437e3-3f1d-4dcc-a00e-f974be8079e5",
+    "title": "Measles outbreak: Death toll nears 750",
+    "link": "https://en.prothomalo.com/bangladesh/wflng6s8fv",
+    "description": "<p>Two more children have died with measles symptoms across Bangladesh in the past 24 hours, raising the total number of deaths linked to the outbreak to 747, according to the Directorate General of Health Services (DGHS).</p><p>The latest DGHS measles situation report published on Thursday said the deaths occurred between 8:00am on Wednesday and 8:00am on Thursday.</p><p>Of the total deaths since 15 March, 654 children died with measles symptoms, while laboratory tests confirmed measles in 93 deaths.</p><p>The report said another 818 children developed measles symptoms during the reporting period, bringing the total number of suspected cases to 108,998 since 15 March.</p><p>During the same period, 128 new laboratory-confirmed measles cases were recorded, raising the total number of confirmed infections to 13,198.</p><p>According to the DGHS, 92,031 patients with measles symptoms have been admitted to hospitals since 15 March. Of them, 88,419 have recovered and been discharged.</p><p>The report said no confirmed measles deaths were recorded in the past 24 hours. Of the two children who died with measles symptoms, one was from Dhaka division and the other from Sylhet division.</p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-09/mxtugeef/prothomalo-bangla2026-07-09ekxn120omeasles.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/12-bangladeshis-killed-middle-east-conflict-186-repatriated-iran-expat-minister-1484016",
+    "title": "12 Bangladeshis killed in Middle East conflict, 186 repatriated from Iran: Expat minister",
+    "link": "https://www.tbsnews.net/bangladesh/12-bangladeshis-killed-middle-east-conflict-186-repatriated-iran-expat-minister-1484016",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/03/24/iran_war.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/4-30-bangladeshis-lured-russia-job-promises-die-efforts-bring-back-others-1483926",
+    "title": "4 of 30 Bangladeshis lured to Russia with job promises die; efforts on to bring back others",
+    "link": "https://www.tbsnews.net/bangladesh/4-30-bangladeshis-lured-russia-job-promises-die-efforts-bring-back-others-1483926",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/01/27/maksudur_rahman.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/next-national-election-be-held-under-caretaker-government-law-minister-1483766",
+    "title": "Next national election to be held under caretaker government: Law minister",
+    "link": "https://www.tbsnews.net/bangladesh/next-national-election-be-held-under-caretaker-government-law-minister-1483766",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/07/09/oooo.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/bangladesh/news/joint-venture-drone-factory-turkey-be-set-bogura-state-minister-4219831",
+    "title": "Joint venture drone factory with Turkey to be set up in Bogura: State minister",
+    "link": "https://www.thedailystar.net/news/bangladesh/news/joint-venture-drone-factory-turkey-be-set-bogura-state-minister-4219831",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/bangladesh/npl-in-banks-with-higher-trade-finance-exposure-exceeds-80pc-bibm-study",
+    "title": "NPL in banks with higher trade finance exposure exceeds 80pc: BIBM study",
+    "link": "https://thefinancialexpress.com.bd/economy/bangladesh/npl-in-banks-with-higher-trade-finance-exposure-exceeds-80pc-bibm-study",
+    "description": "Non-performing loans (NPLs) in banks with significantly higher trade-finance exposure range between 40 per cent and 50 per cent, according to a study of the Bangladesh Institute of Bank Management (BIBM). \nAnd the rate exceeds 80 per cent in banks having both high overall NPLs and substantial",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/bangladesh/bangladeshs-trade-deficit-widens-to-24bn-as-exports-fall",
+    "title": "Bangladesh's trade deficit widens to $24bn as exports fall",
+    "link": "https://thefinancialexpress.com.bd/economy/bangladesh/bangladeshs-trade-deficit-widens-to-24bn-as-exports-fall",
+    "description": "Bangladesh's merchandise trade deficit widened sharply in the first 11 months of the 2025-26 fiscal year as export earnings declined while imports increased, according to the latest balance of payments data released by the Bangladesh Bank.\nThe central bank's figures, published on Wednesday, show t",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/bangladesh/sweeping-austerity-reinforced-in-public-spending",
+    "title": "Sweeping austerity reinforced in public spending",
+    "link": "https://thefinancialexpress.com.bd/economy/bangladesh/sweeping-austerity-reinforced-in-public-spending",
+    "description": "Procurement of all types of vehicles is suspended, foreign tours using public funds barred and spending on new building construction restricted during this fiscal year under a fresh government austerity course.\n Finance Division issued Wednesday a notification to this effect, stating that the",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/bangladesh/885179/bangladesh-netherlands-discuss-ways-to-boost-defence-cooperation",
+    "title": "Bangladesh, Netherlands discuss ways to boost defence cooperation",
+    "link": "https://www.daily-sun.com/bangladesh/885179/bangladesh-netherlands-discuss-ways-to-boost-defence-cooperation",
+    "description": "Bangladesh and the Netherlands on Thursday discussed ways to further strengthen bilateral defence cooperation, emphasising naval modernisation",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/medium/bangladesh-netherlands-defence-6a4f8566e6201.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "d5b8c5e5c6e7678c92caa240cd470877",
+    "title": "SC upholds ruling restoring caretaker govt provisions, referendums",
+    "link": "https://en.bonikbarta.com/bangladesh/3kihJAm3gg2gGbG3/",
+    "description": "The ruling marks a significant shift after the court declared provisions abolishing the caretaker government system through the 15th constitutional amendment unlawful.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/stocks/foreign-outflows-hit-2026-high-investors-dump-tk358cr-stocks-amid-policy-concerns",
+    "title": "Foreign outflows hit 2026 high as investors dump Tk358cr in stocks amid policy concerns",
+    "link": "https://www.tbsnews.net/economy/stocks/foreign-outflows-hit-2026-high-investors-dump-tk358cr-stocks-amid-policy-concerns",
+    "description": "The June outflow almost doubled the Tk161 crore in foreign sales recorded in May and was nearly three times higher than the Tk124 crore seen in April.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2024/07/07/stocks_dse_3_0.jpeg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/stocks/bsec-allow-direct-listing-10-share-float-attract-large-companies-1484261",
+    "title": "BSEC to allow direct listing with 10% share float to attract large companies",
+    "link": "https://www.tbsnews.net/economy/stocks/bsec-allow-direct-listing-10-share-float-attract-large-companies-1484261",
+    "description": "BSEC Chairman Masud Khan announced the plan today.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/07/09/bsec.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "6f8f2643-af62-4ee3-93f8-10bb067b1b9a",
+    "title": "Govt aims to send 10m skilled workers abroad in 5 years",
+    "link": "https://en.prothomalo.com/bangladesh/cm5j7kp975",
+    "description": "<p>The government has adopted a plan to send 10 million skilled workers overseas over the next five years as part of efforts to expand, preserve and strengthen Bangladesh's overseas labour market, Expatriates' Welfare and Overseas Employment Minister Ariful Haque Choudhury told parliament on Thursday, says a ministry press release.</p><p>Responding to a question from Naogaon-5 MP Mohammad Zahidul Islam Dholu during the Jatiya Sangsad session, the minister said the ministry has prepared an action plan under the government's election manifesto to develop skilled workers for overseas employment and improve their language proficiency.</p><p>He said two Technical Training Centres (TTCs) have been established in Naogaon district.</p><p>One at Bandabaria in Sadar upazila and another in Raninagar upazila—to transform unemployed youth and women into skilled workers.</p><p>According to the minister, trainees at the centres are receiving instruction in various trades, while internationally demanded courses such as information technology, caregiving and driving will gradually be introduced at all training centres.</p><p>In response to a supplementary question from Sylhet-2 MP Tahsina Rushdir, Minister said the government also plans to create employment opportunities for less-educated men, women and widows in remote areas by providing skills training, adding that the programme will be implemented nationwide in phases.</p><p>Answering a question from reserved-seat MP Nilufa Chowdhury Moni, the minister said expatriate welfare desks at the country's three international airports are assisting outgoing and returning migrant workers with luggage wrapping, baggage collection, printing and photocopying documents, attestation, immigration and customs procedures.</p><p>He added that the facilities also include free Wi-Fi, television, newspapers, free telephone services and discounted meals at expatriate cafés with a 30 per cent price reduction.</p><p>The minister said the government is now bearing all costs of repatriating the bodies of deceased migrant workers, including transporting them to their homes and covering burial expenses, describing it as a first for Bangladesh.</p><p>He also said measures have been taken to simplify e-passport services for expatriates and strengthen the protection of female migrant workers by providing them with skills training at TTCs.</p><p>Responding to another question from reserved-seat MP Mosammat Nazmun Nahar about migrant workers imprisoned abroad, the Minister said many have already been repatriated through Bangladesh missions overseas.</p><p>He urged people with information about imprisoned migrant workers to send details to the ministry's designated email address so that the relevant embassies can take steps to facilitate their return.</p>",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-02-12/84yprtic/prothomalo-bangla2023-05adb50a06-97f0-4445-b866-575d4a3be28bSYLHETDH048620230517SYLHETPHOTO72JPG.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/news/bangladesh-may-face-additional-tariff-burden-ustr-latest-review-adb-4220011",
+    "title": "Bangladesh may face additional tariff burden from USTR in latest review: ADB",
+    "link": "https://www.thedailystar.net/business/news/bangladesh-may-face-additional-tariff-burden-ustr-latest-review-adb-4220011",
+    "description": "Today, the ADB published the Asian Development Outlook (ADO) July 2025",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/the-parliament-watch/parliament/news/bangladesh-eyes-comprehensive-economic-partnership-india-narrow-trade-gap-minister-4220031",
+    "title": "Bangladesh eyes comprehensive economic partnership with India to narrow trade gap: Minister",
+    "link": "https://www.thedailystar.net/news/the-parliament-watch/parliament/news/bangladesh-eyes-comprehensive-economic-partnership-india-narrow-trade-gap-minister-4220031",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/nrb/migration/news/12-bangladeshis-killed-middle-east-war-expatriates-welfare-minister-4219926",
+    "title": "12 Bangladeshis killed in Middle East war: Expatriates' welfare minister",
+    "link": "https://www.thedailystar.net/nrb/migration/news/12-bangladeshis-killed-middle-east-war-expatriates-welfare-minister-4219926",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/iccb-calls-for-bold-reforms-amid-mounting-global-domestic-economic-challenges",
+    "title": "ICCB calls for bold reforms amid mounting economic challenges",
+    "link": "https://thefinancialexpress.com.bd/economy/iccb-calls-for-bold-reforms-amid-mounting-global-domestic-economic-challenges",
+    "description": "International Chamber of Commerce (ICC) Bangladesh President Mahbubur Rahman on Thursday called for bold structural reforms, stronger public-private collaboration and accelerated investment in infrastructure to help Bangladesh navigate mounting global uncertainties and prepare for its post-Least De",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/161665/iccb-president-mahbubur-rahman-2.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/bangladesh-chinas-fujian-province-forge-new-g-to-g-partnership-in-agriculture-fertiliser-supply",
+    "title": "Bangladesh, China’s Fujian Province forge new G-to-G partnership in agriculture, fertiliser supply",
+    "link": "https://thefinancialexpress.com.bd/trade/bangladesh-chinas-fujian-province-forge-new-g-to-g-partnership-in-agriculture-fertiliser-supply",
+    "description": "Bangladesh and China’s Fujian Province have agreed to establish a new government-to-government (G2G) partnership to expand cooperation in agriculture, fertiliser supply, rural development, fisheries, food processing and renewable energy. \nThe two sides reached a broad understanding to w",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/161726/ministry-agri.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/885215/russia-bans-diesel-exports-after-ukrainian-strikes",
+    "title": "Russia bans diesel exports after Ukrainian strikes",
+    "link": "https://www.daily-sun.com/business/885215/russia-bans-diesel-exports-after-ukrainian-strikes",
+    "description": "Russia has completely banned exports of diesel as part of a raft of measures to support the domestic fuel market",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/09/medium/russia-diesel-export-ban-6a4fbec579c4b.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/eu-keen-fta-bangladesh-technical-team-visit-soon-1484331",
+    "title": "EU keen on FTA with Bangladesh; technical team to visit soon",
+    "link": "https://www.tbsnews.net/bangladesh/eu-keen-fta-bangladesh-technical-team-visit-soon-1484331",
+    "description": "The meeting also decided that an EU technical committee will visit Bangladesh soon to facilitate the trade agreement process.",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2025/08/30/ldc_copy.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.daily-sun.com/bangladesh/885295/cabinet-approves-draft-invest-bangladesh-act-2026",
+    "title": "Cabinet approves draft Invest Bangladesh Act, 2026",
+    "link": "https://www.daily-sun.com/bangladesh/885295/cabinet-approves-draft-invest-bangladesh-act-2026",
+    "description": "The proposed law is aligned with the current government’s election manifesto commitment to creating a business-friendly environment...",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/10/medium/Cabinet-meeting-JS-9-July-2026-PID-6a4fed363ab73.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/885318/un-chief-nominates-bangladeshi-diplomat-rabab-fatima-as-special-envoy-for-afghanistan",
+    "title": "UN chief nominates Bangladeshi diplomat Rabab Fatima as special envoy for Afghanistan",
+    "link": "https://www.daily-sun.com/world/885318/un-chief-nominates-bangladeshi-diplomat-rabab-fatima-as-special-envoy-for-afghanistan",
+    "description": "",
+    "published": "Fri, 10 Jul 2026 10:39:31 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
   }
 ]
