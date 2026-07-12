@@ -4,214 +4,7 @@
     <title>Curated News</title>
     <link>https://yourusername.github.io/yourrepo/</link>
     <description>AI-curated signal: international affairs and Bangladesh news</description>
-    <lastBuildDate>Sat, 11 Jul 2026 03:59:59 +0000</lastBuildDate>
-    <item>
-      <title>Drones over Europe raise concerns about Russian activities</title>
-      <link>https://www.nytimes.com/2026/07/02/world/europe/drone-incursions-europe-russia.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/07/02/world/europe/drone-incursions-europe-russia.html</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>A Japanese submarine sank USS Juneau in World War II. One just did it again as the US and its allies train for a Pacific fight.</title>
-      <link>https://www.businessinsider.com/japanese-torpedo-sinks-us-navy-decommissioned-vessel-2026-7</link>
-      <guid isPermaLink="true">https://www.businessinsider.com/japanese-torpedo-sinks-us-navy-decommissioned-vessel-2026-7</guid>
-      <description>The first USS Juneau was a light cruiser that was struck and sunk by a Japanese torpedo in 1942, killing all but 10 of the vessel's crew.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://i.insider.com/6a45577e1aaffe3020cb1685?format=jpeg" />
-      <enclosure url="https://i.insider.com/6a45577e1aaffe3020cb1685?format=jpeg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Modi and Takaichi meet in the shadow of Chinese pressure</title>
-      <link>https://archive.is/o/ggFl1/https://www.ft.com/content/9240e19a-8a7e-4213-8ac4-b03c16120cd7</link>
-      <guid isPermaLink="true">https://www.ft.com/content/9240e19a-8a7e-4213-8ac4-b03c16120cd7</guid>
-      <description>Japan and India draw closer after falling foul of Beijing’s restrictions on rare earth exports</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Russian drone campaign mapped Nato air defence gaps, study finds</title>
-      <link>https://archive.is/o/ggFl1/https://www.ft.com/content/49ed0040-7f5d-402d-b42d-1d8eab27114c</link>
-      <guid isPermaLink="true">https://www.ft.com/content/49ed0040-7f5d-402d-b42d-1d8eab27114c</guid>
-      <description>Nearly 150 UAV incursions into more than a dozen European countries were made over 19 months, IISS report says</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Russia’s Deadly Attack on Ukraine Reminds Europe of Its Own Vulnerabilities</title>
-      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/02/world/europe/nato-russia-attack-ukraine.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/07/02/world/europe/nato-russia-attack-ukraine.html</guid>
-      <description>Governments across the continent have increased military spending, but the strikes are another warning that they need to be prepared if the conflict crosses into NATO territory.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://static01.nyt.com/images/2026/07/02/multimedia/02ukraine-europe-vulnerable-vhbg/02ukraine-europe-vulnerable-vhbg-mediumSquareAt3X.jpg" />
-      <enclosure url="https://static01.nyt.com/images/2026/07/02/multimedia/02ukraine-europe-vulnerable-vhbg/02ukraine-europe-vulnerable-vhbg-mediumSquareAt3X.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Putin Retaliates With New Strikes After Ukraine Takes the War to Russia</title>
-      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/02/world/europe/russia-putin-ukraine-war-pressure.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/07/02/world/europe/russia-putin-ukraine-war-pressure.html</guid>
-      <description>Ukraine is taking the war to Russia, but so far President Vladimir V. Putin’s response has been to keep attacking, including with deadly ballistic missile and drone strikes in Kyiv on Thursday.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://static01.nyt.com/images/2026/07/02/multimedia/02ukraine-russia-assess-pvfl/02ukraine-russia-assess-pvfl-mediumSquareAt3X.jpg" />
-      <enclosure url="https://static01.nyt.com/images/2026/07/02/multimedia/02ukraine-russia-assess-pvfl/02ukraine-russia-assess-pvfl-mediumSquareAt3X.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Ukrainian Charged With Sabotaging Pipelines Between Russia and Germany</title>
-      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/02/world/europe/pipeline-sabotage-ukraine-russia-germany.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/07/02/world/europe/pipeline-sabotage-ukraine-russia-germany.html</guid>
-      <description>A man identified only as Serhii K. is accused of overseeing an undersea bombing in 2022 that cut off a key source of Russian gas revenues.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://static01.nyt.com/images/2026/07/02/multimedia/02germany-pipeline-02-jzmt/02germany-pipeline-02-jzmt-mediumSquareAt3X.jpg" />
-      <enclosure url="https://static01.nyt.com/images/2026/07/02/multimedia/02germany-pipeline-02-jzmt/02germany-pipeline-02-jzmt-mediumSquareAt3X.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Trump-backed truce in Lebanon, key to Iran peace deal, risks new civil war</title>
-      <link>https://archive.is/o/A5nuz/https://www.washingtonpost.com/world/2026/07/02/trump-backed-ceasefire-lebanon-key-iran-peace-deal-risks-new-civil-war/</link>
-      <guid isPermaLink="true">https://www.washingtonpost.com/world/2026/07/02/trump-backed-ceasefire-lebanon-key-iran-peace-deal-risks-new-civil-war/</guid>
-      <description>To reach a more durable peace agreement with Iran and open the Strait of Hormuz, Trump needs Israel to uphold the terms of a deal with Lebanon that Hezbollah says it will block by "any means necessary."</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Massive Russian Strikes Pound Ukraine’s Capital, Killing at Least 17</title>
-      <link>https://archive.is/o/soww3/https://www.wsj.com/world/europe/russia-ukraine-strikes-kyiv-9f76c67d</link>
-      <guid isPermaLink="true">https://www.wsj.com/world/europe/russia-ukraine-strikes-kyiv-9f76c67d</guid>
-      <description>Kyiv was hit with ballistic and cruise missiles as well as waves of drones over several hours.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://images.wsj.net/im-32117295" />
-      <enclosure url="https://images.wsj.net/im-32117295" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Russia waged a drone campaign in Europe and likely launched drones from shadow ships, report says</title>
-      <link>https://abcnews.com/International/wireStory/russia-waged-drone-campaign-europe-launched-drones-shadow-134400766</link>
-      <guid isPermaLink="true">https://abcnews.com/International/wireStory/russia-waged-drone-campaign-europe-launched-drones-shadow-134400766</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Next round of Iran-US talks to begin on July 18 — TV</title>
-      <link>https://tass.com/world/2154445</link>
-      <guid isPermaLink="true">https://tass.com/world/2154445</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>See the aftermath of one of Russia’s largest attacks on Kyiv. Apartment buildings lie in ruins, at least 18 people were killed, and dozens were injured.</title>
-      <link>https://meduza.io/en/feature/2026/07/02/see-the-aftermath-of-one-of-russia-s-largest-attacks-on-kyiv-apartment-buildings-lie-in-ruins-at-least-13-people-were-killed-and-dozens-were-injured</link>
-      <guid isPermaLink="true">https://meduza.io/en/feature/2026/07/02/see-the-aftermath-of-one-of-russia-s-largest-attacks-on-kyiv-apartment-buildings-lie-in-ruins-at-least-13-people-were-killed-and-dozens-were-injured</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>The Hormuz Strait Crisis Confirms Nodal Control Will Dominate Maritime Geopolitics - Center for International Maritime Security</title>
-      <link>https://cimsec.org/the-hormuz-strait-crisis-confirms-nodal-control-will-dominate-maritime-geopolitics/</link>
-      <guid isPermaLink="true">https://cimsec.org/the-hormuz-strait-crisis-confirms-nodal-control-will-dominate-maritime-geopolitics/</guid>
-      <description>The Hormuz Strait Crisis Confirms Nodal Control Will Dominate Maritime Geopolitics  Center for International Maritime Security</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Even as It Bombards Kyiv, Russia’s Wider Military Campaign Has Largely Stalled</title>
-      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/02/world/europe/russia-ukraine-military-battlefield.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/07/02/world/europe/russia-ukraine-military-battlefield.html</guid>
-      <description>Moscow can still inflict serious damage, but its forces are suffering higher casualties than their Ukrainian counterparts, analysts say.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://static01.nyt.com/images/2026/07/02/multimedia/02ukraine-battlefield-htqp/02ukraine-battlefield-htqp-mediumSquareAt3X.jpg" />
-      <enclosure url="https://static01.nyt.com/images/2026/07/02/multimedia/02ukraine-battlefield-htqp/02ukraine-battlefield-htqp-mediumSquareAt3X.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>India and Japan Expand Defense and Economic Ties</title>
-      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/02/world/asia/03int-india-japan-modi-takaichi-security.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/07/02/world/asia/03int-india-japan-modi-takaichi-security.html</guid>
-      <description>The prime minister met with his counterpart, Sanae Takaichi of Japan, and signed agreements covering artificial intelligence, energy and security.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://static01.nyt.com/images/2026/07/03/multimedia/03int-india-japan-tjgc/03int-india-japan-tjgc-mediumSquareAt3X.jpg" />
-      <enclosure url="https://static01.nyt.com/images/2026/07/03/multimedia/03int-india-japan-tjgc/03int-india-japan-tjgc-mediumSquareAt3X.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Military Situation in Ukraine and Ukrainian Attacks on Russian Territory On July 2, 2026 (Maps Update)</title>
-      <link>https://southfront.press/military-situation-in-ukraine-and-ukrainian-attacks-on-russian-territory-on-july-2-2026-maps-update/</link>
-      <guid isPermaLink="true">https://southfront.press/military-situation-in-ukraine-and-ukrainian-attacks-on-russian-territory-on-july-2-2026-maps-update/</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Turkey boosts NATO role as Europe’s reliance on US weakens — agency</title>
-      <link>https://tass.com/world/2154537</link>
-      <guid isPermaLink="true">https://tass.com/world/2154537</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>How war, geopolitics and uncertainty are rewriting the shipping playbook - TradeWinds News</title>
-      <link>https://www.tradewindsnews.com/opinion/how-war-geopolitics-and-uncertainty-are-rewriting-the-shipping-playbook/2-1-2012132</link>
-      <guid isPermaLink="true">https://www.tradewindsnews.com/opinion/how-war-geopolitics-and-uncertainty-are-rewriting-the-shipping-playbook/2-1-2012132</guid>
-      <description>How war, geopolitics and uncertainty are rewriting the shipping playbook  TradeWinds News</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Russia Launches Drone and Missile Attack on Kyiv in Deadly 'Night of Horror'</title>
-      <link>https://time.com/article/2026/07/02/russia-drone-missile-attack-kyiv-ukraine-death-toll/</link>
-      <guid isPermaLink="true">https://time.com/article/2026/07/02/russia-drone-missile-attack-kyiv-ukraine-death-toll/</guid>
-      <description>"Russia has again chosen escalation over peace with this deplorable onslaught on Kyiv," said one European minister.</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>German prosecutors accuse Kyiv of ordering 2022 Nord Stream sabotage</title>
-      <link>https://www.theguardian.com/world/2026/jul/02/german-prosecutors-accuse-kyiv-of-ordering-2022-nord-stream-sabotage</link>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/02/german-prosecutors-accuse-kyiv-of-ordering-2022-nord-stream-sabotage</guid>
-      <description>&lt;p&gt;Indictment against alleged leader of gas pipeline attack claims former Ukrainian army officer was directed by state&lt;/p&gt;&lt;p&gt;German prosecutors have accused Ukrainian “state authorities” of ordering the 2022 explosives attack on the &lt;a href="https://www.theguardian.com/business/2025/nov/03/the-nord-stream-riddle-echoes-of-mistrust-ripple-through-europe"&gt;Nord Stream gas pipelines&lt;/a&gt; linking Russia with Europe, a charge likely to ignite tensions between Kyiv and Berlin, its biggest military backer.&lt;/p&gt;&lt;p&gt;The sabotage in the Baltic Sea by a team of assailants almost entirely destroyed the seafloor infrastructure of the key source of Russian gas to Germany.&lt;/p&gt; &lt;a href="https://www.theguardian.com/world/2026/jul/02/german-prosecutors-accuse-kyiv-of-ordering-2022-nord-stream-sabotage"&gt;Continue reading...&lt;/a&gt;</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://i.guim.co.uk/img/media/340e7c7bee86acc45db5a3a92a7a6fa3a4d439c5/212_0_3131_2505/master/3131.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ee03a6bf5751740ff7e39e53b24eef17" />
-      <enclosure url="https://i.guim.co.uk/img/media/340e7c7bee86acc45db5a3a92a7a6fa3a4d439c5/212_0_3131_2505/master/3131.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ee03a6bf5751740ff7e39e53b24eef17" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>South Africa has long been a symbol of liberal progress. This week’s anti-immigrant protests end that | Zanele Mji</title>
-      <link>https://www.theguardian.com/commentisfree/2026/jul/02/south-africa-symbol-liberal-progress-anti-immigrant-protests</link>
-      <guid isPermaLink="true">https://www.theguardian.com/commentisfree/2026/jul/02/south-africa-symbol-liberal-progress-anti-immigrant-protests</guid>
-      <description>&lt;p&gt;Across the world, political uncertainty is being exploited to fan the flames of hatred. Now, the very principles that make South Africa great are at risk&lt;/p&gt;&lt;p&gt;This week, South Africa has been rocked by protests that have caught the world’s attention. These have been led by &lt;a href="https://www.theguardian.com/world/2026/jun/30/they-will-attack-me-if-i-stay-immigrants-in-south-africa-flee-for-safety-amid-violence-and-anti-foreigner-protests"&gt;anti-immigration civic groups&lt;/a&gt; campaigning against what they describe as a crisis of illegal immigration. But to understand these protests, it’s key to view them as part of a broader conservative nationalist turn, as has been seen across countries in the west.&lt;/p&gt;&lt;p&gt;For the past two months, these groups have marched through townships and city centres demanding identity documents from African foreign nationals, ordering non-citizens to close their businesses and calling on undocumented migrants to vacate the country. They declared 30 June as the deadline for immigrants to leave and as the date of a nationwide shutdown.&lt;/p&gt;&lt;p&gt;Zanele Mji is a writer, investigative journalist and podcaster based in Johannesburg&lt;/p&gt; &lt;a href="https://www.theguardian.com/commentisfree/2026/jul/02/south-africa-symbol-liberal-progress-anti-immigrant-protests"&gt;Continue reading...&lt;/a&gt;</description>
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-      <media:thumbnail url="https://i.guim.co.uk/img/media/53f37ef6c9d07fd0f1469d5e91d26b30edb21c72/217_0_2917_2333/master/2917.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=071fa273b892bbcd955126e095b43cdc" />
-      <enclosure url="https://i.guim.co.uk/img/media/53f37ef6c9d07fd0f1469d5e91d26b30edb21c72/217_0_2917_2333/master/2917.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=071fa273b892bbcd955126e095b43cdc" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Why Israeli officials fear Iran-backed Hezbollah could still rearm despite Lebanon deal - exclusive</title>
-      <link>https://www.jpost.com/middle-east/article-901267</link>
-      <guid isPermaLink="true">https://www.jpost.com/middle-east/article-901267</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>How US-Iran war may push Gulf countries to ‘diversify’ security alliances</title>
-      <link>https://www.aljazeera.com/news/2026/7/2/how-us-iran-war-may-push-gulf-countries-to-diversify-security-alliances?traffic_source=rss</link>
-      <guid isPermaLink="true">https://www.aljazeera.com/news/2026/7/2/how-us-iran-war-may-push-gulf-countries-to-diversify-security-alliances?traffic_source=rss</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>IN BRIEF: What is known about Russian massive retaliatory strike against Ukraine</title>
-      <link>https://tass.com/politics/2154327</link>
-      <guid isPermaLink="true">https://tass.com/politics/2154327</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>How Trump and the NATO Summit Lend Legitimacy to Turkey’s Autocratic President</title>
-      <link>https://www.cfr.org/articles/how-trump-and-the-nato-summit-lend-legitimacy-to-turkeys-autocratic-president</link>
-      <guid isPermaLink="true">https://www.cfr.org/articles/how-trump-and-the-nato-summit-lend-legitimacy-to-turkeys-autocratic-president</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>A misguided war, a flawed deal, and a dangerous future. Here’s what to do next on Iran.</title>
-      <link>https://www.atlanticcouncil.org/content-series/the-big-story/a-misguided-war-a-flawed-deal-and-a-dangerous-future-heres-what-to-do-next-on-iran/</link>
-      <guid isPermaLink="true">https://www.atlanticcouncil.org/content-series/the-big-story/a-misguided-war-a-flawed-deal-and-a-dangerous-future-heres-what-to-do-next-on-iran/</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
-    <item>
-      <title>Civilian infrastructure is now a strategic target. NATO must adapt to protect it.</title>
-      <link>https://www.atlanticcouncil.org/dispatches/civilian-infrastructure-is-now-a-strategic-target-nato-must-adapt-to-protect-it/</link>
-      <guid isPermaLink="true">https://www.atlanticcouncil.org/dispatches/civilian-infrastructure-is-now-a-strategic-target-nato-must-adapt-to-protect-it/</guid>
-      <description />
-      <pubDate>Fri, 03 Jul 2026 10:36:16 +0600</pubDate>
-    </item>
+    <lastBuildDate>Sun, 12 Jul 2026 04:21:06 +0000</lastBuildDate>
     <item>
       <title>From burden sharing to strategic delivery: NATO and Turkey’s priorities ahead of the Ankara summit</title>
       <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/from-burden-sharing-to-strategic-delivery-nato-and-turkeys-priorities-ahead-of-the-ankara-summit/</link>
@@ -3752,6 +3545,209 @@
       <guid isPermaLink="true">https://amwaj.media/en/article/oman-navigates-diplomacy-law-and-security-in-the-strait-of-hormuz</guid>
       <description>Oman navigates diplomacy, law, and security to reopen Hormuz  Amwaj.media</description>
       <pubDate>Sat, 11 Jul 2026 09:59:52 +0600</pubDate>
+    </item>
+    <item>
+      <title>Ukraine war briefing: Zelenskyy creates ‘long-range impact’ command to strike Russian energy sector</title>
+      <link>https://www.theguardian.com/world/2026/jul/11/ukraine-war-briefing-zelenskyy-long-range-impact-command-russian-energy-strikes</link>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/11/ukraine-war-briefing-zelenskyy-long-range-impact-command-russian-energy-strikes</guid>
+      <description>&lt;p&gt;New initiative to focus ‘100%’ on damaging Moscow’s ability to wage war; strikes on Kyiv injure six. What we know on day 1,599&lt;/p&gt; &lt;a href="https://www.theguardian.com/world/2026/jul/11/ukraine-war-briefing-zelenskyy-long-range-impact-command-russian-energy-strikes"&gt;Continue reading...&lt;/a&gt;</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+      <media:thumbnail url="https://i.guim.co.uk/img/media/2eb72d0ce3c9fd1c606fac399dff36c748acbe31/297_0_2432_1946/master/2432.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0738eb58dbf853cb81ae95608b3f2f57" />
+      <enclosure url="https://i.guim.co.uk/img/media/2eb72d0ce3c9fd1c606fac399dff36c748acbe31/297_0_2432_1946/master/2432.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0738eb58dbf853cb81ae95608b3f2f57" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>‘They Don’t Need People’: The Workers Left Behind by China’s Robot Drive</title>
+      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/11/world/asia/china-workers-robots-factories.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/07/11/world/asia/china-workers-robots-factories.html</guid>
+      <description>For out-of-work factory workers in Kunshan, a region made rich by electronics manufacturing, a park is the only place to go.</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+      <media:thumbnail url="https://static01.nyt.com/images/2026/07/01/multimedia/00int-china-migrant-01-wlmv/00int-china-migrant-01-wlmv-mediumSquareAt3X.jpg" />
+      <enclosure url="https://static01.nyt.com/images/2026/07/01/multimedia/00int-china-migrant-01-wlmv/00int-china-migrant-01-wlmv-mediumSquareAt3X.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The War in Ukraine Is Shifting Against Putin but He Isn’t Giving In</title>
+      <link>https://archive.is/o/soww3/https://www.wsj.com/world/russia/the-war-in-ukraine-is-shifting-against-putin-but-he-isnt-giving-in-78da19da</link>
+      <guid isPermaLink="true">https://www.wsj.com/world/russia/the-war-in-ukraine-is-shifting-against-putin-but-he-isnt-giving-in-78da19da</guid>
+      <description>For years, Russia has bet on outlasting Ukraine in a war of attrition. Now, it’s finding out that time isn’t necessarily on its side.</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+      <media:thumbnail url="https://images.wsj.net/im-37438744" />
+      <enclosure url="https://images.wsj.net/im-37438744" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Inside the risky race through the Strait of Hormuz</title>
+      <link>https://archive.is/o/ggFl1/https://www.ft.com/content/68d396cd-2800-4ff8-b563-1f5c95beb9ba</link>
+      <guid isPermaLink="true">https://www.ft.com/content/68d396cd-2800-4ff8-b563-1f5c95beb9ba</guid>
+      <description>Vessels that dare to use route close to Oman’s coast face increased risk of Iranian missiles</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Israel Struck an Iranian Steel Facility. Was It a Valid Military Target?</title>
+      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/11/world/middleeast/iran-steel-plant-civilian-military.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/07/11/world/middleeast/iran-steel-plant-civilian-military.html</guid>
+      <description>During the war, Israel attacked Iran’s steel plants, saying they provided forces with revenue and the means to make weapons, but it also hurt the civilian economy.</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Missile test showcases sensitive Chinese submarine capabilities key to nuclear deterrent</title>
+      <link>https://www.tbsnews.net/worldbiz/china/missile-test-showcases-sensitive-chinese-submarine-capabilities-key-nuclear-deterrent</link>
+      <guid isPermaLink="true">https://www.tbsnews.net/worldbiz/china/missile-test-showcases-sensitive-chinese-submarine-capabilities-key-nuclear-deterrent</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Are the US and Iran at war again?</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss</link>
+      <guid isPermaLink="true">https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>‘Sealed in blood’: Where does the China-North Korea alliance stand today?</title>
+      <link>https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today?traffic_source=rss</link>
+      <guid isPermaLink="true">https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today?traffic_source=rss</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Iran’s Top Diplomat in Oman for Talks on Strait of Hormuz</title>
+      <link>https://archive.is/o/N6yE6/https://www.nytimes.com/2026/07/11/world/middleeast/iran-araghchi-oman-iran-strait-of-hormuz.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/07/11/world/middleeast/iran-araghchi-oman-iran-strait-of-hormuz.html</guid>
+      <description>The Iranian foreign minister landed in Muscat on Saturday. A standoff over the strait this week set off heavy clashes between the U.S. and Iran.</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+      <media:thumbnail url="https://static01.nyt.com/images/2026/07/11/multimedia/11iran-strait-whmp/11iran-strait-whmp-mediumSquareAt3X.jpg" />
+      <enclosure url="https://static01.nyt.com/images/2026/07/11/multimedia/11iran-strait-whmp/11iran-strait-whmp-mediumSquareAt3X.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>After leader’s funeral, an emboldened Iran tests Trump, risking renewed war</title>
+      <link>https://archive.is/o/A5nuz/https://www.washingtonpost.com/world/2026/07/11/after-leaders-funeral-an-emboldened-iran-tests-trump-risking-renewed-war/</link>
+      <guid isPermaLink="true">https://www.washingtonpost.com/world/2026/07/11/after-leaders-funeral-an-emboldened-iran-tests-trump-risking-renewed-war/</guid>
+      <description>Even as President Donald Trump declared the U.S.-Iran ceasefire “OVER,” life continued as normal in Tehran and the government insists on controlling the Strait of Hormuz.</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>NATO’s European Wing Advances Long-Term Military Buildup Targeting Russia By 2030</title>
+      <link>https://southfront.press/natos-european-wing-advances-long-term-military-buildup-targeting-russia-by-2030/</link>
+      <guid isPermaLink="true">https://southfront.press/natos-european-wing-advances-long-term-military-buildup-targeting-russia-by-2030/</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Russia hits Kiev drone-manufacturing plant – MOD</title>
+      <link>https://www.rt.com/russia/642885-russia-hits-kiev-drone-manufacturing/?</link>
+      <guid isPermaLink="true">https://www.rt.com/russia/642885-russia-hits-kiev-drone-manufacturing/?&amp;</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>War in Ukraine: Kyiv hit by Russian ballistic missiles and drone swarm, 10 injured</title>
+      <link>http://www.euronews.com/video/2026/07/11/war-in-ukraine-kyiv-hit-by-russian-ballistic-missiles-and-drone-swarm-10-injured</link>
+      <guid isPermaLink="true">http://www.euronews.com/video/2026/07/11/war-in-ukraine-kyiv-hit-by-russian-ballistic-missiles-and-drone-swarm-10-injured</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Mediators try to salvage diplomacy after US-Iran strikes - Al-Monitor</title>
+      <link>https://www.al-monitor.com/originals/2026/07/mediators-try-salvage-diplomacy-after-us-iran-strikes</link>
+      <guid isPermaLink="true">https://www.al-monitor.com/originals/2026/07/mediators-try-salvage-diplomacy-after-us-iran-strikes</guid>
+      <description>Mediators try to salvage diplomacy after US-Iran strikes  Al-Monitor</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Formal China-US G2 framework key to ‘guarantee’ world peace: top Beijing adviser</title>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3360235/formal-china-us-g2-framework-key-guarantee-world-peace-top-beijing-adviser</link>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3360235/formal-china-us-g2-framework-key-guarantee-world-peace-top-beijing-adviser</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>US congressman says he was detained by armed Israeli settlers in occupied West Bank</title>
+      <link>https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank</link>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank</guid>
+      <description>&lt;p&gt;Ro Khanna said settlers were armed with US-made weapons and Israel Defense Forces refused to intervene&lt;/p&gt;&lt;p&gt;The US congressman Ro Khanna says armed Israeli settlers detained him during a visit to the &lt;a href="https://www.theguardian.com/world/israel"&gt;Israel&lt;/a&gt;-occupied &lt;a href="https://www.theguardian.com/world/west-bank"&gt;West Bank&lt;/a&gt; recently, describing the experience as a first-hand view of the realities faced by Palestinians living under occupation.&lt;/p&gt;&lt;p&gt;In an interview with &lt;a href="https://www.reuters.com/world/us/us-democrat-ro-khanna-detained-by-israeli-settlers-during-west-bank-visit-2026-07-11/"&gt;Reuters&lt;/a&gt; on Thursday from a Palestinian village, the progressive US House Democrat from &lt;a href="https://www.theguardian.com/us-news/california"&gt;California&lt;/a&gt; said his detention happened the previous day while his delegation visited an area of the southern West Bank that has experienced repeated attacks by Israeli settlers.&lt;/p&gt; &lt;a href="https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank"&gt;Continue reading...&lt;/a&gt;</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+      <media:thumbnail url="https://i.guim.co.uk/img/media/8714504135d810afb951eac88fb8caf073e721a9/1002_0_4998_4000/master/4998.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7ebf36ec9ddb2304790b4a0905790905" />
+      <enclosure url="https://i.guim.co.uk/img/media/8714504135d810afb951eac88fb8caf073e721a9/1002_0_4998_4000/master/4998.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7ebf36ec9ddb2304790b4a0905790905" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Oman and Iran hold Strait of Hormuz navigation talks</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/oman-and-iran-hold-strait-hormuz-navigation-talks</link>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/oman-and-iran-hold-strait-hormuz-navigation-talks</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>NATO’s ‘Missile Summit’: The arms race Europe just signed up for</title>
+      <link>https://www.rt.com/news/642891-natos-missile-summit-ankara/?</link>
+      <guid isPermaLink="true">https://www.rt.com/news/642891-natos-missile-summit-ankara/?&amp;</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>US and Iran exchange strikes as Tehran again says strait of Hormuz is closed</title>
+      <link>https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed</link>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed</guid>
+      <description>&lt;p&gt;Tehran says vessel using unapproved route in strait was struck, drawing strikes from US forces to ‘degrade Iran’s ability to attack civilian mariners’&lt;/p&gt;&lt;p&gt;Iran’s ⁠Islamic Revolutionary Guard Corps said on Sunday it had closed the strait of Hormuz after a vessel travelled on an unapproved route and was struck, warning that any retaliation over the incident would be met with a “severe response”.&lt;/p&gt;&lt;p&gt;“A vessel that had jeopardised maritime security by switching off its systems was struck and ⁠brought to a halt,” the navy of Iran’s ⁠Islamic Revolutionary Guard Corps (IRGC) said in ​a statement, without giving any details about the ship.&lt;/p&gt; &lt;a href="https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed"&gt;Continue reading...&lt;/a&gt;</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+      <media:thumbnail url="https://i.guim.co.uk/img/media/01a969d6d81c679aec7596c72635c635954d447b/111_0_6733_5389/master/6733.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0b53634e24971ef5dc39ac3fc28f19ad" />
+      <enclosure url="https://i.guim.co.uk/img/media/01a969d6d81c679aec7596c72635c635954d447b/111_0_6733_5389/master/6733.jpg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0b53634e24971ef5dc39ac3fc28f19ad" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Aspiring to Regional Domination, Iran Is Ready to Escalate Over Hormuz</title>
+      <link>https://archive.is/o/soww3/https://www.wsj.com/world/middle-east/https-www-wsj-com-world-middle-east-iran-deal-strait-of-hormuz-b027c30f-580ee99f</link>
+      <guid isPermaLink="true">https://www.wsj.com/world/middle-east/https-www-wsj-com-world-middle-east-iran-deal-strait-of-hormuz-b027c30f-580ee99f</guid>
+      <description>The latest round of U.S.-Iran violence led to the withdrawal of sanctions relief, but Iran nonetheless sees itself as a winner in a new Pax Iranica.</description>
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+      <media:thumbnail url="https://images.wsj.net/im-91309325" />
+      <enclosure url="https://images.wsj.net/im-91309325" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>US seeks free Hormuz access from Iran as talks focus on strait</title>
+      <link>https://www.channelnewsasia.com/world/iran-war-us-strait-hormuz-iran-talks-6248521</link>
+      <guid isPermaLink="true">https://www.channelnewsasia.com/world/iran-war-us-strait-hormuz-iran-talks-6248521</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>U.S. Strikes Iran Minutes After Attack On Ship Near Hormuz (Videos)</title>
+      <link>https://southfront.press/u-s-strikes-iran-minutes-after-attack-on-ship-near-hormuz-videos/</link>
+      <guid isPermaLink="true">https://southfront.press/u-s-strikes-iran-minutes-after-attack-on-ship-near-hormuz-videos/</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Fate of Strait of Hormuz challenges talks as Trump and Iran’s supreme leader trade threats</title>
+      <link>https://apnews.com/article/iran-united-states-trump-khamenei-funeral-533b52cf249314ba1d9b5f9a30b1ca43</link>
+      <guid isPermaLink="true">https://apnews.com/article/iran-united-states-trump-khamenei-funeral-533b52cf249314ba1d9b5f9a30b1ca43</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>US seeks free Strait of Hormuz access from Iran, as talks focus on vital waterway</title>
+      <link>https://www.straitstimes.com/world/middle-east/us-seeks-free-strait-of-hormuz-access-from-iran-as-talks-focus-on-vital-waterway</link>
+      <guid isPermaLink="true">https://www.straitstimes.com/world/middle-east/us-seeks-free-strait-of-hormuz-access-from-iran-as-talks-focus-on-vital-waterway</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Flash: Iran says not to enter negotiations with U.S. till Washington retreats from its positions -- Fars</title>
+      <link>https://english.news.cn/20260711/b155438a157f4e9f93bde2e4ed813bc0/c.html</link>
+      <guid isPermaLink="true">https://english.news.cn/20260711/b155438a157f4e9f93bde2e4ed813bc0/c.html</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>How China Bought Turkey’s Silence on East Turkistan &amp; Uyghurs and Gave It Missiles That Threaten Europe: OPED</title>
+      <link>https://www.eurasiantimes.com/how-china-bought-turkeys-silence-on-east-turkistan-uyghurs-and-gave-it-missiles-that-threaten-europe/</link>
+      <guid isPermaLink="true">https://www.eurasiantimes.com/how-china-bought-turkeys-silence-on-east-turkistan-uyghurs-and-gave-it-missiles-that-threaten-europe/</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
+    </item>
+    <item>
+      <title>Su-57: Russia Converts Its Most Advanced Fighter Jet Into Anti-Drone Interceptor Amid Ukrainian Attacks</title>
+      <link>https://www.eurasiantimes.com/su-57-russia-converts-its-most-advanced-fighter-jet-into-anti-drone-interceptor-amid-ukrainian-attacks/</link>
+      <guid isPermaLink="true">https://www.eurasiantimes.com/su-57-russia-converts-its-most-advanced-fighter-jet-into-anti-drone-interceptor-amid-ukrainian-attacks/</guid>
+      <description />
+      <pubDate>Sun, 12 Jul 2026 10:21:04 +0600</pubDate>
     </item>
   </channel>
 </rss>
