@@ -1,0 +1,37 @@
+name: Daily Top Stories
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # 4:00 PM Bangladesh (UTC+6)
+  workflow_dispatch:        # manual trigger
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser mistralai
+
+      - name: Run curation
+        env:
+          MU: ${{ secrets.MU }}
+        run: python curate.py
+
+      - name: Commit and push output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add top_stories.xml
+          git diff --cached --quiet || git commit -m "chore: top stories $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
