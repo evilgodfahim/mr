@@ -4,7 +4,7 @@ import re
 from datetime import datetime, timezone
 import xml.etree.ElementTree as ET
 import feedparser
-from mistralai import Mistral
+import requests
 
 FEEDS = [
     "https://evilgodfahim.github.io/mr/curated_feed.xml",
@@ -16,9 +16,6 @@ FEEDS = [
 
 OUTPUT_FILE = "top_stories.xml"
 MODEL = "mistral-large-latest"
-
-client = Mistral(api_key=os.environ["MS"])
-
 
 def select_indices(titles: list[str]) -> list[int]:
     """Send numbered titles to Mistral, get back 5 most significant indices."""
@@ -35,12 +32,21 @@ def select_indices(titles: list[str]) -> list[int]:
         f"{numbered}"
     )
 
-    resp = client.chat.complete(
-        model=MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.0,
+    resp = requests.post(
+        "https://api.mistral.ai/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {os.environ['MS']}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.0,
+        },
+        timeout=30,
     )
-    raw = resp.choices[0].message.content.strip()
+    resp.raise_for_status()
+    raw = resp.json()["choices"][0]["message"]["content"].strip()
 
     match = re.search(r"\[[\d\s,]+\]", raw)
     if not match:
