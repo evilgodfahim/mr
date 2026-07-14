@@ -17,7 +17,8 @@ FEEDS = [
 OUTPUT_FILE  = "top_stories.xml"
 SEEN_FILE    = "kakalala.json"
 MODEL        = "mistral-large-latest"
-WINDOW_HOURS = 48
+WINDOW_HOURS = 24
+MAX_ITEMS    = 500
 
 
 # ── seen.json ─────────────────────────────────────────────────────────────────
@@ -37,7 +38,6 @@ def save_seen(seen: set[str]) -> None:
 # ── time filter ───────────────────────────────────────────────────────────────
 
 def is_within_window(entry) -> bool:
-    """True if published within WINDOW_HOURS. If date missing, include by default."""
     parsed = getattr(entry, "published_parsed", None)
     if parsed is None:
         return True
@@ -51,44 +51,63 @@ def is_within_window(entry) -> bool:
 # ── AI selection ──────────────────────────────────────────────────────────────
 
 SYSTEM_PROMPT = """\
-You are a senior news editor. Select the most significant and balanced headlines \
-from the feeds you receive. Feeds may be in any language.
+You are an intelligence analyst and senior editor. Your job is not to surface the \
+biggest events — it is to select articles that give the reader genuine understanding. \
+Feeds may be in any language (Bengali, English, or others). Apply every rule strictly.
 
-RULES — apply strictly in this order:
+━━ THE CORE STANDARD ━━
+An article earns a slot only if a reader would understand something they did not \
+before — a mechanism, a structural force, a policy consequence, a reframed argument. \
+An article that merely reports an event happened does NOT earn a slot, no matter \
+how large the event. Ask for every headline: "Does this explain, or does it only announce?"
 
-1. SIGNIFICANCE
-   Judge each story by three axes:
-   - Consequence: how many people are affected and how severely
-   - Durability: lasting structural impact vs. one-day story
-   - Depth: original reporting or analysis vs. wire summary of the same event
+━━ RULE 1 — DEPTH SIGNALS (select articles showing these) ━━
+From the headline alone, prefer articles that:
+  - Ask or answer WHY or HOW, not just WHAT ("How Iran is using Hormuz to extract \
+concessions" beats "Iran closes Hormuz")
+  - Name a mechanism, policy, or structural argument ("RBI rate hold signals \
+stagflation risk" beats "RBI keeps rates unchanged")
+  - Are explicitly analysis, investigation, explainer, or named editorial/opinion
+  - Contain specific data, legislation names, policy mechanisms, or named expert framing
+  - Reveal something new — a document, a figure, an exclusive source
 
-   Prefer:
-   - Policy decisions, legislation, governance changes
-   - Economic developments with structural implications (not daily market moves)
-   - High-consequence international or conflict developments
-   - Editorials and analysis that frame an important debate or offer genuine insight
+━━ RULE 2 — REJECT THESE ALWAYS ━━
+  - Event updates with no analysis: "[X] did [Y]" headlines that only state a fact occurred
+  - Routine conflict tickers: "Nth strike/attack/shelling in N days" — recurring \
+pattern with no structural shift; one such item per ongoing conflict maximum, \
+and only if it represents genuine escalation, not continuation
+  - "[Leader/official] says/warns/calls for/condemns" — statement coverage with \
+no independent reporting or analysis
+  - Wire summaries: any article aggregating what other outlets reported
+  - Newsletters, morning briefings, digests, roundups ("First Thing", "Morning \
+Briefing", "Today in...", "Week in Review", listicles) — always reject
+  - Press releases and procedural government announcements
+  - Sports, entertainment, celebrity — unless of clear civic consequence
 
-   Avoid:
-   - Routine updates, press releases, and procedural news
-   - Wire-service summaries when original reporting on the same event is in the feed
-   - Celebrity, sports, entertainment — unless of unusual civic significance
+━━ RULE 3 — EVENT-LEVEL DEDUPLICATION ━━
+Before selecting, group ALL headlines across ALL feeds by the underlying real-world \
+event — language is irrelevant. "US strikes Iran", "আমেরিকা ইরানে হামলা", \
+"Washington attacks Tehran" are the SAME event. \
+Select it ONCE from the source showing the most depth (Rule 1). \
+Return empty index for that event in every other feed. \
+One event = one slot, total, across all feeds.
 
-2. BALANCE
-   Picks from each feed must span different topic categories.
-   Algorithm: identify the major categories present in the feed → pick the single \
-strongest headline from each → fill remaining slots strictly by significance.
-   Never fill all 5 slots from one category even if it dominates the feed.
+━━ RULE 4 — HARD CATEGORY CAPS (total across ALL feeds combined) ━━
+  - War / armed conflict / military strikes: max 2 items
+  - National politics / government statements: max 2 items
+  - Any other single topic cluster: max 2 items
+Once a category hits its cap, skip all further items in that category.
 
-3. CROSS-FEED DEDUPLICATION
-   If the same story appears across feeds in any language, select it from ONE feed \
-only — the one with the most original or detailed coverage. \
-Return an empty index list for that story in all other feeds.
+━━ RULE 5 — BALANCE PER FEED ━━
+Identify distinct topic categories in the feed → pick the deepest item from each \
+category → fill remaining slots by depth. \
+Minimum 3 distinct categories per feed. Never fill all 5 slots from one category.
 
-4. OUTPUT
-   Return ONLY a valid JSON object. No explanation, no markdown, no preamble.
-   Keys: feed index as string. Values: array of selected headline indices (integers, \
-0-based within that feed), at most 5. Empty array if no qualifying headlines.
-   Example: {"0": [2, 5, 8, 11], "1": [0, 3, 7, 9, 12], "2": []}"""
+━━ OUTPUT ━━
+Valid JSON only. No explanation, no markdown, no preamble. \
+Keys: feed index (string). Values: array of headline indices (integers, 0-based), \
+max 5 per feed. Empty array if no qualifying items.
+Example: {"0": [2, 5, 11], "1": [0, 3, 9], "2": [], "3": [1, 6], "4": [4, 8, 12]}"""
 
 
 def select_across_feeds(feed_titles: list[list[str]]) -> dict[int, list[int]]:
@@ -97,7 +116,12 @@ def select_across_feeds(feed_titles: list[list[str]]) -> dict[int, list[int]]:
         lines = "\n".join(f"  {i}: {t}" for i, t in enumerate(titles))
         sections.append(f"Feed {fi}:\n{lines}")
 
-    user_msg = "Select headlines from the following feeds:\n\n" + "\n\n".join(sections)
+    user_msg = (
+        "Select headlines from the feeds below.\n"
+        "For each headline ask: does it explain and reveal, or does it only announce? "
+        "Reject announcers. Then deduplicate by event, apply category caps, ensure balance.\n\n"
+        + "\n\n".join(sections)
+    )
 
     resp = requests.post(
         "https://api.mistral.ai/v1/chat/completions",
@@ -156,11 +180,22 @@ def load_or_create_tree(path: str) -> tuple[ET.ElementTree, ET.Element, set[str]
 
     rss = ET.Element("rss", version="2.0")
     ch  = ET.SubElement(rss, "channel")
-    ET.SubElement(ch, "title").text        = "AI Top Stories"
-    ET.SubElement(ch, "link").text         = "https://evilgodfahim.github.io/mr/"
-    ET.SubElement(ch, "description").text  = "Daily AI-curated top stories"
-    ET.SubElement(ch, "lastBuildDate").text = ""
+    ET.SubElement(ch, "title").text         = "AI Top Stories"
+    ET.SubElement(ch, "link").text          = "https://evilgodfahim.github.io/mr/"
+    ET.SubElement(ch, "description").text   = "Daily AI-curated top stories"
+    ET.SubElement(ch, "lastBuildDate").text  = ""
     return ET.ElementTree(rss), ch, set()
+
+
+def trim_to_limit(ch: ET.Element, max_items: int) -> int:
+    """Remove oldest items (front of list) to stay within max_items. Returns removed count."""
+    items  = ch.findall("item")
+    excess = len(items) - max_items
+    if excess <= 0:
+        return 0
+    for item in items[:excess]:
+        ch.remove(item)
+    return excess
 
 
 def serialise(tree: ET.ElementTree) -> str:
@@ -190,14 +225,13 @@ def main():
             unseen = [e for e in entries if e.get("link", "") not in seen]
             recent = [e for e in unseen if is_within_window(e)]
 
-            skipped_old  = len(unseen) - len(recent)
             print(f"  {len(entries)} total | {len(unseen)} unseen | "
                   f"{len(recent)} within {WINDOW_HOURS}h "
-                  f"({skipped_old} too old, skipped)")
+                  f"({len(unseen) - len(recent)} too old, skipped)")
 
             feed_unseen.append(recent)
 
-            # Mark ALL entries seen — old or new, so they never return
+            # Mark ALL entries seen — old or new — so they never return
             for e in entries:
                 seen.add(e.get("link", ""))
 
@@ -207,7 +241,6 @@ def main():
 
     # Phase 2: single cross-feed AI call
     active = [(fi, unseen) for fi, unseen in enumerate(feed_unseen) if unseen]
-
     all_items: list[dict] = []
 
     if not active:
@@ -240,7 +273,7 @@ def main():
                     "feed_url":  url,
                 })
 
-    # Phase 3: append to XML
+    # Phase 3: append to XML, enforce 500-item cap
     tree, ch, existing_links = load_or_create_tree(OUTPUT_FILE)
 
     added = 0
@@ -251,6 +284,10 @@ def main():
         existing_links.add(it["link"])
         added += 1
 
+    recycled = trim_to_limit(ch, MAX_ITEMS)
+    if recycled:
+        print(f"  Recycled {recycled} oldest items to stay within {MAX_ITEMS} cap.")
+
     lbd = ch.find("lastBuildDate")
     if lbd is not None:
         lbd.text = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
@@ -259,7 +296,9 @@ def main():
         f.write(serialise(tree))
 
     save_seen(seen)
-    print(f"\n✓ {added} new items appended → {OUTPUT_FILE}  |  seen total: {len(seen)}")
+    total_now = len(ch.findall("item"))
+    print(f"\n✓ +{added} appended, {recycled} recycled → {total_now} items in {OUTPUT_FILE} "
+          f"| seen total: {len(seen)}")
 
 
 if __name__ == "__main__":
