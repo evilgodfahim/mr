@@ -17,7 +17,7 @@ FEEDS = [
 OUTPUT_FILE = "top_stories.xml"
 MODEL = "mistral-large-latest"
 
-client = Mistral(api_key=os.environ["MU"])
+client = Mistral(api_key=os.environ["MS"])
 
 
 def select_indices(titles: list[str]) -> list[int]:
