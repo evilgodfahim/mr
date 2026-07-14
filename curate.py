@@ -17,7 +17,7 @@ FEEDS = [
 OUTPUT_FILE  = "top_stories.xml"
 SEEN_FILE    = "kakalala.json"
 MODEL        = "mistral-large-latest"
-WINDOW_HOURS = 24
+WINDOW_HOURS = 48
 MAX_ITEMS    = 500
 
 
