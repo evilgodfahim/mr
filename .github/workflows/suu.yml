@@ -25,7 +25,7 @@ jobs:
 
       - name: Run curation
         env:
-          MU: ${{ secrets.MU }}
+          MS: ${{ secrets.MS }}
         run: python curate.py
 
       - name: Commit and push output
