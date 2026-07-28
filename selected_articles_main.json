@@ -89734,5 +89734,821 @@
     "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
     "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2019/11/07/oil_price.jpg",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/news/red-sea-shipping-slows-after-houthi-attack-saudi-arabia-data-shows-4233836",
+    "title": "Red Sea shipping slows after Houthi attack on Saudi Arabia, data shows",
+    "link": "https://www.thedailystar.net/business/news/red-sea-shipping-slows-after-houthi-attack-saudi-arabia-data-shows-4233836",
+    "description": "<b>Importance:</b> 36.0 | <b>Covered by:</b> 3 feeds | <b>Reputation:</b> 12.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://bdnews24.com/world/middle-east/8ea19b755364\">Red Sea shipping slows after Houthi attack</a><br />- <a href=\"https://www.tbsnews.net/worldbiz/middle-east/red-sea-shipping-slows-after-houthi-attack-saudi-arabia-data-1498906\">Red Sea shipping slows after Houthi attack on Saudi Arabia: Data</a>",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/news/oil-prices-sink-us-iran-pause-fuels-fresh-hormuz-hopes-4233691",
+    "title": "Oil prices sink as US-Iran pause fuels fresh Hormuz hopes",
+    "link": "https://www.thedailystar.net/business/news/oil-prices-sink-us-iran-pause-fuels-fresh-hormuz-hopes-4233691",
+    "description": "<b>Importance:</b> 34.2 | <b>Covered by:</b> 3 feeds | <b>Reputation:</b> 8.3",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.bssnews.net/business/409239",
+    "title": "Singapore tightens monetary policy as Iran war drags",
+    "link": "https://www.bssnews.net/business/409239",
+    "description": "<b>Importance:</b> 21.0 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 2.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/loans-under-court-stay-jump-eightfold-three-years-4234146",
+    "title": "Loans under court stay jump eightfold in three years",
+    "link": "https://www.thedailystar.net/business/economy/news/loans-under-court-stay-jump-eightfold-three-years-4234146",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/corporate-focused-lending-leaves-smes-short-credit-4234071",
+    "title": "Corporate-focused lending leaves SMEs short of credit",
+    "link": "https://www.thedailystar.net/business/economy/news/corporate-focused-lending-leaves-smes-short-credit-4234071",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.thedailystar.net/business/news/corporate-focused-lending-leaves-smes-short-credit-experts-4233986\">Corporate-focused lending leaves SMEs short of credit: experts</a>",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/global-economy/news/nvidia-may-back-250b-openai-data-centre-4234116",
+    "title": "Nvidia may back $250b for OpenAI data centre",
+    "link": "https://www.thedailystar.net/business/global-economy/news/nvidia-may-back-250b-openai-data-centre-4234116",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/us-energy-cushion-faces-new-stress-test-middle-east-risks-rise-again-4234121",
+    "title": "US energy cushion faces new stress test as Middle East risks rise again",
+    "link": "https://www.thedailystar.net/business/economy/news/us-energy-cushion-faces-new-stress-test-middle-east-risks-rise-again-4234121",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/news/islamic-4th-gen-banks-buckle-under-npl-liquidity-crises-4234016",
+    "title": "Islamic, 4th-gen banks buckle under NPL, liquidity crises",
+    "link": "https://www.thedailystar.net/business/news/islamic-4th-gen-banks-buckle-under-npl-liquidity-crises-4234016",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/construction-china-industrial-zone-begins-4234141",
+    "title": "Construction of China industrial zone begins",
+    "link": "https://www.thedailystar.net/business/economy/news/construction-china-industrial-zone-begins-4234141",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/global-economy/news/what-the-new-us-10-tariff-bangladesh-and-how-does-it-differ-time-4234046",
+    "title": "What is the new US 10% tariff on Bangladesh and how does it differ this time?",
+    "link": "https://www.thedailystar.net/business/global-economy/news/what-the-new-us-10-tariff-bangladesh-and-how-does-it-differ-time-4234046",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/416066/energy-crisis-grips-industrial-hubs",
+    "title": "Energy crisis grips industrial hubs",
+    "link": "https://www.dhakatribune.com/business/416066/energy-crisis-grips-industrial-hubs",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/9th-pay-scale-announcement-not-imf-loan-talks-october-1499691",
+    "title": "9th Pay Scale announcement not before IMF loan talks in October",
+    "link": "https://www.tbsnews.net/economy/9th-pay-scale-announcement-not-imf-loan-talks-october-1499691",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
+    "title": "Shots fired at US consulate in Toronto for a second time this year",
+    "link": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/iran-says-it-will-halt-strikes-long-us-bombing-pause-holds-1499156",
+    "title": "Iran says it will halt strikes as long as US bombing pause holds",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/iran-says-it-will-halt-strikes-long-us-bombing-pause-holds-1499156",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://english.news.cn/20260728/cc7c2740590f4bbc91b140bd6b8179ae/c.html",
+    "title": "Trump threatens \"strong military action\" if Iran talks fail",
+    "link": "https://english.news.cn/20260728/cc7c2740590f4bbc91b140bd6b8179ae/c.html",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/europe/ukraine-wants-prototype-european-missile-defence-system-mid-2027-official-1499071",
+    "title": "Ukraine wants prototype of European missile defence system by mid-2027: Official",
+    "link": "https://www.tbsnews.net/worldbiz/europe/ukraine-wants-prototype-european-missile-defence-system-mid-2027-official-1499071",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://apnews.com/article/un-us-france-human-rights-walkout-bbca1f1381a40aa2870889fd8fa99442",
+    "title": "US walks out on France at UN meeting to protest ally’s criticism of America’s human rights record",
+    "link": "https://apnews.com/article/un-us-france-human-rights-walkout-bbca1f1381a40aa2870889fd8fa99442",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c1l1m6e08e2o?at_medium=RSS&at_campaign=rss",
+    "title": "Bali bans Dutch expats whose run club allegedly excluded Indonesians",
+    "link": "https://www.bbc.co.uk/news/articles/c1l1m6e08e2o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/south-asia/myanmar-military-escalates-civilian-killings-monitor-warns-amid-diplomatic-push",
+    "title": "Myanmar military escalates civilian killings, monitor warns, amid diplomatic push",
+    "link": "https://www.tbsnews.net/world/south-asia/myanmar-military-escalates-civilian-killings-monitor-warns-amid-diplomatic-push",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/houthis-claim-attack-on-saudi-oil-infrastructure-as-us-iran-war-pause-holds-101785165461776.html",
+    "title": "Houthis claim attack on Saudi oil infrastructure as US-Iran pause holds",
+    "link": "https://www.hindustantimes.com/world-news/houthis-claim-attack-on-saudi-oil-infrastructure-as-us-iran-war-pause-holds-101785165461776.html",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/un-eyeing-potential-israeli-war-crimes-in-lebanon?traffic_source=rss",
+    "title": "UN eyeing potential Israeli war crimes in Lebanon",
+    "link": "https://www.aljazeera.com/news/2026/7/27/un-eyeing-potential-israeli-war-crimes-in-lebanon?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/saudi-arabia-defends-against-drone-strikes-from-iran-backed-groups?traffic_source=rss",
+    "title": "Saudi Arabia defends against drone strikes from ‘Iran-backed’ groups",
+    "link": "https://www.aljazeera.com/news/2026/7/27/saudi-arabia-defends-against-drone-strikes-from-iran-backed-groups?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/iran-says-it-still-controls-hormuz-not-involved-in-negotiations-with-the-us/article71274273.ece",
+    "title": "Iran says it still controls Hormuz, not involved in negotiations with the U.S.",
+    "link": "https://www.thehindu.com/news/international/iran-says-it-still-controls-hormuz-not-involved-in-negotiations-with-the-us/article71274273.ece",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/syria-president-tells-al-jazeera-his-country-seeks-security-deal-israel-1498941",
+    "title": "Syria president tells Al Jazeera his country seeks security deal with Israel",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/syria-president-tells-al-jazeera-his-country-seeks-security-deal-israel-1498941",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/south-asia/india-summons-ukraine-envoy-over-black-sea-ship-attack-killed-indian-national",
+    "title": "India summons Ukraine envoy over Black Sea ship attack that killed Indian national",
+    "link": "https://www.tbsnews.net/world/south-asia/india-summons-ukraine-envoy-over-black-sea-ship-attack-killed-indian-national",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/israel-allow-international-force-gaza-israeli-official-1499056",
+    "title": "Israel to allow international force into Gaza: Israeli official",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/israel-allow-international-force-gaza-israeli-official-1499056",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/liveblog/2026/7/28/iran-war-live-trump-touts-friendly-talks-netanyahu-arrives-in-us?traffic_source=rss",
+    "title": "Iran war live: Trump touts ‘friendly talks’; Netanyahu arrives in US",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/7/28/iran-war-live-trump-touts-friendly-talks-netanyahu-arrives-in-us?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/bangladesh-us-discuss-preserving-liberation-war-and-july-uprising-history-1499686",
+    "title": "Bangladesh, US discuss preserving Liberation War and July Uprising history",
+    "link": "https://www.tbsnews.net/bangladesh/bangladesh-us-discuss-preserving-liberation-war-and-july-uprising-history-1499686",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/energy/gas-crisis-may-take-another-10-15-days-ease-energy-minister-1499616",
+    "title": "Gas crisis may take another 10-15 days to ease: Energy minister",
+    "link": "https://www.tbsnews.net/bangladesh/energy/gas-crisis-may-take-another-10-15-days-ease-energy-minister-1499616",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/israeli-settlers-set-fire-west-bank-mosques-after-deadly-clash-1498911",
+    "title": "Israeli settlers set fire to West Bank mosques after deadly clash",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/israeli-settlers-set-fire-west-bank-mosques-after-deadly-clash-1498911",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/health/measles-outbreak-death-toll-reaches-825-5-more-children-die-24-hours-1499131",
+    "title": "Measles outbreak: Death toll reaches 825 as 5 more children die in 24 hours",
+    "link": "https://www.tbsnews.net/bangladesh/health/measles-outbreak-death-toll-reaches-825-5-more-children-die-24-hours-1499131",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/iran-says-any-peace-deal-us-depends-end-israeli-operations-lebanon-1498936",
+    "title": "Iran says any peace deal with US depends on end to Israeli operations in Lebanon",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/iran-says-any-peace-deal-us-depends-end-israeli-operations-lebanon-1498936",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/trump-demands-senate-cancel-august-break-until-voting-bill-passes/191699",
+    "title": "Trump demands Senate cancel August break until voting bill passes",
+    "link": "https://unb.com.bd/category/World/trump-demands-senate-cancel-august-break-until-voting-bill-passes/191699",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/will-not-participate-nobel-laureate-machado-rejects-us-backed-venezuela-talks-101785123928431.html",
+    "title": "'Will not participate': Nobel laureate Machado rejects US-backed Venezuela talks",
+    "link": "https://www.hindustantimes.com/world-news/will-not-participate-nobel-laureate-machado-rejects-us-backed-venezuela-talks-101785123928431.html",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss",
+    "title": "China's new challenge as natural disasters strike - fake AI videos",
+    "link": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
+    "title": "Wildfire now nine miles away from French city of Bordeaux, mayor warns",
+    "link": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c3w0xwj8vzyo?at_medium=RSS&at_campaign=rss",
+    "title": "Chile captures fugitive convicted of singer Victor Jara's murder under Pinochet",
+    "link": "https://www.bbc.co.uk/news/articles/c3w0xwj8vzyo?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cn7nx3rz16jo?at_medium=RSS&at_campaign=rss",
+    "title": "South Africa investigates death of Nigerian who collapsed during arrest",
+    "link": "https://www.bbc.co.uk/news/articles/cn7nx3rz16jo?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/un-slams-israels-expansion-of-illegal-settlements-in-occupied-west-bank?traffic_source=rss",
+    "title": "UN slams Israel’s expansion of illegal settlements in occupied West Bank",
+    "link": "https://www.aljazeera.com/news/2026/7/27/un-slams-israels-expansion-of-illegal-settlements-in-occupied-west-bank?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/pakistan-administered-kashmir-opens-polls-in-violence-wracked-vote?traffic_source=rss",
+    "title": "Pakistan-administered Kashmir opens polls in violence-wracked vote",
+    "link": "https://www.aljazeera.com/news/2026/7/27/pakistan-administered-kashmir-opens-polls-in-violence-wracked-vote?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/why-a-new-war-in-yemen-could-be-different-for-the-houthis?traffic_source=rss",
+    "title": "Why a new war in Yemen could be different for the Houthis",
+    "link": "https://www.aljazeera.com/news/2026/7/27/why-a-new-war-in-yemen-could-be-different-for-the-houthis?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/israeli-forces-storm-multiple-west-bank-towns-settler-violence-worsens?traffic_source=rss",
+    "title": "Israeli forces storm multiple West Bank towns, settler violence worsens",
+    "link": "https://www.aljazeera.com/news/2026/7/27/israeli-forces-storm-multiple-west-bank-towns-settler-violence-worsens?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/why-malis-northern-conflict-has-entered-a-dangerous-new-phase?traffic_source=rss",
+    "title": "Why Mali’s northern conflict has entered a dangerous new phase",
+    "link": "https://www.aljazeera.com/news/2026/7/27/why-malis-northern-conflict-has-entered-a-dangerous-new-phase?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/after-mayor-zohran-mamdanis-war-criminal-arrest-remarks-netanyahu-says-i-will-come-to-new-york-101785126937229.html",
+    "title": "After Mayor Mamdani's 'war criminal', ‘arrest’ remarks, Netanyahu says 'I will come to New York'",
+    "link": "https://www.hindustantimes.com/world-news/after-mayor-zohran-mamdanis-war-criminal-arrest-remarks-netanyahu-says-i-will-come-to-new-york-101785126937229.html",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/china-opposes-us-forced-labour-tariffs-calls-for-them-to-cancelled/article71273031.ece",
+    "title": "China opposes U.S. ‘forced labour’ tariffs, calls for them to cancelled",
+    "link": "https://www.thehindu.com/news/international/china-opposes-us-forced-labour-tariffs-calls-for-them-to-cancelled/article71273031.ece",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/why-is-chinas-ai-push-gaining-ground-explained/article71269506.ece",
+    "title": "Why is China’s AI push gaining ground? | Explained",
+    "link": "https://www.thehindu.com/news/international/why-is-chinas-ai-push-gaining-ground-explained/article71269506.ece",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/explosion-suspected-bomb-in-philippine-capital-before-marcos-speech/article71271787.ece",
+    "title": "Explosion, 'suspected bomb' in Philippine capital before Marcos speech",
+    "link": "https://www.thehindu.com/news/international/explosion-suspected-bomb-in-philippine-capital-before-marcos-speech/article71271787.ece",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
+    "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
+    "link": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c8dng1v72lno?at_medium=RSS&at_campaign=rss",
+    "title": "'This is just the start': India's Gen Z protesters force out a minister, but what next?",
+    "link": "https://www.bbc.co.uk/news/articles/c8dng1v72lno?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/drones-attack-irans-neighbours-tehran-appears-test-trumps-latest-pause-1499576",
+    "title": "Drones attack Iran's neighbours as Tehran appears to test Trump's latest pause",
+    "link": "https://www.tbsnews.net/world/drones-attack-irans-neighbours-tehran-appears-test-trumps-latest-pause-1499576",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/iran-says-it-still-controls-strait-not-seeking-talks-after-trump-halts-bombing",
+    "title": "Iran says it still controls strait, not seeking talks, after Trump halts bombing",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/iran-says-it-still-controls-strait-not-seeking-talks-after-trump-halts-bombing",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/politics/brazil-recalls-ambassador-argentina-after-milei-attacks-lula-sources-1498916",
+    "title": "Brazil recalls ambassador to Argentina after Milei attacks Lula: Sources",
+    "link": "https://www.tbsnews.net/worldbiz/politics/brazil-recalls-ambassador-argentina-after-milei-attacks-lula-sources-1498916",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/7/27/british-court-dismisses-bahrains-bid-to-block-activists-spyware-lawsuit?traffic_source=rss",
+    "title": "British court dismisses Bahrain’s bid to block activists’ spyware lawsuit",
+    "link": "https://www.aljazeera.com/news/2026/7/27/british-court-dismisses-bahrains-bid-to-block-activists-spyware-lawsuit?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/7/27/india-suspends-police-officer-for-firing-ak-47-at-student-protesters?traffic_source=rss",
+    "title": "India suspends police officer for firing AK-47 at student protesters",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/7/27/india-suspends-police-officer-for-firing-ak-47-at-student-protesters?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/mediators-see-progress-in-efforts-to-halt-iran-war-regional-officials/191683",
+    "title": "Mediators see progress in efforts to halt Iran war: regional officials",
+    "link": "https://unb.com.bd/category/World/mediators-see-progress-in-efforts-to-halt-iran-war-regional-officials/191683",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://daily-sun.com/diplomacy/888814/bangladesh-maldives-discuss-direct-shipping-link",
+    "title": "Bangladesh, Maldives discuss direct shipping link",
+    "link": "https://daily-sun.com/diplomacy/888814/bangladesh-maldives-discuss-direct-shipping-link",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/888810/bangladesh-will-need-421bn-between-fy2026-2030-to-realise-sdgs-experts",
+    "title": "Bangladesh will need $421b between FY2026-2030 to realise SDGs: Experts",
+    "link": "https://www.daily-sun.com/diplomacy/888810/bangladesh-will-need-421bn-between-fy2026-2030-to-realise-sdgs-experts",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/888812/govt-reaffirms-achieving-1-trillion-economy-status-by-2034",
+    "title": "Govt reaffirms achieving $1 trillion economy status by 2034",
+    "link": "https://www.daily-sun.com/diplomacy/888812/govt-reaffirms-achieving-1-trillion-economy-status-by-2034",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/888950/bangladesh-czech-republic-seek-to-deepen-ties-through-science-culture-innovation",
+    "title": "Bangladesh, Czech Republic seek to deepen ties through science, culture, innovation",
+    "link": "https://www.daily-sun.com/diplomacy/888950/bangladesh-czech-republic-seek-to-deepen-ties-through-science-culture-innovation",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.ipsnews.net/2026/07/sudans-war-economy-funded-by-gum-arabic-and-gold/",
+    "title": "Sudan’s War Economy: Funded By Gum Arabic And Gold",
+    "link": "https://www.ipsnews.net/2026/07/sudans-war-economy-funded-by-gum-arabic-and-gold/",
+    "description": "In the three years since the outbreak of the Sudanese Civil War, the humanitarian crisis has deteriorated significantly, with the United Nations underscoring a blatant disregard for international humanitarian law among warring parties. This includes the deliberate targeting of civilians in residential areas, widespread sexual violence, and attacks on critical infrastructure that have hindered aid [&#8230;]",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://passblue.com/2026/07/27/the-word-is-our-weapon-ukraines-outgoing-un-envoy-on-war-and-diplomacy/",
+    "title": "‘The Word Is Our Weapon’: Ukraine’s Outgoing UN Envoy on War and Diplomacy",
+    "link": "https://passblue.com/2026/07/27/the-word-is-our-weapon-ukraines-outgoing-un-envoy-on-war-and-diplomacy/",
+    "description": "On her last day as Ukraine&#8217;s deputy permanent representative to the United Nations for the last four years, Khrystyna Hayovyshyn sat down for an exit interview with PassBlue. In the exclusive conversation with PassBlue on the last day of June, Hayovyshyn spoke about her deep respect for the fellow diplomats who have supported Ukraine in ... <a class=\"read-more\" href=\"https://passblue.com/2026/07/27/the-word-is-our-weapon-ukraines-outgoing-un-envoy-on-war-and-diplomacy/\" title=\"&#8216;The Word Is Our Weapon&#8217;: Ukraine&#8217;s Outgoing UN Envoy on War and Diplomacy\">Read more</a>",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1168029",
+    "title": "Security Council LIVE: Briefing on Ukraine as deadly Russian strikes hit cities and ports",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1168029",
+    "description": "The UN Security Council is meeting on Monday at Ukraine’s request, following recent large-scale Russian attacks on Kyiv and elsewhere. At least one civilian was killed and more than a dozen wounded in an overnight strike on the capital on 19 July that also damaged homes and civilian infrastructure. Ukrainian authorities described it as one of the largest and most intense attacks since the invasion began. Follow live updates below.&nbsp;",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1168031",
+    "title": "Conflict and crisis put six World Heritage sites at risk",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1168031",
+    "description": "Armed conflict, insecurity and environmental pressures are threatening ancient cities, historic castles and one of the world's greatest wildlife migrations.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1168034",
+    "title": "Lebanon: Israeli strikes ‘could amount to international crimes,’ warns Türk",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1168034",
+    "description": "UN Human Rights Chief Volker Türk expressed concern about ongoing displacement and destruction caused by Israeli strikes against Lebanon as he concluded a two-day visit to the country on Monday.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/07/1168035",
+    "title": "Guterres: Fast-tracking West Bank outposts is a ‘flagrant violation’ of international law",
+    "link": "https://news.un.org/feed/view/en/story/2026/07/1168035",
+    "description": "The United Nations continues to monitor developments in the Occupied Palestinian Territory amid rising violence and greater restrictions in the occupied West Bank.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.ipsnews.net/2026/07/u-s-saudi-nuclear-agreement-opens-door-to-civilian-nuclear-cooperation-with-one-major-caveat/",
+    "title": "U.S.-Saudi Nuclear Agreement Opens Door to Civilian Nuclear Cooperation, with One Major Caveat",
+    "link": "https://www.ipsnews.net/2026/07/u-s-saudi-nuclear-agreement-opens-door-to-civilian-nuclear-cooperation-with-one-major-caveat/",
+    "description": "On Wednesday, July 22, the U.S. Secretary of Energy, Chris Wright, and Saudi Arabia’s Minister of Energy, HRH Prince Abdulaziz bin Salman bin Abdulaziz signed a civilian nuclear cooperation agreement, best known as a 123 agreement, as well as an accompanying bilateral safeguards agreement, according to the U.S. Department of Energy and the Saudi Ministry [&#8230;]",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.ipsnews.net/2026/07/cockroach-protests-how-indias-youth-movement-led-to-ministers-resignation/",
+    "title": "Cockroach Protests: How India’s Youth Movement Led to Minister’s Resignation",
+    "link": "https://www.ipsnews.net/2026/07/cockroach-protests-how-indias-youth-movement-led-to-ministers-resignation/",
+    "description": "On July 25, after 50 days of protest at Delhi&#8217;s Jantar Mantar, Union Education Minister Dharmendra Pradhan resigned. The movement had begun in May as a satirical social media page called the Cockroach Janta Party, founded by Abhijeet Dipke after the Chief Justice of India, Surya Kant, used the term &#8220;cockroaches&#8221; during a Supreme Court [&#8230;]",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://indianexpress.com/article/opinion/columns/india-and-bangladesh-must-not-just-renew-ganga-water-treaty-they-should-reimagine-it-10806356/",
+    "title": "India and Bangladesh must not just renew Ganga Water Treaty. They should reimagine it",
+    "link": "https://indianexpress.com/article/opinion/columns/india-and-bangladesh-must-not-just-renew-ganga-water-treaty-they-should-reimagine-it-10806356/",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://images.indianexpress.com/2026/07/oped-illustration-india-bangladesh-ganga-treaty.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://responsiblestatecraft.org/myanmar-civil-war-china/",
+    "title": "As Myanmar collapses, it’s time for China to step up and be the hero",
+    "link": "https://responsiblestatecraft.org/myanmar-civil-war-china/",
+    "description": "<img src=\"https://responsiblestatecraft.org/media-library/image.jpg?id=67535246&amp;width=1200&amp;height=600&amp;coordinates=0%2C0%2C0%2C834\" /><br /><br /><p>The Burmese people continue to suffer as the brutal civil war in Myanmar heads toward its sixth year. </p><p>The conflict was recently brought home to America with <a href=\"https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-confirms-arrest-of-us-scholar-of-myanmar-on-suspicion-of-spying\" rel=\"noopener noreferrer\" target=\"_blank\"><u>China’s arrest</u></a> of Min Zin, an American citizen who heads the Institute for Strategy and Policy (ISP)–Myanmar, located in Thailand. Beijing accused him of spying. </p><p>China has increasingly close relations with the government in Naypyidaw, highlighted by the June visit to Beijing of Min Aung Hlaing, the commanding general who recently anointed himself Myanmar’s president. China helps Hlaing’s regime survive despite widespread popular opposition.</p><p>For decades the borderlands of Myanmar have been aflame, as ethnic minorities fought for the autonomy promised them when the country gained independence after World War II. The Tatmadaw, or military, seized power in 1962 and has ruled the country in varying iterations ever since. In 2021, Hlaing, disappointed by the hybrid civilian-led government’s refusal to make him president, staged a coup, ending Burma’s brief experiment in limited democratic governance. </p><p>In response to widespread protests, <a href=\"https://www.cfr.org/global-conflict-tracker/conflict/rohingya-crisis-myanmar\" rel=\"noopener noreferrer\" target=\"_blank\"><u>the regime</u></a> \"instituted curfews and other limitations on gatherings to curb the demonstrations. Doubling down, the military launched violent campaigns across the country, targeting resistance villages, and silencing and torturing dissenters, displacing thousands in the process,” according to the Council on Foreign Relations. </p><p>The junta detained tens of thousands of its citizens as the nation quickly returned to civil war, this time across almost the entire country. Most of Burma now lies beyond the Tatmadaw’s control; the regime is secure only in major cities.</p><p>The result is a humanitarian horror. <a href=\"https://www.nytimes.com/2026/06/24/world/asia/myanmar-civil-war-rebels-airstrikes.html\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Reports the</u></a> New York Times: “Far from the spotlight fixed on Iran, Ukraine, Lebanon and other global conflicts, Myanmar, a Southeast Asian nation of about 50 million people, has quietly collapsed.” Tens of thousands have died. Hundreds of thousands have fled the country. Millions have been uprooted. <a href=\"https://civil-protection-humanitarian-aid.ec.europa.eu/where/asia-and-pacific/myanmarburma_en\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Reports the</u></a> European Commission: “Mass displacement continues at an alarming rate, with some 3.6 million people displaced as of December 2025, about 90% of whom have been displaced since February 2021.”</p><p>The conflict is religious as well. Nearly a decade ago, the military, backed by the civilian authorities, <a href=\"https://www.unrefugees.org/news/rohingya-refugee-crisis-explained/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>launched a</u></a> brutal campaign against the largely Muslim Rohingya. As the United Nations’ refugee agency <a href=\"https://www.unrefugees.org/news/rohingya-refugee-crisis-explained/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>explained</u></a>, “armed attacks, massive scale violence, and serious human rights violations forced thousands of Rohingya to flee their homes in Myanmar’s Rakhine State. Many walked for days through jungles and undertook dangerous sea journeys across the Bay of Bengal to reach safety in Bangladesh,” where roughly a million remain.</p><p>Many of the ethnic insurgents — especially the Kachin, Chin, and Karen, as well as smaller shares of the Lahu, Lisu, and Naga — are Christian. Against them the Tatmadaw has promoted Buddhism. <a href=\"https://bcfausa.org/testing-the-faith-militarys-brand-of-toxic-buddhism-backfires/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Reported the</u></a> Baltimore Council on Foreign Affairs: “Stated-owned newspapers and television channels report daily about Senior General Min Aung Hlaing and his inner circle making donations to monks, or building monasteries and images of the Buddha.” The regime has demonized religious minorities. <a href=\"https://berkleycenter.georgetown.edu/responses/the-four-sons-of-myanmar-united-in-anti-military-nationalism\" rel=\"noopener noreferrer\" target=\"_blank\"><u>According to</u></a> Georgetown University’s Berkley Center: “the military planted and perpetuated the ideology that to be nationalist is to be Buddhist. … The military successfully used the polarizing ‘us vs. them’ rhetoric in portraying non-Buddhists as threats to the state and in capitalizing Buddhists as protectors of the Burmese race and effective guardians of Buddhism.” </p><p>I made my first trip to Karen-held territory more than <a href=\"https://www.washingtontimes.com/news/2000/jul/23/20000723-011743-9966r/#:~:text=occurred\" rel=\"noopener noreferrer\" target=\"_blank\"><u>a quarter century ago</u></a> and have returned several times since. The region bordering Thailand was long ravaged by conflict, with many Burmese pushed across the border <a href=\"https://nationalinterest.org/feature/burmese-agonies-overlooked-an-analysts-sojourn-1158\" rel=\"noopener noreferrer\" target=\"_blank\"><u>into refugee camps</u></a>. A tenuous peace <a href=\"https://www.nationalreview.com/2018/06/burma-backslides-toward-ethnic-and-religious-conflict/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>was established</u></a> through a 2012 ceasefire, only to end after the latest coup.</p><p>Washington has sanctioned the Tatmadaw and its junta, but Southeast Asia worries little about the nature of ruling regimes. Most important, neither India nor China, competing for influence in Myanmar, is squeamish about working with murderous regimes. Both hosted Hlaing in June, with enhanced economic and security cooperation on the agenda. Analyst Jason Towers <a href=\"https://www.dw.com/en/chinese-firm-helps-supply-myanmar-junta-with-bombs-report/a-73310094\" rel=\"noopener noreferrer\" target=\"_blank\"><u>noted that</u></a> Chinese leader “Xi Jinping's frequent meetings and interactions with Min Aung Hlaing since the [2024] Myanmar earthquake send a strong signal that China is supporting his regime at the highest level.” Beijing has pressed insurgents in border territories <a href=\"https://www.stimson.org/2024/china-in-myanmar-how-the-game-changing-neighbor-would-continue-to-maintain-its-influence/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>to end attacks</u></a> on the regime and the Tatmadaw to safeguard Burma’s natural gas and oil pipelines. </p><p>China is the regime’s <a href=\"https://www.dw.com/en/chinese-firm-helps-supply-myanmar-junta-with-bombs-report/a-73310094\" rel=\"noopener noreferrer\" target=\"_blank\"><u>principal weapons supplier</u></a> and has blocked proposals for a United Nations arms embargo. Beijing has played a particularly important role in empowering Burma’s air force, which, <a href=\"https://specialadvisorycouncil.org/2025/07/new-sac-m-report-chinas-support-for-the-myanmar-militarys-production-of-aerial-bombs/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>according to the Special Advisory Council for Myanmar</u></a>, “has increasingly deployed airstrikes on populated areas, targeting crowded markets, schools, places of worship, camps for internally displaced persons, and hospitals.”</p><p>Beijing’s support may have prevented the Tatmadaw’s defeat, but the regime is still unlikely to prevail. It is estimated to control only about one-fifth of the country, half the share held by opposition forces, with the rest of the land contested. <a href=\"https://www.cfr.org/global-conflict-tracker/conflict/rohingya-crisis-myanmar\" rel=\"noopener noreferrer\" target=\"_blank\"><u>According to</u></a> a Council on Foreign Relations analysis: “The People’s Defense Force (PDF) and its allies continue gaining key territory, pushing the military on the defensive in the Bamar heartland and advancing towards Mandalay. The military junta especially struggles to fight ethnic armed organizations across the country, which have made most of the territorial gains so far.” </p><p>Washington’s ability to influence the junta is limited. Economy-wide sanctions targeting the energy industry would injure Burma’s people more than the junta and probably would not crash the regime, given Chinese backing. Washington should do what it can to weaken the Tatmadaw, but that requires cooperating with European governments and especially Burma’s neighbors.</p><p>That won’t be easy, since China will remain the most influential foreign actor. The administration should engage Beijing on the issue, seeking to reduce its aid to Naypyidaw. Washington could offer a modus vivendi of sorts, indicating that its primary concern is humanitarian. Thus, Washington could promise to forgo any efforts to court a Burmese government resulting from changed Chinese policy. </p><p>An international reform effort led by Xi could better serve Chinese as well as international interests. The Tatmadaw’s ostentatious brutality and corruption ensure continuing conflict, while Beijing’s ability to positively influence events is limited. Cornell University’s<em> </em><a href=\"https://eastasiaforum.org/2026/06/07/china-deepens-its-foothold-in-post-coup-myanmar/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Aung Thura Ko Ko observed</u></a>: “Myanmar is not a chessboard Beijing can fully control. … The greatest long-term risk for China may be anti-China sentiment, which has long existed in Myanmar.”</p><p>In contrast, a push for regime change or at least reform, returning basic control to the Burmese people, could better protect Chinese interests. Defusing the conflict would reduce concerns over the security of energy supplies. Ending perceived Chinese support for the junta would relieve popular hostility toward Beijing. Indeed, the civilian regime overthrown by Hlaing <a href=\"https://www.fmprc.gov.cn/mfa_eng/zy/jj/2020zt/xjpdmdgsfw/202406/t20240606_11378090.html\" rel=\"noopener noreferrer\" target=\"_blank\"><u>had established good relations</u></a> with its dominant neighbor, and China has maintained contact with opposition forces.</p><p>The conflict in Myanmar rarely makes the top of the news in any Western nation. However, it remains one of the world’s worst humanitarian horrors, which President Donald Trump should address. Obviously, Myanmar, under military rule for more than six decades, is a tough case. However, China, despite its official hospitality for Hlaing, should recognize that most of <a href=\"https://www.stimson.org/2026/major-events-in-china-myanmar-relations/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>its contacts with Myanmar</u></a> are about problems, many of them violent. Even for China, a more democratic peace might be a better option than continued unpredictable civil war.</p>",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://responsiblestatecraft.org/media-library/image.jpg?id=67535246&width=980",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "bdef1800-0f96-4182-a6fa-53dbfd104772",
+    "title": "Iran war spreads to Red Sea and Caspian, Gulf quiet as US forgoes strikes",
+    "link": "https://en.prothomalo.com/international/middle-east/c1vrx7mgpj",
+    "description": "<p>Signs of the Iran war's spread emerged this weekend despite a pause in US strikes, as Yemen's Iran-aligned Houthis attacked Saudi oil installations along the Red Sea coast and Iran accused Ukraine of targeting an Iranian vessel in the Caspian Sea.</p><p>The US military said on Saturday that its naval blockade against Iran \"remains in full effect\" but did not explain why it halted a streak of 13 nights of escalating strikes. Asked about the pause, a senior official in President Donald Trump's administration said Trump \"has always been clear that his preference is diplomacy, but he has shown Iran what will happen if they fail to come to the table in a serious way.”</p><p>There were also no reports on Saturday of attacks from Iran on neighboring countries, like those that have been taking place daily in response to the US attacks.</p><aside><a href=\"https://en.prothomalo.com/international/middle-east/jqqgg7igkh\">Iran accuses Ukraine of deadly attack on ship in Caspian Sea</a></aside><p>Despite the lull in the Gulf, fighting between Iran's Houthi allies and Saudi Arabia on Saturday indicated the war, which has already disrupted energy supplies through the Strait of Hormuz, could affect a second major shipping route and reignite Yemen's civil war.</p><p>Separately, Iran's Foreign Ministry accused Ukraine of attacking an Iranian commercial vessel in the ​Caspian Sea, saying it resulted in an explosion that killed ‌a sailor and injured another.</p><p>Earlier on Saturday, Ukrainian President Volodymyr Zelenskiy in a social media post praised the results of \"long‑range strikes\" in the Caspian Sea, alluding to vessels shipping military cargo, but did not identify the nationality of the targets. </p><h3>War Threatens to Spread to Yemen</h3><p>Houthi military spokesperson Yahya Saree said the group struck sites belonging to Saudi state oil company Aramco in Jizan and Yanbu. Video shared on social media and verified by Reuters showed a large column of smoke rising from the direction of the Aramco refinery in Jizan.</p><p>Two Asia-based trading sources said they had been informed of potential damage to fuel and oil storage sites at Jizan. Aramco 2222.SE did not respond to requests for comment.</p><figure><img alt=\"\" src=\"https://media.prothomalo.com/prothomalo-english/2026-07-27/80zmknbh/prothomalo-bangla2026-07-261xliczyjIranwarspreads1.avif\" /><figcaption>Smoke rises over Jizan after Iran-backed Houthi rebels claimed to have carried out missile and drone attacks on Saudi Aramco facilities in Jizan and Yanbu. The image is taken from a video circulated on social media. 25 July 2026.</figcaption></figure><p>In Yanbu, two ballistic missiles aimed at oil installations were intercepted by a US-made Patriot battery operated in Saudi Arabia by the Greek military under an agreement with Riyadh, Greek security sources said.</p><p>Yanbu, Saudi Arabia's main Red Sea oil port, has become a key route for Saudi oil skirting the Strait of Hormuz, which Iran has blockaded. Up to 400,000 barrels can be processed daily at the oil refinery in Jizan, a city on the Red Sea close to the Yemeni border.</p><p>In Yemen, the air force of the Saudi-backed, internationally recognized government, which has opposed the Houthis for more than a decade, struck Houthi launch sites and arms depots in the Marib and al-Jawf provinces, Yemeni officials said.</p><p>Earlier, the Saudi-led military alliance said it bombed Houthi military positions on Friday in the Red Sea port of Hodeidah. The Yemeni officials said both sides in Yemen's civil war were mobilizing forces along the front. </p><aside><a href=\"https://en.prothomalo.com/international/middle-east/35xcbpfsor\">Houthis say they attacked 2 Saudi tankers; Saudi Arabia says 1 ablaze in Red Sea</a></aside><h3>Saudi-led Coalition Strikes Hodeidah</h3><p>Saudi Arabia has led an Arab coalition battling the Houthis for more than a decade since the Iran-aligned fighters captured Yemen's capital, Sanaa.</p><p>The Yemeni civil war, during which hundreds of thousands of people died from fighting and famine, has been paused under a ceasefire since 2022. But that truce broke down this month, with the Houthis effectively joining the wider war their Iranian allies have waged since being attacked by the US and Israel.</p><p>The Houthis have declared a naval blockade of Saudi Arabia over the past week, and Houthi leader Abdul Malik al-Houthi said all Saudi oil facilities could be targets. On Thursday, the Houthis struck two Saudi tankers in the Red Sea.</p><p>American forces recently resumed their own blockade on Iranian ports. US Central Command, whose coverage area includes the Middle East, said it disabled a ship whose crew attempted to run the blockade despite \"repeated warnings\" on Friday in the Gulf of Oman.</p><p>An interim truce effectively collapsed two weeks ago, with US forces striking targets in southern Iran in response to Iranian disruption of shipping in the Strait of Hormuz.</p><p>On Friday, Trump said the ‌US and Iran were in talks to ​negotiate an end ​to their conflict, but ⁠repeated that Tehran ​was not yet ready ​for a deal.</p>",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-27/634iy59v/prothomalo-bangla2026-07-26o7fty52jIran-war-spreads.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/neighbours/0bcf9a0297c4",
+    "title": "Myanmar military steps up civilian killings",
+    "link": "https://bdnews24.com/neighbours/0bcf9a0297c4",
+    "description": "[Neighbours] Myanmar military steps up civilian killings",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026July/SM/myanmar-junta-chief-270726-1785129121.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/energy/gas-supply-improve-next-week-return-normalcy-week-later-state-minister-1499201",
+    "title": "Gas supply to improve from next week, return to normalcy a week later: State minister",
+    "link": "https://www.tbsnews.net/bangladesh/energy/gas-supply-improve-next-week-return-normalcy-week-later-state-minister-1499201",
+    "description": "He says disruption was not caused by any government agency but stemmed from a problem involving a private operator responsible for ensuring part of the country's gas supply.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/07/27/aninda_islam_amit.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "ce502eba-fa60-4b8b-abc3-54e242f6f42b",
+    "title": "Major change in Education Cadre transfers, 3 committees to handle process under new conditions",
+    "link": "https://en.prothomalo.com/youth/education/9vg9728ihd",
+    "description": "<p>The Ministry of Education has introduced major changes to the transfer and posting process for BCS General Education Cadre officials serving in government colleges and various departments and agencies. </p><p>Previously, the ministry held sole authority over these transfers. Under the new policy, the process will be decentralised and handled through three separate committees.</p><p>These three new different bodies will handle transfers based on rank. A committee headed by the regional director of the Directorate of Secondary and Higher Education (DSHE) will handle transfers of lecturers and assistant professors at government colleges.</p><p>The transfer of associate professors at government colleges will be handled by a committee headed by the Director General of DSHE. Meanwhile, a committee led by the Secretary of the Secondary and Higher Education Division will oversee the transfer and posting of professors, associate professors, principals, vice-principals and all positions within the directorates, departments and agencies. However, certain conditions must be met to qualify for these transfers.</p><p>The Secondary and Higher Education Division of the Ministry of Education issued a new policy in this regard yesterday. Abdul Khaleque, Secretary of the Secondary and Higher Education Division, confirmed the matter to Prothom Alo.</p><p>Currently, there are approximately 16,000 officials in the BCS General Education Cadre. As a result of the new policy, all officials of the education cadre will no longer need to approach the ministry for transfers as they did before. However, stakeholders have stressed the need to ensure that the process remains transparent.</p><h3>Application process for transfers</h3><p>A four-member committee, chaired by the Director of the relevant regional office of the Directorate of Secondary and Higher Education (DSHE) will manage the transfer and posting of lecturers and assistant Professors of government colleges. </p><p>The members of this committee include the College Inspector of the respective education board, the additional aistrict commissioner (Education) of the respective district and the assistant director (College) of the relevant region, who will serve as the member-secretary.</p><p>Lecturers and assistant professors serving in government colleges within a specific region (excluding positions in departments and agencies) must apply to this committee for transfer or posting. After reviewing and verifying the applications, the committee will issue transfer orders.</p><p>For the transfer of associate professors of government colleges, the DSHE director general will serve as the chairperson of the committee. Other members include the college inspector of the Dhaka Education Board and a deputy secretary (College 2/1) from the Ministry of Education, while the assistant director (College) of DSHE will serve as the member-secretary. </p><p>This committee will review applications and issue transfer orders for associate professors, excluding those serving in the Dhaka City area or in departmental-agency positions.</p><p>A committee led by the Secretary of the Secondary and Higher Education Division of the Ministry of Education will review applications and issue orders for the transfer and posting of associate professors, professors, all positions within directorates, departments and agencies, as well as college principals and vice-Principals. The committee will include the additional secretary (College) and joint secretary (College-1) as members, with a deputy secretary (College-1/2) serving as the member-secretary.</p><h3>Conditions for transfers</h3><p>Officials will have to meet certain conditions to apply for transfers. Newly appointed lecturers cannot apply for transfer before completing two years of service. Other teachers or officials cannot apply for transfer before completing two years at their current place of posting. </p><p>However, in specific cases involving serious physical, mental or family-related circumstances, applications may be made before the completion of the two-year period. In such instances, the government reserves the right to consider such applications based on valid justification.</p><p>If both the husband and wife are employed, either spouse may apply for a transfer to their spouse's workplace or a nearby educational institution. Officials who apply for transfer to a preferred location one year before going on pre-retirement leave will receive priority, subject to vacancies.</p><p>While evaluating transfer applications, factors such as the applicant’s personal and family circumstances, professional difficulties, serious illnesses affecting the applicant or family members, and the distance between the workplace and the applicant’s home district will be taken into consideration. Vacant posts in colleges located in upazilas or remote areas will be filled on a priority basis. </p>",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-27/wa9ofabc/prothomalo-english2026-01-22er2mvh5eMinistry-of-Education.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/south-asia/bill-lok-sabha-amend-anti-paper-law-stricter-punishment-1499066",
+    "title": "Bill placed in India's Lok Sabha to amend anti-paper leaks law with stricter punishment",
+    "link": "https://www.tbsnews.net/world/south-asia/bill-lok-sabha-amend-anti-paper-law-stricter-punishment-1499066",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2025/09/09/india_parliament_ghandi_statue.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.dhakatribune.com/world/middle-east/416107/palestinians-accuse-israeli-settlers-of-setting",
+    "title": "Palestinians accuse Israeli settlers of setting fire to cars and mosque after year’s deadliest clash in West Bank",
+    "link": "https://www.dhakatribune.com/world/middle-east/416107/palestinians-accuse-israeli-settlers-of-setting",
+    "description": "More than 130 Palestinians have been detained in weekend raids across the West Bank, according to the Israeli military, following a deadly clash between settlers and Palestinians on Friday.\n\nThe shooting incident, which killed two Israelis and four Palestinians, was the deadliest single attack in the West Bank all year and fueled a wave of retaliatory attacks by Israeli settlers on Palestinian towns and villages.\n\nSettlers remain camped out at the site of the shooting on the edge of the Palestinian village Tell, south of the city Nablus.\n\nOne of the group of about six settlers, believed to be from the nearby community of Havat Gilad, told the ABC to “leave the area quickly before we shoot you” on Sunday.\n\nSettler retaliatory attacks continued after the shooting, including in the neighboring village of Sarra. Settlers used bulldozers to destroy olive trees, and cars and houses in the area were set on fire.\n\nAhmad Rawhi Abdallah Turabi’s home was one of those seriously damaged.\n\n“We are not armed,” he said.\n\n“We don’t have weapons, only stones [and] sticks.\n\n“They attacked us, they stole the land. We are on our land. He is a settler and wants to own land that doesn’t belong to him.”\n\nA partially constructed mosque in Qusra, south-east of Nablus, was also among the sites targeted over the weekend.\n\nIt was firebombed and spray-painted with words such as “revenge” on the side of the building.\n\n“The second [piece of graffiti] is that, ‘Mosques don’t threaten us,’ “Qusra Mayor Abdel Azim Wadi told the ABC.\n\n“The third is, ‘Israel will be established with blood.’”\n\n“The settlers’ violence never stopped, but now it has become more aggressive because of the IDF [Israel Defense Forces] support and the Israeli government.”\n\nThe community in Tell continued to mourn the four Palestinians, all members of the Ramadan family, killed in the attack on Friday.\n\nAhmad Ali Ibrahim Ramadan’s son, Imran, was among them.\n\n“All [the settlers] want is to kick us out from our country,” he told the ABC.\n\n“It’s an honor for us to die here and be buried here. We will not leave this land.\n\n“My message is we are not terrorists. They send their terror to us.”\n\nIn the aftermath of Friday’s shooting there were different accounts of how exactly the incident unfolded.\n\nA group of Israelis from the Havat Gilad settlement said they were hiking along the edge of Tell on Friday when they were attacked.\n\nThe local Palestinian residents argued they were provoked by armed and aggressive settlers, supported by the military, and were trying to protect their community.\n\nVideo shared on social media showed one of the Palestinians who was shot wrestling with one of the armed Israelis, taking his rifle and shooting.\n\nAnother video, from a different angle, showed Israeli soldiers opening fire as a result of the altercation.\n\nTwo Israelis and four Palestinians were killed in the shooting, local authorities said, with more Palestinians taken to hospital in nearby Nablus.\n\nIn the hours after the shooting, the IDF stormed the hospital and detained those alleged to be accomplices.\n\nThe Netanyahu government also ordered large-scale “counterterrorism” raids across the area and the demolition of the homes owned by the Palestinians involved in the shooting.\n\nLeave for Israeli reservists was cancelled, and extra soldiers were redeployed from Lebanon and Gaza to the West Bank to bolster the military’s response to the shooting.\n\n“The instructions we gave were to enter the villages, search them, seize weapons, and make arrests,” Prime Minister Benjamin Netanyahu said on Sunday.\n\n“These actions have been carried out and are being carried out at this very moment.\n\n“There has also been an operation at the hospital in [Nablus], where two accomplices were hiding. They were taken into custody.\n\n“The terrorist’s house was sealed ahead of its demolition. The homes of the other accomplices were also mapped in preparation for action against them, and we are prepared to act more broadly against terrorist strongholds.”\n\nMuch of the area around Nablus remained in a state of lockdown on Sunday, with armed soldiers running checkpoints on main roads, and gates restricting access to villages across the region.\n\n“The [Israeli] occupation army and the settlers are two sides of same coin,” Nablus Governor Ghassan Daghlas told the ABC.\n\n“The settlers came to this village. The village didn’t go to Tel Aviv.”\n\nHe feared the violence would only escalate in the coming weeks, ahead of the Israeli election, with politicians not wanting to appear weak on the issue of settlements in the West Bank.\n\nFar-right members of the Netanyahu coalition cabinet, particularly Finance Minister Bezalel Smotrich and National Security Minister Itamar Ben-Gvir, have demanded more settlements be built and more Palestinian communities be forced from their land.\n\nSettlements in the West Bank are considered illegal under international law.\n\n“The price is Palestinian blood,” Mr Daghlas said.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://ecdn.dhakatribune.net/contents/uploads/media/2026/07/27/e09cfeceffc265e06ad76e4f03dc7aa8-6a673cc2a6463.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "6fa9d49cdee26d85026a4893bd0ffabff0398690",
+    "title": "Oil prices sink 4% while Asian shares gain as Chinese chipmaker CXMT soars in Shanghai trading debut",
+    "link": "https://apnews.com/article/stocks-oil-rates-markets-cxmt-2b81f0e01bb318ae8d4281964f89f2f1",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/17e5fe5/2147483647/strip/true/crop/8439x5626+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7c%2Fab%2F65ce7eee38920915de70e490dc49%2Fbcc3b909ea7c481fadf1ae71965dd91a\" /><br />Oil prices sink 4% while Asian shares gain as Chinese chipmaker CXMT soars in Shanghai trading debut",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/17e5fe5/2147483647/strip/true/crop/8439x5626+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7c%2Fab%2F65ce7eee38920915de70e490dc49%2Fbcc3b909ea7c481fadf1ae71965dd91a",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "d5fec4d091565c7f325b3699a07f5b36",
+    "title": "Five EU countries seek third-country ‘return hubs’ for rejected asylum seekers",
+    "link": "https://en.bonikbarta.com/bangladesh/rYkaeNBQUgXlo167/",
+    "description": "European governments say the centres would address low deportation rates and would apply to all rejected asylum seekers, including Bangladeshis.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "7840e130fd252f6daec72033670ce238",
+    "title": "Bangladesh targets 15% export growth in FY27, says commerce minister",
+    "link": "https://en.bonikbarta.com/business/5pqYnFycOvfWoWVT/",
+    "description": "The government expects goods exports of $55.2 billion and services exports of $8.2 billion in the current fiscal year.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "0160023b1c22ef3dcc7e82342d16c7e8",
+    "title": "Indonesia central bank governor Perry Warjiyo steps down in surprise move",
+    "link": "https://en.bonikbarta.com/business/l5erxUdwQmu5n88E/",
+    "description": "President Prabowo Subianto has accepted Warjiyo’s resignation, State Secretariat Minister Prasetyo Hadi told reporters in an early morning press conference.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "63bd791b-6d9d-4afa-b6ae-966ea6ab451c",
+    "title": "No relief soon, gas crisis to continue for few more days",
+    "link": "https://en.prothomalo.com/bangladesh/hnxgsvfq9l",
+    "description": "<p>The ongoing gas crisis is expected to continue for a few more days as gas supply is unlikely to increase this week. Meanwhile, power generation has declined, leading to increased load shedding. Production-oriented industrial factories are also facing difficulties. Not only this, many are unable to light their cooking stoves, while long queues are growing at CNG filling stations.</p><p>Sources from the Energy and Mineral Resources Division said that it may take about two weeks to fully restore the liquefied natural gas (LNG) terminal that remains shut. US-based company Excelerate Energy has requested time until 10 August.</p><p>However, the undamaged boiler of the terminal may be brought back into operation next week, which could increase gas supply by around 300 million cubic feet per day, officials said.</p><p>There are two floating terminals in Maheshkhali, Cox's Bazar, to supply regasified imported LNG. One is operated by Excelerate Energy and the other by the private company Summit. Gas supply from Excelerate Energy’s terminal was suspended after a fire broke out there last Tuesday, exacerbating the country’s gas shortage.</p><p>LNG accounts for 35 to 40 per cent of the total daily gas supply, with a maximum daily supply of 1,050 million cubic feet from this source.</p><blockquote>As a result, the total daily gas supply is now below 2,150 million cubic feet. Previously, the situation was being managed by supplying 2,700 million cubic feet against a daily demand of 3,800 million cubic feet. With LNG supply dropping to less than half, all types of gas consumers are facing a severe crisis.</blockquote><p>According to Petrobangla sources, following the fire at the Excelerate terminal, 560 million cubic feet of gas was obtained from LNG last Thursday. By Sunday, this figure dropped below 500 million cubic feet. </p><p>As a result, the total daily gas supply is now below 2,150 million cubic feet. Previously, the situation was being managed by supplying 2,700 million cubic feet against a daily demand of 3,800 million cubic feet. With LNG supply dropping to less than half, all types of gas consumers are facing a severe crisis.</p><figure><img alt=\"\" src=\"https://media.prothomalo.com/prothomalo-english/2026-07-27/60oc6mqv/prothomalo-bangla2026-07-27z7a6fx82WhatsApp-Image-2026-07-26-at-5.51.55-PM.avif\" /><figcaption>Drivers wait for hours due to low pressure or suspended sales at most CNG filling stations, resulting in long vehicle queues. Photographed at Sikder Filling and Service Station in Tejgaon. </figcaption></figure><p>Sources from the Bangladesh Oil, Gas and Mineral Corporation (Petrobangla) stated that an expert team from the UK and the UAE began working on the terminal last Thursday. As of yesterday, Sunday, the undamaged boiler could not be started. Many components, including electrical cables were burnt and are being imported.</p><p>It will take three to four days to complete the work after the imports arrive. Efforts are underway to start the undamaged boiler before that. However, the exact timeline for completing the technical work could not yet be confirmed.</p><p>State Minister for Power, Energy and Mineral Resources, Aninda Islam Amit told Prothom Alo that the technical team is working on the issue and the Energy Division is monitoring the situation regularly.</p><p>Hoping that gas supply may increase by next week, he said, for now, there is no other alternative.</p><p>The government, however, is working on alternatives to reduce future import dependency on energy, with an emphasis on domestic gas exploration and production, the state minister stated.</p><h3>Industries, CNG stations struggle amid gas shortage\n\n</h3><p>Industrialists fear that if this situation persists, they may face difficulties in paying workers’ wages and allowances. There is also a risk of failing to deliver export orders within scheduled deadlines, which could lead to cancellations by international buyers.</p><p>Meanwhile, long queues of vehicles have persisted at CNG stations in different parts of Dhaka for the past four days.</p><p>Rashidul Hasan, president of the Narsingdi Chamber of Commerce and Industry, told Prothom Alo that production in factories has dropped by 75 per cent.</p><blockquote>Gas supply may increase by next week. For now, there is no other alternative. However, the government is working on alternatives to reduce future import dependency on energy, with an emphasis on domestic gas exploration and production.</blockquote><p>Gazipur has about 3,500 small and large industrial factories, a significant portion of which rely on gas. About 2 million workers are employed in these establishments. Due to the lack of adequate gas pressure for a week, many factories have reduced production and in some places, workers are being kept idle.</p><p>Sohel Rana, director of Sadma Group in Gazipur, said that with three to four PSI (per square inch gas pressure) of gas supply, it is possible to maintain 60 to 70 per cent of production. However, currently the gas pressure is so low that workers and operators remain idle most of the time. Production has decreased by up to 60 per cent.</p><blockquote>Residential customers and vehicle drivers in Brahmanbaria and surrounding areas are suffering due to the gas crisis and low pressure at both residential connections and CNG filling stations. While CNG stations require gas pressure of 12 to 15 PSI for normal operations, they are currently receiving only two to four PSI.</blockquote><p>Khorshed Alam, director of the Bangladesh Textile Mills Association (BTMA), told Prothom Alo that almost all mills are closed. In some areas, there is no electricity along with the gas shortage.</p><p>He suggested that the government announce the duration of the crisis so that instead of keeping workers without work, they can be granted leave.</p><p>Residential customers and vehicle drivers in Brahmanbaria and surrounding areas are suffering due to the gas crisis and low pressure at both residential connections and CNG filling stations. While CNG stations require gas pressure of 12 to 15 PSI for normal operations, they are currently receiving only two to four PSI. At times, the pressure drops to zero to 2 PSI. As a result, gas supply has had to be suspended several times, causing longer queues of vehicles.</p><h3>Risk of distress due to import dependency</h3><p>According to data from the Bangladesh Power Development Board (BPDB), electricity generation from gas has decreased by approximately 1,500 megawatts. Last Saturday night, the BPDB said it enforced 1,500MW electricity. More than 1,200MW of load shedding was also recorded on Sunday. The situation may worsen if temperatures continue to rise.</p><p>Md. Zahurul Islam, Member (Generation) of BPDB, told Prothom Alo that gas supply had declined due to the closure of the LNG terminal, reducing gas-based power generation by 1,000 to 1,500 MW. The shortfall varies depending on gas availability. Efforts are being made to increase production from oil-fired power plants to make up for the deficit.</p><aside><cite>Md. Zahurul Islam, Member (Generation) of BPDB</cite>Gas supply had declined due to the closure of the LNG terminal, reducing gas-based power generation by 1,000 to 1,500 MW. The shortfall varies depending on gas availability.</aside><p>Titas Gas Transmission and Distribution PLC, which supplies gas to Dhaka and surrounding areas, said in a notice on Sunday that severe low pressure would persist among all categories of its customers until the situation improves.</p><p>Shahnewaz Parvez, Managing Director of Titas Gas told Prothom Alo that the company already had a supply deficit. After the LNG terminal shutdown, Titas’s supply decreased by another 300 million cubic feet per day. As a result, it is not possible to provide gas close to the demand level anywhere.</p><p>Industries are suffering the most, and customer dissatisfaction is increasing, he added.</p><p>Residents of Mohammadpur in Dhaka are facing the worst situation. They have been experiencing a gas shortage for nearly 20 days. Initially, gas supply was disrupted in several residential areas after water entered pipelines due to waterlogging. The problem has still not been resolved in Shekhertek. Meanwhile, reduced gas supply has lowered pressure in other areas as well.</p><figure><img alt=\"\" src=\"https://media.prothomalo.com/prothomalo-english/2026-07-27/lg4fr40x/prothomalo-bangla2026-07-27tn778rp4WhatsApp-Image-2026-07-25-at-1.20.22-PM.avif\" /><figcaption>With no gas in the stove, residents resort to alternative cooking methods. Photographed at West Ibrahimpur, Kafrul, Mirpur in Dhaka on 25 July 2026 </figcaption></figure><p>Without increasing gas pressure, removing water from the pipelines will be difficult. Some households have started buying electric stoves, while low-income families are trying to cook with firewood on clay stoves.</p><p>Experts say the country’s gas sector has long been vulnerable. LNG supply from terminals can be interrupted by natural disasters, rough seas or accidents. Such incidents have occurred multiple times in the past. Previously, Summit’s terminal remained out of operation for three and a half months in 2024 after being hit by a cyclone. </p><p>This situation could have been avoided if a land-based terminal had been constructed. That aside, imports can be disrupted at any time. Due to rising global prices, the government did not purchase LNG from the open market for seven consecutive months starting in July 2022. This risk of import dependency will remain.</p><blockquote>Residents of Mohammadpur in Dhaka are facing the worst situation. They have been experiencing a gas shortage for nearly 20 days.</blockquote><p>Maqbul-E-Elahi Chowdhury, former member (Gas) of the Bangladesh Energy Regulatory Commission, told Prothom Alo that the current situation is the result of neglect over the last two and a half decades. The energy sector cannot run on foreign dependency. </p><p>Despite high success rates with limited well-drilling, domestic gas exploration has been neglected. Exploration must be intensified nationwide, and gas production must be increased by quickly renovating existing wells, he said. </p>",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-27/lqi3nltu/prothomalo-bangla2026-07-27oozqvusnWhatsApp-Image-2026-07-26-at-5.51.52-PM.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.dhakatribune.com/bangladesh/health/416119/who-bangladesh-among-10-countries-with-highest",
+    "title": "WHO: Bangladesh among 10 countries with highest hepatitis C cases",
+    "link": "https://www.dhakatribune.com/bangladesh/health/416119/who-bangladesh-among-10-countries-with-highest",
+    "description": "The World Health Organization (WHO) has called for urgent action in Bangladesh to expand access to hepatitis prevention, testing and treatment by breaking down the barriers that continue to prevent millions of people from receiving the care they need.\n\nThe WHO made the call ahead of the World Hepatitis Day that falls on July 28.\n\nBangladesh is among the 10 countries with the highest numbers of people living with hepatitis C globally, said the UN agency on Monday.\n\nChronic viral hepatitis remains one of the world's leading infectious disease killers, causing an estimated 1.3 million deaths every year, mainly from liver cirrhosis and liver cancer.\n\nHepatitis B and C account for approximately 95% of all viral hepatitis deaths and continue to spread silently, resulting in around 6000 new infections and 3500 deaths worldwide every day.\n\nIn the WHO South-East Asia Region, an estimated 43 million people are living with viral hepatitis.\n\nIn 2024 the Region recorded an estimated 266 000 new hepatitis B and C infections and 200 000 hepatitis-related deaths.\n\nThe prevalence of active hepatitis C infection in the general population is estimated at approximately 0.6%, although the burden is substantially higher among key populations and other vulnerable and underserved populations, including Rohingya refugees.\n\nBangladesh also bears a high burden of hepatitis B and is among the 10 countries that together accounted for 69% of hepatitis B-related deaths worldwide in 2024.\n\nThis is despite the availability of vaccination to prevent hepatitis B and effective treatments to manage hepatitis B and cure hepatitis C, highlighting significant barriers to access.\n\n\"Hepatitis is preventable, treatable and, in the case of hepatitis C, curable. Yet too many people continue to miss out on the services they need because they are diagnosed too late or cannot\n\naccess timely testing and treatment,\" said Dr Ahmed Jamsheed Mohamed, WHO Representative to Bangladesh.\n\n\"This World Hepatitis Day, WHO calls for accelerated action to break down the barriers that continue to prevent people from accessing lifesaving hepatitis prevention, testing and treatment services.\"\n\nBangladesh has in recent years demonstrated strong commitment to eliminating viral hepatitis as a public health threat through the development of the National Strategic Plan 2020–2030, strengthened hepatitis B birth-dose vaccination, expanded testing and treatment services, and the generation of evidence to inform policy and action.\n\nSupported by WHO's technical assistance, these efforts are helping accelerate progress towards the national goal of eliminating viral hepatitis as a public health threat by 2030.\n\nHowever, significant barriers continue to limit access to hepatitis services, including low public awareness, late diagnosis, limited access to affordable testing and treatment, stigma and discrimination, and the uneven availability of hepatitis services, particularly for key populations and vulnerable and underserved populations.\n\nOvercoming these barriers requires sustained, coordinated action across four priority areas, said the WHO on Monday.\n\nFirst, strengthening hepatitis prevention by sustaining high hepatitis B vaccination coverage, including timely birth-dose vaccination, ensuring safe blood transfusion and injection practices, and raising public awareness of hepatitis prevention through accurate, clear and actionable public messaging.\n\nSecond, expanding access to hepatitis testing and treatment by integrating hepatitis services into primary health care, antenatal care, blood services and HIV and tuberculosis programs.\n\nIntegrating hepatitis into routine health services will increase early diagnosis and ensure that more people, particularly key populations and other vulnerable and underserved populations, have equitable access to testing, treatment and care.\n\nThird, decentralizing and scaling up hepatitis services by making simplified hepatitis C treatment available beyond specialist facilities and ensuring access to affordable diagnostics and medicines.\n\nSimplified models of care can reduce delays in diagnosis and treatment, improve treatment uptake and enable more people to access quality hepatitis services closer to their homes and communities.\n\nFourth, strengthening hepatitis surveillance and data systems through routine recording of hepatitis testing, confirmed infections, treatment outcomes, cirrhosis and liver cancer.\n\nHigh-quality data are essential to understanding the burden of disease, identifying populations at greatest risk, guiding policy and investment decisions, and monitoring Bangladesh's progress towards eliminating viral hepatitis as a public health threat by 2030.\n\n\"Bangladesh has demonstrated strong commitment to tackling viral hepatitis and is well positioned to accelerate progress towards elimination,\" said Dr Ahmed Jamsheed Mohamed.\n\n\"WHO is proud to support the Government's efforts and will continue to provide technical assistance to expand access to prevention, testing and treatment, strengthen health systems and ensure that no one is left behind.\"\n\nAs the world marks World Hepatitis Day 2026, the opportunity to eliminate viral hepatitis as a public health threat has never been greater.\n\nBy expanding access to prevention, testing and treatment, Bangladesh can save lives, reduce the burden of liver disease and accelerate progress towards the 2030 elimination goal.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://ecdn.dhakatribune.net/contents/uploads/media/2026/07/27/6cdd70a25a1e910023fbad9de2edc30a-6a675a4345e1f.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.daily-sun.com/weather/888966/monsoon-depression-intensifies-into-deep-depression-over-northwest-bay",
+    "title": "Monsoon depression intensifies into deep depression over Northwest Bay",
+    "link": "https://www.daily-sun.com/weather/888966/monsoon-depression-intensifies-into-deep-depression-over-northwest-bay",
+    "description": "The deep depression near West Bengal coast poses risks with squally weather and rough seas. Maritime ports urged to signal",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/07/27/medium/Weather_Update2-6a67158c424e0.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/credit-bottlenecks-energy-costs-weigh-manufacturers-businesses-urge-policy-action-1499611",
+    "title": "Credit bottlenecks, energy costs weigh on manufacturers; businesses urge policy action",
+    "link": "https://www.tbsnews.net/bangladesh/credit-bottlenecks-energy-costs-weigh-manufacturers-businesses-urge-policy-action-1499611",
+    "description": "The business leaders also warn that manufacturers are facing mounting cash-flow pressures due to rising gas prices.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/07/04/electricity.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/nbr/govt-seeks-nbr-action-plan-achieve-tk604-lakh-crore-revenue-target-1499561",
+    "title": "Govt seeks NBR action plan to achieve Tk6.04 lakh crore revenue target",
+    "link": "https://www.tbsnews.net/nbr/govt-seeks-nbr-action-plan-achieve-tk604-lakh-crore-revenue-target-1499561",
+    "description": "The prime minister's economic affairs adviser asked the revenue authority to identify potential revenue sources, estimate collections and outline challenges to meeting the target.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2024/05/14/revenue_growth.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/888906",
+    "title": "Govt sets $63.4b export target for FY27",
+    "link": "https://www.daily-sun.com/business/888906",
+    "description": "Eyes 15% export growth through FTAs, diversification, and reforms",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://bdnews24.com/world/middle-east/1cc586203c9f",
+    "title": "Houthis target Saudi oil routes",
+    "link": "https://bdnews24.com/world/middle-east/1cc586203c9f",
+    "description": "[West Asia] Houthis target Saudi oil routes",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026July/SM/houthis-target-saudi-oil-270726-01-1785164523.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/world/2b51848eebaa",
+    "title": "West Bank violence pushes Palestinians to breaking point",
+    "link": "https://bdnews24.com/world/2b51848eebaa",
+    "description": "[World] West Bank violence pushes Palestinians to breaking point",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026July/SM/settler-violence-27072026-01-1785164381.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/nbr/nbr-targets-over-10000-firms-plug-tk38000cr-vat-leakages-1499706",
+    "title": "NBR targets over 10,000 firms to plug Tk38,000cr VAT leakages",
+    "link": "https://www.tbsnews.net/nbr/nbr-targets-over-10000-firms-plug-tk38000cr-vat-leakages-1499706",
+    "description": "According to NBR officials, the list will primarily include businesses with monthly transactions exceeding Tk10 lakh that are considered vulnerable to revenue leakage.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/07/28/nbr_vat.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/energy/govt-suspends-new-gas-connections-load-increases-amid-worsening-supply-crisis",
+    "title": "Govt suspends new gas connections, load increases amid worsening supply crisis",
+    "link": "https://www.tbsnews.net/bangladesh/energy/govt-suspends-new-gas-connections-load-increases-amid-worsening-supply-crisis",
+    "description": "The letter said 1,857 applications for new gas connections remain pending with the country’s gas distribution companies.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2019/09/19/flame-871136_1920.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/health/e-coli-found-drinking-water-used-85-household-members-bbs-survey-1499676",
+    "title": "E coli found in drinking water used by 85% of household members: BBS survey",
+    "link": "https://www.tbsnews.net/bangladesh/health/e-coli-found-drinking-water-used-85-household-members-bbs-survey-1499676",
+    "description": "Over one-third of young children have elevated lead levels",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2025/11/04/water_0.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/urbanisation/unplanned-urbanisation-erases-21000-ctg-water-bodies-worsens-flooding",
+    "title": "Unplanned urbanisation erases 21,000 Ctg water bodies, worsens flooding: Experts",
+    "link": "https://www.tbsnews.net/bangladesh/urbanisation/unplanned-urbanisation-erases-21000-ctg-water-bodies-worsens-flooding",
+    "description": "Despite having at least 16 masterplans, policies and laws – including the Drainage Masterplan, Detailed Area Plan (DAP), Waterlogging Mitigation Project, Wasa plans and national water and land-use policies – the city has failed to implement them effectively.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/07/15/whatsapp_image_2026-07-14_at_11.12.18_am.jpeg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/govt-unveils-draft-law-death-penalty-life-imprisonment-enforced-disappearance-1499671",
+    "title": "Govt unveils draft law with death penalty, life imprisonment for enforced disappearance",
+    "link": "https://www.tbsnews.net/bangladesh/govt-unveils-draft-law-death-penalty-life-imprisonment-enforced-disappearance-1499671",
+    "description": "According to the draft, the proposed law aims to prevent enforced disappearances, ensure impartial investigations, provide remedies for victims and fulfil Bangladesh's international commitments.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2025/12/23/enforced_disappearances.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.dhakatribune.com/bangladesh/bangladesh-environment/416137/climate-finance-paradox-why-billions-pledged",
+    "title": "Climate finance paradox: Why billions pledged still fall short for vulnerable nations",
+    "link": "https://www.dhakatribune.com/bangladesh/bangladesh-environment/416137/climate-finance-paradox-why-billions-pledged",
+    "description": "Climate finance has become one of the defining pillars of global climate diplomacy. Despite record international commitments, countries such as Bangladesh continue to struggle to access the funding needed for climate resilience and low-carbon development.\n\nExperts describe this growing disconnect as the \"Climate Finance Paradox\"—a situation in which global financial commitments continue to expand while the countries most in need remain constrained by complex funding procedures, institutional barriers, and limited implementation capacity.\n\nThe issue is expected to feature prominently as countries move toward implementing the New Collective Quantified Goal (NCQG) agreed at COP29 in Baku.\n\nClimate finance has evolved significantly since developed countries pledged to mobilize $100 billion annually under the 2009 Copenhagen Accord. The Paris Agreement later placed finance at the center of global climate action by linking it to mitigation, adaptation, and resilience. At COP29, governments agreed to raise the collective target to $300 billion annually by 2035.\n\nYet the gap between commitments and actual needs remains enormous. Climate economists estimate that developing countries require between $5 trillion and $6 trillion annually to meet climate goals while sustaining economic development.\n\n\"The debate has shifted from whether finance should exist to whether the existing financial architecture is capable of delivering what vulnerable countries actually need,\" policy experts at the International Centre for Climate Change and Development (ICCCAD) have repeatedly argued.\n\nBangladesh, widely recognized as one of the world's most climate-vulnerable countries, faces recurring cyclones, floods, river erosion, sea-level rise, and salinity intrusion. Although it has adopted an extensive policy framework—including the Bangladesh Climate Change Strategy and Action Plan, the National Adaptation Plan (NAP), Delta Plan 2100, and its Nationally Determined Contributions (NDCs)—the country continues to face a substantial financing gap for resilient infrastructure, renewable energy, disaster risk reduction, food security, and climate-induced migration.\n\nThe late Dr Saleemul Huq, founder of ICCCAD, consistently argued that climate finance should be judged not by the size of global pledges but by its ability to strengthen resilience on the ground. He frequently warned that vulnerable countries spend years preparing funding proposals instead of implementing climate solutions.\n\nProfessor Navroz K. Dubash of India's Centre for Policy Research has similarly argued that the challenge is no longer simply mobilizing finance but ensuring it supports national development priorities rather than creating parallel systems. Likewise, Dr Rachel Kyte, the UK's special representative for climate, has repeatedly stressed that predictable, long-term financing is essential to unlock private investment.\n\nMeanwhile, Mafalda Duarte, executive director of the Green Climate Fund (GCF), has acknowledged that accreditation and access procedures remain overly complex for many developing countries and has called for simpler processes that strengthen country ownership.\n\nUnlike conventional development assistance, climate finance often requires extensive feasibility studies, environmental safeguards, fiduciary standards, gender assessments, procurement plans, audits and monitoring frameworks. Researchers say preparing a single proposal for major multilateral climate funds can take several years, leaving many local institutions without the technical capacity to compete successfully.\n\nThese challenges are particularly significant because climate adaptation largely takes place at the local level. Communities build embankments, municipalities improve drainage systems and local governments oversee disaster preparedness. Yet only a small share of global climate finance reaches local authorities directly. Most funding is channelled through national or international agencies, often delaying implementation and weakening local ownership.\n\nThe debate extends beyond economics. Developing countries increasingly frame climate finance as an issue of climate justice, arguing that nations responsible for the majority of historical greenhouse gas emissions have an obligation to support those bearing the worst impacts despite contributing little to global emissions. This principle underpins the UN Framework Convention on Climate Change's doctrine of Common but Differentiated Responsibilities (CBDR).\n\nBangladesh now faces the difficult task of expanding renewable energy, maintaining affordable electricity, attracting investment, building resilient infrastructure, creating jobs, and reducing poverty simultaneously. Climate economists argue that these objectives cannot be pursued in isolation, as low-carbon development is fundamentally a development challenge.\n\nWhile international institutions increasingly promote private investment, analysts caution that private finance cannot replace public climate finance. Adaptation initiatives—including cyclone shelters, mangrove restoration, flood protection, and community resilience—deliver immense social benefits but often generate limited commercial returns, making grants and concessional finance indispensable.\n\nAnother concern is the project-based nature of existing climate finance. Many initiatives run for only three to five years before funding ends. Researchers increasingly advocate shifting support toward national institutions, public budgeting systems, long-term planning, policy reforms, and institutional capacity instead of isolated pilot projects.\n\nPolicy experts broadly recommend simplifying application procedures, expanding direct access for vulnerable countries, strengthening local government financing, increasing grant-based support, improving transparency, aligning funding with national development priorities, encouraging blended finance, and investing in institutional capacity.\n\nSpeaking to Dhaka Tribune , Md Abul Basar, team leader of Swisscontact Bangladesh, said climate finance should be viewed as a strategic development opportunity, particularly as traditional official development assistance continues to decline.\n\n\"Climate finance is a strategic opportunity for Bangladesh. However, accessing global climate finance requires strong technical and institutional capacity. Therefore, climate finance readiness and capacity building should be a national priority,\" he said.\n\nEchoing that view, Md Shamsuddoha, chief executive of the Center for Participatory Research and Development (CPRD), said global financing mechanisms must become far more accessible.\n\n\"Climate finance must become simpler, more accessible, and aligned with the development priorities of climate-vulnerable countries like Bangladesh,\" he told Dhaka Tribune .\n\nBangladesh has developed an extensive climate policy framework, but experts say the country's success will ultimately depend not only on how much finance is pledged at future COP negotiations but also on whether those resources become predictable, accessible, and aligned with national priorities.\n\nUnless climate finance becomes easier to access, more predictable, and better aligned with national priorities, the gap between international promises and on-the-ground resilience will continue to widen. For climate-vulnerable countries such as Bangladesh, the challenge is no longer securing ambitious pledges—it is turning those pledges into meaningful action.",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://ecdn.dhakatribune.net/contents/uploads/media/2026/07/27/fae0ff925a742ca5363b778b422cbc63-6a6795226a6bb.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/china/ai-generated-misinformation-surges-after-china-disasters-complicating-emergency",
+    "title": "AI-generated misinformation surges after China disasters, complicating emergency response",
+    "link": "https://www.tbsnews.net/worldbiz/china/ai-generated-misinformation-surges-after-china-disasters-complicating-emergency",
+    "description": "The false content has included AI-generated images of bodies floating in floodwaters, fabricated reports of severe flooding in areas that were not affected, and claims of widespread power outages that prompted some residents to buy emergency supplies",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2022/03/05/misinformation_0.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/news/govt-retires-32-former-dcs-who-served-during-2018-national-election-4234221",
+    "title": "Govt retires 32 former DCs who served during 2018 national election",
+    "link": "https://www.thedailystar.net/news/news/govt-retires-32-former-dcs-who-served-during-2018-national-election-4234221",
+    "description": "",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "780f5cc79fa64fc69800437506c3def9d1dd096a",
+    "title": "US looks to boost anti-China spending worldwide by hundreds of millions, documents say",
+    "link": "https://apnews.com/article/trump-countering-china-funding-e8ed66bd2d8a2a06dd750b6157979a1e",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/2da83d6/2147483647/strip/true/crop/3161x2107+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2b%2F24%2F705ac59e674e2cbb024feca2bec8%2F6bdc671e24be4c10b28b6707f5f7b434\" /><br />US looks to boost anti-China spending worldwide by hundreds of millions, documents say",
+    "published": "Tue, 28 Jul 2026 09:51:36 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/2da83d6/2147483647/strip/true/crop/3161x2107+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2b%2F24%2F705ac59e674e2cbb024feca2bec8%2F6bdc671e24be4c10b28b6707f5f7b434",
+    "thumbnail_type": "image/jpeg"
   }
 ]
