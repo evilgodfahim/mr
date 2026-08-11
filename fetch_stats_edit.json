@@ -2,7 +2,7 @@
   "per_feed": {
     "https://evilgodfahim.github.io/edit/daily_feed.xml": {
       "fetched": 500,
-      "passed_age": 365,
+      "passed_age": 500,
       "capped": 100
     }
   },
@@ -11,12 +11,12 @@
     "DIRECT": 500
   },
   "total_fetched": 500,
-  "total_passed_age": 365,
-  "total_new": 49,
-  "total_english": 49,
+  "total_passed_age": 500,
+  "total_new": 8,
+  "total_english": 8,
   "total_skipped_bangla": 0,
-  "total_signal": 18,
-  "total_signal_deduped": 18,
-  "timestamp": "2026-08-10T03:02:05.443185",
-  "total_signal_mistral": 18
+  "total_signal": 2,
+  "total_signal_deduped": 2,
+  "timestamp": "2026-08-11T02:55:44.335251",
+  "total_signal_mistral": 2
 }
