@@ -12,11 +12,11 @@
   },
   "total_fetched": 500,
   "total_passed_age": 500,
-  "total_new": 78,
-  "total_english": 78,
+  "total_new": 52,
+  "total_english": 52,
   "total_skipped_bangla": 0,
-  "total_signal": 21,
-  "total_signal_deduped": 21,
-  "timestamp": "2026-08-18T02:06:40.269539",
-  "total_signal_mistral": 21
+  "total_signal": 9,
+  "total_signal_deduped": 9,
+  "timestamp": "2026-08-19T02:09:26.274531",
+  "total_signal_mistral": 9
 }
