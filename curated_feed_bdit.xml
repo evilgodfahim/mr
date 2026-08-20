@@ -1,224 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
     <title>Curated News</title>
     <link>https://yourusername.github.io/yourrepo/</link>
     <description>AI-curated signal: international affairs and Bangladesh news</description>
-    <lastBuildDate>Wed, 19 Aug 2026 02:08:40 +0000</lastBuildDate>
-    <item>
-      <title>জনস্বাস্থ্য
-                                                            /ওষুধ নীতিমালা নিয়ে পশ্চাৎমুখী সিদ্ধান্ত. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/367010/%E0%A6%93%E0%A6%B7%E0%A7%81%E0%A6%A7-%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BE%E0%A7%8E%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%80-%E0%A6%B8%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4</link>
-      <guid isPermaLink="true">https://samakal.com/opinion/article/367010/%E0%A6%93%E0%A6%B7%E0%A7%81%E0%A6%A7-%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BE%E0%A7%8E%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%80-%E0%A6%B8%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4</guid>
-      <description>অন্তর্বর্তী সরকারের সময়ে করা অত্যাবশ্যকীয় ওষুধের তালিকা এবং ওষুধের মূল্য নির্ধারণ নীতিমালা বাতিল করেছে সরকার। সরকারের এ পদক্ষেপের কারণে অত্যাবশ্যকীয় ওষুধের তালিকা ও মূল্য নির্ধারণ পদ্ধতি তিন দশক আগের নিয়মে ফিরেছে। পুরোনো নিয়মে ফেরার কারণে সরকারি নজরদারি দুর্বল হলে ভোক্তাদের ব্যয় বাড়বে। বিষয়টি বর্তমান সরকারের নির্বাচনী ইশতেহারের সঙ্গে সাংঘর্ষিক</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>অর্থনীতি ও সমাজকে রক্ষা করতে অনলাইন জুয়া বন্ধ হোক. [ alokitobangladesh ]</title>
-      <link>https://www.alokitobangladesh.com/print-edition/editorial/344626/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A6%93-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A6%95%E0%A7%87-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8-%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%B9%E0%A7%8B%E0%A6%95</link>
-      <guid isPermaLink="true">https://www.alokitobangladesh.com/print-edition/editorial/344626/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A6%93-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A6%95%E0%A7%87-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8-%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%B9%E0%A7%8B%E0%A6%95</guid>
-      <description>Delivered by PolitePaul service</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>আদিবাসী পরিচয়ের দোলাচলে ক্ষুদ্র নৃগোষ্ঠী. [ bd-pratidin ]</title>
-      <link>https://www.bd-pratidin.com/editorial/2026/08/11/1286365</link>
-      <guid isPermaLink="true">https://www.bd-pratidin.com/editorial/2026/08/11/1286365</guid>
-      <description />
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>প্রযুক্তি প্রতিষ্ঠানের প্রতি জনআস্থা ফেরাতে আন্তর্জাতিক কর কাঠামোর সংস্কার জরুরি. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/siVLz79XEKxOGUDI</link>
-      <guid isPermaLink="true">https://bonikbarta.com/editorial/siVLz79XEKxOGUDI</guid>
-      <description>কৃত্রিম বুদ্ধিমত্তার সুফল নিশ্চিত করে কীভাবে এর সামাজিক ও পরিবেশগত ঝুঁকি কমানো সম্ভব? করনীতি সংস্কারের মাধ্যমে।</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>বাংলাদেশের দরিদ্র মানুষকে কষ্ট দেয়া যুক্তরাষ্ট্রের ঠিক নয়. [ dailyinqilab ]</title>
-      <link>https://dailyinqilab.com/editorial/news/926685</link>
-      <guid isPermaLink="true">https://dailyinqilab.com/editorial/news/926685</guid>
-      <description>বিশ্বজুড়ে গণতন্ত্র, মানবাধিকার, মুক্ত বাজারব্যবস্থা ও সুশাসনের উচ্চকণ্ঠ যুক্তরাষ্ট্র। অন্যান্য সার্বভৌম রাষ্ট্রকে এসব নীতি শেখানোর চেষ্টা যুক্তরাষ্ট্র সব সময়ই করে থাকে। তবে তাদের এই নীতিনৈতিকতার বার্তা সব ক্ষেত্রে যে এক থাকে না, তার নজিরও কম নয়। বিশেষ করে, নিজস্ব ভূরাজনৈতিক ও অর্থনৈতিক স্বার্থের ক্ষেত্রে এসব নীতিকথার উল্টোচিত্রই দেখা যায় বেশি। তার অসংখ্য নজির রয়েছে আন্তর্জাতিক রাজনীতিতে। ভূরাজনৈতিক সুবিধা কিংবা নিজস্ব...</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>রেমিট্যান্সের আড়ালে যেন হারিয়ে না যায় মানুষের জীবন. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/367139/%E0%A6%B0%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%AF%E0%A7%87%E0%A6%A8-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8</link>
-      <guid isPermaLink="true">https://samakal.com/opinion/article/367139/%E0%A6%B0%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%AF%E0%A7%87%E0%A6%A8-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8</guid>
-      <description>রিয়াদে একটি সোফা তৈরির কারখানায় আগুন লেগেছিল ৯ আগস্ট। সংবাদ মাধ্যমে জানা যায়, সেই আগুন কেড়ে নিয়েছে ১৬ জন বাংলাদেশি অভিবাসী শ্রমিকের প্রাণ। কারখানায় মোট ১৭ জন বাংলাদেশি শ্রমিক কাজ করতেন। এর মধ্যে হাবিবুর রহমান নামের একজন শ্রমিক ঘটনার সময় কারখানার বাইরে থাকায় দুর্ঘটনা  থেকে বেঁচে গেছেন।</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>বাংলাদেশ-ভারত সম্পর্কে রেড লাইন. [ dailyinqilab ]</title>
-      <link>https://dailyinqilab.com/editorial/news/926684</link>
-      <guid isPermaLink="true">https://dailyinqilab.com/editorial/news/926684</guid>
-      <description>Delivered by PolitePaul service</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>অনলাইন জুয়ার ভয়াবহতা. [ dailysangram ]</title>
-      <link>https://www.dailysangram.com/opinion/editorial/JuQ93XRXxduu</link>
-      <guid isPermaLink="true">https://www.dailysangram.com/opinion/editorial/JuQ93XRXxduu</guid>
-      <description>Delivered by PolitePaul service</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>সঙ্কট শুধু দ্রব্যমূল্য, জ্বালানি বা আইনশৃঙ্খলার নয়- শাসনের. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/editorial/sub-editorial/iATxFV4A5WmX</link>
-      <guid isPermaLink="true">https://dailynayadiganta.com/opinions/editorial/sub-editorial/iATxFV4A5WmX</guid>
-      <description>Delivered by PolitePaul service</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>মন্ত্রীর ছয় মাসের আক্ষেপ ও রাষ্ট্রযন্ত্রের স্থবিরতা: পরিবর্তনের পথে বাধা কোথায়?. [ protidinerbangladesh ]</title>
-      <link>https://protidinerbangladesh.com/opinion/176458/মন্ত্রীর-ছয়-মাসের-আক্ষেপ-ও-রাষ্ট্রযন্ত্রের-স্থবিরতা-পরিবর্তনের-পথে-বাধা-কোথায়</link>
-      <guid isPermaLink="true">https://protidinerbangladesh.com/opinion/176458/মন্ত্রীর-ছয়-মাসের-আক্ষেপ-ও-রাষ্ট্রযন্ত্রের-স্থবিরতা-পরিবর্তনের-পথে-বাধা-কোথায়</guid>
-      <description>বাংলাদেশের রাজনীতিতে ক্ষমতার পরিবর্তনের সঙ্গে সবচেয়ে বেশি উচ্চারিত শব্দগুলোর একটি‘পরিবর্তন’। সরকার বদলাবে, নীতি বদলাবে, প্রশাসনের সংস্কৃতি বদলাবে, রাষ্ট্রের চরিত্র বদলাবে-এমন ...</description>
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>মধ্যপ্রাচ্য সংঘাত এবং জ্বালানির দীর্ঘস্থায়ী সংকট. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019f5911dcd31</link>
-      <guid isPermaLink="true">https://www.dainikamadershomoy.com/details/019f5911dcd31</guid>
-      <description />
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>তিস্তা থেকে পদ্মা : নয়া কৃষি আন্দোলনের রূপরেখা. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019f5911db862</link>
-      <guid isPermaLink="true">https://www.dainikamadershomoy.com/details/019f5911db862</guid>
-      <description />
-      <pubDate>Tue, 11 Aug 2026 08:55:03 +0600</pubDate>
-    </item>
-    <item>
-      <title>সংকট মোকাবিলায় চাই কার্যকর পদক্ষেপ. [ protidinersangbad ]</title>
-      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/581069</link>
-      <guid isPermaLink="true">https://www.protidinersangbad.com/todays-newspaper/uposompadokio/581069</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সংকট মোকাবিলায় চাই কার্যকর পদক্ষেপ. [ protidinersangbad ]&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>এসএসসি ও সমমানের ফল প্রকাশখারাপ ফলের কারণ খুঁজে ব্যবস্থা নিন. [ rupalibangladesh ]</title>
-      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/158586</link>
-      <guid isPermaLink="true">https://www.rupalibangladesh.com/ajkerpatrika/opinion/158586</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>২৫ বিঘার খাজনা নিয়ে ভাবার সময় এসেছে. [ agamirsomoy ]</title>
-      <link>https://www.agamirsomoy.com/opinion/column/m4nwzlcjpqr8</link>
-      <guid isPermaLink="true">https://www.agamirsomoy.com/opinion/column/m4nwzlcjpqr8</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নামজারি নিয়ে গত কয়েক দিনে কথা হয়েছে দেশের নানা প্রান্তের এসিল্যান্ডদের সঙ্গে। আমজনতাকে সামলাতে সামলাতে তারা ক্লান্ত ও বিরক্ত। তাদের উপলব্ধি, নীতিগত ভুলে ভর করে ভূমি ব্যবস্থাপনা চলছে। নাগরিকের দুর্ভোগ হয়ে উঠেছে নিত্যনৈমিত্তিক। সামলাতে গিয়ে নাকাল হচ্ছেন তারাও।
-এসিল্যান্ডরা কাজ করেন প্রান্তিক পর্যায়ে। তারা সরকারের ফ্রন্টলাইনার। ধাপে ধাপে কাজ করেন এডিসি (রেভিনিউ) ও ডিসি। কখনো বিভাগীয় কমিশনার, কখনো ভূমি আপিল বোর্ড অ্যাপিলিয়েট কর্তৃপক্ষ। আর নীতি বা পলিসি নির্ধারণ ভূমি মন্ত্রণালয়ের এখতিয়ার। মাঠ পর্যায়...&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>পর্যটনের অর্থনীতি. [ alokitobangladesh ]</title>
-      <link>https://www.alokitobangladesh.com/print-edition/editorial/344623/%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%9F%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF</link>
-      <guid isPermaLink="true">https://www.alokitobangladesh.com/print-edition/editorial/344623/%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%9F%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>ডিজিটাল আসক্তি : তরুণ প্রজন্মের হারিয়ে যাওয়া সময়. [ alokitobangladesh ]</title>
-      <link>https://www.alokitobangladesh.com/print-edition/editorial/344624/%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2-%E0%A6%86%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF--%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B8%E0%A6%AE%E0%A7%9F</link>
-      <guid isPermaLink="true">https://www.alokitobangladesh.com/print-edition/editorial/344624/%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2-%E0%A6%86%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF--%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B8%E0%A6%AE%E0%A7%9F</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>জনপ্রশাসন /সব আমলা ঘুমান না, কেউ কেউ জেগে. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/367005/%E0%A6%B8%E0%A6%AC-%E0%A6%86%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%98%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%9C%E0%A7%87%E0%A6%97%E0%A7%87</link>
-      <guid isPermaLink="true">https://samakal.com/opinion/article/367005/%E0%A6%B8%E0%A6%AC-%E0%A6%86%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%98%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%9C%E0%A7%87%E0%A6%97%E0%A7%87</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জনপ্রশাসন /সব আমলা ঘুমান না, কেউ কেউ জেগে. [ samakal ]&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>প্রযুক্তিসমৃদ্ধ কৃষি. [ bd-pratidin ]</title>
-      <link>https://www.bd-pratidin.com/editorial/2026/08/11/1286373</link>
-      <guid isPermaLink="true">https://www.bd-pratidin.com/editorial/2026/08/11/1286373</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রযুক্তিসমৃদ্ধ কৃষি. [ bd-pratidin ]&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>শেখ হাসিনা ও ভারতের অবস্থান. [ dailysangram ]</title>
-      <link>https://www.dailysangram.com/opinion/column/llQg14s85CLm</link>
-      <guid isPermaLink="true">https://www.dailysangram.com/opinion/column/llQg14s85CLm</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>পাকিস্তান সফরের খুঁটিনাটি. [ dailysangram ]</title>
-      <link>https://www.dailysangram.com/opinion/column/IPQc4VoGbmlQ</link>
-      <guid isPermaLink="true">https://www.dailysangram.com/opinion/column/IPQc4VoGbmlQ</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>দেশের ভূরাজনৈতিক গুরুত্ব অনুধাবন. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/editorial/sub-editorial/scXwjt2EJpb6</link>
-      <guid isPermaLink="true">https://dailynayadiganta.com/opinions/editorial/sub-editorial/scXwjt2EJpb6</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>ভেজাল বালাইনাশক ও ভুল পরামর্শে কৃষকের সর্বনাশ. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019df59772792</link>
-      <guid isPermaLink="true">https://www.dainikamadershomoy.com/details/019df59772792</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেজাল বালাইনাশক ও ভুল পরামর্শে কৃষকের সর্বনাশ. [ dainikamadershomoy ]&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>নীতির বাস্তবায়ন জরুরি. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019df597b20b2</link>
-      <guid isPermaLink="true">https://www.dainikamadershomoy.com/details/019df597b20b2</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নীতির বাস্তবায়ন জরুরি. [ dainikamadershomoy ]&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>হাওর অঞ্চলের মানুষের পাশে দাঁড়াতে হবে. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019df59773593</link>
-      <guid isPermaLink="true">https://www.dainikamadershomoy.com/details/019df59773593</guid>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;হাওর অঞ্চলের মানুষের পাশে দাঁড়াতে হবে. [ dainikamadershomoy ]&lt;/p&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 11:54:47 +0600</pubDate>
-    </item>
-    <item>
-      <title>আন্তর্জাতিক সম্পর্ক, গোয়েন্দাযুদ্ধ ও সামরিক প্রযুক্তির বিশ্বব্যবস্থা. [ dailyinqilab ]</title>
-      <link>https://dailyinqilab.com/editorial/news/927067</link>
-      <guid isPermaLink="true">https://dailyinqilab.com/editorial/news/927067</guid>
-      <description />
-      <pubDate>Wed, 12 Aug 2026 09:14:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>পিআইসিইউ সংকট
-                                                            /শিশুদের এহেন অসহায় মৃত্যু কাম্য নহে. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/356536/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%B9%E0%A7%87%E0%A6%A8-%E0%A6%85%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81-%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AF-%E0%A6%A8%E0%A6%B9%E0%A7%87</link>
-      <guid isPermaLink="true">https://samakal.com/opinion/article/356536/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%B9%E0%A7%87%E0%A6%A8-%E0%A6%85%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81-%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AF-%E0%A6%A8%E0%A6%B9%E0%A7%87</guid>
-      <description>দেশে হাম ও ইহার লক্ষণ লইয়া শিশুমৃত্যুর এই সংকটকালে স্বাস্থ্য ব্যবস্থার নাজুকতা ব্যাপকভাবে পরিলক্ষিত। যথাযথ চিকিৎসা নিশ্চিত করিতে পারিলে হয়তো অনেক শিশুকে বাঁচানো সম্ভব হইত। জরুরি</description>
-      <pubDate>Wed, 12 Aug 2026 09:14:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>তাৎক্ষণিক /বাজেটে স্বস্তি ও চ্যালেঞ্জের দ্বৈত বার্তা. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/356476/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%93-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%88%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE</link>
-      <guid isPermaLink="true">https://samakal.com/opinion/article/356476/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%93-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%88%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE</guid>
-      <description />
-      <pubDate>Wed, 12 Aug 2026 09:14:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>প্রস্তুতি
-                                                            /বাজেট হোক স্বল্পোন্নত দেশ থেকে উত্তরণের হাতিয়ার. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/356483/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%9F-%E0%A6%B9%E0%A7%8B%E0%A6%95-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A7%8B%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%A4-%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0</link>
-      <guid isPermaLink="true">https://samakal.com/opinion/article/356483/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%9F-%E0%A6%B9%E0%A7%8B%E0%A6%95-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A7%8B%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%A4-%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0</guid>
-      <description>অর্থনীতি এখন কঠিন সময় পার করছে। সাম্প্রতিক মাসগুলোতে মূল্যস্ফীতি ৯ শতাংশের আশপাশে, রাজস্ব আদায়ে ঘাটতি, বৈদেশিক ঋণ পরিশোধের ক্রমবর্ধমান বোঝা, রপ্তানি প্রবৃদ্ধিতে শ্লথগতি এবং বৈদেশিক মুদ্রার রিজার্ভে টানাপড়েন সব মিলিয়ে অর্থনীতির ভিত এখন নাজুক। ঠিক এমন সময়েই জাতীয় সংসদে ২০২৬-২৭ অর্থবছরের বাজেট পেশ হলো। আর এবারের বাজেট অন্যবারের মতো নয়।</description>
-      <pubDate>Wed, 12 Aug 2026 09:14:04 +0600</pubDate>
-    </item>
-    <item>
-      <title>ইংরেজি-গণিতে ফেল, নাকি শিক্ষাব্যবস্থার গলদ?. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/08/11/ingreji-gnite-fel-naki-sikshabzbsthar-gld</link>
-      <guid isPermaLink="true">https://jatiyoarthoniti.com/2026/08/11/ingreji-gnite-fel-naki-sikshabzbsthar-gld</guid>
-      <description>জাপানের একটি ছোট্ট ঘরে বসে এক বাবা তার দ্বিতীয় শ্রেণিতে পড়ুয়া ছেলের সামনে কয়েকটি অঙ্কের কাগজ রেখে দিতেন। অঙ্কগুলো খুব কঠিন ছিল না বরং এতটাই সহজ যে, প্রথম দেখায় সেগুলোকে...</description>
-      <pubDate>Wed, 12 Aug 2026 09:14:04 +0600</pubDate>
-    </item>
+    <lastBuildDate>Thu, 20 Aug 2026 02:08:17 +0000</lastBuildDate>
     <item>
       <title>মাইক্রোপ্লাস্টিক : আমরা কি নতুন জনস্বাস্থ্য সংকটের মুখে. [ alokitobangladesh ]</title>
       <link>https://www.alokitobangladesh.com/print-edition/editorial/344781/%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%95--%E0%A6%86%E0%A6%AE%E0%A6%B0%E0%A6%BE-%E0%A6%95%E0%A6%BF-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87</link>
@@ -3569,7 +3355,6 @@
       <description>Delivered by PolitePaul service</description>
       <pubDate>Wed, 19 Aug 2026 08:08:37 +0600</pubDate>
     </item>
-  
     <item>
       <title>জাতীয় সম্পদ
                                                             /কাঁঠালসহ মৌসুমি ফল অন্তর্ভুক্ত হোক ত্রাণের তালিকায়. [ samakal ]</title>
@@ -3647,6 +3432,186 @@
       <guid isPermaLink="true">https://www.alokitobangladesh.com/print-edition/editorial/345770/%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%B2-%E0%A6%86%E0%A6%B2%E0%A7%81-%E0%A6%9A%E0%A6%BE%E0%A6%B7%E0%A7%87-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE</guid>
       <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
       <pubDate>Wed, 19 Aug 2026 11:34:20 +0600</pubDate>
+    </item>
+    <item>
+      <title>টার্মিনাল থাকলেও এলএনজি নেই. [ jugantor ]</title>
+      <link>https://www.jugantor.com/editorial/1141944</link>
+      <guid isPermaLink="false">0fddc61a76309a0d354c786b64208105</guid>
+      <description>&lt;a class="more_link" href="https://www.jugantor.com/editorial/1141944"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>চ্যানেল চার্জের নামে চাঁদাবাজি  বন্ধে পদক্ষেপ নেওয়া হোক. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/08/20/czanel-carjer-name-canndabaji-bndhe-pdkshep-newa-hok</link>
+      <guid isPermaLink="false">c87af00460604235873ba79939320eef</guid>
+      <description>&lt;img src="https://jatiyoarthoniti.com/uploads/2026/08/1787163674_6a85f41ae91f4.webp?v=1787163675" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+নদী বাংলাদেশের অর্থনীতি ও যোগাযোগব্যবস্থার অন্যতম প্রধান অবলম্বন। অথচ সেই নৌপথেই যদি নৌযান চালকদের অস্ত্রের মুখে জিম্মি করে অর্থ আদায় করা হচ্ছে! গতকাল জাতীয় অর্থনীতি পত্রিকায় ‘চ্যানেল চার্জের নামে চাঁদাবাজি!’...
+&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/08/20/czanel-carjer-name-canndabaji-bndhe-pdkshep-newa-hok"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://jatiyoarthoniti.com/uploads/2026/08/1787163674_6a85f41ae91f4.webp?v=1787163675" />
+      <enclosure url="https://jatiyoarthoniti.com/uploads/2026/08/1787163674_6a85f41ae91f4.webp?v=1787163675" type="image/webp" length="0" />
+    </item>
+    <item>
+      <title>রেডিও স্পেকট্রাম কি রাজস্বের জন্য নাকি গ্রাহকের সেবার জন্য?. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/08/20/redioo-spektram-ki-rajswer-jnz-naki-grahker-sebar-jnz</link>
+      <guid isPermaLink="false">92dc534ba9e41a87856a53244c31f6c2</guid>
+      <description>&lt;img src="https://jatiyoarthoniti.com/uploads/2026/08/1787162923_6a85f12bba6bb.webp?v=1787162924" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+দেশের টেলিযোগাযোগ খাতের সবচেয়ে গুরুত্বপূর্ণ অথচ সবচেয়ে কম আলোচিত সম্পদগুলোর একটি হলো রেডিও স্পেকট্রাম বা তরঙ্গ। এটি রাষ্ট্রের সম্পদ। কিন্তু প্রশ্ন হচ্ছে, এ জাতীয় সম্পদ কি মূলত সরকারের রাজস্ব আয়ের...
+&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/08/20/redioo-spektram-ki-rajswer-jnz-naki-grahker-sebar-jnz"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://jatiyoarthoniti.com/uploads/2026/08/1787162923_6a85f12bba6bb.webp?v=1787162924" />
+      <enclosure url="https://jatiyoarthoniti.com/uploads/2026/08/1787162923_6a85f12bba6bb.webp?v=1787162924" type="image/webp" length="0" />
+    </item>
+    <item>
+      <title>মাইক্রোপ্লাস্টিকে বিপর্যস্ত পরিবেশ ব্যবস্থাপনায় প্রয়োজন কঠোর উদ্যোগ. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/08/20/maikroplastike-biprzst-pribes-bzbsthapnay-pryojn-kthor-udzog</link>
+      <guid isPermaLink="false">65be68fbc940d60dc5a93f14e73a6ec0</guid>
+      <description>&lt;img src="https://jatiyoarthoniti.com/uploads/2026/08/1787162505_6a85ef899a440.webp?v=1787162505" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+সম্প্রতি দুটি গবেষণায় আমাদের নিত্যব্যবহার্য পণ্য টুথপেস্ট ও সয়াবিনে উল্লেখযোগ্য পরিমাণে পাওয়া গেল মাইক্রোপ্লাস্টিকের উপস্থিতি। বেসরকারি গবেষণা সংস্থা ‘এনভায়রনমেন্ট অ্যান্ড সোশ্যাল ডেভেলপমেন্ট অর্গানাইজেশন’ (ইএসডিও) বাংলাদেশের বাজারে বিক্রি হওয়া ১৯টি ব্র্যান্ডের...
+&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/08/20/maikroplastike-biprzst-pribes-bzbsthapnay-pryojn-kthor-udzog"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://jatiyoarthoniti.com/uploads/2026/08/1787162505_6a85ef899a440.webp?v=1787162505" />
+      <enclosure url="https://jatiyoarthoniti.com/uploads/2026/08/1787162505_6a85ef899a440.webp?v=1787162505" type="image/webp" length="0" />
+    </item>
+    <item>
+      <title>জনস্বাস্থ্য /হামের চিকিৎসায় পরিবারের নিঃস্বতা বনাম রাষ্ট্রের উদাসীনতা. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/368482/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%83%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AE-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%A8%E0%A6%A4%E0%A6%BE</link>
+      <guid isPermaLink="false">5ae71d41423e0f288297b73f756e433d</guid>
+      <description>&lt;img src="https://samakal.com/media/imgAll/2026August/SM/manik-1787102563.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://samakal.com/opinion/article/368482/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%83%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AE-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%A8%E0%A6%A4%E0%A6%BE"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://samakal.com/media/imgAll/2026August/SM/manik-1787102563.jpg" />
+      <enclosure url="https://samakal.com/media/imgAll/2026August/SM/manik-1787102563.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>নিরাময়কেন্দ্র যখন নির্যাতনশালা. [ jugantor ]</title>
+      <link>https://www.jugantor.com/tp-editorial/1142801</link>
+      <guid isPermaLink="false">35ef1c6f47ea09ec384b5686c08f80dd</guid>
+      <description>&lt;a class="more_link" href="https://www.jugantor.com/tp-editorial/1142801"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>সাশ্রয়ী পণ্যের ফাঁদ. [ jugantor ]</title>
+      <link>https://www.jugantor.com/tp-editorial/1142800</link>
+      <guid isPermaLink="false">f67c370e539d65a64bbdc7bc3e2bfdfa</guid>
+      <description>&lt;a class="more_link" href="https://www.jugantor.com/tp-editorial/1142800"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>এলডিসি উত্তরণ : প্রস্তুতির এখনই সময়. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/345926/%E0%A6%8F%E0%A6%B2%E0%A6%A1%E0%A6%BF%E0%A6%B8%E0%A6%BF-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%A3--%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%87-%E0%A6%B8%E0%A6%AE%E0%A7%9F</link>
+      <guid isPermaLink="false">0f470234ea50ec868512932d12f74cd6</guid>
+      <description>Delivered by PolitePaul service
+&lt;a class="more_link" href="https://www.alokitobangladesh.com/print-edition/editorial/345926/%E0%A6%8F%E0%A6%B2%E0%A6%A1%E0%A6%BF%E0%A6%B8%E0%A6%BF-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%A3--%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%87-%E0%A6%B8%E0%A6%AE%E0%A7%9F"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>বিদ্যুৎ সংকট নাকি পরিকল্পনার সংকট?. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/582388</link>
+      <guid isPermaLink="false">f25048c20475da353b17238d5befa079</guid>
+      <description>&lt;img src="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/582388"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" />
+      <enclosure url="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>শুধু ডেমোগ্রাফিক ডিভিডেন্ডের সুযোগের মধ্যে নেই আমরা, ক্রমেই ডেমোগ্রাফিক চ্যালেঞ্জের দিকেও এগোচ্ছি. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/2SAB4mazn6Zmgm4K</link>
+      <guid isPermaLink="false">2f04dd5a93fc68bef3cd1cb1510697ab</guid>
+      <description>ড. ফাহমিদা খাতুন, সেন্টার ফর পলিসি ডায়ালগের (সিপিডি) নির্বাহী পরিচালক। তিনি লন্ডন বিশ্ববিদ্যালয়ের অধীনস্থ ইউনিভার্সিটি কলেজ লন্ডন থেকে অর্থনীতিতে স্নাতকোত্তর ও পিএইচডি ডিগ্রি অর্জন করেন। এছাড়া তিনি বাংলাদেশ ব্যাংক এবং ব্র্যাকের পরিচালনা পর্ষদের সদস্য। অন্তর্বর্তী সরকার গঠিত ‘সমতাভিত্তিক ও টেকসই উন্নয়নের জন্য অর্থনীতির পুনঃকৌশল নির্ধারণ এবং সম্পদ সংগ্রহবিষয়ক টাস্কফোর্স’ এবং বাংলাদেশ পরিসংখ্যান ব্যুরোকে (বিবিএস) শক্তিশালী করার জন্য গঠিত টাস্কফোর্সের সদস্য ছিলেন। বিএনপি সরকারের ছয় মাসের পারফরম্যান্স প্রসঙ্গে কথা বলেছেন বণিক বার্তায়। 
+সাক্ষাৎকার নিয়েছেন সাবিদিন ইব্রাহিম
+&lt;a class="more_link" href="https://bonikbarta.com/editorial/2SAB4mazn6Zmgm4K"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>এআই ডেভেলপমেন্টের পেছনের অন্ধকার : বিশ্বজুড়ে যেভাবে বই ধ্বংস করা হচ্ছে. [ rupalibangladesh ]</title>
+      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/160490</link>
+      <guid isPermaLink="false">8398382fcbb25017152be56d90fa878d</guid>
+      <description>Delivered by PolitePaul service
+&lt;a class="more_link" href="https://www.rupalibangladesh.com/ajkerpatrika/opinion/160490"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>আন্তর্জাতিক /কৃষ্ণাঙ্গ অধ্যাপক জেসন আরডে প্রাতিষ্ঠানিক হত্যার শিকার. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/368479/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A3%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97-%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95-%E0%A6%9C%E0%A7%87%E0%A6%B8%E0%A6%A8-%E0%A6%86%E0%A6%B0%E0%A6%A1%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%95-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0</link>
+      <guid isPermaLink="false">f4866f4bd3026064bded3cab105ff193</guid>
+      <description>&lt;img src="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787102397.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://samakal.com/opinion/article/368479/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A3%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97-%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95-%E0%A6%9C%E0%A7%87%E0%A6%B8%E0%A6%A8-%E0%A6%86%E0%A6%B0%E0%A6%A1%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%95-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787102397.jpg" />
+      <enclosure url="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787102397.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>সওজের জায়গায় বিএনপি কার্যালয় /দেশের সম্পত্তিতে দল সমারূঢ়. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/368480/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A6%E0%A6%B2-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%82%E0%A7%9D</link>
+      <guid isPermaLink="false">48322453cf468d96dbb2fe2dba3ba69c</guid>
+      <description>&lt;img src="https://samakal.com/media/imgAll/2026August/SM/arif-hazra-5-1787102436.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://samakal.com/opinion/article/368480/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A6%E0%A6%B2-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%82%E0%A7%9D"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://samakal.com/media/imgAll/2026August/SM/arif-hazra-5-1787102436.jpg" />
+      <enclosure url="https://samakal.com/media/imgAll/2026August/SM/arif-hazra-5-1787102436.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>এলডিসি উত্তরণ থেকে পেছানো যে কারণে যথাযথ সিদ্ধান্ত. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/r2kX1yyfcny2LUoA</link>
+      <guid isPermaLink="false">c3ac55f5f05654c5221669a923e7a512</guid>
+      <description>সাধারণ নাগরিক হিসেবে যেকোনো ব্যক্তি নিজেকে ‍উন্নত দেশের বাসিন্দা কল্পনা করতে ভালোবাসবেন—এটিই স্বাভাবিক।
+&lt;a class="more_link" href="https://bonikbarta.com/editorial/r2kX1yyfcny2LUoA"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>অর্থনীতি চাঙা করতে অর্থনৈতিক-রাজনৈতিক সংস্কারে প্রতিযোগিতা বাড়াতে হবে. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/N7n9nc9RTvUeQukk</link>
+      <guid isPermaLink="false">0a033e83eb15b867b6e816c001836c36</guid>
+      <description>মুক্তবাজার অর্থনীতি চাঙ্গা করতে অর্থনৈতিক ও রাজনৈতিক এ দুই ক্ষেত্রে ব্যাপক সংস্কারের মাধ্যমে প্রতিযোগিতা বাড়ানো প্রয়োজন।
+&lt;a class="more_link" href="https://bonikbarta.com/editorial/N7n9nc9RTvUeQukk"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+    </item>
+    <item>
+      <title>শিল্প খাত
+                                                            /নবায়নযোগ্য জ্বালানির সুফল পেতে করণীয়. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/368303/%E0%A6%A8%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A8%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%AF-%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AB%E0%A6%B2-%E0%A6%AA%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A6%B0%E0%A6%A3%E0%A7%80%E0%A7%9F</link>
+      <guid isPermaLink="false">7074a05c18892d1910911169bbdcd01f</guid>
+      <description>&lt;img src="https://samakal.com/media/imgAll/2026August/0samakal-at-ah-1787016031.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+বাংলাদেশের জ্বালানি সংকট এখন শুধু বিদ্যুৎ উৎপাদন কমিয়ে দিচ্ছে না, দেশের অর্থনৈতিক স্থিতিশীলতারও জন্য অন্যতম বড় চ্যালেঞ্জ হয়ে উঠেছে। অন্যদিকে বিদ্যুৎ উৎপাদন বাড়াতে গত এক দশকে
+&lt;a class="more_link" href="https://samakal.com/opinion/article/368303/%E0%A6%A8%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A8%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%AF-%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AB%E0%A6%B2-%E0%A6%AA%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A6%B0%E0%A6%A3%E0%A7%80%E0%A7%9F"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://samakal.com/media/imgAll/2026August/0samakal-at-ah-1787016031.jpg" />
+      <enclosure url="https://samakal.com/media/imgAll/2026August/0samakal-at-ah-1787016031.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>উচ্চশিক্ষা /বিশ্ববিদ্যালয়ে শিক্ষকতা ও গবেষণার ধারা আলাদা হোক. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/368302/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A6%BE-%E0%A6%B9%E0%A7%8B%E0%A6%95</link>
+      <guid isPermaLink="false">7fe5bbe64d094a6b17bf867141a2fbd3</guid>
+      <description>&lt;img src="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787015823.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+সম্প্রতি দেশের উচ্চ শিক্ষাপ্রতিষ্ঠানগুলোতে গবেষণা খাতের বরাদ্দ নিয়ে দুর্নীতি, অনিয়ম এবং ইনস্টিটিউটগুলোতে কাজ না করেই গবেষণা-ভাতা তোলার মতো নানা অভিযোগের সত্যতা পেয়েছে দুর্নীতি
+&lt;a class="more_link" href="https://samakal.com/opinion/article/368302/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A6%BE-%E0%A6%B9%E0%A7%8B%E0%A6%95"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787015823.jpg" />
+      <enclosure url="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787015823.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>উন্নয়ন /ঢাকা-সিলেট মহাসড়কে দুর্ভোগ এবং উন্নত বিশ্বের শিক্ষা. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/368300/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%8B%E0%A6%97-%E0%A6%8F%E0%A6%AC%E0%A6%82-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE</link>
+      <guid isPermaLink="false">d04771a77645664154cd4f63231b17b7</guid>
+      <description>&lt;img src="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787015675.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://samakal.com/opinion/article/368300/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%8B%E0%A6%97-%E0%A6%8F%E0%A6%AC%E0%A6%82-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787015675.jpg" />
+      <enclosure url="https://samakal.com/media/imgAll/2026August/SM/0samakal-at-ah-1787015675.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>শিপইয়ার্ডে দুর্ঘটনা
+                                                            /জাহাজই ভাঙুক, নিরাপত্তা নহে. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/368301/%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%87-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A7%81%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%B9%E0%A7%87</link>
+      <guid isPermaLink="false">47a8777a6383a351268619c6e7df1fd5</guid>
+      <description>&lt;img src="https://samakal.com/media/imgAll/2026August/arif-hazra-5-1787015717.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+চট্টগ্রামের জাহাজ ভাঙা শিল্প আবারও প্রাণঘাতী দুর্ঘটনা প্রত্যক্ষ করিল। এইবারের ঘটনাস্থল সীতাকুণ্ডের ফেরদৌস স্টিল শিপ ব্রেকিং ইয়ার্ড। শুক্রবার সকালে উক্ত পুরোনো জাহাজ ভাঙার কারখানায় বিষাক্ত
+&lt;a class="more_link" href="https://samakal.com/opinion/article/368301/%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%87-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A7%81%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%B9%E0%A7%87"&gt;বিস্তারিত&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 08:07:47 +0600</pubDate>
+      <media:thumbnail url="https://samakal.com/media/imgAll/2026August/arif-hazra-5-1787015717.jpg" />
+      <enclosure url="https://samakal.com/media/imgAll/2026August/arif-hazra-5-1787015717.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
