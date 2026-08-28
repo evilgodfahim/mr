@@ -19,6 +19,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from google import genai
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
@@ -42,7 +43,7 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "mistral-large-latest"
+MISTRAL_MODEL         = "gemini-3.6-flash"
 PROCESSED_FILE        = "processed_articles_bdit.json"
 SELECTED_FILE         = "selected_articles_bdit.json"
 OUTPUT_XML            = "curated_feed_bdit.xml"
@@ -513,25 +514,25 @@ def extract_json_object(text):
 
 
 def send_to_mistral(articles):
-    api_key = os.environ.get("MS")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or not articles:
         return []
 
     try:
-        client      = Mistral(api_key=api_key)
+        client      = genai.Client(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
-        response = client.chat.complete(
+        response = client.models.generate_content(
             model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
-            response_format={"type": "json_object"},
+            contents=BANGLA_PROMPT.format(titles=titles_text),
+            config={"response_mime_type": "application/json"},
         )
 
-        text = response.choices[0].message.content or ""
+        text = response.text if hasattr(response, "text") else ""
         return extract_json_object(text).get("signal", [])
 
     except Exception as e:
-        print(f"Mistral classification error: {e}")
+        print(f"Gemini classification error: {e}")
         return []
 
 
@@ -627,7 +628,7 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
         if not link or link in existing_links:
             continue
 
-        item         = ET.SubElement(channel, "item")
+        item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text       = a.get("title", "") or ""
         ET.SubElement(item, "link").text        = link
         guid_val     = a.get("id") or link
