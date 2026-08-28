@@ -2,8 +2,8 @@
 """
 RSS Feed Processor
 
-All articles from all feeds go to one Mistral call.
-Mistral classifies each headline into signal or noise.
+All articles from all feeds go to one Gemini call.
+Gemini classifies each headline into signal or noise.
 A separate deduplication step removes near-duplicate signal titles.
 
 Outputs:
@@ -21,6 +21,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from google import genai
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
@@ -58,7 +59,7 @@ KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "mistral-large-latest"
+MISTRAL_MODEL         = "gemini-3.6-flash"
 PROCESSED_FILE        = "processed_articles_main.json"
 SELECTED_FILE         = "selected_articles_main.json"
 OUTPUT_XML            = "curated_feed.xml"
@@ -547,25 +548,25 @@ def extract_json_object(text):
 
 
 def send_to_mistral(articles):
-    api_key = os.environ.get("MS")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or not articles:
         return []
 
     try:
-        client      = Mistral(api_key=api_key)
+        client      = genai.Client(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
-        response = client.chat.complete(
+        response = client.models.generate_content(
             model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
-            response_format={"type": "json_object"},
+            contents=PROMPT.format(titles=titles_text),
+            config={"response_mime_type": "application/json"},
         )
 
-        text = response.choices[0].message.content or ""
+        text = response.text if hasattr(response, "text") else ""
         return extract_json_object(text).get("signal", [])
 
     except Exception as e:
-        print(f"Mistral classification error: {e}")
+        print(f"Gemini classification error: {e}")
         return []
 
 
