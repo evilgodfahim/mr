@@ -2,15 +2,15 @@
 """
 RSS Feed Processor
 
-All articles from all feeds go to one Mistral call.
-Mistral classifies each headline into signal or noise.
+All articles from all feeds go to one Gemini call.
+Gemini classifies each headline into signal or noise.
 A separate deduplication step removes near-duplicate signal titles.
 
 Outputs:
   curated_feed.xml  - signal articles
   ex.xml            - excluded articles
 Stats:
-  fetch_stats_main.json
+  fetch_stats_mainb.json
 """
 
 import feedparser
@@ -21,6 +21,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from google import genai
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
@@ -52,7 +53,7 @@ KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "mistral-large-latest"
+MISTRAL_MODEL         = "gemini-3.6-flash"
 PROCESSED_FILE        = "processed_articles_mainb.json"
 SELECTED_FILE         = "selected_articles_mainb.json"
 OUTPUT_XML            = "curated_feedb.xml"
@@ -186,7 +187,7 @@ def load_processed_articles():
         "article_ids":      list(id_ts.keys()),
         "article_links":    list(link_ts.keys()),
         "id_timestamps":    id_ts,
-        "link_timestamps":   link_ts,
+        "link_timestamps":  link_ts,
         "last_updated":     data.get("last_updated"),
     }
 
@@ -275,8 +276,7 @@ def parse_date(entry):
         st = entry.get(key)
         if st:
             try:
-                dt = datetime.fromtimestamp(time.mktime(st), tz=timezone.utc)
-                return dt, False
+                return datetime.fromtimestamp(time.mktime(st), tz=timezone.utc), False
             except Exception:
                 pass
     for key in ("published", "updated", "created", "dc_date", "issued"):
@@ -546,25 +546,25 @@ def extract_json_object(text):
 
 
 def send_to_mistral(articles):
-    api_key = os.environ.get("MS")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or not articles:
         return []
 
     try:
-        client = Mistral(api_key=api_key)
+        client = genai.Client(api_key=api_key)
 
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        response = client.chat.complete(
+        response = client.models.generate_content(
             model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
-            response_format={"type": "json_object"},
+            contents=BANGLA_PROMPT.format(titles=titles_text),
+            config={"response_mime_type": "application/json"},
         )
-        text = response.choices[0].message.content or ""
+        text = response.text if hasattr(response, "text") else ""
         signal_indices = extract_json_object(text).get("signal", [])
         return sorted([i for i in signal_indices if isinstance(i, int)])
 
     except Exception as e:
-        print(f"Mistral classification error: {e}")
+        print(f"Gemini classification error: {e}")
         return []
 
 
