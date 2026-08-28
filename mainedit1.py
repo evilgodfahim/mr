@@ -19,6 +19,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from google import genai
 from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
@@ -41,7 +42,7 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "mistral-large-latest"
+MISTRAL_MODEL         = "gemini-3.6-flash"
 PROCESSED_FILE        = "processed_articles_edit.json"
 SELECTED_FILE         = "selected_articles_edit.json"
 OUTPUT_XML            = "curated_feed_edit.xml"
@@ -527,25 +528,25 @@ def extract_json_object(text):
 
 
 def send_to_mistral(articles):
-    api_key = os.environ.get("MS")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or not articles:
         return []
 
     try:
-        client      = Mistral(api_key=api_key)
+        client      = genai.Client(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
-        response = client.chat.complete(
+        response = client.models.generate_content(
             model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
-            response_format={"type": "json_object"},
+            contents=PROMPT.format(titles=titles_text),
+            config={"response_mime_type": "application/json"},
         )
 
-        text = response.choices[0].message.content or ""
+        text = response.text if hasattr(response, "text") else ""
         return extract_json_object(text).get("signal", [])
 
     except Exception as e:
-        print(f"Mistral classification error: {e}")
+        print(f"Gemini classification error: {e}")
         return []
 
 # -- XML -----------------------------------------------------------------------
@@ -595,7 +596,7 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
         if not link or link in existing_links:
             continue
 
-        item         = ET.SubElement(channel, "item")
+        item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text       = a.get("title", "") or ""
         ET.SubElement(item, "link").text        = link
         guid_val     = a.get("id") or link
@@ -646,21 +647,21 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
 
 def print_stats():
     print("\nFetch statistics:")
-    print(f"  Timestamp:               {STATS.get('timestamp')}")
-    print(f"  Total fetched:           {STATS['total_fetched']}  (raw entries from all feeds)")
-    print(f"  Passed age cut:          {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
-    print(f"  New (unseen):            {STATS['total_new']}")
+    print(f"  Timestamp:            {STATS.get('timestamp')}")
+    print(f"  Total fetched:        {STATS['total_fetched']}")
+    print(f"  Passed age cut:       {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h)")
+    print(f"  New (unseen):         {STATS['total_new']}")
     print(f"    ├─ English (classified): {STATS['total_english']}")
     print(f"    └─ Bangla (skipped):     {STATS['total_skipped_bangla']}")
-    print(f"  Signal (Mistral):        {STATS['total_signal_mistral']}")
-    print(f"  Signal (after dedup):    {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
-    print("  Per-method (raw fetch):")
+    print(f"  Signal (Mistral):     {STATS['total_signal_mistral']}")
+    print(f"  Signal (after dedup): {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
+    print("  Per-method:")
     for method, cnt in STATS["per_method"].items():
         print(f"    {method}: {cnt}")
-    print("  Per-feed breakdown:")
+    print("  Per-feed:")
     for feed, d in STATS["per_feed"].items():
         print(f"    {feed}")
-        print(f"      fetched={d.get('fetched',0)}  passed_age={d.get('passed_age',0)}  sent_to_pipeline={d.get('capped',0)}")
+        print(f"      fetched={d.get('fetched',0)}  passed_age={d.get('passed_age',0)}  capped={d.get('capped',0)}")
     print("")
 
 # -- MAIN ----------------------------------------------------------------------
