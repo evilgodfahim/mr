@@ -6,9 +6,9 @@ Feed: edit/daily_feed.xml
 Only non-Bengali-script titles are classified. Bangla titles are skipped entirely.
 
 Outputs:
-  english_editorial_feed.xml
+  curated_feed_edit.xml
 Stats:
-  english_editorial_stats.json
+  fetch_stats_edit.json
 """
 
 import feedparser
@@ -19,7 +19,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from google import genai
+from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -34,8 +34,6 @@ except Exception:
 
 FEED_URLS = [
     "https://evilgodfahim.github.io/edit/daily_feed.xml",
-
-"https://evilgodfahim.github.io/cd/longread.xml"
 ]
 
 EXISTING_API_FEEDS = set(FEED_URLS)
@@ -43,8 +41,7 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-GEMINI_MODEL          = "gemini-3-flash-preview"
-DEDUP_MODEL           = "gemini-2.5-flash"
+MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_edit.json"
 SELECTED_FILE         = "selected_articles_edit.json"
 OUTPUT_XML            = "curated_feed_edit.xml"
@@ -69,7 +66,7 @@ def is_bangla_title(title: str) -> bool:
 PROMPT = """You are a strict editorial classification engine. Every input is an op-ed, essay, or editorial — no hard news. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
 
 STEP 1 — INSTANT NOISE. Reject immediately if the piece is any of:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a person, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
+  Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a leader, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
 
 STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
 
@@ -83,13 +80,15 @@ STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
   b) Multi-country events analysed as a subject: wars, conflicts, cross-border crises, multilateral treaties, regional instability, international sanctions.
   c) Single-country decision with cross-border consequence:
      Immediate: moves something the world depends on (global energy, global financial systems, pandemic-level health, global trade architecture).
-     Strategic/slow-burn: shifts power, security, or stability — nuclear decisions, major arms deals, upstream water control, military base shifts, significant cyber operations, treaty withdrawals.
+     Strategic/slow-burn: shifts power, security, or stability — nuclear decisions, major arms deals, upstream water control affecting downstream countries, military base shifts, significant cyber operations, treaty withdrawals.
   d) Global analytical essay: an editorial examining a global war, humanitarian catastrophe, great-power shift, or international economic crisis as its primary subject — with clear analytical or argumentative intent — is SIGNAL even with no direct Bangladesh angle.
   All other single-country internal affairs → NOISE.
 
 WHEN IN DOUBT → NOISE.
 
-Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline.
+Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}.
+Valid JSON, no markdown, no explanation.
 
 EXAMPLES:
 
@@ -137,20 +136,6 @@ Article titles:
 {titles}
 """
 
-DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
-Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
-Titles that cover clearly distinct topics must all be kept.
-
-Rules:
-- Return only the indices (0-based) of titles to KEEP, as a JSON array of integers.
-- Always keep at least one title from each duplicate group (the one with the lowest index).
-- If all titles are unique, return all indices.
-- Return only valid JSON. No markdown, no backticks, no preamble. Example output: [0, 1, 3, 5]
-
-Article titles:
-{titles}
-"""
-
 # -- CONSTANTS -----------------------------------------------------------------
 
 MEDIA_NS  = "http://search.yahoo.com/mrss/"
@@ -167,6 +152,7 @@ STATS = {
     "total_new":             0,
     "total_english":         0,
     "total_skipped_bangla":  0,
+    "total_signal_mistral":  0,
     "total_signal":          0,
     "total_signal_deduped":  0,
     "timestamp":             None,
@@ -518,7 +504,7 @@ def get_new_articles(all_articles, processed_data):
             new.append(a)
     return new
 
-# -- GEMINI --------------------------------------------------------------------
+# -- CLASSIFICATION ------------------------------------------------------------
 
 def extract_json_object(text):
     text = text.replace("```json", "").replace("```", "").strip()
@@ -540,86 +526,27 @@ def extract_json_object(text):
     return result
 
 
-def send_to_gemini(articles):
-    api_key = os.environ.get("GEMINI_API_KEY")
+def send_to_mistral(articles):
+    api_key = os.environ.get("MS")
     if not api_key or not articles:
-        return {"signal": []}
+        return []
 
     try:
-        client      = genai.Client(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        full_prompt = PROMPT.format(titles=titles_text)
-
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=full_prompt,
-            config={"response_mime_type": "application/json"},
-        )
-
-        if hasattr(response, "parsed") and response.parsed:
-            return {"signal": [i for i in response.parsed.get("signal", []) if isinstance(i, int)]}
-
-        return extract_json_object(response.text)
-
-    except Exception as e:
-        print(f"Gemini classification error: {e}")
-        return {"signal": []}
-
-
-def deduplicate_articles(articles):
-    if not articles:
-        return articles
-
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return articles
-
-    try:
-        client      = genai.Client(api_key=api_key)
+        client      = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
-        response = client.models.generate_content(
-            model=DEDUP_MODEL,
-            contents=DEDUP_PROMPT.format(titles=titles_text),
-            config={"response_mime_type": "application/json"},
+        response = client.chat.complete(
+            model=MISTRAL_MODEL,
+            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
+            response_format={"type": "json_object"},
         )
 
-        raw = response.text if hasattr(response, "text") else ""
-        raw = raw.replace("```json", "").replace("```", "").strip()
-
-        keep_indices = None
-        try:
-            parsed = json.loads(raw)
-            if isinstance(parsed, list):
-                keep_indices = [i for i in parsed if isinstance(i, int) and 0 <= i < len(articles)]
-        except Exception:
-            pass
-
-        if keep_indices is None:
-            m = re.search(r"\[[\d,\s]+\]", raw)
-            if m:
-                try:
-                    keep_indices = [
-                        i for i in json.loads(m.group(0))
-                        if isinstance(i, int) and 0 <= i < len(articles)
-                    ]
-                except Exception:
-                    pass
-
-        if keep_indices is None:
-            print("Dedup: could not parse response, keeping all articles.")
-            return articles
-
-        keep_indices = sorted(set(keep_indices))
-        deduped      = [articles[i] for i in keep_indices]
-        dropped      = len(articles) - len(deduped)
-        if dropped:
-            print(f"Dedup: removed {dropped} near-duplicate title(s).")
-        return deduped
+        text = response.choices[0].message.content or ""
+        return extract_json_object(text).get("signal", [])
 
     except Exception as e:
-        print(f"Gemini dedup error: {e}")
-        return articles
+        print(f"Mistral classification error: {e}")
+        return []
 
 # -- XML -----------------------------------------------------------------------
 
@@ -725,7 +652,7 @@ def print_stats():
     print(f"  New (unseen):            {STATS['total_new']}")
     print(f"    ├─ English (classified): {STATS['total_english']}")
     print(f"    └─ Bangla (skipped):     {STATS['total_skipped_bangla']}")
-    print(f"  Signal (classified):     {STATS['total_signal']}")
+    print(f"  Signal (Mistral):        {STATS['total_signal_mistral']}")
     print(f"  Signal (after dedup):    {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
@@ -745,7 +672,6 @@ def main():
 
     STATS["total_new"] = len(new_articles)
 
-    # --- Filter: English only (skip Bangla-script titles) ---------------------
     english_articles  = [a for a in new_articles if not is_bangla_title(a.get("title", ""))]
     bangla_skip_count = len(new_articles) - len(english_articles)
 
@@ -759,31 +685,25 @@ def main():
         print_stats()
         return
 
-    # --- Step 1: classify English articles ------------------------------------
     print(f"Classifying {len(english_articles)} English article(s)...")
-    result          = send_to_gemini(english_articles)
-    signal_articles = [
-        english_articles[i]
-        for i in result.get("signal", [])
-        if isinstance(i, int) and 0 <= i < len(english_articles)
-    ]
-    print(f"  → {len(signal_articles)} signal")
 
-    STATS["total_signal"] = len(signal_articles)
+    mistral_indices = send_to_mistral(english_articles)
+    mistral_indices = [i for i in mistral_indices if 0 <= i < len(english_articles)]
 
-    # --- Early exit: nothing classified, skip all file writes ----------------
-    if not signal_articles:
-        print("No signal articles this run. Skipping all file writes.")
+    STATS["total_signal_mistral"] = len(mistral_indices)
+    STATS["total_signal"]         = len(mistral_indices)
+
+    print(f"  → Mistral: {len(mistral_indices)}")
+
+    if not mistral_indices:
+        print("Mistral returned 0 signal. Skipping all file writes.")
         print_stats()
         return
 
-    # --- Step 2: deduplicate --------------------------------------------------
-    print(f"Deduplicating {len(signal_articles)} signal article(s)...")
-    signal_articles = deduplicate_articles(signal_articles)
+    signal_articles = [english_articles[i] for i in mistral_indices]
 
     STATS["total_signal_deduped"] = len(signal_articles)
 
-    # --- Step 3: write XML feed -----------------------------------------------
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
@@ -793,8 +713,6 @@ def main():
 
     save_selected_articles(signal_articles)
 
-    # Mark ALL new articles (english + bangla) as processed so they
-    # are never re-evaluated on the next run.
     processed_data.setdefault("article_ids",   []).extend([a["id"]   for a in new_articles if a.get("id")])
     processed_data.setdefault("article_links", []).extend([a["link"] for a in new_articles if a.get("link")])
     save_processed_articles(processed_data)
