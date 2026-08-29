@@ -6,9 +6,9 @@ Feeds: bdit/daily_feed.xml + bdit/daily_feed_2.xml
 Only Bengali-script titles are classified. Non-Bangla titles are skipped entirely.
 
 Outputs:
-  bangla_editorial_feed.xml
+  curated_feed_bdit.xml
 Stats:
-  bangla_editorial_stats.json
+  fetch_stats_bdit.json
 """
 
 import feedparser
@@ -19,7 +19,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from google import genai
+from mistralai.client import Mistral
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 
@@ -42,8 +42,7 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-GEMINI_MODEL          = "gemini-3-flash-preview"
-DEDUP_MODEL           = "gemini-2.5-flash"
+MISTRAL_MODEL         = "mistral-large-latest"
 PROCESSED_FILE        = "processed_articles_bdit.json"
 SELECTED_FILE         = "selected_articles_bdit.json"
 OUTPUT_XML            = "curated_feed_bdit.xml"
@@ -83,6 +82,8 @@ STEP 2 — SIGNAL if the title:
 STEP 3 — NOISE if:
   Aspirational or exhortational with no named domain · Partisan praise or attack · Vague moral commentary · Personal biography
 
+DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline. Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+
 WHEN IN DOUBT → NOISE.
 
 Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
@@ -121,20 +122,6 @@ Article titles:
 {titles}
 """
 
-DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
-Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
-Titles that cover clearly distinct topics must all be kept.
-
-Rules:
-- Return only the indices (0-based) of titles to KEEP, as a JSON array of integers.
-- Always keep at least one title from each duplicate group (the one with the lowest index).
-- If all titles are unique, return all indices.
-- Return only valid JSON. No markdown, no backticks, no preamble. Example output: [0, 1, 3, 5]
-
-Article titles:
-{titles}
-"""
-
 # -- CONSTANTS -----------------------------------------------------------------
 
 MEDIA_NS  = "http://search.yahoo.com/mrss/"
@@ -151,6 +138,7 @@ STATS = {
     "total_new":             0,
     "total_bangla":          0,
     "total_skipped_non_bangla": 0,
+    "total_signal_mistral":  0,
     "total_signal":          0,
     "total_signal_deduped":  0,
     "timestamp":             None,
@@ -502,7 +490,7 @@ def get_new_articles(all_articles, processed_data):
             new.append(a)
     return new
 
-# -- GEMINI --------------------------------------------------------------------
+# -- CLASSIFICATION ------------------------------------------------------------
 
 def extract_json_object(text):
     text = text.replace("```json", "").replace("```", "").strip()
@@ -524,86 +512,73 @@ def extract_json_object(text):
     return result
 
 
-def send_to_gemini(articles):
-    api_key = os.environ.get("GEMINI_API_KEY")
+def send_to_mistral(articles):
+    api_key = os.environ.get("MS")
     if not api_key or not articles:
-        return {"signal": []}
+        return []
 
     try:
-        client      = genai.Client(api_key=api_key)
+        client      = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-        full_prompt = BANGLA_PROMPT.format(titles=titles_text)
 
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=full_prompt,
-            config={"response_mime_type": "application/json"},
+        response = client.chat.complete(
+            model=MISTRAL_MODEL,
+            messages=[{"role": "user", "content": BANGLA_PROMPT.format(titles=titles_text)}],
+            response_format={"type": "json_object"},
         )
 
-        if hasattr(response, "parsed") and response.parsed:
-            return {"signal": [i for i in response.parsed.get("signal", []) if isinstance(i, int)]}
-
-        return extract_json_object(response.text)
+        text = response.choices[0].message.content or ""
+        return extract_json_object(text).get("signal", [])
 
     except Exception as e:
-        print(f"Gemini classification error: {e}")
-        return {"signal": []}
+        print(f"Mistral classification error: {e}")
+        return []
+
+
+def _normalize_title_for_dedup(title: str) -> str:
+    title = (title or "").strip().lower()
+    title = re.sub(r"[\u200c\u200d]", "", title)
+    title = re.sub(r"[\W_]+", " ", title, flags=re.UNICODE)
+    title = re.sub(r"\s+", " ", title).strip()
+    return title
+
+
+def _title_similarity(a: str, b: str) -> float:
+    from difflib import SequenceMatcher
+    return SequenceMatcher(None, a, b).ratio()
 
 
 def deduplicate_articles(articles):
     if not articles:
         return articles
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return articles
+    kept = []
+    normalized_seen = []
 
-    try:
-        client      = genai.Client(api_key=api_key)
-        titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
+    for article in articles:
+        title = article.get("title", "") or ""
+        norm_title = _normalize_title_for_dedup(title)
+        is_duplicate = False
 
-        response = client.models.generate_content(
-            model=DEDUP_MODEL,
-            contents=DEDUP_PROMPT.format(titles=titles_text),
-            config={"response_mime_type": "application/json"},
-        )
+        for prev in normalized_seen:
+            if norm_title == prev:
+                is_duplicate = True
+                break
+            if norm_title and prev and _title_similarity(norm_title, prev) >= 0.88:
+                is_duplicate = True
+                break
+            if norm_title in prev or prev in norm_title:
+                is_duplicate = True
+                break
 
-        raw = response.text if hasattr(response, "text") else ""
-        raw = raw.replace("```json", "").replace("```", "").strip()
+        if not is_duplicate:
+            kept.append(article)
+            normalized_seen.append(norm_title)
 
-        keep_indices = None
-        try:
-            parsed = json.loads(raw)
-            if isinstance(parsed, list):
-                keep_indices = [i for i in parsed if isinstance(i, int) and 0 <= i < len(articles)]
-        except Exception:
-            pass
-
-        if keep_indices is None:
-            m = re.search(r"\[[\d,\s]+\]", raw)
-            if m:
-                try:
-                    keep_indices = [
-                        i for i in json.loads(m.group(0))
-                        if isinstance(i, int) and 0 <= i < len(articles)
-                    ]
-                except Exception:
-                    pass
-
-        if keep_indices is None:
-            print("Dedup: could not parse response, keeping all articles.")
-            return articles
-
-        keep_indices = sorted(set(keep_indices))
-        deduped      = [articles[i] for i in keep_indices]
-        dropped      = len(articles) - len(deduped)
-        if dropped:
-            print(f"Dedup: removed {dropped} near-duplicate title(s).")
-        return deduped
-
-    except Exception as e:
-        print(f"Gemini dedup error: {e}")
-        return articles
+    dropped = len(articles) - len(kept)
+    if dropped:
+        print(f"Dedup: removed {dropped} near-duplicate title(s).")
+    return kept
 
 # -- XML -----------------------------------------------------------------------
 
@@ -709,7 +684,7 @@ def print_stats():
     print(f"  New (unseen):            {STATS['total_new']}")
     print(f"    ├─ Bangla (classified): {STATS['total_bangla']}")
     print(f"    └─ Non-Bangla (skipped): {STATS['total_skipped_non_bangla']}")
-    print(f"  Signal (classified):     {STATS['total_signal']}")
+    print(f"  Signal (Mistral):        {STATS['total_signal_mistral']}")
     print(f"  Signal (after dedup):    {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
     print("  Per-method (raw fetch):")
     for method, cnt in STATS["per_method"].items():
@@ -729,7 +704,6 @@ def main():
 
     STATS["total_new"] = len(new_articles)
 
-    # --- Filter: Bangla only --------------------------------------------------
     bangla_articles  = [a for a in new_articles if is_bangla_title(a.get("title", ""))]
     non_bangla_count = len(new_articles) - len(bangla_articles)
 
@@ -743,31 +717,28 @@ def main():
         print_stats()
         return
 
-    # --- Step 1: classify Bangla editorials -----------------------------------
     print(f"Classifying {len(bangla_articles)} Bangla article(s)...")
-    result          = send_to_gemini(bangla_articles)
-    signal_articles = [
-        bangla_articles[i]
-        for i in result.get("signal", [])
-        if isinstance(i, int) and 0 <= i < len(bangla_articles)
-    ]
-    print(f"  → {len(signal_articles)} signal")
 
-    STATS["total_signal"] = len(signal_articles)
+    mistral_indices = send_to_mistral(bangla_articles)
+    mistral_indices = [i for i in mistral_indices if 0 <= i < len(bangla_articles)]
 
-    # --- Early exit: nothing classified, skip all file writes ----------------
-    if not signal_articles:
-        print("No signal articles this run. Skipping all file writes.")
+    STATS["total_signal_mistral"] = len(mistral_indices)
+    STATS["total_signal"]         = len(mistral_indices)
+
+    print(f"  → Mistral: {len(mistral_indices)}")
+
+    if not mistral_indices:
+        print("Mistral returned 0 signal. Skipping all file writes.")
         print_stats()
         return
 
-    # --- Step 2: deduplicate --------------------------------------------------
+    signal_articles = [bangla_articles[i] for i in mistral_indices]
+
     print(f"Deduplicating {len(signal_articles)} signal article(s)...")
     signal_articles = deduplicate_articles(signal_articles)
 
     STATS["total_signal_deduped"] = len(signal_articles)
 
-    # --- Step 3: write XML feed -----------------------------------------------
     generate_xml_feed(
         signal_articles,
         output_file=OUTPUT_XML,
@@ -777,8 +748,6 @@ def main():
 
     save_selected_articles(signal_articles)
 
-    # Mark ALL new articles (bangla + non-bangla) as processed so they
-    # are never re-evaluated on the next run.
     processed_data.setdefault("article_ids",   []).extend([a["id"]   for a in new_articles if a.get("id")])
     processed_data.setdefault("article_links", []).extend([a["link"] for a in new_articles if a.get("link")])
     save_processed_articles(processed_data)
