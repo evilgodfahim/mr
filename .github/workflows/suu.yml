@@ -2,7 +2,7 @@ name: Daily Top Stories
 
 on:
   schedule:
-    - cron: '0 10 * * *'   # 4:00 PM Bangladesh (UTC+6)
+    #- cron: '0 10 * * *'   # 4:00 PM Bangladesh (UTC+6)
   workflow_dispatch:        # manual trigger
 
 jobs:
