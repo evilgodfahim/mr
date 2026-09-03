@@ -64,85 +64,176 @@ def is_bangla_title(title: str) -> bool:
 
 # -- PROMPT --------------------------------------------------------------------
 
-BANGLA_PROMPT = """You are a strict editorial classifier for Bangladeshi Bengali-language opinion journalism.
+BANGLA_PROMPT = """You are a strict editorial classifier for a Bangladeshi Bengali-language opinion journalism feed.
+
 Input: numbered Bengali editorial and op-ed titles from Bangladeshi newspapers.
-Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is ULTRA HIGH.
+Task: classify each as SIGNAL or NOISE. Output only SIGNAL indices.
 
-GUIDELINES:
-- Default to NOISE when uncertain.
-- SIGNAL must name a concrete, substantive domain of national public concern or engage seriously with a significant global phenomenon.
-- Vague moralizing, partisan praise/attack, or cultural nostalgia without policy dimension is NOISE.
+DEFAULT: NOISE. Only promote to SIGNAL when the evidence is clear and strong.
+A title earns SIGNAL only when a serious editor would call it analytically substantive AND nationally or globally consequential.
 
-STEP 1 — INSTANT NOISE. Classify as NOISE if the title:
-  - Is a tribute, memorial, or commemorative piece
-  - Contains praise or criticism of a leader, party, or institution without policy substance
-  - Covers sports, entertainment, celebrity, lifestyle, or human-interest
-  - Addresses a single-district or single-institution issue with no national implication
-  - Offers personal, religious, or cultural inspiration with no policy dimension
-  - Expresses vague moral or aspirational sentiment with no named domain (e.g., "আমাদের এগিয়ে যেতে হবে", "পরিবর্তনের স্বপ্ন", "আলোর পথে এগিয়ে চলি")
-  - Is cultural nostalgia without substantive analysis
+════════════════════════════════════════════════════════════
+STEP 1 — INSTANT NOISE
+════════════════════════════════════════════════════════════
 
-STEP 2 — SIGNAL if the title:
-  a) Names a concrete national-scale domain or condition:
-     - Economic or business: trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate
-     - Governance: public administration failure, corruption, institutional dysfunction
-     - Public systems: healthcare, education, infrastructure, energy, food security
-     - Law and order: judicial system, press freedom, constitutional matters, police reform
-     - Environment: river erosion, floods, climate change impacts, pollution
-     - Labour: workers' rights, wage disputes, industrial safety
-  b) Critiques or analyzes a specific policy, institution, or systemic condition at national scale
-  c) Addresses Bangladesh foreign affairs:
-     - Water rights (Teesta, Brahmaputra, Ganges)
-     - Bilateral disputes or agreements
-     - Trade, migration, cross-border security
-     - Bangladesh's role in UN, WTO, or other international bodies
-  d) Engages substantively with significant global phenomena:
-     - Wars, conflicts, or ceasefires between states
-     - International economic crises or agreements
-     - Climate accords or environmental treaties
-     - Great-power rivalry or geopolitical shifts
-     - Humanitarian catastrophes with global implications
+Classify NOISE immediately if the title fits any pattern below.
+Do not proceed to Step 2.
 
-STEP 3 — DEDUPLICATION. Among SIGNAL items, remove near-duplicates:
-  - Titles covering the same story or event
-  - Rephrased versions of the same headline
-  Keep only the first occurrence (lowest index) for each duplicate group.
+▸ TRIBUTES & COMMEMORATION
+  A piece honoring, remembering, or mourning any person, or marking a historical date.
+  Trigger words: স্মরণ, শ্রদ্ধাঞ্জলি, প্রয়াণ, জন্মদিন, জন্মবার্ষিকী, মৃত্যুবার্ষিকী, স্মৃতিচারণ, চিরবিদায়
 
-WHEN IN DOUBT → NOISE.
+▸ PARTISAN / IDEOLOGICAL
+  Praises or attacks a party, leader, or government without naming a concrete, specific policy failure.
+  Defending or attacking a political figure's character, legacy, vision, or ideology is always NOISE.
+  Trigger words: দলীয়, অঙ্গীকার, শপথ (in aspirational context), মহান নেতা, গণতান্ত্রিক শক্তি
 
-Output only: {"signal": [0-based indices]}. Valid JSON, no markdown, no explanation.
+▸ CULTURAL / INSPIRATIONAL / MORAL
+  General moral, religious, or patriotic encouragement. Seasonal, festival, or anniversary reflections.
+  Vague calls to action with no named policy domain.
+  Examples: "এগিয়ে যেতে হবে", "স্বপ্নের বাংলাদেশ", "আলোর পথে", "জেগে ওঠো", "ঐক্যই শক্তি"
+  Trigger events: ঈদ, পূজা, পহেলা বৈশাখ, একুশে, বিজয় দিবস, স্বাধীনতা দিবস (unless title directly engages a policy dimension)
 
-EXAMPLES:
+▸ LOCAL / MICRO-SCALE
+  Concerns a single district, upazila, school, hospital, or local figure with no stated national implication.
+
+▸ SPORTS / ENTERTAINMENT / LIFESTYLE
+  Cricket, football, film, celebrity, food, fashion, travel.
+
+▸ VAGUE / UNNAMED DOMAIN
+  Uses words like সংকট, সমস্যা, চ্যালেঞ্জ, বিপদ without specifying what kind.
+  A title that could have been written about any country, any year, or any context is NOISE.
+  "কবে মিলবে মুক্তি", "এই অবস্থা কতদিন চলবে", "দেশের হাল কোথায়" — always NOISE.
+
+════════════════════════════════════════════════════════════
+STEP 2 — SIGNAL CRITERIA (both conditions required)
+════════════════════════════════════════════════════════════
+
+A title is SIGNAL only if it satisfies BOTH A and B.
+
+A) NAMES OR CLEARLY IMPLIES a specific domain from this list:
+
+  ECONOMICS & FINANCE
+  · Macroeconomics: inflation, foreign reserves, exchange rate, budget deficit
+  · Banking: non-performing loans (খেলাপি ঋণ), financial fraud, banking reform
+  · Trade: export performance, import duties, trade agreements, tariffs
+  · Investment: FDI, SEZ, industrial policy, business climate
+  · Labour: wage policy, remittances, industrial safety, workers' rights
+  · Agriculture: food security, crop prices, subsidy, irrigation policy
+
+  GOVERNANCE & INSTITUTIONS
+  · Systemic corruption with a named sector (customs, health, land, police)
+  · Public administration failure explicitly at national scale
+  · Constitutional matters, electoral reform, judicial independence
+  · Press freedom, digital rights, surveillance laws, cyber regulations
+
+  PUBLIC SYSTEMS (national-scale framing required)
+  · Healthcare system: capacity, policy, equity — NOT a single hospital
+  · Education system: curriculum, quality, policy — NOT a single school
+  · Infrastructure: roads, bridges, seaports, power grid
+  · Energy: power crisis, fuel pricing, load-shedding, renewable policy
+
+  ENVIRONMENT
+  · Climate impact on Bangladesh (floods, salinity, coastal erosion, displacement)
+  · River rights (Padma, Meghna, Brahmaputra, Teesta)
+  · Industrial pollution at national scale
+  · Disaster preparedness policy
+
+  FOREIGN AFFAIRS (Bangladesh-specific)
+  · Water-sharing: Teesta, Ganges, Brahmaputra
+  · Bilateral trade or investment: India, China, USA, EU, Middle East
+  · Migration diplomacy, remittance policy
+  · Rohingya crisis: repatriation, diplomacy, international burden-sharing
+  · Bangladesh in multilateral bodies: UN, WTO, SAARC, OIC
+
+  GLOBAL AFFAIRS (significant events only — not every foreign news item)
+  · Ongoing interstate wars or major military escalations (not minor skirmishes)
+  · Global economic crises, major sanctions regimes, trade wars
+  · International climate agreements with binding consequences
+  · Humanitarian catastrophes affecting 100,000+ people
+  · Great-power competition (US-China, Russia-NATO) with explicit global consequences
+
+B) HAS NATIONAL OR GLOBAL SCALE
+  The domain must operate at national policy level or above.
+  A title about one city's flooding is NOISE; a title about Bangladesh's flood preparedness policy is SIGNAL.
+
+════════════════════════════════════════════════════════════
+STEP 3 — DEDUPLICATION (apply to SIGNAL set only)
+════════════════════════════════════════════════════════════
+
+Among items already classified SIGNAL:
+· Remove near-duplicates covering the same event or story
+· Keep only the lowest index for each duplicate group
+
+════════════════════════════════════════════════════════════
+OUTPUT FORMAT
+════════════════════════════════════════════════════════════
+
+{{"signal": [0-based indices]}}
+Valid JSON only. No markdown. No commentary. No explanation.
+
+════════════════════════════════════════════════════════════
+EXAMPLES — study the reasoning, not just the output
+════════════════════════════════════════════════════════════
+
+EXAMPLE 1 — Standard batch:
 
 Input:
-0. বাংলাদেশের বিদ্যুৎ সংকট কি স্থায়ী সমাধানের পথে
-1. আমাদের এগিয়ে যেতে হবে
-2. তিস্তার পানি ও বাংলাদেশের কৃষির ভবিষ্যৎ
-3. এক মহান নেতার প্রতি শ্রদ্ধাঞ্জলি
-4. সরকারি হাসপাতালে দুর্নীতি ও জনভোগান্তি
-5. স্বপ্নের বাংলাদেশ গড়ার প্রতিশ্রুতি
-6. মূল্যস্ফীতির চাপে সাধারণ মানুষের জীবন
-7. গাজায় গণহত্যা ও আন্তর্জাতিক আইনের সংকট
-8. দলীয় আদর্শই আমাদের পথ দেখাবে
-9. শিক্ষাব্যবস্থার সংকট ও করণীয়
-10. জলবায়ু পরিবর্তন ও বৈশ্বিক রাজনীতির নতুন সমীকরণ
-11. বৈদেশিক মুদ্রার রিজার্ভ কমছে, কী করবে বাংলাদেশ
-12. পোশাক রপ্তানিতে ধস ও অর্থনীতির ঝুঁকি
-Output: {"signal": [0, 2, 4, 6, 7, 9, 10, 11, 12]}
+0. বাংলাদেশের বিদ্যুৎ সংকট কি স্থায়ী সমাধানের পথে     ← SIGNAL: energy policy, national scale, specific domain
+1. আমাদের এগিয়ে যেতে হবে                               ← NOISE: vague aspiration, zero domain named
+2. তিস্তার পানি ও বাংলাদেশের কৃষির ভবিষ্যৎ             ← SIGNAL: water rights + agriculture policy, BD-India dimension
+3. এক মহান নেতার প্রতি শ্রদ্ধাঞ্জলি                    ← NOISE: tribute (instant NOISE, Step 1)
+4. সরকারি হাসপাতালে দুর্নীতি ও জনভোগান্তি              ← SIGNAL: systemic healthcare corruption, national institution
+5. স্বপ্নের বাংলাদেশ গড়ার প্রতিশ্রুতি                  ← NOISE: aspirational, no policy domain
+6. মূল্যস্ফীতির চাপে সাধারণ মানুষের জীবন               ← SIGNAL: macroeconomics (inflation), named domain, national
+7. গাজায় গণহত্যা ও আন্তর্জাতিক আইনের সংকট             ← SIGNAL: major ongoing conflict + international law
+8. দলীয় আদর্শই আমাদের পথ দেখাবে                       ← NOISE: partisan ideology, no policy substance
+9. শিক্ষাব্যবস্থার সংকট ও করণীয়                        ← SIGNAL: education system, national framing, specific domain
+10. জলবায়ু পরিবর্তন ও বৈশ্বিক রাজনীতির নতুন সমীকরণ   ← SIGNAL: global climate + geopolitical consequence
+11. বৈদেশিক মুদ্রার রিজার্ভ কমছে, কী করবে বাংলাদেশ    ← SIGNAL: foreign reserves, macroeconomic, BD-specific
+12. পোশাক রপ্তানিতে ধস ও অর্থনীতির ঝুঁকি              ← SIGNAL: garment exports + economic risk, named domain
+
+Output: {{"signal": [0, 2, 4, 6, 7, 9, 10, 11, 12]}}
+
+---
+
+EXAMPLE 2 — Tricky borderlines:
 
 Input:
-0. গণমাধ্যমের স্বাধীনতা ও রাষ্ট্রের দায়িত্ব
-1. বিজয় দিবসের চেতনায় আলোকিত হোক প্রজন্ম
-2. ব্যাংক খাতের খেলাপি ঋণ এবং আর্থিক স্থিতিশীলতা
-3. নেতার জন্মদিনে আমাদের অঙ্গীকার
-4. ইউক্রেন যুদ্ধ এবং বিশ্ব খাদ্য নিরাপত্তার ভবিষ্যৎ
-5. বাজারে সিন্ডিকেটের দৌরাত্ম্য কতদিন চলবে
-6. ধর্মীয় সম্প্রীতির অনুপ্রেরণায় এগিয়ে চলি
-7. স্বাস্থ্যসেবায় বৈষম্য ও রাষ্ট্রের ব্যর্থতা
-8. মার্কিন-চীন বাণিজ্যযুদ্ধ ও বৈশ্বিক অর্থনীতির গতিপথ
-9. বাংলাদেশের শিল্পনীতি ও বিনিয়োগ পরিবেশ
-10. একুশের চেতনা ও আমাদের কর্তব্য
-Output: {"signal": [0, 2, 4, 5, 7, 8, 9]}
+0. গণমাধ্যমের স্বাধীনতা ও রাষ্ট্রের দায়িত্ব            ← SIGNAL: press freedom, governance, national
+1. বিজয় দিবসের চেতনায় আলোকিত হোক প্রজন্ম              ← NOISE: commemorative, no policy analysis (instant NOISE)
+2. ব্যাংক খাতের খেলাপি ঋণ এবং আর্থিক স্থিতিশীলতা       ← SIGNAL: banking NPLs, financial stability, specific named problem
+3. নেতার জন্মদিনে আমাদের অঙ্গীকার                       ← NOISE: tribute + partisan (two instant NOISE triggers)
+4. ইউক্রেন যুদ্ধ এবং বিশ্ব খাদ্য নিরাপত্তার ভবিষ্যৎ    ← SIGNAL: interstate war → global food security consequence
+5. বাজারে সিন্ডিকেটের দৌরাত্ম্য কতদিন চলবে             ← SIGNAL: market cartel/price manipulation, economic governance
+6. ধর্মীয় সম্প্রীতির অনুপ্রেরণায় এগিয়ে চলি           ← NOISE: cultural/inspirational (instant NOISE), no policy
+7. স্বাস্থ্যসেবায় বৈষম্য ও রাষ্ট্রের ব্যর্থতা          ← SIGNAL: healthcare equity, explicit state failure, national
+8. মার্কিন-চীন বাণিজ্যযুদ্ধ ও বৈশ্বিক অর্থনীতির গতিপথ ← SIGNAL: US-China trade war, major global economic event
+9. বাংলাদেশের শিল্পনীতি ও বিনিয়োগ পরিবেশ               ← SIGNAL: industrial policy + investment climate, national
+10. একুশের চেতনা ও আমাদের কর্তব্য                       ← NOISE: Language Day commemoration, aspirational (instant NOISE)
+
+Output: {{"signal": [0, 2, 4, 5, 7, 8, 9]}}
+
+---
+
+EXAMPLE 3 — Hard NOISE cases that superficially resemble SIGNAL:
+
+Input:
+0. দেশের উন্নয়নে তরুণদের ভূমিকা                        ← NOISE: vague aspiration — "উন্নয়ন" alone is not a domain
+1. সংকট থেকে উত্তরণের পথ                                ← NOISE: "সংকট" unnamed — which crisis? Rule: unnamed domain = NOISE
+2. একটি জেলার স্বাস্থ্যসেবার করুণ চিত্র                ← NOISE: single district, local scale, no national implication stated
+3. নির্বাচন কমিশনের সংস্কার এখন জরুরি                   ← SIGNAL: electoral reform, named institution, governance, national
+4. দেশপ্রেমের চেতনায় জাগ্রত হোক বাংলাদেশ               ← NOISE: nationalist inspiration, zero policy domain
+5. রোহিঙ্গা সংকট ও বাংলাদেশের কূটনৈতিক চ্যালেঞ্জ       ← SIGNAL: Rohingya + BD diplomacy, named foreign policy domain
+6. বৈষম্যহীন সমাজ গড়ার স্বপ্ন                           ← NOISE: abstract ideal, no named policy mechanism or sector
+7. কৃষকের ন্যায্য মূল্য ও সরকারের নীতি                  ← SIGNAL: agricultural pricing + explicit state policy, national
+8. ক্রিকেটে বাংলাদেশের সাফল্য ও ভবিষ্যৎ                ← NOISE: sports (instant NOISE)
+9. শেয়ারবাজারের অস্থিরতা ও বিনিয়োগকারীদের সংকট         ← SIGNAL: stock market instability, financial domain, named
+10. আমাদের শিক্ষার মান কেন এত নিচে                       ← SIGNAL: education quality, national system-level question
+11. মানবতার ডাকে সাড়া দিন                                ← NOISE: moral appeal, no policy domain whatsoever
+12. সুশাসনের পথে বাংলাদেশ                               ← NOISE: "সুশাসন" alone too vague — no specific institution or failure named
+
+Output: {{"signal": [3, 5, 7, 9, 10]}}
 
 Article titles:
 {titles}
