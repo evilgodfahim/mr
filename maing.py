@@ -53,7 +53,7 @@ KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "mistral-large-latest"
+MISTRAL_MODEL         = "mistral-medium-latest"
 PROCESSED_FILE        = "processed_articles_gp.json"
 SELECTED_FILE         = "selected_articles_gp.json"
 OUTPUT_XML            = "curated_feed_gp.xml"
