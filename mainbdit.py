@@ -38,21 +38,21 @@ FEED_URLS = [
 ]
 
 EXISTING_API_FEEDS = set(FEED_URLS)
-KL_API_FEEDS       = set()
+KL_API_FEEDS = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "mistral-medium-latest"
-PROCESSED_FILE        = "processed_articles_bdit.json"
-SELECTED_FILE         = "selected_articles_bdit.json"
-OUTPUT_XML            = "curated_feed_bdit.xml"
-STATS_FILE            = "fetch_stats_bdit.json"
+MISTRAL_MODEL = "mistral-medium-latest"
+PROCESSED_FILE = "processed_articles_bdit.json"
+SELECTED_FILE = "selected_articles_bdit.json"
+OUTPUT_XML = "curated_feed_bdit.xml"
+STATS_FILE = "fetch_stats_bdit.json"
 MAX_ARTICLES_PER_FEED = 100
-MAX_AGE_HOURS         = 26
-ALLOW_MISSING_DATES   = True
-ALLOW_OLDER           = False
-MAX_FEED_ITEMS        = 500
-RETENTION_DAYS        = 10
+MAX_AGE_HOURS = 26
+ALLOW_MISSING_DATES = True
+ALLOW_OLDER = False
+MAX_FEED_ITEMS = 500
+RETENTION_DAYS = 10
 
 # -- BANGLA FILTER -------------------------------------------------------------
 
@@ -66,27 +66,51 @@ def is_bangla_title(title: str) -> bool:
 
 BANGLA_PROMPT = """You are a strict editorial classifier for Bangladeshi Bengali-language opinion journalism.
 Input: numbered Bengali editorial and op-ed titles from Bangladeshi newspapers.
-Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is ULTRA HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is ULTRA HIGH.
 
-CORE QUESTION: Does this title name a concrete, substantive domain of national public concern — or engage seriously with a significant global phenomenon?
+GUIDELINES:
+- Default to NOISE when uncertain.
+- SIGNAL must name a concrete, substantive domain of national public concern or engage seriously with a significant global phenomenon.
+- Vague moralizing, partisan praise/attack, or cultural nostalgia without policy dimension is NOISE.
 
-STEP 1 — INSTANT NOISE. Stop here if the title is any of:
-  Tribute or memorial · praise of a leader, party, or institution · commemorative piece · sports or entertainment · lifestyle or human-interest · single-district or single-institution issue with no national implication · personal or religious inspiration with no policy dimension · cultural nostalgia · vague moral or aspirational sentiment with no named domain (e.g. "আমাদের এগিয়ে যেতে হবে", "পরিবর্তনের স্বপ্ন", "আলোর পথে এগিয়ে চলি")
+STEP 1 — INSTANT NOISE. Classify as NOISE if the title:
+  - Is a tribute, memorial, or commemorative piece
+  - Contains praise or criticism of a leader, party, or institution without policy substance
+  - Covers sports, entertainment, celebrity, lifestyle, or human-interest
+  - Addresses a single-district or single-institution issue with no national implication
+  - Offers personal, religious, or cultural inspiration with no policy dimension
+  - Expresses vague moral or aspirational sentiment with no named domain (e.g., "আমাদের এগিয়ে যেতে হবে", "পরিবর্তনের স্বপ্ন", "আলোর পথে এগিয়ে চলি")
+  - Is cultural nostalgia without substantive analysis
 
 STEP 2 — SIGNAL if the title:
-  a) Names a concrete national-scale domain or condition — economic or business condition (trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate), governance failure, public health system, environmental crisis, river erosion, flood, infrastructure breakdown, education quality, labour rights, energy, food security, law and order, judicial system, press freedom, constitutional matters. The domain must be explicitly inferable from the title.
-  b) Critiques or analyses a specific policy, institution, or systemic condition at national scale — not vague exhortation.
-  c) Addresses a Bangladesh foreign-affairs dimension from an editorial or analytical angle — water rights (Teesta, Brahmaputra), bilateral disputes, trade, migration, cross-border security.
-  d) Engages substantively with a significant global phenomenon — even if Bangladesh is not named and is not directly affected. Bangladeshi editors regularly write about global wars, international economic crises, climate accords, great-power rivalry, and humanitarian catastrophes as subjects in their own right. If the title clearly addresses such a global event or trend with analytical intent, it is SIGNAL.
+  a) Names a concrete national-scale domain or condition:
+     - Economic or business: trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate
+     - Governance: public administration failure, corruption, institutional dysfunction
+     - Public systems: healthcare, education, infrastructure, energy, food security
+     - Law and order: judicial system, press freedom, constitutional matters, police reform
+     - Environment: river erosion, floods, climate change impacts, pollution
+     - Labour: workers' rights, wage disputes, industrial safety
+  b) Critiques or analyzes a specific policy, institution, or systemic condition at national scale
+  c) Addresses Bangladesh foreign affairs:
+     - Water rights (Teesta, Brahmaputra, Ganges)
+     - Bilateral disputes or agreements
+     - Trade, migration, cross-border security
+     - Bangladesh's role in UN, WTO, or other international bodies
+  d) Engages substantively with significant global phenomena:
+     - Wars, conflicts, or ceasefires between states
+     - International economic crises or agreements
+     - Climate accords or environmental treaties
+     - Great-power rivalry or geopolitical shifts
+     - Humanitarian catastrophes with global implications
 
-STEP 3 — NOISE if:
-  Aspirational or exhortational with no named domain · Partisan praise or attack · Vague moral commentary · Personal biography
-
-DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline. Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+STEP 3 — DEDUPLICATION. Among SIGNAL items, remove near-duplicates:
+  - Titles covering the same story or event
+  - Rephrased versions of the same headline
+  Keep only the first occurrence (lowest index) for each duplicate group.
 
 WHEN IN DOUBT → NOISE.
 
-Output only: {{"signal": [0-based indices]}}. Valid JSON, no markdown, no explanation.
+Output only: {"signal": [0-based indices]}. Valid JSON, no markdown, no explanation.
 
 EXAMPLES:
 
@@ -104,7 +128,7 @@ Input:
 10. জলবায়ু পরিবর্তন ও বৈশ্বিক রাজনীতির নতুন সমীকরণ
 11. বৈদেশিক মুদ্রার রিজার্ভ কমছে, কী করবে বাংলাদেশ
 12. পোশাক রপ্তানিতে ধস ও অর্থনীতির ঝুঁকি
-Output: {{"signal": [0, 2, 4, 6, 7, 9, 10, 11, 12]}}
+Output: {"signal": [0, 2, 4, 6, 7, 9, 10, 11, 12]}
 
 Input:
 0. গণমাধ্যমের স্বাধীনতা ও রাষ্ট্রের দায়িত্ব
@@ -116,7 +140,9 @@ Input:
 6. ধর্মীয় সম্প্রীতির অনুপ্রেরণায় এগিয়ে চলি
 7. স্বাস্থ্যসেবায় বৈষম্য ও রাষ্ট্রের ব্যর্থতা
 8. মার্কিন-চীন বাণিজ্যযুদ্ধ ও বৈশ্বিক অর্থনীতির গতিপথ
-Output: {{"signal": [0, 2, 4, 5, 7, 8]}}
+9. বাংলাদেশের শিল্পনীতি ও বিনিয়োগ পরিবেশ
+10. একুশের চেতনা ও আমাদের কর্তব্য
+Output: {"signal": [0, 2, 4, 5, 7, 8, 9]}
 
 Article titles:
 {titles}
@@ -124,35 +150,35 @@ Article titles:
 
 # -- CONSTANTS -----------------------------------------------------------------
 
-MEDIA_NS  = "http://search.yahoo.com/mrss/"
+MEDIA_NS = "http://search.yahoo.com/mrss/"
 MEDIA_TAG = "{%s}" % MEDIA_NS
 ET.register_namespace("media", MEDIA_NS)
 
 BD_TZ = timezone(timedelta(hours=6))
 
 STATS = {
-    "per_feed":              {},
-    "per_method":            {"KL": 0, "DIRECT": 0},
-    "total_fetched":         0,
-    "total_passed_age":      0,
-    "total_new":             0,
-    "total_bangla":          0,
+    "per_feed": {},
+    "per_method": {"KL": 0, "DIRECT": 0},
+    "total_fetched": 0,
+    "total_passed_age": 0,
+    "total_new": 0,
+    "total_bangla": 0,
     "total_skipped_non_bangla": 0,
-    "total_signal_mistral":  0,
-    "total_signal":          0,
-    "total_signal_deduped":  0,
-    "timestamp":             None,
+    "total_signal_mistral": 0,
+    "total_signal": 0,
+    "total_signal_deduped": 0,
+    "timestamp": None,
 }
 
 # -- I/O -----------------------------------------------------------------------
 
 def load_processed_articles():
     empty = {
-        "article_ids":      [],
-        "article_links":    [],
-        "id_timestamps":    {},
-        "link_timestamps":  {},
-        "last_updated":     None,
+        "article_ids": [],
+        "article_links": [],
+        "id_timestamps": {},
+        "link_timestamps": {},
+        "last_updated": None,
     }
     if not Path(PROCESSED_FILE).exists():
         return empty
@@ -164,21 +190,20 @@ def load_processed_articles():
 
     cutoff = (datetime.utcnow() - timedelta(days=RETENTION_DAYS)).isoformat()
 
-    id_ts   = {k: v for k, v in data.get("id_timestamps",   {}).items() if v >= cutoff}
+    id_ts = {k: v for k, v in data.get("id_timestamps", {}).items() if v >= cutoff}
     link_ts = {k: v for k, v in data.get("link_timestamps", {}).items() if v >= cutoff}
 
     return {
-        "article_ids":      list(id_ts.keys()),
-        "article_links":    list(link_ts.keys()),
-        "id_timestamps":    id_ts,
-        "link_timestamps":  link_ts,
-        "last_updated":     data.get("last_updated"),
+        "article_ids": list(id_ts.keys()),
+        "article_links": list(link_ts.keys()),
+        "id_timestamps": id_ts,
+        "link_timestamps": link_ts,
+        "last_updated": data.get("last_updated"),
     }
-
 
 def save_processed_articles(data):
     now_iso = datetime.utcnow().isoformat()
-    cutoff  = (datetime.utcnow() - timedelta(days=RETENTION_DAYS)).isoformat()
+    cutoff = (datetime.utcnow() - timedelta(days=RETENTION_DAYS)).isoformat()
 
     existing = {"id_timestamps": {}, "link_timestamps": {}}
     if Path(PROCESSED_FILE).exists():
@@ -188,7 +213,7 @@ def save_processed_articles(data):
         except Exception:
             pass
 
-    id_ts   = existing.get("id_timestamps",   {})
+    id_ts = existing.get("id_timestamps", {})
     link_ts = existing.get("link_timestamps", {})
 
     for aid in data.get("article_ids", []):
@@ -198,19 +223,18 @@ def save_processed_articles(data):
         if lnk and lnk not in link_ts:
             link_ts[lnk] = now_iso
 
-    id_ts   = {k: v for k, v in id_ts.items()   if v >= cutoff}
+    id_ts = {k: v for k, v in id_ts.items() if v >= cutoff}
     link_ts = {k: v for k, v in link_ts.items() if v >= cutoff}
 
     out = {
-        "article_ids":      list(id_ts.keys()),
-        "article_links":    list(link_ts.keys()),
-        "id_timestamps":    id_ts,
-        "link_timestamps":  link_ts,
-        "last_updated":     now_iso,
+        "article_ids": list(id_ts.keys()),
+        "article_links": list(link_ts.keys()),
+        "id_timestamps": id_ts,
+        "link_timestamps": link_ts,
+        "last_updated": now_iso,
     }
     with open(PROCESSED_FILE, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
-
 
 def save_selected_articles(articles):
     existing = []
@@ -224,7 +248,6 @@ def save_selected_articles(articles):
     merged = existing + [a for a in articles if a.get("link") not in existing_links]
     with open(SELECTED_FILE, "w", encoding="utf-8") as f:
         json.dump(merged, f, indent=2, ensure_ascii=False)
-
 
 def save_stats():
     STATS["timestamp"] = datetime.utcnow().isoformat()
@@ -250,10 +273,9 @@ def normalize_link(link, base=None):
     if base and not urlparse(link).netloc:
         link = urljoin(base, link)
     link = re.sub(r"([?&])utm_[^=]+=[^&]+", r"\1", link)
-    link = re.sub(r"([?&])fbclid=[^&]+",    r"\1", link)
+    link = re.sub(r"([?&])fbclid=[^&]+", r"\1", link)
     link = re.sub(r"[?&]$", "", link)
     return link.split("#")[0]
-
 
 def parse_date(entry):
     for key in ("published_parsed", "updated_parsed", "created_parsed", "issued_parsed"):
@@ -286,9 +308,7 @@ def parse_date(entry):
         return datetime.now(timezone.utc), True
     return None, False
 
-
 IMG_SRC_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.I)
-
 
 def find_image_in_html(html, base=None):
     if not html:
@@ -298,17 +318,19 @@ def find_image_in_html(html, base=None):
         return None
     return normalize_link(m.group(1).strip(), base=base)
 
-
 def get_mime_for_url(url):
     if not url:
         return "image/jpeg"
     path = urlparse(url).path.lower()
-    if path.endswith(".png"):  return "image/png"
-    if path.endswith(".gif"):  return "image/gif"
-    if path.endswith(".webp"): return "image/webp"
-    if path.endswith(".svg"):  return "image/svg+xml"
+    if path.endswith(".png"):
+        return "image/png"
+    if path.endswith(".gif"):
+        return "image/gif"
+    if path.endswith(".webp"):
+        return "image/webp"
+    if path.endswith(".svg"):
+        return "image/svg+xml"
     return "image/jpeg"
-
 
 def extract_image_url(entry, base_link=None):
     mt = entry.get("media_thumbnail")
@@ -329,7 +351,7 @@ def extract_image_url(entry, base_link=None):
     if enc and isinstance(enc, list):
         for e in enc:
             href = e.get("href") or e.get("url") or e.get("link")
-            typ  = e.get("type", "")
+            typ = e.get("type", "")
             if href and (typ.startswith("image/") or re.search(r'\.(jpg|jpeg|png|gif|webp|svg)$', href, re.I)):
                 return normalize_link(href, base=base_link)
 
@@ -385,26 +407,25 @@ def fetch_via_kl(kl_endpoint, target_feed_url, timeout=20):
         pass
     return None
 
-
 def fetch_feed(url):
-    url_norm    = url.strip()
+    url_norm = url.strip()
     method_used = "DIRECT"
 
     if url_norm in EXISTING_API_FEEDS:
-        feed        = feedparser.parse(url_norm)
+        feed = feedparser.parse(url_norm)
         method_used = "DIRECT"
     elif url_norm in KL_API_FEEDS:
         kl_endpoint = os.environ.get("KL")
-        feed        = None
+        feed = None
         if kl_endpoint:
             feed = fetch_via_kl(kl_endpoint, url_norm)
             if feed:
                 method_used = "KL"
         if not feed:
-            feed        = feedparser.parse(url_norm)
+            feed = feedparser.parse(url_norm)
             method_used = "DIRECT"
     else:
-        feed        = feedparser.parse(url_norm)
+        feed = feedparser.parse(url_norm)
         method_used = "DIRECT"
 
     entries_count = len(getattr(feed, "entries", []))
@@ -412,20 +433,19 @@ def fetch_feed(url):
     STATS["per_feed"][url_norm]["fetched"] += entries_count
     STATS["per_method"].setdefault(method_used, 0)
     STATS["per_method"][method_used] += entries_count
-    STATS["total_fetched"]            += entries_count
+    STATS["total_fetched"] += entries_count
 
     return feed
 
-
 def fetch_all_feeds():
-    now        = datetime.now(timezone.utc)
-    cutoff     = now - timedelta(hours=MAX_AGE_HOURS)
-    bd_now     = datetime.now(BD_TZ)
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=MAX_AGE_HOURS)
+    bd_now = datetime.now(BD_TZ)
     bd_now_str = bd_now.strftime("%a, %d %b %Y %H:%M:%S +0600")
     all_articles = []
 
     for url in FEED_URLS:
-        feed       = fetch_feed(url)
+        feed = fetch_feed(url)
         feed_items = []
 
         for e in feed.entries:
@@ -447,22 +467,22 @@ def fetch_all_feeds():
                 if isinstance(det, dict):
                     desc = det.get("value", "") or ""
 
-            link       = normalize_link(e.get("link") or "")
+            link = normalize_link(e.get("link") or "")
             article_id = e.get("id") or link or ""
-            image_url  = extract_image_url(e, base_link=link)
+            image_url = extract_image_url(e, base_link=link)
 
             article = {
-                "id":          str(article_id),
-                "title":       e.get("title", "") or "",
-                "link":        link,
+                "id": str(article_id),
+                "title": e.get("title", "") or "",
+                "link": link,
                 "description": desc or "",
-                "published":   bd_now_str,
-                "source":      url,
+                "published": bd_now_str,
+                "source": url,
             }
             if inferred:
                 article["published_inferred"] = True
             if image_url:
-                article["thumbnail"]      = image_url
+                article["thumbnail"] = image_url
                 article["thumbnail_type"] = get_mime_for_url(image_url)
 
             feed_items.append(article)
@@ -470,19 +490,18 @@ def fetch_all_feeds():
         passed = len(feed_items)
         capped = min(passed, MAX_ARTICLES_PER_FEED)
         STATS["per_feed"][url]["passed_age"] = passed
-        STATS["per_feed"][url]["capped"]     = capped
-        STATS["total_passed_age"]           += passed
+        STATS["per_feed"][url]["capped"] = capped
+        STATS["total_passed_age"] += passed
         all_articles.extend(feed_items[:MAX_ARTICLES_PER_FEED])
 
     return all_articles
 
-
 def get_new_articles(all_articles, processed_data):
-    processed_ids   = set(processed_data.get("article_ids", []))
+    processed_ids = set(processed_data.get("article_ids", []))
     processed_links = set(processed_data.get("article_links", []))
     new = []
     for a in all_articles:
-        aid   = a.get("id")
+        aid = a.get("id")
         alink = a.get("link")
         if (aid and aid not in processed_ids) and (alink and alink not in processed_links):
             new.append(a)
@@ -511,14 +530,13 @@ def extract_json_object(text):
             pass
     return result
 
-
 def send_to_mistral(articles):
     api_key = os.environ.get("MS")
     if not api_key or not articles:
         return []
 
     try:
-        client      = Mistral(api_key=api_key)
+        client = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
 
         response = client.chat.complete(
@@ -534,7 +552,6 @@ def send_to_mistral(articles):
         print(f"Mistral classification error: {e}")
         return []
 
-
 def _normalize_title_for_dedup(title: str) -> str:
     title = (title or "").strip().lower()
     title = re.sub(r"[\u200c\u200d]", "", title)
@@ -542,11 +559,9 @@ def _normalize_title_for_dedup(title: str) -> str:
     title = re.sub(r"\s+", " ", title).strip()
     return title
 
-
 def _title_similarity(a: str, b: str) -> float:
     from difflib import SequenceMatcher
     return SequenceMatcher(None, a, b).ratio()
-
 
 def deduplicate_articles(articles):
     if not articles:
@@ -584,18 +599,17 @@ def deduplicate_articles(articles):
 
 def _fresh_channel(root, feed_title, feed_description):
     channel = ET.SubElement(root, "channel")
-    ET.SubElement(channel, "title").text       = feed_title
-    ET.SubElement(channel, "link").text        = "https://yourusername.github.io/yourrepo/"
+    ET.SubElement(channel, "title").text = feed_title
+    ET.SubElement(channel, "link").text = "https://yourusername.github.io/yourrepo/"
     ET.SubElement(channel, "description").text = feed_description
     return channel
-
 
 def _load_or_create(output_file, feed_title, feed_description):
     ET.register_namespace("media", MEDIA_NS)
     if Path(output_file).exists():
         try:
-            tree    = ET.parse(output_file)
-            root    = tree.getroot()
+            tree = ET.parse(output_file)
+            root = tree.getroot()
             channel = root.find("channel")
             if channel is not None:
                 return tree, root, channel
@@ -603,14 +617,13 @@ def _load_or_create(output_file, feed_title, feed_description):
             return tree, root, channel
         except ET.ParseError:
             pass
-    root    = ET.Element("rss", {"version": "2.0"})
-    tree    = ET.ElementTree(root)
+    root = ET.Element("rss", {"version": "2.0"})
+    tree = ET.ElementTree(root)
     channel = _fresh_channel(root, feed_title, feed_description)
     return tree, root, channel
 
-
 def generate_xml_feed(articles, output_file, feed_title=None, feed_description=None):
-    feed_title       = feed_title       or "Curated News"
+    feed_title = feed_title or "Curated News"
     feed_description = feed_description or "AI-curated news feed"
 
     tree, root, channel = _load_or_create(output_file, feed_title, feed_description)
@@ -627,10 +640,10 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
         if not link or link in existing_links:
             continue
 
-        item         = ET.SubElement(channel, "item")
-        ET.SubElement(item, "title").text       = a.get("title", "") or ""
-        ET.SubElement(item, "link").text        = link
-        guid_val     = a.get("id") or link
+        item = ET.SubElement(channel, "item")
+        ET.SubElement(item, "title").text = a.get("title", "") or ""
+        ET.SubElement(item, "link").text = link
+        guid_val = a.get("id") or link
         is_permalink = "true" if guid_val.startswith("http") else "false"
         ET.SubElement(item, "guid", {"isPermaLink": is_permalink}).text = guid_val
         ET.SubElement(item, "description").text = a.get("description", "") or ""
@@ -647,12 +660,12 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
         added += 1
 
     all_items = channel.findall("item")
-    overflow  = len(all_items) - MAX_FEED_ITEMS
+    overflow = len(all_items) - MAX_FEED_ITEMS
     if overflow > 0:
         for old_item in all_items[:overflow]:
             channel.remove(old_item)
 
-    now_text   = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
+    now_text = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
     last_build = channel.find("lastBuildDate")
     if last_build is None:
         ET.SubElement(channel, "lastBuildDate").text = now_text
@@ -699,15 +712,15 @@ def print_stats():
 
 def main():
     processed_data = load_processed_articles()
-    all_articles   = fetch_all_feeds()
-    new_articles   = get_new_articles(all_articles, processed_data)
+    all_articles = fetch_all_feeds()
+    new_articles = get_new_articles(all_articles, processed_data)
 
     STATS["total_new"] = len(new_articles)
 
-    bangla_articles  = [a for a in new_articles if is_bangla_title(a.get("title", ""))]
+    bangla_articles = [a for a in new_articles if is_bangla_title(a.get("title", ""))]
     non_bangla_count = len(new_articles) - len(bangla_articles)
 
-    STATS["total_bangla"]             = len(bangla_articles)
+    STATS["total_bangla"] = len(bangla_articles)
     STATS["total_skipped_non_bangla"] = non_bangla_count
 
     print(f"New articles: {len(new_articles)} total  |  {len(bangla_articles)} Bangla (classifying)  |  {non_bangla_count} non-Bangla (skipped)")
@@ -723,7 +736,7 @@ def main():
     mistral_indices = [i for i in mistral_indices if 0 <= i < len(bangla_articles)]
 
     STATS["total_signal_mistral"] = len(mistral_indices)
-    STATS["total_signal"]         = len(mistral_indices)
+    STATS["total_signal"] = len(mistral_indices)
 
     print(f"  → Mistral: {len(mistral_indices)}")
 
@@ -748,14 +761,13 @@ def main():
 
     save_selected_articles(signal_articles)
 
-    processed_data.setdefault("article_ids",   []).extend([a["id"]   for a in new_articles if a.get("id")])
+    processed_data.setdefault("article_ids", []).extend([a["id"] for a in new_articles if a.get("id")])
     processed_data.setdefault("article_links", []).extend([a["link"] for a in new_articles if a.get("link")])
     save_processed_articles(processed_data)
 
     STATS["timestamp"] = datetime.utcnow().isoformat()
     save_stats()
     print_stats()
-
 
 if __name__ == "__main__":
     main()
