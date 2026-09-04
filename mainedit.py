@@ -63,78 +63,38 @@ def is_bangla_title(title: str) -> bool:
 
 # -- PROMPT --------------------------------------------------------------------
 
-PROMPT = """You are a strict editorial classification engine. Every input is an op-ed, essay, or editorial — no hard news. Classify each as SIGNAL or NOISE. Return only SIGNAL indices. The bar is SUPER HIGH. ; (LOWEST < LOWER < LOW < AVERAGE < HIGH < SUPER HIGH < ULTRA HIGH < EXTREME).
+PROMPT = """You are an editorial classification engine. Classify article titles as SIGNAL or NOISE. Bar is HIGH. Default to NOISE when uncertain.
 
-STEP 1 — INSTANT NOISE. Reject immediately if the piece is any of:
-  Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a leader, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
+INSTANT NOISE — reject without further consideration:
+Sports · entertainment · celebrity · lifestyle · tribute · leader or party praise · isolated local incident · vague sentiment with no named concrete domain
 
-STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
+SIGNAL — Bangladesh is direct subject:
+Named domain at national scale only: economy (trade, exports, inflation, banking, reserves, currency, investment), governance failure, institution breakdown, environment/climate, infrastructure, public health, natural disaster.
+Foreign affairs where Bangladesh is a direct party: bilateral disputes, sanctions, foreign aid/loans, cross-border issues (water, trade, security, migration), Bangladesh at international forums.
+Partisan framing, party strategy, vague national sentiment → NOISE even if Bangladesh is named.
 
-  YES → SIGNAL if the editorial addresses a concrete, named domain at national scale:
-  a) Any of: economic or business condition (trade, exports, remittances, inflation, currency, banking sector, foreign reserves, stock market, investment climate), governance failure, public institution breakdown, environmental or climate crisis, infrastructure, natural disaster, social emergency, health system. National reach = SIGNAL.
-  b) Foreign affairs: bilateral disputes, international pressure or sanctions on BD, foreign aid or loans, cross-border issues (water, trade, security, migration), BD at international forums. If BD is a direct party, it is SIGNAL.
-  c) Editorial naming a concrete national-scale domain → SIGNAL. Vague sentiment with no named domain → NOISE. Partisan framing or party strategy → NOISE.
+SIGNAL — International (no Bangladesh angle required):
+• Multinational bodies acting: UN/agencies, IMF, World Bank, NATO, G7/G20, BRICS, WTO, ICC, ICJ, IAEA
+• Multi-country events: wars, regional conflicts, cross-border crises, multilateral treaties
+• Single-country decision with clear cross-border consequence: global energy/financial disruption, nuclear/arms moves, upstream water control, significant military or cyber operations, treaty withdrawals
+• Global analytical essay on great-power shifts, humanitarian catastrophe, or international economic crisis — clear argumentative intent required
+All other single-country internal affairs → NOISE.
 
-  NO → SIGNAL if:
-  a) Multinational bodies acting collectively: UN and agencies, NATO, IMF, World Bank, WTO, G7/G20, BRICS, IAEA, ICC, ICJ, regional alliances. Their actions, findings, and failures are SIGNAL by nature.
-  b) Multi-country events analysed as a subject: wars, conflicts, cross-border crises, multilateral treaties, regional instability, international sanctions.
-  c) Single-country decision with cross-border consequence:
-     Immediate: moves something the world depends on (global energy, global financial systems, pandemic-level health, global trade architecture).
-     Strategic/slow-burn: shifts power, security, or stability — nuclear decisions, major arms deals, upstream water control affecting downstream countries, military base shifts, significant cyber operations, treaty withdrawals.
-  d) Global analytical essay: an editorial examining a global war, humanitarian catastrophe, great-power shift, or international economic crisis as its primary subject — with clear analytical or argumentative intent — is SIGNAL even with no direct Bangladesh angle.
-  All other single-country internal affairs → NOISE.
+DEDUPLICATION: Among your SIGNAL picks, keep only the lowest index per near-duplicate group.
 
-WHEN IN DOUBT → NOISE.
+Example:
+0. Bangladesh central bank raises rates amid inflation crisis
+1. Saluting the spirit of our freedom fighters
+2. UN warns of famine across Horn of Africa
+3. BNP's path forward after the election
+4. Hope for a Better Bangladesh
+5. US imposes sanctions on Russian energy exports
+→ {"signal": [0, 2, 5]}
 
-DEDUPLICATION: Among the SIGNAL indices you select, remove near-duplicates — titles that cover the same story or event, or are rephrased versions of the same headline.
-Keep only the first occurrence (lowest index) for each duplicate group. Output only: {{"signal": [0-based indices]}}.
-Valid JSON, no markdown, no explanation.
+Output valid JSON only, no other text: {"signal": [0-based indices]}
 
-EXAMPLES:
-
-Input:
-0. US and China sign landmark trade agreement
-1. The Meaning Behind the Game
-2. Bangladesh central bank raises interest rates amid inflation crisis
-3. UK Conservative Party elects new leader
-4. UN warns of imminent famine across the Horn of Africa
-5. The Promise of a New Bangladesh
-6. We Must Fix Bangladesh's Broken Irrigation System
-7. Saluting the Spirit of Our Freedom Fighters
-8. Bangladesh slashes fuel subsidies nationwide
-9. India's internal border dispute heats up
-10. Bangladesh foreign minister holds talks with India over Teesta water sharing
-11. US warns Bangladesh over labour rights ahead of trade review
-12. China pledges $3bn infrastructure investment in Bangladesh
-13. NATO expands eastern flank military presence
-14. India builds new dam on Brahmaputra upstream of Bangladesh
-15. The World Watches Gaza and Does Nothing
-16. Why the Global South Must Rethink Its Dependence on Western Finance
-17. Bangladesh's foreign reserves fall below $20bn as taka hits record low
-18. Hope Springs Eternal for Our Nation
-Output: {{"signal": [0, 2, 4, 6, 8, 10, 11, 12, 13, 14, 15, 16, 17]}}
-
-Input:
-0. India and Pakistan exchange fire across Line of Control
-1. Dhaka garment workers strike shuts down hundreds of factories
-2. Australia holds federal election
-3. IMF approves emergency loan for Bangladesh
-4. BNP's Path Forward After the Election
-5. How Microfinance Is Changing Lives in Sylhet
-6. How Poor Water Management Is Destroying Bangladesh's Agriculture
-7. The Geopolitics of the Indo-Pacific and What It Means for the World
-8. Why [Party Leader] Is the Leader Bangladesh Deserves
-9. IAEA raises alarm over Iran's uranium enrichment levels
-10. The Slow Collapse of Bangladesh's River Systems
-11. Why Bangladesh's Public Hospitals Are Failing the Poor
-12. The Climate Crisis Is an Existential Threat to Civilisation
-13. A Brighter Future Is Possible If We Choose It
-14. Garment exports decline 12% amid global slowdown, threatening Bangladesh's growth
-Output: {{"signal": [0, 1, 3, 6, 7, 9, 10, 11, 12, 14]}}
-
-Article titles:
-{titles}
-"""
+Titles:
+{titles}"""
 
 # -- CONSTANTS -----------------------------------------------------------------
 
@@ -530,20 +490,16 @@ def send_to_mistral(articles):
     api_key = os.environ.get("MS")
     if not api_key or not articles:
         return []
-
     try:
         client      = Mistral(api_key=api_key)
         titles_text = "\n".join([f"{i}. {a.get('title', '')}" for i, a in enumerate(articles)])
-
-        response = client.chat.complete(
+        response    = client.chat.complete(
             model=MISTRAL_MODEL,
-            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
             response_format={"type": "json_object"},
+            messages=[{"role": "user", "content": PROMPT.format(titles=titles_text)}],
         )
-
         text = response.choices[0].message.content or ""
         return extract_json_object(text).get("signal", [])
-
     except Exception as e:
         print(f"Mistral classification error: {e}")
         return []
@@ -595,7 +551,7 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
         if not link or link in existing_links:
             continue
 
-        item         = ET.SubElement(channel, "item")
+        item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text       = a.get("title", "") or ""
         ET.SubElement(item, "link").text        = link
         guid_val     = a.get("id") or link
@@ -646,21 +602,21 @@ def generate_xml_feed(articles, output_file, feed_title=None, feed_description=N
 
 def print_stats():
     print("\nFetch statistics:")
-    print(f"  Timestamp:               {STATS.get('timestamp')}")
-    print(f"  Total fetched:           {STATS['total_fetched']}  (raw entries from all feeds)")
-    print(f"  Passed age cut:          {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h window)")
-    print(f"  New (unseen):            {STATS['total_new']}")
+    print(f"  Timestamp:            {STATS.get('timestamp')}")
+    print(f"  Total fetched:        {STATS['total_fetched']}")
+    print(f"  Passed age cut:       {STATS['total_passed_age']}  (within {MAX_AGE_HOURS}h)")
+    print(f"  New (unseen):         {STATS['total_new']}")
     print(f"    ├─ English (classified): {STATS['total_english']}")
     print(f"    └─ Bangla (skipped):     {STATS['total_skipped_bangla']}")
-    print(f"  Signal (Mistral):        {STATS['total_signal_mistral']}")
-    print(f"  Signal (after dedup):    {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
-    print("  Per-method (raw fetch):")
+    print(f"  Signal (Mistral):     {STATS['total_signal_mistral']}")
+    print(f"  Signal (after dedup): {STATS['total_signal_deduped']}  -> {OUTPUT_XML}")
+    print("  Per-method:")
     for method, cnt in STATS["per_method"].items():
         print(f"    {method}: {cnt}")
-    print("  Per-feed breakdown:")
+    print("  Per-feed:")
     for feed, d in STATS["per_feed"].items():
         print(f"    {feed}")
-        print(f"      fetched={d.get('fetched',0)}  passed_age={d.get('passed_age',0)}  sent_to_pipeline={d.get('capped',0)}")
+        print(f"      fetched={d.get('fetched',0)}  passed_age={d.get('passed_age',0)}  capped={d.get('capped',0)}")
     print("")
 
 # -- MAIN ----------------------------------------------------------------------
