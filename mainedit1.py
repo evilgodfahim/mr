@@ -42,7 +42,7 @@ KL_API_FEEDS       = set()
 
 # -- CONFIG --------------------------------------------------------------------
 
-MISTRAL_MODEL         = "gemini-3-flash-preview"
+MISTRAL_MODEL         = "gemini-3.6-flash"
 PROCESSED_FILE        = "processed_articles_edit.json"
 SELECTED_FILE         = "selected_articles_edit.json"
 OUTPUT_XML            = "curated_feed_edit.xml"
