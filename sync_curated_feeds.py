@@ -41,7 +41,7 @@ FEED_PAIRS = [
 
 HOURS_WINDOW = 26
 BD_TZ        = timezone(timedelta(hours=6))  # +0600 Bangladesh Time
-DEDUP_MODEL  = "mistral-large-latest"
+DEDUP_MODEL  = "mistral-small-latest"
 
 DEDUP_PROMPT = """You are a news deduplication engine. You will receive a numbered list of article titles.
 Your task: identify groups of titles that cover the same story or event (near-duplicates, rephrased versions, or very similar headlines). For each such group, keep only the FIRST occurrence (lowest index) and discard the rest.
