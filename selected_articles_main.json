@@ -121542,5 +121542,819 @@
     "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
     "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/06/02/rooppur_1.jpg",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/foreign-policy/bangladesh-send-trade-delegation-explore-potato-exports-sri-lanka-1539261",
+    "title": "Bangladesh to send trade delegation to explore potato exports to Sri Lanka",
+    "link": "https://www.tbsnews.net/foreign-policy/bangladesh-send-trade-delegation-explore-potato-exports-sri-lanka-1539261",
+    "description": "<b>Importance:</b> 43.2 | <b>Covered by:</b> 4 feeds | <b>Reputation:</b> 6.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/business-print/897158\">Bangladesh trade team to visit Sri Lanka to tap potato export potential</a><br />- <a href=\"https://www.newagebd.net/post/agriculture/313271/bangladesh-to-send-trade-delegation-to-assess-potato-export-prospects-in-sri-lanka\">Bangladesh to send trade delegation to assess potato export prospects in Sri Lanka</a><br />- <a href=\"https://unb.com.bd/category/Business/bangladesh-to-send-delegation-to-sri-lanka-to-explore-potato-export-potential/195073\">Bangladesh to send delegation to Sri Lanka to explore potato export potential</a>",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/banks/419520/prime-bank-joins-bb%E2%80%99s-tk3-000cr-refinance-scheme",
+    "title": "Prime Bank joins BB’s Tk3,000cr refinance scheme to support export-oriented industries",
+    "link": "https://www.dhakatribune.com/business/banks/419520/prime-bank-joins-bb%E2%80%99s-tk3-000cr-refinance-scheme",
+    "description": "<b>Importance:</b> 26.0 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 12.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://thefinancialexpress.com.bd/trade/prime-bank-joins-bbs-tk-30b-refinance-scheme-to-support-export-oriented-industries\">Prime Bank joins BB’s Tk 30b refinance scheme to support export-oriented industries</a>",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/corporates/brac-bank-completes-countrys-first-tk1000cr-social-bond-1538916",
+    "title": "BRAC Bank completes country’s first Tk1,000cr social bond",
+    "link": "https://www.tbsnews.net/economy/corporates/brac-bank-completes-countrys-first-tk1000cr-social-bond-1538916",
+    "description": "<b>Importance:</b> 25.8 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 11.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://today.thefinancialexpress.com.bd/stock-corporate/brac-bank-marks-completion-of-countrys-first-social-bond-1789060617\">[STOCK & CORPORATE] BRAC Bank marks completion of country's first social bond</a>",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/political-influence-broke-the-banks-4269911",
+    "title": "Political influence broke the banks",
+    "link": "https://www.thedailystar.net/business/economy/news/political-influence-broke-the-banks-4269911",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/global-economy/news/where-global-gas-lng-infrastructure-growing-rapidly-4269866",
+    "title": "Where global gas, LNG infrastructure  is growing rapidly",
+    "link": "https://www.thedailystar.net/business/global-economy/news/where-global-gas-lng-infrastructure-growing-rapidly-4269866",
+    "description": "<b>Importance:</b> 17.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 14.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/banks/419529/bank-sub-branches-lead-in-deposits-lag-in",
+    "title": "Bank sub-branches lead in deposits, lag in disbursing loans",
+    "link": "https://www.dhakatribune.com/business/banks/419529/bank-sub-branches-lead-in-deposits-lag-in",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/banks/419528/parliament-passes-bank-resolution-amendment-bill",
+    "title": "Parliament passes Bank Resolution (Amendment) Bill",
+    "link": "https://www.dhakatribune.com/business/banks/419528/parliament-passes-bank-resolution-amendment-bill",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/stocks/dse-extends-losing-streak-third-session-sheds-23-points-investor-caution-1539476",
+    "title": "DSE extends losing streak for third session, sheds 23 points on investor caution",
+    "link": "https://www.tbsnews.net/economy/stocks/dse-extends-losing-streak-third-session-sheds-23-points-investor-caution-1539476",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/features/panorama/more-participative-economy-needs-safer-public-transport-women-1539301",
+    "title": "A more participative economy needs safer public transport for women",
+    "link": "https://www.tbsnews.net/features/panorama/more-participative-economy-needs-safer-public-transport-women-1539301",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/banking/ten-banks-hold-over-72-tk6-lakh-cr-defaulted-loans-1539221",
+    "title": "Ten banks hold over 72% of Tk6 lakh cr defaulted loans",
+    "link": "https://www.tbsnews.net/economy/banking/ten-banks-hold-over-72-tk6-lakh-cr-defaulted-loans-1539221",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/energy/construction-commissioning-activities-rooppur-plant-continue-uninterruptedly-1539371",
+    "title": "Construction, commissioning activities at Rooppur plant continue uninterruptedly",
+    "link": "https://www.tbsnews.net/economy/energy/construction-commissioning-activities-rooppur-plant-continue-uninterruptedly-1539371",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/asia/xis-india-visit-help-diplomatic-thaw-business-ties-bound-suspicion-1538976",
+    "title": "Xi's India visit to help diplomatic thaw, but business ties bound by suspicion",
+    "link": "https://www.tbsnews.net/worldbiz/asia/xis-india-visit-help-diplomatic-thaw-business-ties-bound-suspicion-1538976",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/money-gets-cheaper-yet-takers-are-hard-get-1538616",
+    "title": "Money gets cheaper, yet takers are hard to get",
+    "link": "https://www.tbsnews.net/economy/money-gets-cheaper-yet-takers-are-hard-get-1538616",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/inflation-further-edges-down-to-826pc-in-aug",
+    "title": "Inflation further edges down to 8.26pc in Aug",
+    "link": "https://thefinancialexpress.com.bd/economy/inflation-further-edges-down-to-826pc-in-aug",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/views/plunder-or-extortion-economy",
+    "title": "Plunder or extortion economy",
+    "link": "https://thefinancialexpress.com.bd/views/plunder-or-extortion-economy",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/govt-successfully-services-foreign-debt-amid-legacy-loan-strains",
+    "title": "Govt successfully services foreign debt amid legacy loan strains",
+    "link": "https://thefinancialexpress.com.bd/economy/govt-successfully-services-foreign-debt-amid-legacy-loan-strains",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://bdnews24.com/business/1f23d16e9425",
+    "title": "Asian stocks wilt",
+    "link": "https://bdnews24.com/business/1f23d16e9425",
+    "description": "<b>Importance:</b> 15.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 10.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.newagebd.net/post/economy/313328/imf-pushed-for-larger-austerity-cuts-in-borrowing-countries-oxfam",
+    "title": "IMF pushed for larger austerity cuts in borrowing countries: Oxfam",
+    "link": "https://www.newagebd.net/post/economy/313328/imf-pushed-for-larger-austerity-cuts-in-borrowing-countries-oxfam",
+    "description": "<b>Importance:</b> 14.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 9.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.newagebd.net/post/economy/313320/invest-bangladesh-invites-opinions-on-closed-soes",
+    "title": "Invest Bangladesh invites opinions on closed SOEs",
+    "link": "https://www.newagebd.net/post/economy/313320/invest-bangladesh-invites-opinions-on-closed-soes",
+    "description": "<b>Importance:</b> 14.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 9.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.newagebd.net/post/economy/313315/oil-prices-extend-gains-as-markets-await-ecb-rate-outlook",
+    "title": "Oil prices extend gains as markets await ECB rate outlook",
+    "link": "https://www.newagebd.net/post/economy/313315/oil-prices-extend-gains-as-markets-await-ecb-rate-outlook",
+    "description": "<b>Importance:</b> 14.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 9.0",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/israeli-strike-kills-four-gaza-including-two-children-mideast-tensions-persist-1538841",
+    "title": "Israeli strike kills four in Gaza, including two children, as Mideast tensions persist",
+    "link": "https://www.tbsnews.net/world/israeli-strike-kills-four-gaza-including-two-children-mideast-tensions-persist-1538841",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/algeria-cuts-diplomatic-ties-uae-1539236",
+    "title": "Algeria cuts diplomatic ties with the UAE",
+    "link": "https://www.tbsnews.net/world/algeria-cuts-diplomatic-ties-uae-1539236",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/houthis-seize-key-yemeni-red-sea-port-sources-say-threatening-global-energy-flows-1539281",
+    "title": "Houthis seize key Yemeni Red Sea port, sources say, threatening global energy flows",
+    "link": "https://www.tbsnews.net/world/houthis-seize-key-yemeni-red-sea-port-sources-say-threatening-global-energy-flows-1539281",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/environment/august-hottest-month-ever-recorded-globally-eu-monitor-1538676",
+    "title": "August hottest month ever recorded globally: EU monitor",
+    "link": "https://www.tbsnews.net/bangladesh/environment/august-hottest-month-ever-recorded-globally-eu-monitor-1538676",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/canada-agrees-on-c-350-million-air-defense-package-for-ukraine-carney-says-101789066245660.html",
+    "title": "Canada agrees on C$350 million air defense package for Ukraine, Carney says",
+    "link": "https://www.hindustantimes.com/world-news/canada-agrees-on-c-350-million-air-defense-package-for-ukraine-carney-says-101789066245660.html",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/bangladesh-strongly-condemns-israels-plan-expand-west-bank-settlements-1538866",
+    "title": "Bangladesh strongly condemns Israel's plan to expand West Bank settlements",
+    "link": "https://www.tbsnews.net/bangladesh/bangladesh-strongly-condemns-israels-plan-expand-west-bank-settlements-1538866",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/9/10/israel-says-it-destroyed-key-hezbollah-tunnels-in-southern-lebanon?traffic_source=rss",
+    "title": "Israel says it destroyed key Hezbollah tunnels in southern Lebanon",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/10/israel-says-it-destroyed-key-hezbollah-tunnels-in-southern-lebanon?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/pakistan-says-no-military-response-discussed-under-mecca-pact-over-houthi-attacks-saudi-arabia",
+    "title": "Pakistan says no military response discussed under Mecca Pact over Houthi attacks on Saudi Arabia",
+    "link": "https://www.tbsnews.net/world/pakistan-says-no-military-response-discussed-under-mecca-pact-over-houthi-attacks-saudi-arabia",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/iran-likely-reverse-engineer-captured-us-underwater-drone-1538601",
+    "title": "Iran likely to reverse-engineer captured US underwater drone",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/iran-likely-reverse-engineer-captured-us-underwater-drone-1538601",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/9/10/10-09-clip-russia-strike-pavlohrad-ua?traffic_source=rss",
+    "title": "Russian strike hits shopping centre in central Ukraine",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/10/10-09-clip-russia-strike-pavlohrad-ua?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/iran-attack-base-jordan-damaged-american-military-aircraft-us-official-says-1539506",
+    "title": "Iran attack on base in Jordan damaged American military aircraft, US official says",
+    "link": "https://www.tbsnews.net/world/iran-attack-base-jordan-damaged-american-military-aircraft-us-official-says-1539506",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/9/10/fighting-escalates-in-yemen-houthi-attacks-trigger-alerts-in-saudi-arabia?traffic_source=rss",
+    "title": "Fighting escalates in Yemen; Houthi attacks trigger alerts in Saudi Arabia",
+    "link": "https://www.aljazeera.com/news/2026/9/10/fighting-escalates-in-yemen-houthi-attacks-trigger-alerts-in-saudi-arabia?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/trump-says-us-winning-iran-war-claims-control-hormuz-strait-1538636",
+    "title": "Trump says US winning Iran war, claims control of Hormuz Strait",
+    "link": "https://www.tbsnews.net/world/trump-says-us-winning-iran-war-claims-control-hormuz-strait-1538636",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/foreign-policy/no-scope-bangladesh-join-brics-summit-pm-wasnt-invited-humaiun-kobir-1538871",
+    "title": "No scope for Bangladesh to join BRICS Summit, PM wasn't invited: Humaiun",
+    "link": "https://www.tbsnews.net/foreign-policy/no-scope-bangladesh-join-brics-summit-pm-wasnt-invited-humaiun-kobir-1538871",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/health/measles-death-toll-reaches-1009-7-more-children-die-24hrs-1538961",
+    "title": "Measles: Death toll reaches 1,009 as 7 more children die in 24hrs",
+    "link": "https://www.tbsnews.net/bangladesh/health/measles-death-toll-reaches-1009-7-more-children-die-24hrs-1538961",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/9/10/gaza-hospitals-ration-power-as-fuel-shortages-deepen?traffic_source=rss",
+    "title": "Gaza hospitals ration power as fuel shortages deepen",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/10/gaza-hospitals-ration-power-as-fuel-shortages-deepen?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/poland-says-it-expects-russia-will-target-its-border-crossings-ukraine-1539481",
+    "title": "Poland says it expects Russia will target its border crossings with Ukraine",
+    "link": "https://www.tbsnews.net/world/poland-says-it-expects-russia-will-target-its-border-crossings-ukraine-1539481",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/pm-assures-people-gradually-resolving-gas-power-crisis-1539426",
+    "title": "PM assures people of gradually resolving gas, power crisis",
+    "link": "https://www.tbsnews.net/bangladesh/pm-assures-people-gradually-resolving-gas-power-crisis-1539426",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/55-bangladeshi-youth-use-emerging-tobacco-products-study-1538981",
+    "title": "5.5% of Bangladeshi youths use emerging tobacco products: Study",
+    "link": "https://www.tbsnews.net/bangladesh/55-bangladeshi-youth-use-emerging-tobacco-products-study-1538981",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/mecca-defence-pact-expansion-not-cards-now-pakistan-1539121",
+    "title": "Mecca Defence Pact expansion 'not on the cards' for now: Pakistan",
+    "link": "https://www.tbsnews.net/world/mecca-defence-pact-expansion-not-cards-now-pakistan-1539121",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/health/6-die-dengue-1492-hospitalised-24-hours-1539256",
+    "title": "6 die of dengue, 1,492 hospitalised in 24 hours",
+    "link": "https://www.tbsnews.net/bangladesh/health/6-die-dengue-1492-hospitalised-24-hours-1539256",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says-1538586",
+    "title": "North Korea builds new Yongbyon uranium enrichment facility, IAEA says",
+    "link": "https://www.tbsnews.net/world/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says-1538586",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2RENzlWLV9HRWM5eHpVY2l4YjZEal9MMWdvS2o0ajVhdUJKTThlc2NQb2RYS1E2UnBtS0dLVS1USlFTaEZ4NHltNjBzNUxDLWplV1FET1FCN1UyZi1KZHNEbXJ2TGx5NjZLQ2x3NFFZeEhWYThNZFRndFNlSTRwcks1aUpqUEhsTEJpQXI3TFJwekdrMDdCTkJ3aW1WcWpiRV9SYkNreVdZQm5ySnc?oc=5",
+    "title": "EXCLUSIVE: EU countries to seek import curbs on chemicals, plastics, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2RENzlWLV9HRWM5eHpVY2l4YjZEal9MMWdvS2o0ajVhdUJKTThlc2NQb2RYS1E2UnBtS0dLVS1USlFTaEZ4NHltNjBzNUxDLWplV1FET1FCN1UyZi1KZHNEbXJ2TGx5NjZLQ2x3NFFZeEhWYThNZFRndFNlSTRwcks1aUpqUEhsTEJpQXI3TFJwekdrMDdCTkJ3aW1WcWpiRV9SYkNreVdZQm5ySnc?oc=5",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/opinions/2026/9/10/the-houthis-are-testing-the-limits-of-saudi-restraint?traffic_source=rss",
+    "title": "The Houthis are testing the limits of Saudi restraint",
+    "link": "https://www.aljazeera.com/opinions/2026/9/10/the-houthis-are-testing-the-limits-of-saudi-restraint?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/9/10/israel-arrests-100-palestinians-in-a-week-as-west-bank-pogroms-continue?traffic_source=rss",
+    "title": "Israel arrests 100 Palestinians in a week as West Bank pogroms continue",
+    "link": "https://www.aljazeera.com/news/2026/9/10/israel-arrests-100-palestinians-in-a-week-as-west-bank-pogroms-continue?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/9/10/houthis-yemeni-forces-engaged-in-fierce-battles-why-each-front-matters?traffic_source=rss",
+    "title": "Houthis, Yemeni forces engaged in fierce battles: Why each front matters",
+    "link": "https://www.aljazeera.com/news/2026/9/10/houthis-yemeni-forces-engaged-in-fierce-battles-why-each-front-matters?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/9/10/how-ukraines-deepest-attack-in-russia-on-arctic-gas-signals-new-reach?traffic_source=rss",
+    "title": "How Ukraine’s deepest attack in Russia, on Arctic gas, signals new reach",
+    "link": "https://www.aljazeera.com/news/2026/9/10/how-ukraines-deepest-attack-in-russia-on-arctic-gas-signals-new-reach?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/trumps-iran-campaign-echoes-post-911-forever-wars-1538821",
+    "title": "Trump's Iran campaign echoes the post-9/11 'forever wars'",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/trumps-iran-campaign-echoes-post-911-forever-wars-1538821",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/saima-wazed-hasina-daughter-resigns-as-who-regional-director-fraud-allegations-bangladesh/article71450449.ece",
+    "title": "Sheikh Hasina's daughter resigns as WHO regional director amid fraud allegations",
+    "link": "https://www.thehindu.com/news/international/saima-wazed-hasina-daughter-resigns-as-who-regional-director-fraud-allegations-bangladesh/article71450449.ece",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/un-nuclear-watchdog-board-reports-iran-to-un-security-council-for-the-first-time-in-20-years/article71449985.ece",
+    "title": "UN nuclear watchdog board reports Iran to UN Security Council for the first time in 20 years",
+    "link": "https://www.thehindu.com/news/international/un-nuclear-watchdog-board-reports-iran-to-un-security-council-for-the-first-time-in-20-years/article71449985.ece",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/nato-will-stay-strong-whoever-wins-french-election-rutte/article71453017.ece",
+    "title": "NATO will stay ‘strong’ whoever wins French election: Rutte",
+    "link": "https://www.thehindu.com/news/international/nato-will-stay-strong-whoever-wins-french-election-rutte/article71453017.ece",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/un-chief-to-stress-multipolarity-unsc-reforms-at-brics-summit-in-india/article71450463.ece",
+    "title": "UN chief to stress multipolarity, UNSC reforms at BRICS Summit in India",
+    "link": "https://www.thehindu.com/news/international/un-chief-to-stress-multipolarity-unsc-reforms-at-brics-summit-in-india/article71450463.ece",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c804d9lyj2jo?at_medium=RSS&at_campaign=rss",
+    "title": "Russia outpacing Ukraine's air defences with daily use of new jet-powered drones",
+    "link": "https://www.bbc.co.uk/news/articles/c804d9lyj2jo?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/nato-allies-foil-russian-subsea-cable-sabotage-plot-1538846",
+    "title": "Nato allies foil Russian subsea cable sabotage plot",
+    "link": "https://www.tbsnews.net/world/nato-allies-foil-russian-subsea-cable-sabotage-plot-1538846",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/why-bab-el-mandeb-strait-so-important-1539391",
+    "title": "Why is the Bab el-Mandeb Strait so important?",
+    "link": "https://www.tbsnews.net/world/why-bab-el-mandeb-strait-so-important-1539391",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/india-hosts-brics-summit-iran-war-tests-bloc-unity-1539051",
+    "title": "India hosts BRICS summit as Iran war tests bloc unity",
+    "link": "https://www.tbsnews.net/world/india-hosts-brics-summit-iran-war-tests-bloc-unity-1539051",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/how-billion-dollar-sanctions-dodge-kept-chinese-goods-flowing-iran-1538801",
+    "title": "How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran",
+    "link": "https://www.tbsnews.net/world/how-billion-dollar-sanctions-dodge-kept-chinese-goods-flowing-iran-1538801",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/news/2026/9/10/spains-spy-agency-warned-of-mass-migrant-crossing-to-ceuta-before-crisis?traffic_source=rss",
+    "title": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
+    "link": "https://www.aljazeera.com/news/2026/9/10/spains-spy-agency-warned-of-mass-migrant-crossing-to-ceuta-before-crisis?traffic_source=rss",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/china-says-it-hopes-to-agree-with-us-on-tariff-reductions-at-an-early-date/article71452968.ece",
+    "title": "China says it hopes to agree with U.S. on tariff reductions ‘at an early date’",
+    "link": "https://www.thehindu.com/news/international/china-says-it-hopes-to-agree-with-us-on-tariff-reductions-at-an-early-date/article71452968.ece",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/south-korea-nears-agreement-on-billions-in-u-s-investments-a-win-for-trump-101789026660540.html",
+    "title": "South Korea nears agreement on billions in U.S. investments, a win for Trump",
+    "link": "https://www.hindustantimes.com/world-news/south-korea-nears-agreement-on-billions-in-u-s-investments-a-win-for-trump-101789026660540.html",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/897039/humaiun-seeks-norwegian-investment-in-renewable-energy",
+    "title": "Humaiun seeks Norwegian investment in renewable energy",
+    "link": "https://www.daily-sun.com/diplomacy/897039/humaiun-seeks-norwegian-investment-in-renewable-energy",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/897013/palestinian-envoy-meets-humaiun-discusses-gaza-situation",
+    "title": "Palestinian envoy meets Humaiun, discusses Gaza situation",
+    "link": "https://www.daily-sun.com/diplomacy/897013/palestinian-envoy-meets-humaiun-discusses-gaza-situation",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://daily-sun.com/diplomacy/896937/india-not-involved-in-hasina-s-statements-shringla",
+    "title": "India not involved in Hasina’s statements: Shringla",
+    "link": "https://daily-sun.com/diplomacy/896937/india-not-involved-in-hasina-s-statements-shringla",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/897017/tarique-rahman-keen-to-visit-india-but-concerned-about-achievements",
+    "title": "‘Tarique Rahman keen to visit India, but concerned about achievements’",
+    "link": "https://www.daily-sun.com/diplomacy/897017/tarique-rahman-keen-to-visit-india-but-concerned-about-achievements",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/897000/bangladesh-eyes-diversified-exports-to-cut-hong-kong-trade-gap",
+    "title": "Bangladesh eyes diversified exports to cut Hong Kong trade gap",
+    "link": "https://www.daily-sun.com/diplomacy/897000/bangladesh-eyes-diversified-exports-to-cut-hong-kong-trade-gap",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/09/1168309",
+    "title": "Security Council LIVE: Fresh attacks prompt emergency meeting on Yemen",
+    "link": "https://news.un.org/feed/view/en/story/2026/09/1168309",
+    "description": "On the heels of reported Houthi attacks on Saudi Arabia on Tuesday and the capture of another key port by the militants on Yemen’s Red Sea coast – including the seizure of eight UN vehicles from a key aid hub there – the Security Council is meeting on Thursday at 3pm in New York to discuss the latest developments.",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/09/1168312",
+    "title": "Ukraine: Drone attacks on Chornobyl are ‘gambling with the safety of millions of people’",
+    "link": "https://news.un.org/feed/view/en/story/2026/09/1168312",
+    "description": "A drone strike on the protective structure at the Chornobyl Nuclear Power Plant could have endangered the safety of millions of people, UN Development Programme (UNDP) Administrator Alexander De Croo told reporters via video link from Kyiv on Thursday.",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://timesofindia.indiatimes.com/blogs/voices/tarique-rahmans-brics-dilemma-challenges-choices-and-opportunities-for-bangladesh/",
+    "title": "Tarique Rahman’s BRICS dilemma: Challenges, choices and opportunities for Bangladesh",
+    "link": "https://timesofindia.indiatimes.com/blogs/voices/tarique-rahmans-brics-dilemma-challenges-choices-and-opportunities-for-bangladesh/",
+    "description": "As a BRICS chair, India is hosting the 18th BRICS Summit on 12-13 September in New Delhi. Prime Minister Narendra Modi has invited Bangladesh’s counterpart Tarique Rahman to the Outreach Session of the summit. Bangladesh...",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/rmg/us-cotton-reach-bangladesh-faster-private-warehouse-opens-nov-1537371",
+    "title": "US cotton to reach Bangladesh faster as private warehouse opens in Nov",
+    "link": "https://www.tbsnews.net/economy/rmg/us-cotton-reach-bangladesh-faster-private-warehouse-opens-nov-1537371",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/09/09/us-cotton.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/iran-us-trade-competing-claims-over-strikes-near-strait-hormuz-1537356",
+    "title": "Iran, US trade competing claims over strikes near Strait of Hormuz",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/iran-us-trade-competing-claims-over-strikes-near-strait-hormuz-1537356",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/08/25/us_navy.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/us-strikes-five-iranian-oil-tankers-regional-tensions-escalate-1537351",
+    "title": "US strikes five Iranian oil tankers as regional tensions escalate",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/us-strikes-five-iranian-oil-tankers-regional-tensions-escalate-1537351",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/02/23/usa_aircraft_carrier_arabian_sea.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/environment/news/pm-orders-tougher-action-against-polythene-plastic-use-4268531",
+    "title": "PM orders tougher action against polythene, plastic use",
+    "link": "https://www.thedailystar.net/news/environment/news/pm-orders-tougher-action-against-polythene-plastic-use-4268531",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/transport/news/sleeper-buses-cannot-ply-highways-without-brta-authorisation-hc-4268586",
+    "title": "Sleeper buses cannot ply highways without BRTA authorisation: HC",
+    "link": "https://www.thedailystar.net/news/transport/news/sleeper-buses-cannot-ply-highways-without-brta-authorisation-hc-4268586",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/governance/news/no-more-his-excellency-honourable-president-pm-and-ministers-titles-4268606",
+    "title": "No more ‘His Excellency’, ‘Honourable’ before president, PM and ministers' titles",
+    "link": "https://www.thedailystar.net/news/governance/news/no-more-his-excellency-honourable-president-pm-and-ministers-titles-4268606",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/bangladesh-india-discuss-defence-cooperation-maritime-security-4268581",
+    "title": "Bangladesh, India discuss defence cooperation, maritime security",
+    "link": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/bangladesh-india-discuss-defence-cooperation-maritime-security-4268581",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/world/news/trump-hits-canada-import-bans-50-tariffs-4268466",
+    "title": "Trump hits Canada with import bans, 50% tariffs",
+    "link": "https://www.thedailystar.net/news/world/news/trump-hits-canada-import-bans-50-tariffs-4268466",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/news/bangladesh/news/millers-hail-withdrawal-zero-duty-yarn-4268301",
+    "title": "Millers hail withdrawal of zero duty on yarn",
+    "link": "https://www.thedailystar.net/news/bangladesh/news/millers-hail-withdrawal-zero-duty-yarn-4268301",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/trade-deficit-widened-38-july-4268091",
+    "title": "Trade deficit widened 38% in July",
+    "link": "https://www.thedailystar.net/business/economy/news/trade-deficit-widened-38-july-4268091",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://bdnews24.com/world/15bf68c8b555",
+    "title": "World growth defies wars and rate rises",
+    "link": "https://bdnews24.com/world/15bf68c8b555",
+    "description": "[World] World growth defies wars and rate rises",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026September/SM/global-economy-01-09092026-1788946649.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/world/092d99fe8857",
+    "title": "US accuses China of 'malicious' AI theft",
+    "link": "https://bdnews24.com/world/092d99fe8857",
+    "description": "[World] US accuses China of 'malicious' AI theft",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews-english/import/english/imgAll/2026September/SM/china-ai-090926-01-1788944108.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/bangladesh/2e89ffc6ceb7",
+    "title": "Fire breaks out at nuclear power plant",
+    "link": "https://bdnews24.com/bangladesh/2e89ffc6ceb7",
+    "description": "[Bangladesh] Fire breaks out at nuclear power plant",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media-stg.assettype.com/bdnews/import/bangla/imgAll/2026April/SM/rooppur-nuclear-power-plant-280426-17-1777373954.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.dhakatribune.com/bangladesh/court/419416/high-court-nid-cannot-be-issued-without",
+    "title": "High Court: NID cannot be issued without photograph",
+    "link": "https://www.dhakatribune.com/bangladesh/court/419416/high-court-nid-cannot-be-issued-without",
+    "description": "The High Court has dismissed a rule that sought to introduce an alternative system for issuing National Identity (NID) cards using biometric features instead of photographs.\n\nA High Court bench comprising Justice Md Iqbal Kabir and Justice SM Saiful Islam delivered the verdict on Wednesday.\n\nAs a result, photographs will remain mandatory for obtaining an NID card.\n\nLawyers Sheikh Omar Sharif and Ilias Ali Mondal represented the petitioner, while lawyer Kamal Hossain Miyaji appeared for the Election Commission.\n\nConfirming the verdict, Miyaji said the dismissal of the rule meant that NID cards could not be issued without photographs.\n\nSumaiya Ahmad Muna, a resident of Shantibagh in the capital's Shahjahanpur area, filed the writ petition in 2022, stating that she observes purdah in accordance with Islamic Sharia and therefore refrains from having her photograph taken.\n\nHer husband, Muhammad Arifur Rahman, was authorized to act on her behalf in connection with the petition.\n\nOn February 10, 2022, Muna submitted an application to the Election Commission seeking an alternative method of obtaining an NID card without providing a photograph.\n\nShe said that as an adult Muslim woman who strictly observes purdah, she had been unable to obtain an NID card and was consequently being deprived of various services and benefits.\n\nAs her application remained unresolved, she filed a writ petition with the High Court.\n\nFollowing a hearing, the High Court issued a rule on March 6, 2022, asking why the authorities should not be directed to take necessary steps to issue NID cards using alternative identification methods, including biometric features, without requiring photographs.\n\nThe High Court dismissed the rule on Wednesday.\n\nDuring the initial hearing, state counsel argued that the petition itself was unconstitutional, noting that photographs are required for purposes including Hajj registration and opening bank accounts.\n\nThe state also argued that biometric identification could require iris scanning, which would involve lifting the veil.",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://ecdn.dhakatribune.net/contents/uploads/media/2023/08/21/national-id-5a59a4e5ea8c0d980c90d00c882b96bc.jpeg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/bangladesh/dba-seeks-buyback-ma-provisions-in-proposed-company-act-amendment",
+    "title": "DBA seeks buyback, M&A provisions in proposed Company Act amendment",
+    "link": "https://thefinancialexpress.com.bd/bangladesh/dba-seeks-buyback-ma-provisions-in-proposed-company-act-amendment",
+    "description": "DBA seeks buyback, M&amp;A provisions in proposed Company Act amendment",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/illegal-loan-apps-bb-to-block-payment-services",
+    "title": "Illegal loan apps: BB to block payment services",
+    "link": "https://thefinancialexpress.com.bd/trade/illegal-loan-apps-bb-to-block-payment-services",
+    "description": "Illegal loan apps: BB to block payment services",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/world/ukraine-contracting-around-1000-patriot-missiles-from-allies",
+    "title": "Ukraine contracting around 1,000 Patriot missiles from allies",
+    "link": "https://thefinancialexpress.com.bd/world/ukraine-contracting-around-1000-patriot-missiles-from-allies",
+    "description": "Ukraine contracting around 1,000 Patriot missiles from allies",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/current-account-records-64m-surplus-in-july",
+    "title": "Current account records $64m surplus in July",
+    "link": "https://thefinancialexpress.com.bd/trade/current-account-records-64m-surplus-in-july",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/171291/current-account.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/japanese-biz-leaders-eye-vast-market-in-dhaka-says-jetro-chief",
+    "title": "Japanese biz leaders eye vast market in Dhaka, says JETRO chief",
+    "link": "https://thefinancialexpress.com.bd/trade/japanese-biz-leaders-eye-vast-market-in-dhaka-says-jetro-chief",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/171307/bd-japan-flag.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/stock/bsec-weighs-extended-audit-rule-to-safeguard-public-interest-post-ipo",
+    "title": "BSEC weighs extended audit rule to safeguard public interest post-IPO",
+    "link": "https://thefinancialexpress.com.bd/stock/bsec-weighs-extended-audit-rule-to-safeguard-public-interest-post-ipo",
+    "description": "Issuers of initial public offerings (IPOs) will be required to undergo an \"extended audit\" to physically verify assets, inventories, and bank transactions, as part of a regulatory move to protect public interest post-IPO. The Banglad...",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "0e0782d8f727f762870be53d278034907c49b72b",
+    "title": "UK government bans goods from Israeli settlements",
+    "link": "https://apnews.com/video/uk-government-bans-goods-from-israeli-settlements-b8d28cc2bc8e4c6f83ea8023d6105845",
+    "description": "UK government bans goods from Israeli settlements",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "045ffd7f67f2d42d2b9894482c3a1c89ee81f7a6",
+    "title": "Iran is forging a new ring of proxies to threaten US allies in the Gulf, officials say",
+    "link": "https://apnews.com/article/iran-us-war-houthis-yemen-iraq-blockade-41b104b908daeb58ad1d714224f8f570",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/9adde0a/2147483647/strip/true/crop/6068x4045+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F76%2F34%2F848a8d011236942fec01f6d89b28%2F0d9583da216a48be962b8eedc40fedac\" /><br />Iran is forging a new ring of proxies to threaten US allies in the Gulf, officials say",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/9adde0a/2147483647/strip/true/crop/6068x4045+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F76%2F34%2F848a8d011236942fec01f6d89b28%2F0d9583da216a48be962b8eedc40fedac",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://daily-sun.com/world/896578/saudi-aramco-s-jizan-oil-facilities-hit-in-new-strikes",
+    "title": "Saudi Aramco’s Jizan oil facilities hit in new strikes",
+    "link": "https://daily-sun.com/world/896578/saudi-aramco-s-jizan-oil-facilities-hit-in-new-strikes",
+    "description": "",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/896806/rubio-vows-to-continue-attacks-on-iranian-tankers-after-iran-hits-us-warship",
+    "title": "Rubio vows to continue attacks on Iranian tankers after Iran hits US warship",
+    "link": "https://www.daily-sun.com/world/896806/rubio-vows-to-continue-attacks-on-iranian-tankers-after-iran-hits-us-warship",
+    "description": "US forces destroyed five Iranian oil carriers on Tuesday",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/09/09/medium/First-loaded-Iranian-oil-tankers-exit-Gulf-since-US-blockade-6aa09174bd8b2.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/896814/revolutionary-guards-say-attacked-two-us-vessels-and-eight-oil-tankers",
+    "title": "Revolutionary Guards say attacked two US vessels and eight oil tankers",
+    "link": "https://www.daily-sun.com/world/896814/revolutionary-guards-say-attacked-two-us-vessels-and-eight-oil-tankers",
+    "description": "Iran's Revolutionary Guards targeted two US vessels and multiple oil tankers in the Strait of Hormuz, escalating tensions in the",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/09/09/medium/Revolutionary-Guards-say-attacked-two-US-vessels-and-eight-oil-tankers-6aa0d258a4c0b.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/896811/saudi-will-not-hesitate-to-defend-itself-against-houthi-attacks-fm",
+    "title": "Saudi will not hesitate to defend itself against Houthi attacks: FM",
+    "link": "https://www.daily-sun.com/world/896811/saudi-will-not-hesitate-to-defend-itself-against-houthi-attacks-fm",
+    "description": "Saudi Arabia's Foreign Minister Faisal bin Farhan vows to defend against Houthi attacks, emphasizing the need for security and diplomatic",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/09/09/medium/Foreign-Minister-Faisal-bin-Farhan-6aa0caa6a524a.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/896837/bangladesh-indonesia-seek-to-deepen-trade-investment-regional-ties",
+    "title": "Bangladesh, Indonesia seek to deepen trade, investment, regional ties",
+    "link": "https://www.daily-sun.com/diplomacy/896837/bangladesh-indonesia-seek-to-deepen-trade-investment-regional-ties",
+    "description": "Dhaka urges Jakarta to boost imports of Bangladeshi goods and services, ease visa processing and support its ASEAN and RCEP aspirations",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/09/09/medium/Bangladesh,-Indonesia-move-to-deepen-trade,-investment-and-regional-ties-6aa1195f4a8ba.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/896831/russia-says-596-ukrainian-drones-shot-down-overnight",
+    "title": "Russia says 596 Ukrainian drones shot down overnight",
+    "link": "https://www.daily-sun.com/world/896831/russia-says-596-ukrainian-drones-shot-down-overnight",
+    "description": "Russian forces downed 596 Ukrainian drones in a single night, highlighting ongoing conflict. President Zelenskyy seeks resolution with US support.",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/09/09/medium/Russia-says-596-Ukrainian-drones-shot-down-overnight-6aa108ead56ff.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "8492f1054ac815eea961f747807a1642",
+    "title": "LCs for industrial machinery, raw materials fall up to 10% in July",
+    "link": "https://en.bonikbarta.com/business/Z9dRXbe5jYaZ7opc/",
+    "description": "The decline in industrial imports follows a negative 0.38 percent growth in large-scale industrial production during July–March of FY 2025–26, according to Bangladesh Bank data.",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "74c3f49eefadbfe3f062ad57ec722de9",
+    "title": "Israel to close British consulate in East Jerusalem after UK, France and Canada ban imports from settlements",
+    "link": "https://en.bonikbarta.com/business/YNYRkzPvf3QRKLwl/",
+    "description": "The British consulate in East Jerusalem is accredited to the Palestinian Authority in ​the West Bank.",
+    "published": "Fri, 11 Sep 2026 11:17:01 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
   }
 ]
