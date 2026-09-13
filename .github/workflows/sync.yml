@@ -2,7 +2,7 @@ name: Sync Curated Feeds
 
 on:
   schedule:
-    - cronjj: "0 5 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
