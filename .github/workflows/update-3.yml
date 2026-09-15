@@ -41,7 +41,7 @@ jobs:
       - name: Run RSS processor
         shell: bash
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
           MS: ${{ secrets.MS }}
         run: |
           set -euo pipefail
