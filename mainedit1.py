@@ -528,7 +528,7 @@ def extract_json_object(text):
 
 
 def send_to_mistral(articles):
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY1")
     if not api_key or not articles:
         return []
 
