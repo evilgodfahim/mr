@@ -1,37 +1,112 @@
-name: Daily Top Stories
+name: Retry on API Failure
 
 on:
-  schedule:
-    #- cron: '0 10 * * *'   # 4:00 PM Bangladesh (UTC+6)
-  workflow_dispatch:        # manual trigger
+  workflow_run:
+    workflows:
+      - "RSS Feed Processor"
+      - "RSS Feed Processor BDIT"
+      - "RSS Feed Processor BN"
+      - "RSS Feed Processor EDIT"
+      - "RSS Feed Processor GP"
+      - "Sync Curated Feeds"
+    types: [completed]
+
+permissions:
+  actions: write
+  contents: read
 
 jobs:
-  curate:
+  detect-and-retry:
+    name: Check for API failure and retry
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 50
+    if: github.event.workflow_run.run_attempt <= 5
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install feedparser requests
-
-      - name: Run curation
+      - name: Download run logs
+        id: logs
         env:
-          MS: ${{ secrets.MS }}
-        run: python curate.py
-
-      - name: Commit and push output
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID:   ${{ github.event.workflow_run.id }}
+          REPO:     ${{ github.repository }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add top_stories.xml kakalala.json
-          git diff --cached --quiet || git commit -m "chore: top stories $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          set -euo pipefail
+
+          http_code=$(curl -sS -o logs.zip -w "%{http_code}" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -L \
+            "https://api.github.com/repos/$REPO/actions/runs/$RUN_ID/logs")
+
+          if [[ "$http_code" != "200" || ! -s logs.zip ]]; then
+            echo "::warning::Log download failed (HTTP $http_code) — skipping failure check"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          unzip -q logs.zip -d logs/
+          echo "ok=true" >> "$GITHUB_OUTPUT"
+
+      - name: Detect API failure
+        id: detect
+        if: steps.logs.outputs.ok == 'true'
+        env:
+          ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
+        run: |
+          set -euo pipefail
+
+          gemini_fail=false
+          mistral_zero=false
+
+          grep -rq "Gemini classification error" logs/ 2>/dev/null && gemini_fail=true || true
+          grep -rq "Mistral returned 0 signal"   logs/ 2>/dev/null && mistral_zero=true || true
+
+          wait_minutes=$(( 10 + (ATTEMPT * 5) ))
+          wait_seconds=$(( wait_minutes * 60 ))
+
+          {
+            echo "gemini_fail=$gemini_fail"
+            echo "mistral_zero=$mistral_zero"
+            echo "wait_seconds=$wait_seconds"
+            echo "wait_minutes=$wait_minutes"
+          } >> "$GITHUB_OUTPUT"
+
+          if [[ "$gemini_fail" == "true" && "$mistral_zero" == "true" ]]; then
+            echo "api_failed=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "### ⚠️ API Failure Detected — Attempt $ATTEMPT of 5"
+              echo "| Signal | Status |"
+              echo "|---|---|"
+              echo "| Gemini 503 | ✅ found |"
+              echo "| Mistral 0 signal | ✅ found |"
+              echo ""
+              echo "Waiting ${wait_minutes} min before retry."
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "api_failed=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "### ✅ No API Failure — Attempt $ATTEMPT"
+              echo "| Signal | Status |"
+              echo "|---|---|"
+              echo "| Gemini 503 | $([ "$gemini_fail" = "true" ] && echo "found" || echo "not found") |"
+              echo "| Mistral 0 signal | $([ "$mistral_zero" = "true" ] && echo "found" || echo "not found") |"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Wait before retry
+        if: steps.detect.outputs.api_failed == 'true'
+        run: sleep ${{ steps.detect.outputs.wait_seconds }}
+
+      - name: Trigger re-run
+        if: steps.detect.outputs.api_failed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID:   ${{ github.event.workflow_run.id }}
+          REPO:     ${{ github.repository }}
+          ATTEMPT:  ${{ github.event.workflow_run.run_attempt }}
+        run: |
+          gh api "repos/$REPO/actions/runs/$RUN_ID/rerun" --method POST
+          {
+            echo "### 🔄 Retry Triggered"
+            echo "Re-run dispatched for run \`$RUN_ID\` → attempt $(( ATTEMPT + 1 )) of 6."
+          } >> "$GITHUB_STEP_SUMMARY"
