@@ -1,45 +1,45 @@
 {
   "per_feed": {
     "https://evilgodfahim.github.io/bdl/final.xml": {
-      "fetched": 53,
-      "passed_age": 53,
-      "capped": 53
+      "fetched": 49,
+      "passed_age": 49,
+      "capped": 49
     },
     "https://evilgodfahim.github.io/int/final.xml": {
-      "fetched": 97,
-      "passed_age": 97,
-      "capped": 97
+      "fetched": 100,
+      "passed_age": 100,
+      "capped": 100
     },
     "https://evilgodfahim.github.io/fp/final.xml": {
-      "fetched": 2,
-      "passed_age": 2,
-      "capped": 2
+      "fetched": 15,
+      "passed_age": 15,
+      "capped": 15
     },
     "https://evilgodfahim.github.io/org/daily_feed.xml": {
-      "fetched": 2,
-      "passed_age": 2,
-      "capped": 2
+      "fetched": 17,
+      "passed_age": 17,
+      "capped": 17
     },
     "https://evilgodfahim.github.io/bangladesh/feed.xml": {
       "fetched": 500,
-      "passed_age": 5,
-      "capped": 5
+      "passed_age": 7,
+      "capped": 7
     },
     "https://evilgodfahim.github.io/bdcd/curated_feed.xml": {
       "fetched": 500,
-      "passed_age": 100,
+      "passed_age": 295,
       "capped": 100
     }
   },
   "per_method": {
     "KL": 0,
-    "DIRECT": 1154
+    "DIRECT": 1181
   },
-  "total_fetched": 1154,
-  "total_passed_age": 259,
-  "total_new": 215,
-  "total_signal": 78,
-  "total_signal_deduped": 78,
-  "timestamp": "2026-09-20T05:26:25.214829",
-  "total_signal_mistral": 78
+  "total_fetched": 1181,
+  "total_passed_age": 483,
+  "total_new": 285,
+  "total_signal": 84,
+  "total_signal_deduped": 84,
+  "timestamp": "2026-09-23T05:29:22.681868",
+  "total_signal_mistral": 84
 }
