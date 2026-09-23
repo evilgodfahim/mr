@@ -33,7 +33,6 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
-
           if [ -f requirements.txt ]; then
             python -m pip install -r requirements.txt
           fi
@@ -59,6 +58,7 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git commit -m "Update feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to commit."
