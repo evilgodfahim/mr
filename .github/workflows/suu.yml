@@ -61,7 +61,7 @@ jobs:
           grep -rq "Gemini classification error" logs/ 2>/dev/null && gemini_fail=true || true
           grep -rq "Mistral returned 0 signal"   logs/ 2>/dev/null && mistral_zero=true || true
 
-          wait_minutes=$(( 10 + (ATTEMPT * 5) ))
+          wait_minutes=$(( 2 + ATTEMPT ))
           wait_seconds=$(( wait_minutes * 60 ))
 
           {
