@@ -1,35 +1,35 @@
 {
   "per_feed": {
     "https://evilgodfahim.github.io/gpd/daily_feed.xml": {
-      "fetched": 42,
-      "passed_age": 42,
-      "capped": 42
+      "fetched": 5,
+      "passed_age": 5,
+      "capped": 5
     },
     "https://evilgodfahim.github.io/cd/curated_feed.xml": {
       "fetched": 500,
-      "passed_age": 152,
+      "passed_age": 128,
       "capped": 100
     },
     "https://evilgodfahim.github.io/daily/daily_master.xml": {
-      "fetched": 64,
-      "passed_age": 64,
-      "capped": 64
+      "fetched": 16,
+      "passed_age": 16,
+      "capped": 16
     },
     "https://evilgodfahim.github.io/fpolicy/feed/geopolitics.xml": {
       "fetched": 500,
-      "passed_age": 120,
-      "capped": 100
+      "passed_age": 63,
+      "capped": 63
     }
   },
   "per_method": {
     "KL": 0,
-    "DIRECT": 1106
+    "DIRECT": 1021
   },
-  "total_fetched": 1106,
-  "total_passed_age": 378,
-  "total_new": 208,
-  "total_signal": 81,
-  "total_signal_deduped": 81,
-  "timestamp": "2026-10-10T06:33:10.089399",
-  "total_signal_mistral": 81
+  "total_fetched": 1021,
+  "total_passed_age": 212,
+  "total_new": 120,
+  "total_signal": 45,
+  "total_signal_deduped": 45,
+  "timestamp": "2026-10-11T06:38:57.546698",
+  "total_signal_mistral": 45
 }
