@@ -103640,5 +103640,513 @@
     "description": "Foreign Affairs Council: Press conference by High Representative Kaja Kallas  EEAS",
     "published": "Wed, 14 Oct 2026 11:38:30 +0600",
     "source": "https://evilgodfahim.github.io/fpolicy/feed/geopolitics.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/10/14/algeria-sahel-african-politics-security/",
+    "title": "Algeria Sets Its Sights on the Sahel",
+    "link": "https://foreignpolicy.com/2026/10/14/algeria-sahel-african-politics-security/",
+    "description": "The North African country seeks to reclaim its status as a security mediator in the region.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/10/14/starlink-cuts-ukraine-defense-russia-elon-musk-trump-zelensky/",
+    "title": "Surprise Starlink Cuts Blindside Kyiv",
+    "link": "https://foreignpolicy.com/2026/10/14/starlink-cuts-ukraine-defense-russia-elon-musk-trump-zelensky/",
+    "description": "Signal failures have already disrupted several Ukrainian missions.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/nuunc/https://www.economist.com/europe/2026/10/14/donald-trump-is-squeezing-ukraines-military-lifeline",
+    "title": "Donald Trump is squeezing Ukraine’s military lifeline",
+    "link": "https://archive.is/o/nuunc/https://www.economist.com/europe/2026/10/14/donald-trump-is-squeezing-ukraines-military-lifeline",
+    "description": "To protect his Russian diesel deal, he appears to be withholding vital military intelligence",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/for-uyghurs-in-central-asia-us-diplomacy-could-be-a-lifeline/",
+    "title": "For Uyghurs in Central Asia, US Diplomacy Could Be a Lifeline",
+    "link": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/for-uyghurs-in-central-asia-us-diplomacy-could-be-a-lifeline/",
+    "description": "By pressing Central Asian governments to protect Uyghurs and resist Beijing’s coercion, Secretary Rubio can demonstrate that America’s moral leadership still matters.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/the-trump-xi-summit-exposed-the-problems-in-china-us-crisis-management/",
+    "title": "The Trump-Xi Summit Exposed the Problems in China-US Crisis Management",
+    "link": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/the-trump-xi-summit-exposed-the-problems-in-china-us-crisis-management/",
+    "description": "Military communication channels become bargaining chips precisely when a crisis makes them indispensable.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/russias-arrest-of-a-japanese-journalist-deepens-the-freeze-in-japan-russia-relations/",
+    "title": "Russia’s Arrest of a Japanese Journalist Deepens the Freeze in Japan-Russia Relations",
+    "link": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/russias-arrest-of-a-japanese-journalist-deepens-the-freeze-in-japan-russia-relations/",
+    "description": "The case of Hokkaido Shimbun correspondent Imai Yuki could chill reporting from Russia’s Far East and narrow the space for even limited diplomatic engagement.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/in-confronting-china-the-west-needs-partners-in-southeast-asia/",
+    "title": "In Confronting China, The West Needs Partners in Southeast Asia",
+    "link": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/in-confronting-china-the-west-needs-partners-in-southeast-asia/",
+    "description": "A plan to confront Beijing without subsequent outreach toward Southeast Asian countries will sacrifice national imperatives for willing partners, and those are hard to come by.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/can-the-china-us-detente-last/",
+    "title": "Can the China-US Detente Last?",
+    "link": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/can-the-china-us-detente-last/",
+    "description": "Competition can generate incentives for restraint, and restraint can create opportunities for further competition.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://foreignpolicy.com/2026/10/14/iran-war-us-military-base-strategy-allies-defense/",
+    "title": "After Iran, Washington Needs a New Basing Strategy",
+    "link": "https://foreignpolicy.com/2026/10/14/iran-war-us-military-base-strategy-allies-defense/",
+    "description": "The decades-old model has been upended by a war that favors movement and dispersal.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/drones-and-missiles-are-rewriting-the-military-balance-on-the-korean-peninsula/",
+    "title": "Drones and Missiles Are Rewriting the Military Balance on the Korean Peninsula",
+    "link": "https://archive.is/o/5WQRS/https://thediplomat.com/2026/10/drones-and-missiles-are-rewriting-the-military-balance-on-the-korean-peninsula/",
+    "description": "North Korea’s ability to disperse, conceal, and employ its drones, missiles, and nuclear weapons is outpacing South Korea’s capacity to destroy them.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/gpd/daily_feed.xml"
+  },
+  {
+    "id": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews",
+    "title": "Drone Attacks on Ships Sailing Near NATO Waters Present Fresh Test for the Alliance",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews",
+    "description": "European leaders, who have accused Russia of brazen assaults on their soil, contend with strikes on ships skirting their waters.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-68632640",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.wsj.com/world/europe/u-k-spy-agency-confronts-escalating-hybrid-war-with-russia-and-iran-4c54f9ab?mod=rss_worldnews",
+    "title": "U.K. Spy Agency Confronts Escalating Hybrid War With Russia and Iran",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/world/europe/u-k-spy-agency-confronts-escalating-hybrid-war-with-russia-and-iran-4c54f9ab?mod=rss_worldnews",
+    "description": "The head of MI5 has painted a sobering picture of a range of threats now facing Britain and European allies.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-92586657",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.wsj.com/world/middle-east/iran-is-fortifying-nuclear-sites-and-rallying-its-people-for-a-return-to-fighting-c4cc3c28?mod=rss_worldnews",
+    "title": "Iran Is Fortifying Nuclear Sites and Rallying Its People for a Return to Fighting",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/world/middle-east/iran-is-fortifying-nuclear-sites-and-rallying-its-people-for-a-return-to-fighting-c4cc3c28?mod=rss_worldnews",
+    "description": "The regime, convinced President Trump is ready to attack again, sees the preparations as a deterrent.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-40996326",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.newstatesman.com/?p=538030",
+    "title": "Putin plans to break Ukraine – with Trump’s help",
+    "link": "https://www.newstatesman.com/international-politics/geopolitics/2026/10/putin-plans-to-break-ukraine-with-trumps-help",
+    "description": "Donald Trump has reached the screaming-into-the-void phase of this presidency. This is Europe's war now",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+    "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+    "description": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.ft.com/content/b77a0094-c6f1-449a-9323-2b4d16696cb7?syn-25a6b1a6=1",
+    "title": "Russia arrests Japanese journalist on espionage charges",
+    "link": "https://archive.is/o/ggFl1/https://www.ft.com/content/b77a0094-c6f1-449a-9323-2b4d16696cb7?syn-25a6b1a6=1",
+    "description": "Detention of Hokkaido Shimbun reporter follows series of arrests denounced as politically motivated",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.washingtonpost.com/world/2026/10/13/uk-intelligence-chief-warns-iran-is-shifting-plots-harder-targets/",
+    "title": "U.K. intelligence chief warns Iran is shifting plots to ‘harder targets’",
+    "link": "https://archive.is/o/A5nuz/https://www.washingtonpost.com/world/2026/10/13/uk-intelligence-chief-warns-iran-is-shifting-plots-harder-targets/",
+    "description": "In annual speech on threats, Ken McCallum, the head of MI5, cited a “major shift” in Tehran’s “ambitions” to attack military sites and other high-security targets.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.washingtonpost.com/world/2026/10/13/saudi-arabia-faces-grave-question-fight-houthis-win-or-push-peace/",
+    "title": "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
+    "link": "https://archive.is/o/A5nuz/https://www.washingtonpost.com/world/2026/10/13/saudi-arabia-faces-grave-question-fight-houthis-win-or-push-peace/",
+    "description": "Deadly attacks by Yemen’s rebels have left Saudi leader Mohammed bin Salman juggling security risks and the kingdom’s economic ambitions.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.wsj.com/tech/u-s-defense-startups-flock-to-taiwan-to-build-china-free-drones-5c871c94?mod=rss_worldnews",
+    "title": "U.S. Defense Startups Flock to Taiwan to Build China-Free Drones",
+    "link": "https://archive.is/o/soww3/https://www.wsj.com/tech/u-s-defense-startups-flock-to-taiwan-to-build-china-free-drones-5c871c94?mod=rss_worldnews",
+    "description": "The emerging industry has the potential to serve the U.S. military while providing Taiwan with an arsenal that it sees as essential to its survival.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml",
+    "thumbnail": "https://images.wsj.net/im-23823252",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/why-pakistan-declared-emergency-in-khyber-pakhtunkhwa-explained/article71576216.ece",
+    "title": "Why Pakistan declared emergency in Khyber-Pakhtunkhwa | Explained",
+    "link": "https://www.thehindu.com/news/international/why-pakistan-declared-emergency-in-khyber-pakhtunkhwa-explained/article71576216.ece",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.channelnewsasia.com/asia/malaysia-haze-asean-transboundary-disaster-indonesia-6454916",
+    "title": "Malaysia to raise transboundary haze issue at ASEAN meeting, says existing disaster mechanisms do not cover it",
+    "link": "https://www.channelnewsasia.com/asia/malaysia-haze-asean-transboundary-disaster-indonesia-6454916",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/cd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.eurasiantimes.com/?p=302866",
+    "title": "Artillery Isn’t Dead: U.S. Army Orders XM1776 Prototypes Based on South Korea’s K9 ‘Thunder’ Howitzer",
+    "link": "https://www.eurasiantimes.com/artillery-isnt-dead-u-s-army-orders-xm1776-prototypes-based-on-south-koreas-k9-thunder-howitzer/",
+    "description": "<p>EurAsian Times has repeatedly argued that artillery is by no means becoming obsolete. That assessment was reinforced on October 12 when Hanwha Defense USA and the U.S. Army unveiled the XM1776 Mobile Tactical Cannon—the American version of Hanwha’s K9 Mobile Howitzer—at an official naming ceremony at the HDUSA booth during the Association of the U.S. [&#8230;]</p>\n<p>The post <a href=\"https://www.eurasiantimes.com/artillery-isnt-dead-u-s-army-orders-xm1776-prototypes-based-on-south-koreas-k9-thunder-howitzer/\">Artillery Isn’t Dead: U.S. Army Orders XM1776 Prototypes Based on South Korea’s K9 &#8216;Thunder&#8217; Howitzer</a> appeared first on <a href=\"https://www.eurasiantimes.com\">EURASIAN TIMES</a>.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://medium.com/p/3c220e2c6dda",
+    "title": "Powering the Future: Inside Marco Rubio’s High-Stakes Visit to India",
+    "link": "https://medium.com/@dailyindiaobservers/inside-marco-rubio-high-stakes-india-visit-3c220e2c6dda?source=rss------foreign_policy-5",
+    "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/@dailyindiaobservers/inside-marco-rubio-high-stakes-india-visit-3c220e2c6dda?source=rss------foreign_policy-5\"><img src=\"https://cdn-images-1.medium.com/max/770/1*i6G5kAlrJLM7bvnGF3J13A.jpeg\" width=\"770\" /></a></p><p class=\"medium-feed-snippet\">A deep dive into how US Secretary of State Marco Rubio&#x2019;s trip to Mumbai and Jamnagar signals a strategic realignment in global energy&#x2026;</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/@dailyindiaobservers/inside-marco-rubio-high-stakes-india-visit-3c220e2c6dda?source=rss------foreign_policy-5\">Continue reading on Medium »</a></p></div>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml",
+    "thumbnail": "https://cdn-images-1.medium.com/max/770/1*i6G5kAlrJLM7bvnGF3J13A.jpeg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.middleeastmonitor.com/20261014-americas-broken-promises-irans-resolve-and-the-dangerous-game-over-the-strait-of-hormuz/",
+    "title": "America’s broken promises, Iran’s resolve, and the dangerous game over the Strait of Hormuz",
+    "link": "https://www.middleeastmonitor.com/20261014-americas-broken-promises-irans-resolve-and-the-dangerous-game-over-the-strait-of-hormuz/",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://meduza.io/en/news/2026/10/14/russian-strike-on-kyiv-kills-three-injures-over-20-parts-of-city-lose-power",
+    "title": "Russian strike on Kyiv kills three, injures over 20; parts of city lose power",
+    "link": "https://meduza.io/en/news/2026/10/14/russian-strike-on-kyiv-kills-three-injures-over-20-parts-of-city-lose-power",
+    "description": "<p>Russian forces struck Kyiv overnight on October 14, killing three people and injuring 21, according to data from Ukraine’s State Emergency Service.<p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/colombia-opens-embassy-jerusalem-restores-free-trade-deal-israel",
+    "title": "Colombia opens embassy in Jerusalem, restores free trade deal with Israel",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/colombia-opens-embassy-jerusalem-restores-free-trade-deal-israel",
+    "description": "<p>JERUSALEM, Oct 14 (Reuters) - Colombia opened its embassy in Jerusalem on Wednesday, becoming the 10th country to do so, as new President Abelardo de la Espriella reversed his predecessor's break with Israel by also restoring a free trade agreement between the two countries.</p><p>• Most countries maintain their embassies to Israel in Tel Aviv. Israel regards Jerusalem as its capital, while Palestinians seek East Jerusalem as the capital of a future independent state. The city's status remains one of the most contentious issues in the Israeli-Palestinian conflict.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/us-russia-deal-diesel-very-risky-choice-italy-pm-meloni-says",
+    "title": "U.S.-Russia deal on diesel is 'very risky choice,' Italy PM Meloni says",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/us-russia-deal-diesel-very-risky-choice-italy-pm-meloni-says",
+    "description": "<p>By Giuseppe Fonte</p><p>ROME, Oct 14 (Reuters) - The deal between the United States and Russia over diesel supply is a \"very risky choice\" that runs counter to efforts to force Vladimir Putin to sit at a negotiating table with Ukraine, Italian Prime Minister Giorgia Meloni said on Wednesday.</p><p>The United States and Russia agreed last week that Moscow would initially supply more than 300,000 metric tons of diesel to U.S. and ​global markets.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/kamala-harris-warns-window-closing-ai-safeguards-urges-us-china-cooperation",
+    "title": "Kamala Harris warns window closing for AI safeguards, urges US-China cooperation",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/kamala-harris-warns-window-closing-ai-safeguards-urges-us-china-cooperation",
+    "description": "<p>By Kyu-seok Shim</p><p>SEOUL, Oct 14 (Reuters) - Former US Vice President Kamala Harris urged governments and technology companies on Wednesday to urgently put safeguards in place for artificial intelligence, warning that the window for containing its gravest risks was closing.</p><p>\"If we are to have any guardrails and safeguards, they have to be at the table,\" Harris said of AI developers during an appearance at South Korea's Asan Institute for Policy Studies. </p><p>\"My concern is that the window is shutting.\"</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://warontherocks.com/?p=47969",
+    "title": "The Mecca Pact and Pakistan’s Bid to Become Indispensable",
+    "link": "https://warontherocks.com/the-mecca-pact-and-pakistans-bid-to-become-indispensable/",
+    "description": "<p>For most of its history, Pakistan&#8217;s geopolitical value has risen and fallen with other countries&#8217; emergencies. The Mecca Pact may be its most serious attempt yet to break that cycle. On Aug. 31, Pakistan, Saudi Arabia, and Turkey established a secretariat in Saudi Arabia for the Mecca Defence Agreement. The first secretary-general comes from Pakistan for a three-year term. The agreement builds on the Saudi-Pakistani agreement signed in September 2025, locking a decades-old informal security arrangement into a mutual defense pact. Turkey&#8217;s inclusion in August 2026 transformed it into a NATO-style collective security arrangement. The three states also outlined cooperation</p>\n<p>The post <a href=\"https://warontherocks.com/the-mecca-pact-and-pakistans-bid-to-become-indispensable/\">The Mecca Pact and Pakistan’s Bid to Become Indispensable</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.eurasiantimes.com/?p=302921",
+    "title": "After F-35, Canada Pauses Purchase of 16 Black Hawk Helicopters Amid Trade Tensions with U.S.: Media",
+    "link": "https://www.eurasiantimes.com/after-f-35-canada-pauses-purchase-of-16-black-hawk-helicopters-amid-trade-tensions-with-u-s-media/",
+    "description": "<p>After putting the F-35 deal under review, Canada has now reportedly paused the acquisition of 16 U.S.-made UH-60M Black Hawk helicopters. UH-60M Black Hawks are manufactured by Sikorsky, a unit of Lockheed Martin, and were intended to replace aging CH-146 Griffon helicopters that have supported Canada’s special operations units, including the 427 Special Operations Aviation [&#8230;]</p>\n<p>The post <a href=\"https://www.eurasiantimes.com/after-f-35-canada-pauses-purchase-of-16-black-hawk-helicopters-amid-trade-tensions-with-u-s-media/\">After F-35, Canada Pauses Purchase of 16 Black Hawk Helicopters Amid Trade Tensions with U.S.: Media</a> appeared first on <a href=\"https://www.eurasiantimes.com\">EURASIAN TIMES</a>.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.eurasiantimes.com/?p=302889",
+    "title": "Top U.S. General Reveals NATO Plan to Fight Russia — But it is Designed for Containment, Not Decisive Defeat",
+    "link": "https://www.eurasiantimes.com/top-u-s-general-reveals-nato-plan-to-fight-russia/",
+    "description": "<p>Amid growing anxieties in Europe over “the Russian threat”, the US Air Force General Alexus Grynkewich, NATO’s Supreme Allied Commander Europe (SACEUR), has unveiled what he called the alliance’s “Theory of Victory”.  Though his Polish hosts did not seem fully satisfied, General Grynkewich assured, on October 12, at the “Warsaw Security Forum,” an annual international [&#8230;]</p>\n<p>The post <a href=\"https://www.eurasiantimes.com/top-u-s-general-reveals-nato-plan-to-fight-russia/\">Top U.S. General Reveals NATO Plan to Fight Russia — But it is Designed for Containment, Not Decisive Defeat</a> appeared first on <a href=\"https://www.eurasiantimes.com\">EURASIAN TIMES</a>.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.scmp.com/news/world/europe/article/3370833/russian-strikes-kill-6-ukraine-knocking-out-power-across-kyiv",
+    "title": "Russia batters Ukraine’s power facilities amid Kyiv’s growing strain with US",
+    "link": "https://www.scmp.com/news/world/europe/article/3370833/russian-strikes-kill-6-ukraine-knocking-out-power-across-kyiv",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html",
+    "title": "Ukraine’s Vulnerability Grows as Starlink Is Restricted and Russia Escalates",
+    "link": "https://archive.is/o/N6yE6/https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://responsiblestatecraft.org/trump-defend-saudi-houthis/",
+    "title": "Why Trump is likely to join Saudi war against Houthis",
+    "link": "https://responsiblestatecraft.org/trump-defend-saudi-houthis/",
+    "description": "<img src=\"https://responsiblestatecraft.org/media-library/trump-mbs.jpg?id=62186080&amp;width=1200&amp;height=600&amp;coordinates=0%2C190%2C0%2C310\" /><br /><br /><p>For myriad obvious reasons, President Donald Trump has so far resisted calls from Saudi Arabia to assist in its fight with the Houthis, even as the militant group has been striking — literally — at the heart of the Kingdom's oil and tourism industries all week.</p><p>First, the U.S. can hardly afford another front in its current Middle East war. We know Pentagon munitions stockpiles <a href=\"https://responsiblestatecraft.org/munitions-iran-ukraine/\" target=\"_blank\">are depleted</a>, and our main asset in the region, the U.S. Navy, is <a href=\"https://www.aei.org/commentary/the-us-navy-is-officially-stretched-beyond-its-limits/\" target=\"_blank\">stretched thin</a> trying to manage its blockade against Iran and helping to shuttle non-sanctioned shipping through the Strait of Hormuz (which <a href=\"https://archive.is/20261013144553/https://www.ft.com/content/a4ab83d4-81b5-4336-9569-a0708b41e894\" target=\"_blank\">is not going as well</a> as the White House was boasting a week ago). </p><p>Second, politically, Trump cannot afford to launch another war ahead of the midterms, especially if it is not guaranteed to be successful. His first escalation against the Houthis in 2025 failed, and he was <a href=\"https://www.reuters.com/world/trump-says-us-will-stop-bombing-houthis-after-agreement-struck-2025-05-06/\" target=\"_blank\">forced to call a ceasefire</a>. The Yemeni resistance group, also known as Ansar Allah, has only gotten stronger since.</p><p>But the pressure is on, and Annelle Sheline, research fellow at the Quincy Institute's Middle East program, says it is likely that Trump will be forced to get involved sooner than later. </p><p><span style=\"background-color: initial;\">\"P</span><span style=\"background-color: initial;\">art</span> <span style=\"background-color: initial;\">of</span> <span style=\"background-color: initial;\">why</span> <span style=\"background-color: initial;\">we've</span> <span style=\"background-color: initial;\">seen</span> <span style=\"background-color: initial;\">the</span> <span style=\"background-color: initial;\">Trump</span> <span style=\"background-color: initial;\">administration</span> <span style=\"background-color: initial;\">not</span> <span style=\"background-color: initial;\">give</span> <span style=\"background-color: initial;\">in</span> <span style=\"background-color: initial;\">to</span> <span style=\"background-color: initial;\">Mohammed</span> <span style=\"background-color: initial;\">bin</span> <span style=\"background-color: initial;\">Salman's</span> <span style=\"background-color: initial;\">request</span> <span style=\"background-color: initial;\">to</span> <span style=\"background-color: initial;\">engage</span> <span style=\"background-color: initial;\">directly</span> <span style=\"background-color: initial;\">in</span> <span style=\"background-color: initial;\">attacking</span> Ansar Allah <span style=\"background-color: initial;\">inside</span> <span style=\"background-color: initial;\">Yemen</span> <span style=\"background-color: initial;\">is</span> <span style=\"background-color: initial;\">because</span> <span style=\"background-color: initial;\">the</span> <a href=\"https://www.bbc.com/news/articles/c8xdxz48l7yo\" target=\"_blank\">Saudis kicked the Emiratis out of </a><span style=\"background-color: initial;\"><a href=\"https://www.bbc.com/news/articles/c8xdxz48l7yo\">Yemen</a></span> <span style=\"background-color: initial;\">last</span> <span style=\"background-color: initial;\">January,\" </span>Sheline told me this morning, referring to remnants of the two nation's joint involvement in the first Yemeni Civil War.  \"T<span style=\"background-color: initial;\">he</span> <span style=\"background-color: initial;\">U.S.</span> <span style=\"background-color: initial;\">is</span> <span style=\"background-color: initial;\">very</span> <span style=\"background-color: initial;\">closely</span> <span style=\"background-color: initial;\">aligned</span> <span style=\"background-color: initial;\">with</span> <span style=\"background-color: initial;\">the</span> <span style=\"background-color: initial;\">UAE,</span> <span style=\"background-color: initial;\">which</span> <span style=\"background-color: initial;\">is</span> <span style=\"background-color: initial;\">obviously</span> <span style=\"background-color: initial;\">very</span> <span style=\"background-color: initial;\">closely</span> <span style=\"background-color: initial;\">aligned</span> <span style=\"background-color: initial;\">with</span> <span style=\"background-color: initial;\">Israel,</span> <span style=\"background-color: initial;\">and</span> <span style=\"background-color: initial;\">so</span> <span style=\"background-color: initial;\">there's</span> <span style=\"background-color: initial;\">a</span> <span style=\"background-color: initial;\">sense</span> <span style=\"background-color: initial;\">from</span> <span style=\"background-color: initial;\">the</span> <span style=\"background-color: initial;\">administration</span> <span style=\"background-color: initial;\">that</span> <span style=\"background-color: initial;\">the</span> <span style=\"background-color: initial;\">Saudis</span> <span style=\"background-color: initial;\">made</span> <span style=\"background-color: initial;\">their</span> <span style=\"background-color: initial;\">bed</span> <span style=\"background-color: initial;\">and</span> <span style=\"background-color: initial;\">now</span> <span style=\"background-color: initial;\">they</span> <span style=\"background-color: initial;\">need</span> <span style=\"background-color: initial;\">to</span> <span style=\"background-color: initial;\">lie</span> <span style=\"background-color: initial;\">in</span> <span style=\"background-color: initial;\">it.</span> <span style=\"background-color: initial;\">But</span> <span style=\"background-color: initial;\">that</span> <span style=\"background-color: initial;\">does</span> <span style=\"background-color: initial;\">imply</span> <span style=\"background-color: initial;\">that</span> <span style=\"background-color: initial;\">after</span> <span style=\"background-color: initial;\">Trump</span> <span style=\"background-color: initial;\">feels</span> <span style=\"background-color: initial;\">that</span> <span style=\"background-color: initial;\">the</span> <span style=\"background-color: initial;\">Saudis</span> <span style=\"background-color: initial;\">have</span> <span style=\"background-color: initial;\">been</span> <span style=\"background-color: initial;\">made</span> <span style=\"background-color: initial;\">to</span> <span style=\"background-color: initial;\">suffer,</span> <span style=\"background-color: initial;\">then</span> <span style=\"background-color: initial;\">he</span> <span style=\"background-color: initial;\">will</span> <span style=\"background-color: initial;\">get</span> <span style=\"background-color: initial;\">involved</span> <span style=\"background-color: initial;\">more</span> <span style=\"background-color: initial;\">directly.\"</span></p><p><span style=\"background-color: initial;\">Perhaps even more urgently, MBS may put on the table all of its investments in the U.S. that Trump <a href=\"https://responsiblestatecraft.org/trump-saudi-arabia/\" target=\"_blank\">had only been touting a year ago</a> when he did his much ballyhooed tour of the Middle East. At the time he said he got pledges for $1 trillion from the region, including $600 billion from Saudi Arabia. A $<a href=\"https://www.theguardian.com/us-news/2025/may/13/us-saudi-arabia-arms-deal-trump-meeting-syria\" target=\"_blank\">142 billion arms deal</a> was also announced at the time. </span></p><p><span style=\"background-color: initial;\">\"Just given how we know things work in Washington, there are obviously many pressures from the U.S. defense industry, from the the fact that Mohammed bin Salman has personally enriched Trump and his family, including Jared Kushner's various expensive endeavors,\" Sheline said, noting the president's son-in-law's <a href=\"https://archive.is/20250119213444/https://www.bbc.com/news/world-us-canada-68296877\" target=\"_blank\">close investment ties</a> with the Kingdom, which are now a focus of a congressional <a href=\"https://foreignpolicy.com/2026/10/12/congress-kushner-corruption-saudi-israel-russia/\" target=\"_blank\">investigation</a>.</span></p><p><span style=\"background-color: initial;\"><span></span> \"So I don't think it will be too long before Mohammed bin Salman says to Donald Trump, 'Look, I'm not going to ask again if you don't assist us. We're going to have to reconsider investments in the United States. We're going to have to reconsider investments in in your family, in the Trump brand,' and I imagine that may hit Trump a little closer to home.\"</span></p><p><span style=\"background-color: initial;\">The Quincy Institute's Trita Parsi said he agrees the U.S. lurch in defense of Saudi Arabia is likely, but thinks Trump may wait for the midterms. \"I think Trump's preference is for it to happen afterwards. But it may not be under his control if he sees further escalation by Iran or the Houthis,\" he told me.</span></p><p><span style=\"background-color: initial;\">It is definitely on the president's mind. In response to a direct question of involvement on Sunday he said, \"</span><a href=\"https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/#post-update-233591f2\" target=\"_blank\">We're gonna look at it</a> … We'll make a decision. We move very quickly.\"</p><p>On Tuesday he said the Houthis were <a href=\"https://www.yahoo.com/news/videos/trump-says-houthis-behaving-very-001803648.html\" target=\"_blank\">\"behaving very badly\"</a> and blamed the group for attacking Saudi Arabia to <a href=\"https://www.reuters.com/world/middle-east/trump-says-yemens-houthis-are-behaving-very-badly-2026-10-13/\" target=\"_blank\">purposely spike oil prices before the midterms</a>. Meanwhile, CBS News <a href=\"https://www.cbsnews.com/news/iran-war-houthis-saudi-arabia-trump-faces-difficult-dilemma/\" target=\"_blank\">speculated</a> that the death of an American in the Houthi attack on Riyadh's biggest airport on Saturday, \"may increase pressure on Mr. Trump to retaliate.\"</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml",
+    "thumbnail": "https://responsiblestatecraft.org/media-library/trump-mbs.jpg?id=62186080&amp;width=1200&amp;height=600&amp;coordinates=0%2C190%2C0%2C310",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://meduza.io/en/news/2026/10/14/trump-said-russia-and-ukraine-agreed-to-stop-attacking-oil-refineries-three-days-later-moscow-alleges-two-ukrainian-strikes-neither-reported-by-regional-authorities",
+    "title": "Trump said Russia and Ukraine agreed to stop attacking oil refineries. Three days later, Moscow alleges two Ukrainian strikes — neither reported by regional authorities.",
+    "link": "https://meduza.io/en/news/2026/10/14/trump-said-russia-and-ukraine-agreed-to-stop-attacking-oil-refineries-three-days-later-moscow-alleges-two-ukrainian-strikes-neither-reported-by-regional-authorities",
+    "description": "<p>Russian Deputy Prime Minister Alexander Novak said Ukraine attacked two Russian oil refineries on October 14.<p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://meduza.io/en/news/2026/10/14/six-killed-in-russian-strike-on-warehouse-in-ukraine-s-lutsk",
+    "title": "Six killed in Russian strike on warehouse in Ukraine’s Lutsk",
+    "link": "https://meduza.io/en/news/2026/10/14/six-killed-in-russian-strike-on-warehouse-in-ukraine-s-lutsk",
+    "description": "<p>Russian drones struck a wholesale warehouse in Lutsk, killing six people, said regional Governor Roman Romaniuk. Five died at the scene, and a sixth died later in the hospital from their injuries.<p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://meduza.io/en/news/2026/10/14/ukraine-charges-five-russian-scientists-with-war-crimes-over-excavations-in-annexed-crimea",
+    "title": "Ukraine charges five Russian scientists with war crimes over excavations in annexed Crimea",
+    "link": "https://meduza.io/en/news/2026/10/14/ukraine-charges-five-russian-scientists-with-war-crimes-over-excavations-in-annexed-crimea",
+    "description": "<p>Ukraine is investigating criminal cases against five Russian archaeologists over excavations in occupied Crimea, BBC Russia reported, citing prosecutorial and court documents obtained by the outlet.<p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/houthis-say-targeted-saudi-oil-giant-aramco-vow-more-attacks",
+    "title": "Houthis say targeted Saudi oil giant Aramco, vow more attacks",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/houthis-say-targeted-saudi-oil-giant-aramco-vow-more-attacks",
+    "description": "<p>Yemen's Houthis said Wednesday they had targeted facilities belonging to Saudi Aramco, after Saudi officials reported a strike on a building in an area housing the energy giant's operations centre.</p>  \n            <p>Powerful explosions also rattled the Saudi capital, as the coalition fighting the Houthis said it had intercepted a missile fired by the Iran-backed group towards Riyadh.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/failure-activate-hormuz-fertilizer-plan-could-trigger-food-crisis-un-official",
+    "title": "Failure to activate Hormuz fertilizer plan could trigger food crisis, UN official says",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/failure-activate-hormuz-fertilizer-plan-could-trigger-food-crisis-un-official",
+    "description": "<p>By Panu Wongcha-um and Devjyot Ghoshal</p><p>BANGKOK, Oct 14 (Reuters) - A failure by the United States and Iran to agree within weeks on a UN-backed plan for moving fertilizer through the Strait of Hormuz could cause a food security crisis in parts of Asia and Africa, an official overseeing the proposed scheme said on Wednesday.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks",
+    "title": "Two Singapore-registered vessels struck in Strait of Hormuz; one sinks",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks",
+    "description": "<p>Oct 14 (Reuters) - The Maritime and Port Authority of Singapore (MPA) said two Singapore-registered container vessels were struck by unknown projectiles while transiting the Strait of Hormuz, with one vessel sinking after catching fire and the other sustaining hull damage.</p><p>• The GFS PRIDE was struck on October 13, sustained damage and a fire, and later sank, MPA said.</p><p>• All 21 crew members aboard GFS PRIDE were safely evacuated and no injuries were reported.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/saudi-aramco-headquarters-suffered-extensive-damage-houthi-attack-sources-say",
+    "title": "Saudi Aramco headquarters suffered extensive damage in Houthi attack, sources say",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/saudi-aramco-headquarters-suffered-extensive-damage-houthi-attack-sources-say",
+    "description": "<p>Oct 14 (Reuters) - Oil giant SaudiAramco's headquarters in Dhahran suffered extensive damage in an attack on Tuesday, with a fire spreading across several floors, three people with direct knowledge of the matter told Reuters.</p><p>Operations at the complex in eastern Saudi Arabia have continued normally but some employees have been asked to work from home, according to two of the people. </p><p>A fourth person said some functions had been shifted to global offices, adding that the fire was still burning into the early hours of Wednesday.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://lansinginstitute.org/?p=16501",
+    "title": "Starlink as an Instrument of Political Pressure: Is the Trump Administration Undermining Ukraine’s Security Assurances and Deterrence of Russia in Europe?",
+    "link": "https://lansinginstitute.org/2026/10/14/starlink-as-an-instrument-of-political-pressure-is-the-trump-administration-undermining-ukraines-security-assurances-and-deterrence-of-russia-in-europe/",
+    "description": "<p>Restrictions on Ukraine’s access to Starlink at the request of Donald Trump’s administration raise a question far broader than relations between Washington and Kyiv: can European U.S. allies rely on&#8230;</p>\n<p>The post <a href=\"https://lansinginstitute.org/2026/10/14/starlink-as-an-instrument-of-political-pressure-is-the-trump-administration-undermining-ukraines-security-assurances-and-deterrence-of-russia-in-europe/\">Starlink as an Instrument of Political Pressure: Is the Trump Administration Undermining Ukraine’s Security Assurances and Deterrence of Russia in Europe?</a> appeared first on <a href=\"https://lansinginstitute.org\">Robert Lansing Institute</a>.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.straitstimes.com/asia/vietnam-says-trade-talks-with-us-nearly-completed-us-officials-more-cautious",
+    "title": "Vietnam says trade talks with US nearly completed; US officials more cautious",
+    "link": "https://www.straitstimes.com/asia/vietnam-says-trade-talks-with-us-nearly-completed-us-officials-more-cautious",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://tass.com/world/2202167",
+    "title": "Putin-Xi meeting to be great chance for exchange of views — Chinese Foreign Minister",
+    "link": "https://tass.com/world/2202167",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://southfront.press/washington-grounded-ukraine-drones/",
+    "title": "Terms And Conditions Of An Alliance – How Washington Grounded Ukraine’s Drones",
+    "link": "https://southfront.press/washington-grounded-ukraine-drones/",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://meduza.io/en/news/2026/10/14/we-aren-t-selling-our-country-this-isn-t-about-business-for-us-zelensky-says-he-feels-betrayed-accuses-trump-of-siding-with-moscow-against-kyiv",
+    "title": "‘We aren’t selling our country. This isn’t about business for us.’ Zelensky says he feels betrayed, accuses Trump of siding with Moscow against Kyiv.",
+    "link": "https://meduza.io/en/news/2026/10/14/we-aren-t-selling-our-country-this-isn-t-about-business-for-us-zelensky-says-he-feels-betrayed-accuses-trump-of-siding-with-moscow-against-kyiv",
+    "description": "<p>Ukrainian President Volodymyr Zelensky said he regrets that Kyiv is losing a strong ally in Washington.<p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://meduza.io/en/feature/2026/10/14/germany-has-stood-by-ukraine-throughout-russia-s-invasion-a-trial-over-the-nord-stream-explosions-could-put-berlin-s-unconditional-support-to-the-test",
+    "title": "Germany has stood by Ukraine throughout Russia’s invasion. A trial over the Nord Stream explosions could put Berlin’s unconditional support to the test.",
+    "link": "https://meduza.io/en/feature/2026/10/14/germany-has-stood-by-ukraine-throughout-russia-s-invasion-a-trial-over-the-nord-stream-explosions-could-put-berlin-s-unconditional-support-to-the-test",
+    "description": "<p>The trial of Ukrainian national Serhiy Kuznetsov began in Hamburg on October 14. Investigators allege that he took part in the September 2022 bombing of the Nord Stream pipelines.<p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/un-peacekeeping-chief-says-talks-future-lebanon-mission-must-begin-soon",
+    "title": "UN peacekeeping chief says talks on future of Lebanon mission must begin soon",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/un-peacekeeping-chief-says-talks-future-lebanon-mission-must-begin-soon",
+    "description": "<p>By Maya Gebeily</p><p>BEIRUT, Oct 14 (Reuters) - UN peacekeeping chief Jean-Pierre Lacroix on Wednesday urged the UN Security Council to begin negotiations on the future of peacekeepers deployed in Lebanon, as Beirut campaigns for an extension to the mandate set to expire at the end of this year.</p><p>A UN peacekeeping force known as UNIFIL has been deployedin southern Lebanon since 1978 but the Security Council last year ordered the mission to begin withdrawing at the end of 2026.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/two-ships-sink-near-hormuz-after-being-hit-projectiles-amid-surge-attacks",
+    "title": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/two-ships-sink-near-hormuz-after-being-hit-projectiles-amid-surge-attacks",
+    "description": "<p>By Jonathan Saul and Renee Maltezou</p><p>LONDON, Oct 14 (Reuters) - A container ship and a dry bulk carrier have both sunk near the Strait of Hormuz in the past 24 hours after being hit by projectiles in separate incidents, maritime officials said on Wednesday.     </p><p>Attacks around the waterway have surged over the past 10 days, with Iran saying it is stepping up strikes in response to the US blockade of its ports and tougher sanctions introduced last month.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/aramco-hq-attack-exposes-saudi-defense-gaps-infrastructure-vulnerabilities",
+    "title": "Aramco HQ attack exposes Saudi defense gaps, infrastructure vulnerabilities",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/aramco-hq-attack-exposes-saudi-defense-gaps-infrastructure-vulnerabilities",
+    "description": "The Iran-linked Yemeni militants struck at the heart of Saudi Arabia’s oil industry this week amid an expanding campaign against key infrastructure.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/iraqs-zaidi-saudi-crown-prince-discuss-security-houthi-attacks-escalate",
+    "title": "Iraq’s Zaidi, Saudi crown prince discuss security as Houthi attacks escalate",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/iraqs-zaidi-saudi-crown-prince-discuss-security-houthi-attacks-escalate",
+    "description": "Iraq has moved to improve ties with Saudi Arabia after Iran-backed militias struck the kingdom and amid the conflict with the Houthis in Yemen.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.channelnewsasia.com/east-asia/batanes-philippines-china-taiwan-maritime-tensions-6458206",
+    "title": "Why a remote Philippine island chain near Taiwan is drawing China’s attention",
+    "link": "https://www.channelnewsasia.com/east-asia/batanes-philippines-china-taiwan-maritime-tensions-6458206",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-meeting",
+    "title": "Russia's Lavrov, China's Wang discuss cooperation, Ukraine, Iran at Asia security meeting",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-meeting",
+    "description": "<p>Oct 14 (Reuters) - The Russian and Chinese foreign ministers discussed the state of bilateral cooperation as well as the crises in Ukraine and Iran during an Asia security meeting, the Russian Foreign Ministry said on Wednesday.</p><p>Russian President Vladimir Putin and his Chinese counterpart Xi Jinping reaffirmed their strategic alliance at a regional summit last August and both praised prospects for closer cooperation.</p>",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.al-monitor.com/originals/2026/10/israels-herzog-holds-rare-meeting-bahraini-fm-azerbaijan",
+    "title": "Israel’s Herzog holds rare meeting with Bahraini FM in Azerbaijan",
+    "link": "https://archive.is/o/11Q8k/https://www.al-monitor.com/originals/2026/10/israels-herzog-holds-rare-meeting-bahraini-fm-azerbaijan",
+    "description": "In the framework of an international summit, Israeli President Isaac Herzog met with the Foreign minister of Bahrain Abdullatif bin Rashid Al-Zayani.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.scmp.com/news/china/diplomacy/article/3370926/us-and-china-race-shape-ai-agenda-ahead-xi-trump-talks-shenzhen-sources-say",
+    "title": "US and China race to shape AI agenda ahead of Xi-Trump talks in Shenzhen, sources say",
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3370926/us-and-china-race-shape-ai-agenda-ahead-xi-trump-talks-shenzhen-sources-say",
+    "description": "",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.lowyinstitute.org/the-interpreter/could-the-taliban-s-new-road-to-china-drive-negotiating-power",
+    "title": "Could the Taliban’s new road to China drive negotiating power?",
+    "link": "https://www.lowyinstitute.org/the-interpreter/could-the-taliban-s-new-road-to-china-drive-negotiating-power",
+    "description": "In treacherous terrain, the Taliban has carved a path to potentially strengthen its position with China and against Pakistan.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://www.lowyinstitute.org/the-interpreter/south-china-sea-hanoi-and-manila-s-strategies-share-one-weakness",
+    "title": "South China Sea: Hanoi and Manila’s strategies share one weakness",
+    "link": "https://www.lowyinstitute.org/the-interpreter/south-china-sea-hanoi-and-manila-s-strategies-share-one-weakness",
+    "description": "Vietnam’s quiet diplomacy and loud protests from the Philippines mask the same reliance on Chinese clean energy.",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/daily/daily_master.xml"
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZTE2czFnT1NMOGxrLXQ0TmlSaFpfbU1CYnl0ZmxlZlZPS2JkTTFibXdCckhBSVZwODVrLXBlNjhMekE5M3lzZ3RnbW1zZVNaaHVYckZtVFUweUpCN3h4SGNIY0NFckJNOXVpbnllcjkwWU1oYzZKYk1zQmEyNEJPQmlyS3pyNGtYZ2tiMUNMcllYVklWOFRyZ1lIYw?oc=5",
+    "title": "Iranian Missile Production Infrastructure after Epic Fury - Foreign Policy Research Institute",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZTE2czFnT1NMOGxrLXQ0TmlSaFpfbU1CYnl0ZmxlZlZPS2JkTTFibXdCckhBSVZwODVrLXBlNjhMekE5M3lzZ3RnbW1zZVNaaHVYckZtVFUweUpCN3h4SGNIY0NFckJNOXVpbnllcjkwWU1oYzZKYk1zQmEyNEJPQmlyS3pyNGtYZ2tiMUNMcllYVklWOFRyZ1lIYw?oc=5",
+    "description": "Iranian Missile Production Infrastructure after Epic Fury  Foreign Policy Research Institute",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/fpolicy/feed/geopolitics.xml"
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTFBOU3RZWGRkTnU0NFJMYnB1LXRIdmFmc3l2NFpYRng5V3YwQnlMWVlSVnozbmwxZW5DQTdScVprUFBSN2l1OGVFZW9zNE1IbHRlSUdXa2JYdS1aRzF4ZVdlWWtPUnNFU0dneGtZVUFXZktMeUVwNm80bXllMk9nX0t1YmZjSTNsZFEwVl8zVDRxT1dNSE52cUtFT0xtNXlwbThWR2dhVTBvdTFC?oc=5",
+    "title": "EU bets on diplomacy, not blocking statute, to protect ICC from Trump sanctions - EUobserver",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTFBOU3RZWGRkTnU0NFJMYnB1LXRIdmFmc3l2NFpYRng5V3YwQnlMWVlSVnozbmwxZW5DQTdScVprUFBSN2l1OGVFZW9zNE1IbHRlSUdXa2JYdS1aRzF4ZVdlWWtPUnNFU0dneGtZVUFXZktMeUVwNm80bXllMk9nX0t1YmZjSTNsZFEwVl8zVDRxT1dNSE52cUtFT0xtNXlwbThWR2dhVTBvdTFC?oc=5",
+    "description": "EU bets on diplomacy, not blocking statute, to protect ICC from Trump sanctions  EUobserver",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/fpolicy/feed/geopolitics.xml"
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yeE9RQkdXcFp1YzF6VGdKZ29zVHZpd19lRVE5ZUtORndpa250V1VGNEM1TW9kbS05R1NJYlZBaUJGSnZJbUtMZVZPS0J4TWFxRlUtM2NJWVJENUNISzlxcGdER21EZkVOYTRZb2pB?oc=5",
+    "title": "Japanese media: Ministry of Foreign Affairs summons Russian ambassador to Japan - CGTN",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yeE9RQkdXcFp1YzF6VGdKZ29zVHZpd19lRVE5ZUtORndpa250V1VGNEM1TW9kbS05R1NJYlZBaUJGSnZJbUtMZVZPS0J4TWFxRlUtM2NJWVJENUNISzlxcGdER21EZkVOYTRZb2pB?oc=5",
+    "description": "Japanese media: Ministry of Foreign Affairs summons Russian ambassador to Japan  CGTN",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/fpolicy/feed/geopolitics.xml"
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zUVZmelVHRHROdWVrWUxOWnFZQURKMzEwaUlmOTVyeXdSM3drY1NmdUFJbjJwNE03b3AybTNDWFlwZjlnT081T0ZHSGtPZ01DY3REQkxaUjVVTmxqZTBFbDFBc2E?oc=5",
+    "title": "The Second Political Consultations between the Ministries of Foreign Affairs of Kyrgyzstan and Bangladesh Held in Bishkek - EGOV.KG",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zUVZmelVHRHROdWVrWUxOWnFZQURKMzEwaUlmOTVyeXdSM3drY1NmdUFJbjJwNE03b3AybTNDWFlwZjlnT081T0ZHSGtPZ01DY3REQkxaUjVVTmxqZTBFbDFBc2E?oc=5",
+    "description": "The Second Political Consultations between the Ministries of Foreign Affairs of Kyrgyzstan and Bangladesh Held in Bishkek  EGOV.KG",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/fpolicy/feed/geopolitics.xml"
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeERUN2VRenVfOC1FZnNRRU5telVUamdqT05DcFBua2trVFA2cHFJYUd2UkUzUUdDUl9XMnlYSEVTMnprYUxrbmx4MjE4bmJQZ2R2X19XNFdyNGU2aEI5THF3bkw4Z3VyNUE3LUNBVGx1RDd6X2pUZW5kSDRPa3VZWnVfNFhUbDBpTE5tNUJ4T2lHRm8wMi01dHZBM3dWUklqNnpiNU9kSXdGN3fSAbABQVVfeXFMTWZ1dXBfR2x6b2E1VndUc0VQZ3NFT3pqcnNjWkloX2QzckpFdVo0bU05STkwaU0yYkFKdDZRTzVjS0ZUcThKNHBSam9OOXpSR2sxYnBvNng5YXQ5RjVabHZjekNOOFRDSmx2VVdRd3hkVzVsM2FiV25wNEhaMjNuaFRZcktVNVdiUVBBYmhZdlpsd2VQMERXNkVId0JlOFprX3JQRWYwdmZuYm5rNS1mTEM?oc=5",
+    "title": "Trump's Middle Corridor Plans Face Russian and Iranian Roadblocks - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeERUN2VRenVfOC1FZnNRRU5telVUamdqT05DcFBua2trVFA2cHFJYUd2UkUzUUdDUl9XMnlYSEVTMnprYUxrbmx4MjE4bmJQZ2R2X19XNFdyNGU2aEI5THF3bkw4Z3VyNUE3LUNBVGx1RDd6X2pUZW5kSDRPa3VZWnVfNFhUbDBpTE5tNUJ4T2lHRm8wMi01dHZBM3dWUklqNnpiNU9kSXdGN3fSAbABQVVfeXFMTWZ1dXBfR2x6b2E1VndUc0VQZ3NFT3pqcnNjWkloX2QzckpFdVo0bU05STkwaU0yYkFKdDZRTzVjS0ZUcThKNHBSam9OOXpSR2sxYnBvNng5YXQ5RjVabHZjekNOOFRDSmx2VVdRd3hkVzVsM2FiV25wNEhaMjNuaFRZcktVNVdiUVBBYmhZdlpsd2VQMERXNkVId0JlOFprX3JQRWYwdmZuYm5rNS1mTEM?oc=5",
+    "description": "Trump's Middle Corridor Plans Face Russian and Iranian Roadblocks  Crude Oil Prices Today | OilPrice.com",
+    "published": "Thu, 15 Oct 2026 11:25:04 +0600",
+    "source": "https://evilgodfahim.github.io/fpolicy/feed/geopolitics.xml"
   }
 ]
