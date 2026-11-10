@@ -155054,5 +155054,531 @@
     "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
     "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/11/08/enb-iisd_-_anastasia_rodopoulou_-_unccd-cop17-_17aug2026_-_photo-75.jpg",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/bangladesh-economy-returns-expansion-after-two-months-contraction-pmi-1597906",
+    "title": "Bangladesh economy returns to expansion after two months of contraction: PMI",
+    "link": "https://www.tbsnews.net/economy/bangladesh-economy-returns-expansion-after-two-months-contraction-pmi-1597906",
+    "description": "<b>Importance:</b> 24.0 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 8.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/inflation-dips-to-827pc-in-october-as-food-prices-ease",
+    "title": "Inflation dips to 8.27pc in October as food prices ease",
+    "link": "https://thefinancialexpress.com.bd/economy/inflation-dips-to-827pc-in-october-as-food-prices-ease",
+    "description": "<b>Importance:</b> 23.8 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 7.5",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/424110/bb-targets-july%E2%80%9927-to-launch-inclusive-instant",
+    "title": "BB targets July’27 to launch 'Inclusive Instant Payment System'",
+    "link": "https://www.dhakatribune.com/business/424110/bb-targets-july%E2%80%9927-to-launch-inclusive-instant",
+    "description": "<b>Importance:</b> 23.5 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 7.0<br /><br /><b>Matched titles:</b><br />- <a href=\"https://www.daily-sun.com/business/908127/bb-targets-july-2027-to-launch-inclusive-instant-payment-system\">BB targets July 2027 to launch 'Inclusive Instant Payment System'</a>",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.dhakatribune.com/business/424118/dollar-prices-rise-again-after-brief-stability",
+    "title": "Dollar prices rise again after brief stability",
+    "link": "https://www.dhakatribune.com/business/424118/dollar-prices-rise-again-after-brief-stability",
+    "description": "<b>Importance:</b> 16.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 13.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/banking/icb-caught-bind-tk3000cr-beximco-sukuk-nears-maturity-1597941",
+    "title": "ICB caught in bind as Tk3,000cr Beximco Sukuk nears maturity",
+    "link": "https://www.tbsnews.net/economy/banking/icb-caught-bind-tk3000cr-beximco-sukuk-nears-maturity-1597941",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/stocks/selling-pressure-knocks-dsex-lower-despite-turnover-surge-1597751",
+    "title": "Selling pressure knocks DSEX lower despite turnover surge",
+    "link": "https://www.tbsnews.net/economy/stocks/selling-pressure-knocks-dsex-lower-despite-turnover-surge-1597751",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/energy/advanced-technology-could-double-bangladeshs-power-transmission-capacity-rmi-1597671",
+    "title": "Advanced technology could double Bangladesh's power transmission capacity: RMI",
+    "link": "https://www.tbsnews.net/economy/energy/advanced-technology-could-double-bangladeshs-power-transmission-capacity-rmi-1597671",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/prolonged-garment-worker-owner-conflict-could-put-economy-risk-speakers-1597651",
+    "title": "Prolonged garment worker-owner conflict could put economy at risk: Speakers",
+    "link": "https://www.tbsnews.net/bangladesh/prolonged-garment-worker-owner-conflict-could-put-economy-risk-speakers-1597651",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/non-food-inflation-hits-41-month-high-despite-easing-overall-prices-1597496",
+    "title": "Non-food inflation hits 41-month high despite easing overall prices",
+    "link": "https://www.tbsnews.net/economy/non-food-inflation-hits-41-month-high-despite-easing-overall-prices-1597496",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/yarn-import-row-pm-asks-committee-propose-solution-20-nov-1597926",
+    "title": "Yarn import row: PM asks committee to propose solution by 20 Nov",
+    "link": "https://www.tbsnews.net/economy/yarn-import-row-pm-asks-committee-propose-solution-20-nov-1597926",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/rmg/garment-workers-wage-board-meets-today-labour-representatives-propose-over-tk30000",
+    "title": "Garment workers' wage board meets today; labour representatives to propose over Tk30,000",
+    "link": "https://www.tbsnews.net/economy/rmg/garment-workers-wage-board-meets-today-labour-representatives-propose-over-tk30000",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/rmg/rmg-workers-propose-tk32000-minimum-wage-owners-get-4-days-submit-counterproposal",
+    "title": "RMG workers propose Tk32,000 minimum wage; owners get 4 days to submit counterproposal",
+    "link": "https://www.tbsnews.net/economy/rmg/rmg-workers-propose-tk32000-minimum-wage-owners-get-4-days-submit-counterproposal",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/cop31-opens-climate-and-geopolitical-pressures-mount-1597026",
+    "title": "COP31 opens as climate and geopolitical pressures mount",
+    "link": "https://www.tbsnews.net/world/cop31-opens-climate-and-geopolitical-pressures-mount-1597026",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/nations-must-turn-climate-promises-into-practical-action-cop31-prez-101794251167024.html",
+    "title": "Nations must turn climate promises into practical action: COP31 prez",
+    "link": "https://www.hindustantimes.com/world-news/nations-must-turn-climate-promises-into-practical-action-cop31-prez-101794251167024.html",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/new-delhi-wakes-to-toxic-smog-after-diwali-as-firecrackers-add-to-seasonal-pollution-crisis/199866",
+    "title": "New Delhi wakes to toxic smog after Diwali as firecrackers add to seasonal pollution crisis",
+    "link": "https://unb.com.bd/category/World/new-delhi-wakes-to-toxic-smog-after-diwali-as-firecrackers-add-to-seasonal-pollution-crisis/199866",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+    "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+    "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabia-intercepts-missiles-aramco-building-riyadh-sustains-damaged",
+    "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh sustains damaged",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabia-intercepts-missiles-aramco-building-riyadh-sustains-damaged",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/zelenskiy-speaks-modi-ahead-ukraine-russia-talks-1597666",
+    "title": "Zelenskiy speaks to Modi ahead of Ukraine-Russia talks",
+    "link": "https://www.tbsnews.net/world/zelenskiy-speaks-modi-ahead-ukraine-russia-talks-1597666",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/health/dengue-death-toll-rises-466-5-more-die-1597371",
+    "title": "Dengue: Death toll rises to 466 as 5 more die",
+    "link": "https://www.tbsnews.net/bangladesh/health/dengue-death-toll-rises-466-5-more-die-1597371",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/authenticity-legal-basis-hasinas-passport-nid-request-being-verified-home-minister",
+    "title": "Authenticity, legal basis of Hasina's passport, NID request being verified: Home minister",
+    "link": "https://www.tbsnews.net/bangladesh/authenticity-legal-basis-hasinas-passport-nid-request-being-verified-home-minister",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/how-digital-banks-collapse-toppled-paraguays-president-1596971",
+    "title": "How a digital bank's collapse toppled Paraguay's president",
+    "link": "https://www.tbsnews.net/world/how-digital-banks-collapse-toppled-paraguays-president-1596971",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/south-asia/parts-delhi-record-severe-air-quality-day-after-diwali-1597011",
+    "title": "Delhi records third-worst Diwali pollution since 2021 as AQI crosses 400",
+    "link": "https://www.tbsnews.net/world/south-asia/parts-delhi-record-severe-air-quality-day-after-diwali-1597011",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/11/9/south-africas-anc-suffers-worst-ever-local-elections-result?traffic_source=rss",
+    "title": "South Africa’s ANC suffers worst-ever local elections result",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/south-africas-anc-suffers-worst-ever-local-elections-result?traffic_source=rss",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/pm-visit-turkiye-tomorrow-attend-cop31-possible-meeting-erdogan-1597016",
+    "title": "PM to visit Türkiye tomorrow to attend COP31, meeting with Erdogan on cards",
+    "link": "https://www.tbsnews.net/bangladesh/pm-visit-turkiye-tomorrow-attend-cop31-possible-meeting-erdogan-1597016",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/us-news/us-pushes-for-european-security-architecture-to-end-ukraine-war-101794251400061.html",
+    "title": "US pushes for European 'security architecture' to end Ukraine war",
+    "link": "https://www.hindustantimes.com/world-news/us-news/us-pushes-for-european-security-architecture-to-end-ukraine-war-101794251400061.html",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/bangladeshs-ousted-leader-sheikh-hasina-appeals-for-a-new-passport-to-return-from-exile/article71681436.ece",
+    "title": "Bangladesh Foreign Ministry examining Sheikh Hasina’s request for new passport",
+    "link": "https://www.thehindu.com/news/international/bangladeshs-ousted-leader-sheikh-hasina-appeals-for-a-new-passport-to-return-from-exile/article71681436.ece",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
+    "title": "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
+    "link": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/us-news/trump-says-us-war-in-iran-is-militarily-effectively-over-suggests-current-status-quo-to-continue-101794265507070.html",
+    "title": "Trump says US war in Iran is ‘militarily effectively over', suggests ‘status quo’ to continue",
+    "link": "https://www.hindustantimes.com/world-news/us-news/trump-says-us-war-in-iran-is-militarily-effectively-over-suggests-current-status-quo-to-continue-101794265507070.html",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/907934/bangladesh-ohchr-vow-constructive-engagement-as-new-mission-head-meets-state-minister",
+    "title": "Bangladesh, OHCHR vow constructive engagement as new mission head meets state minister",
+    "link": "https://www.daily-sun.com/diplomacy/907934/bangladesh-ohchr-vow-constructive-engagement-as-new-mission-head-meets-state-minister",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/908279/bangladesh-reaffirms-unwavering-support-for-palestinian-cause",
+    "title": "Bangladesh reaffirms unwavering support for Palestinian cause",
+    "link": "https://www.daily-sun.com/diplomacy/908279/bangladesh-reaffirms-unwavering-support-for-palestinian-cause",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/908230/bangladesh-russia-sign-protocol-of-5th-igc-meeting",
+    "title": "Bangladesh, Russia sign protocol of 5th IGC meeting",
+    "link": "https://www.daily-sun.com/diplomacy/908230/bangladesh-russia-sign-protocol-of-5th-igc-meeting",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/11/1168761",
+    "title": "Security Council LIVE: Strikes on Ukraine’s power grid, as peace talks loom",
+    "link": "https://news.un.org/feed/view/en/story/2026/11/1168761",
+    "description": "The Security Council is meeting in New York on Ukraine. Russian strikes on energy infrastructure are threatening millions with another cold, dark winter, and civilian deaths are climbing sharply. The meeting comes on the eve of US-backed talks due to take place in Abu Dhabi. Follow our live meeting coverage below.",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.dawn.com/news/2043265/bangladesh-challenges-ousted-pm-hasina-to-seek-extradition-as-she-requests-new-passport",
+    "title": "Bangladesh challenges ousted PM Hasina to seek extradition as she requests new passport",
+    "link": "https://www.dawn.com/news/2043265/bangladesh-challenges-ousted-pm-hasina-to-seek-extradition-as-she-requests-new-passport",
+    "description": "<p>Bangladesh challenged on Monday <a href=\"https://www.dawn.com/news/1850245\">ousted</a> leader Sheikh Hasina to seek extradition from India if she was serious about returning home, while reviewing an application to renew her passport.</p>\n<p>Hasina, whose 15-year rule was ended by a <a href=\"https://www.dawn.com/news/1850383\">mass uprising</a> she tried to crush, has vowed to return in December to Bangladesh, where she was <a href=\"https://www.dawn.com/news/1955627\">sentenced to death</a> for crimes against humanity over the 2024 <a href=\"https://www.dawn.com/news/1850079\">crackdown</a> on protesters.</p>\n<p>Home Minister Salahuddin Ahmed told reporters on Monday that authorities were looking into Hasina’s request for a new passport, adding that she was a convicted offender who had taken refuge abroad.</p>\n<p>“The legal basis of the application, whether it followed due process, and whether there is a right to apply for a passport — all those matters are being reviewed,” he said.</p>\n<p>“We had already sent a letter to that country (India) seeking her extradition through due process,” he added.</p>\n    <figure class=\"media  w-full  w-full  media--  media--embed  media--uneven\">\n        <div class=\"media__item  media__item--newskitlink  \">    </div>\n        \n    </figure>\n<p>Hasina’s British lawyers have requested to renew her documents after the “reported revocation” of her passport.</p>\n<p>A letter by law firm Matrix Chambers, addressed to Bangladesh’s high commission in New Delhi and seen by <em>AFP</em>, requested her passport renewal — but made no mention of when or where she planned to travel.</p>\n<p>Md Aminul Islam, chief prosecutor of the court that sentenced Hasina to death in November 2025, dismissed the application as “nothing but a political stunt”.</p>\n<p>Hasina has said several times she intends to return, telling <em>AFP</em> in an email that she was “fully aware” she faced being hanged.</p>\n<p>She has told <em>Reuters</em> she plans to return to surrender before a court, and her aides said on Monday the date would be announced once various formalities were completed.</p>\n<p>Humaiun Kobir, Bangladesh’s junior foreign minister, said she should simply surrender herself to face justice.</p>\n<p>“Let her tell India: ‘Yes, there is an extradition treaty. Please hand me over. I killed this many people, and I am ready to face the sentence. Please execute me there’,” he told reporters.</p>\n<p>“She is a thief, a bandit and a terrorist who fled… How could she, having fled, want to come back?”</p>\n    <figure class=\"media  w-full  w-full  media--  media--embed  media--uneven\">\n        <div class=\"media__item  media__item--youtube_short  media__item--relative\">    <div>\n        \n    </div></div>\n        \n    </figure>\n<h2><a class=\"heading-permalink\" href=\"https://evilgodfahim.github.io/bangladesh/feed.xml#trying-to-create-panic\" id=\"trying-to-create-panic\" tabindex=\"-1\" title=\"Permalink\"></a>‘Trying to create panic’</h2>\n<p>Hasina <a href=\"https://www.dawn.com/news/1850245#:~:text=Ousted%20Hasina%20arrives%20at%20military%20base%20near%20Delhi%2C%20Indian%20media%20says\">fled</a> to old ally India in 2024, and has not been seen in public since but has taken part in online news conferences by telephone.</p>\n<p>She was convicted and sentenced in absentia.</p>\n<p>Her continued presence in India has strained ties between Dhaka and New Delhi, which says the extradition request is under legal review.</p>\n    <figure class=\"media  w-full  w-full  media--  media--embed  media--uneven\">\n        <div class=\"media__item  media__item--newskitlink  \">    </div>\n        \n    </figure>\n<p>The government of <a href=\"https://www.dawn.com/news/1972259\">Tarique Rahman</a>, whose party <a href=\"https://www.dawn.com/news/1973874\">won elections</a> in February in which Hasina’s Awami League was <a href=\"https://www.dawn.com/news/1951958\">barred</a> from contesting, has said it would ensure the former prime minister receives due legal process in all cases against her should she return.</p>\n<p>“In view of the reported revocation of her existing Bangladeshi passport and National Identity Card (NID) by the interim government and other authorities, I respectfully request that you take the necessary steps to issue a new Bangladeshi passport and national identity card for our client,” Hasina’s lawyers at London-based Matrix Chambers wrote to Preeti Rahman, acting high commissioner at Bangladesh’s embassy in Delhi.</p>\n<p>The letter asked for the applications to be processed “expeditiously” on the basis of her Bangladeshi nationality and in accordance with “obligations arising under international human rights instruments”.</p>\n<p>But Hasina’s pledge to return presents a political challenge for Rahman’s government.</p>\n<p>Many Bangladeshis want to see her hanged, while others fear her return could galvanise her former supporters and trigger a fresh confrontation between rival camps.</p>\n<p>Police on Monday said they had arrested 12 people for a series of petrol bomb attacks, including against property, an empty bus and police vehicles this month, without causing any casualties.</p>\n<p>Dhaka police spokesman Md Akhtar Hossain said the suspects were members of Hasina’s banned Awami League party.</p>\n<p>“They are trying to create panic among people,” he told <em>AFP</em>. “We are remaining vigilant to deal with any untoward situation.”</p>",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://i.dawn.com/large/2016/04/5721a6e8d5808.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.dawn.com/news/2043178/bangladeshs-external-debt-increases-almost-threefold-in-decade",
+    "title": "Bangladesh's external debt increases almost threefold in decade",
+    "link": "https://www.dawn.com/news/2043178/bangladeshs-external-debt-increases-almost-threefold-in-decade",
+    "description": "<p>Bangladesh’s foreign debt has almost tripled in 10 years, a steeper rise than in any other South Asian country except the Maldives, according to the World Bank.</p>\n<p>Even so, the country has a lower debt burden relative to export earnings than Pakistan, Sri Lanka and Bhutan. However, its burden is higher than that of India and Nepal.</p>\n<p>According to the World Bank’s International Debt Report 2026, Bangladesh’s total foreign debt stood at $113 billion at the end of 2025, up from about $38 billion in 2015. That is the third-largest stock in South Asia.For every $100 in annual earnings, Bangladesh carries $210 in total debt and pays back $16 annually.</p>\n<p>Economists say the indicators are manageable for now, but Bangladesh could face repayment trouble if borrowing keeps growing at this pace and the money is not put to proper use.</p>\n<p>In the South Asia region, India holds the largest external debt stock at $764 billion, up 59pc in a decade. Pakistan follows at $135 billion, almost double the level of 10 years ago.</p>\n<p>In Sri Lanka, foreign loans rose 31pc to $57 billion. External debt rose 186.5pc to $11 billion in Nepal and 57pc to $3.3 billion in Bhutan. The Maldives recorded a more than fourfold increase to $4.7 billion.</p>\n<p><strong>Repayments take 16pc of exports</strong></p>\n<p>Debt servicing took 16pc of Bangladesh’s export earnings in 2025, 3.1 percentage points less than the year before. That is the share of export income spent on repaying principal and interest on foreign loans, and a falling ratio is a positive sign of repayment capacity.</p>\n<p>Even so, it remains above India and the South Asian average of 10pc, though below Sri Lanka at 26pc and Bhutan at 19pc. Measured against gross national income (GNI), servicing costs are low. At 2pc, Bangladesh matches India and the regional benchmark, against 5pc in Sri Lanka and 6pc in Bhutan.</p>\n<p>The country’s debt-to-GNI ratio, which is external debt as a percentage of the national income, stands at 24pc. It is a manageable level but slightly above the South Asian aggregate of 21pc. The ratio is 20pc in India, 41pc in Pakistan and 54pc in Sri Lanka. Set against what the country earns from exports, the debt looks heavier.</p>\n<p>External debt stands at 210pc of Bangladesh’s annual exports, more than twice what the country earns each year from foreign trade and other income.</p>\n<p>That is far above India at 83pc and the South Asian aggregate of 95pc, but below Pakistan at 324pc, Bhutan at 301pc and Sri Lanka at 272pc.</p>\n<p><strong>Warning on borrowing</strong></p>\n<p>Zahid Hussain, a former lead economist at the World Bank’s Dhaka office, said Bangladesh still does better than Pakistan and Sri Lanka on these indicators but trails India. “If foreign debt keeps growing at the current pace, it would not be surprising if Bangladesh eventually faced a situation similar to Sri Lanka’s,” said the economist.</p>\n<p>“If you are not prudent about the types of debt you take and how you use the borrowed funds, becoming another Sri Lanka is only a matter of time.” He said comparing Bangladesh with Pakistan is difficult, given Pakistan’s particular geopolitical and strategic situation.</p>\n<p>Zahid said exports matter because the debt-to-GDP ratio shows very little about a country’s ability to repay. A large economy is not enough; it also needs adequate liquidity, which is why the export ratio is important.</p>\n<p>On this measure, Bangladesh is also vulnerable because its export base is small and heavily dependent on a single product category. Its exports as a share of GDP are among the lowest, he said.</p>\n<p>“Remittances add to foreign currency earnings, but even counting them India stays far ahead because its remittance income is much higher. Sri Lanka, similarly, receives large numbers of tourists and earns substantial foreign currency from tourism,” he added.</p>\n<p><strong>Costlier loans ahead</strong></p>\n<p>Prof Mustafizur Rahman, a distinguished fellow at local think tank Centre for Policy Dialogue (CPD), said the debt-to-GDP and debt-to-export ratios are rising gradually, but the most important indicator is the ratio of net exports to debt servicing.</p>\n<p>He said that about 85pc of export earnings come from readymade garments, where domestic value addition is 60-65pc. The ratios would therefore be significantly higher if net exports were used.</p>\n<p>Recent loans carry relatively high interest rates and shorter repayment and grace periods, so the ratios will rise rapidly in the coming years, said Mustafizur, as Bangladesh already faces growing debt pressure. Government debt servicing was $4.9 billion in the last fiscal year and is projected to reach $7.6 billion by 2029, as interest rates climb while grace and repayment periods shrink. The interest rate in Japan, for example, has risen from below 1pc in 2021 to above 3pc, he said.</p>\n<p>He said Bangladesh needs to raise exports and domestic value addition, improve domestic resource mobilisation and reduce its reliance on foreign borrowing to finance the Annual Development Programme.</p>\n<p>“Global financing conditions are tightening. Bangladesh will still need foreign loans, but should negotiate better terms and secure more concessional financing,” he said, adding, “It could also consider raising funds through bond issuance.”</p>\n<p>According to the World Bank report, foreign debt of developing countries rose 5.5pc to a record $9.4 trillion in 2025, the fastest growth since 2021 and about four times the average pace of 2022-24.</p>\n<p>Debt-service pressure remained severe amid elevated global interest rates. Low and middle-income countries paid $1.4 trillion in principal and interest in 2025, up 1.9pc and the fifth consecutive annual rise.</p>\n<p>Between 2022 and 2025, developing countries paid $436 billion more in debt service than they received in new financing.—The Daily Star/</p>\n<p><em>Published in Dawn, November 9th, 2026</em></p>",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://i.dawn.com/large/2025/09/02090201dedeaa7.webp",
+    "thumbnail_type": "image/webp"
+  },
+  {
+    "id": "https://www.dawn.com/news/2043175/21-killed-as-migrant-boat-sinks-off-senegal",
+    "title": "21 killed as migrant boat sinks off Senegal",
+    "link": "https://www.dawn.com/news/2043175/21-killed-as-migrant-boat-sinks-off-senegal",
+    "description": "<p>DAKAR: A small boat carrying migrants sank off northwestern Senegal killing at least 21 people in the latest tragedy along the dangerous Atlantic Ocean route from Africa to Europe, authorities said.</p>\n<p>The Senegalese interior ministry said that only one person had been rescued in addition to the 21 bodies recovered, which added to the thousands who have died in recent years trying to reach Spain’s Canary Islands from West Africa.</p>\n<p>The ministry said the death toll was  “provisional” and that the search was still going on. Media reports said the pirogue-type flat-bottom boat capsized on Saturday off the Loumpoul dunes in Kebemer department, between Dak­ar and the northern city of Saint-Louis.</p>\n<p>However Saliou Diouf, founder of Senegal’s main migrant aid association Boza Fii, said that  “the sinking occurred on Friday”. The nationalities of all the victims had not been confirmed, he said.</p>\n<blockquote class=\"blockquote-level-1\">\n<p>Greek coastguards rescue 28 from migrant boat off Crete</p>\n</blockquote>\n<p>“But the bodies recovered yesterday (Saturday) are Senegalese,” he added. Thousands of people from We­­st Africa try each year to reach Eur­­ope on the perilous Atlantic route.</p>\n<p>Senegalese authorities also said they had intercepted 142 migrants on Friday who were on a similar small boat aiming to reach Spain.</p>\n<p>The group included 23 women, two babies and two other children, and were from Senegal, Gambia, Guinea-Bissau, Guinea and Nigeria, according to police. The Senegalese government on Saturday stressed  “its determination to combat people smuggling networks, notably through strengthened cooperation with neighbouring countries,” the interior ministry said in a statement.</p>\n<p>Spanish authorities on the Canary Island of El Hierro declared an emergency on Saturday after a surge in migrant boat arrivals.</p>\n<p><strong>Boat in distress</strong></p>\n<p>Greek coastguards said on Sunday rescuers had found the body of a man and dragged to safety 28 other people on a migrant boat in distress off the island of Crete.</p>\n<p>Maritime police launched an eme­rgency rescue after the boat issued an alarm signal, with winds of 40-50 kilometres an hour making sea conditions difficult, the coastguard said.</p>\n<p>The survivors, all reportedly Sudanese, were picked up by another boat sailing nearby, then transferred to a police vessel and taken to the port of Heraklion on Crete, the agency said. On Wednesday, 59 people were reported missing after their boat capsized off the island, according to a 23-year-old Bangladeshi man who survived. No bodies have yet been found.</p>\n<p><em>Published in Dawn, November 9th, 2026</em></p>",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bangladesh/feed.xml",
+    "thumbnail": "https://i.dawn.com/large/2026/04/090856121aaabd3.webp",
+    "thumbnail_type": "image/webp"
+  },
+  {
+    "id": "337e4a8afad927c1d448f41fa8506080ebda5c8d",
+    "title": "US military carries out new targeted strikes on Iran as Tehran’s leaders weigh mediator’s proposals",
+    "link": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55",
+    "description": "US military carries out new targeted strikes on Iran as Tehran’s leaders weigh mediator’s proposals",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/1050-union-parishads-vote-first-phase-21-january-ec-secretary-1596776",
+    "title": "1,050 union parishads to vote in first phase on 21 January: EC secretary",
+    "link": "https://www.tbsnews.net/bangladesh/1050-union-parishads-vote-first-phase-21-january-ec-secretary-1596776",
+    "description": "The commission is prioritising unions under sadar upazilas, with elections to around 4,300 councils scheduled in five phases by 27 May 2027.",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2025/11/03/election_polls_vote_voting.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/907969/bb-eases-lc-cash-margin-for-essential-imports-ahead-of-ramadan",
+    "title": "BB eases LC cash margin for essential imports ahead of Ramadan",
+    "link": "https://www.daily-sun.com/business/907969/bb-eases-lc-cash-margin-for-essential-imports-ahead-of-ramadan",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/myanmar-must-solve-rohingya-crisis-ensure-safe-dignified-repatriation-law-minister",
+    "title": "Myanmar must solve Rohingya crisis, ensure safe, dignified repatriation: Law minister",
+    "link": "https://www.tbsnews.net/bangladesh/myanmar-must-solve-rohingya-crisis-ensure-safe-dignified-repatriation-law-minister",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/11/08/image-443245-1794125856.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/bpcs-90-day-fuel-stock-plan-to-safeguard-against-global-shocks",
+    "title": "BPC’s 90-day fuel stock plan to safeguard against global shocks",
+    "link": "https://thefinancialexpress.com.bd/trade/bpcs-90-day-fuel-stock-plan-to-safeguard-against-global-shocks",
+    "description": "BPC’s 90-day fuel stock plan to safeguard against global shocks",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/rmg-exports-rise-582pc-to-1375b-in-july-october",
+    "title": "RMG exports rise 5.82pc to $13.75b in July-October",
+    "link": "https://thefinancialexpress.com.bd/trade/rmg-exports-rise-582pc-to-1375b-in-july-october",
+    "description": "RMG exports rise 5.82pc to $13.75b in July-October",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/nbr/nbr-moves-cut-textile-sector-income-tax-15-until-2030-1596881",
+    "title": "NBR moves to cut textile sector income tax to 15% until 2030",
+    "link": "https://www.tbsnews.net/nbr/nbr-moves-cut-textile-sector-income-tax-15-until-2030-1596881",
+    "description": "A senior finance official told TBS that the SRO would be issued soon after the approval.",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/10/12/textile_sector.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/907890",
+    "title": "Foreign debt triples to $113.43b in a decade",
+    "link": "https://www.daily-sun.com/business/907890",
+    "description": "Bangladesh’s foreign debt nearly triples to $113.43 billion in 2025, raising repayment pressure as loans",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "feea3659-64bf-40eb-88dc-2e8d5b397cbe",
+    "title": "Anyone saying ‘December is at the door’ has no connection with Bangladesh: Adviser Titumir",
+    "link": "https://en.prothomalo.com/bangladesh/873m15g1eo",
+    "description": "<p>Those who are talking about the Awami League’s return next December have no connection with Bangladesh, said Professor Rashed Al Mahmud Titumir, the Prime Minister’s Adviser on Finance and Planning.</p><p>He said there was currently no one capable of reviving the Awami League, unlike the situation after 1975, when efforts were made to revive the party.</p><p>Professor Titumir described the “ousting of the Awami League” by the people of Bangladesh in 2024 as a victory for the country.</p><p>He made the remarks as the chief guest at a discussion titled “The Famine of 1974: Post-Independence Economic Crisis”, held at the Monsoon Theatre Hall of the July Mass Uprising Memorial Museum on Sunday afternoon.</p><p>The discussion was the fifth instalment of the museum’s Democratic Journey Seminar Series.</p><p>“If anyone says that ‘December is knocking at the door’, it should be understood that they have no connection with the soil, grass or water of Bangladesh,” Rashed Al Mahmud Titumir said.</p><p>Titumir, a professor in the Department of Development Studies at Dhaka University, said the 1974 famine could not be explained solely by food shortages or failures in the market system. Rather, it was also rooted in the state’s estrangement from the people, a crisis of political legitimacy and the role of violence.</p><p>The prime minister’s adviser pointed to continuities between the systems of governance from 1972 to 1975 and the Awami League government’s rule from 2009 to 2024.</p><p>He said both periods were characterised by governments becoming detached from people’s aspirations and attempting to retain power through patronage and violence.</p><blockquote>Titumir said similar tendencies were evident during both 1971–75 and 2009–24, including the suppression of opposition, abuse of state power and the use of violence to remain in office.</blockquote><p>Rashe Al Mahmud Titumir said three theories are generally put forward to explain the 1974 famine. These concern a decline in overall food availability, people’s lack of purchasing power or access to food, and the absence of a social contract to prevent famine. The influence of international food aid and Cold War geopolitics is also cited.</p><p>However, he argued that these explanations fail to adequately address the crisis in the relationship between the state and its people.</p><p>According to the incumbent PM’s adviser, people’s aspirations were not reflected in the way the country was governed after independence. A disconnect developed between the people and those in power. In these circumstances, a system of patronage emerged as a means of retaining power, extending from rural areas to the centre. The influence of this patronage system was also evident in “rationing” and food distribution.</p><p>Titumir said similar tendencies were evident during both 1971–75 and 2009–24, including the suppression of opposition, abuse of state power and the use of violence to remain in office.</p><p>He also pointed to similarities in food prices during the two periods. While international rice prices fell, prices in the Bangladeshi market rose, he said. The international price of rice stood at US$147 per tonne in 1972 before rising to $542 in 1974. He noted that domestic prices in Bangladesh were higher than those in the international market during the same period.</p><blockquote>The prime minister’s adviser further said that when the state becomes alienated from the people and resorts to violence to retain power, conditions conducive to famine and plunder emerge. Therefore, any discussion of the 1974 famine must consider not only economic statistics but also state violence and loss of life during that period.</blockquote><p>Describing the 2024 mass uprising as a victory for the people, Titumir said Bangladeshis had repeatedly asserted their sovereignty. He said the people had played a role in establishing their rights in 1971, 1975, 1990 and 2024.</p><p>However, he stressed that making this victory sustainable required effective state institutions. Highlighting the role of the Jatiya Sangsad (national parliament), he said the state must retain the exclusive authority to exercise legitimate “violence”, but that authority must remain accountable.</p><p>An effective parliament was essential for this purpose, he said. Article 7 of the Constitution recognises the sovereignty of the people, and parliament is the institution through which this principle must be upheld. The challenges of state-building cannot be addressed through street movements without making parliament effective, he added.</p><p>The prime minister’s adviser further said that when the state becomes alienated from the people and resorts to violence to retain power, conditions conducive to famine and plunder emerge. Therefore, any discussion of the 1974 famine must consider not only economic statistics but also state violence and loss of life during that period.</p><p>The seminar was chaired by Ehsan Mahmud, director-general of the July Mass Uprising Memorial Museum. Writer and treasurer of the Panam Institute Asif Iqbal, and economist and researcher Nahian bin Khaled, also spoke at the event.</p>",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-11-08/4jbt994z/ashed-Al-Mahmud-Titumir.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/aviation/saudi-airport-restrictions-23161-passengers-affected-186-flights-disrupted-so-far",
+    "title": "Saudi airport restrictions: 23,161 passengers affected as 186 flights disrupted so far",
+    "link": "https://www.tbsnews.net/economy/aviation/saudi-airport-restrictions-23161-passengers-affected-186-flights-disrupted-so-far",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/10/13/saudi1.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/court/hc-orders-removal-remaining-plastic-waste-buriganga-riverbank-14-december-1596506",
+    "title": "HC orders removal of remaining plastic waste from Buriganga riverbank by 14 December",
+    "link": "https://www.tbsnews.net/bangladesh/court/hc-orders-removal-remaining-plastic-waste-buriganga-riverbank-14-december-1596506",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/07/23/1b2671b1-c523-4afa-87aa-0475f0028764.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/bangladesh/hqwojpo4p5",
+    "title": "Bomb attack on Pallabi Police Station wounds SRB member",
+    "link": "https://bdnews24.com/bangladesh/hqwojpo4p5",
+    "description": "[Bangladesh] Bomb attack on Pallabi Police Station wounds SRB member",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.assettype.com/bdnews24-english/2026-11-08/rlogrjr9/pallibi_police_station_bomb_081126.jpg?w=300",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.dhakatribune.com/bangladesh/424039/bangladesh-takes-climate-justice-demand-to-cop31",
+    "title": "Bangladesh takes climate justice demand to COP31",
+    "link": "https://www.dhakatribune.com/bangladesh/424039/bangladesh-takes-climate-justice-demand-to-cop31",
+    "description": "Bangladesh will press for increased grant-based climate finance, stronger global commitments on adaptation and greater accountability from major polluters at the upcoming COP31 climate summit, seeking international support to tackle worsening climate impacts without adding to the country’s debt burden.\n\nPrime Minister Tarique Rahman is scheduled to attend the two-day World Leaders’ Summit on November 11–12, where he is expected to present Bangladesh’s priorities on climate justice, international financial commitments and support for implementing national climate plans.\n\nThe 31st Conference of the Parties to the United Nations Framework Convention on Climate Change (UNFCCC) will take place in Antalya, Türkiye, from November 9 to 20. It is expected to bring together world leaders, climate negotiators, development partners, civil society representatives and international organizations.\n\nBangladesh’s central message is that the countries bearing the greatest climate risks, despite contributing relatively little to global emissions, should not have to take on more debt to protect their people.\n\nEnvironment, Forest and Climate Change Minister Abdul Awal Mintoo outlined the country’s negotiating priorities at a press conference at the Secretariat in Dhaka on Thursday.\n\nSpecial Assistant to the Prime Minister for Environment and Climate Change Dr Saimum Parvez, Acting Secretary of the Ministry of Environment, Forest and Climate Change Dr Fahmida Khanam, Additional Secretary Navid Saifullah and Bangladesh Climate Change Trust Managing Director Kazi Rawnaqul Islam were also present.\n\nMintoo said Bangladesh would prioritize climate justice, protection of vulnerable communities and international financial and technological support for implementing its climate commitments. He emphasized the need for adequate, predictable and accessible climate finance, primarily in the form of grants, alongside stronger support for adaptation and addressing loss and damage.\n\nSeparately, State Minister for Foreign Affairs Shama Obaed Islam said on Monday that Bangladesh would urge developed countries to provide climate finance as grants rather than loans and take responsibility for their contribution to global carbon emissions. Her remarks reinforce Dhaka’s position that climate finance should reflect the historical responsibility of major emitters and the financial needs of vulnerable developing countries.\n\nBangladesh has prepared a national position paper through consultations with relevant ministries, government agencies and climate experts. It will also coordinate its negotiating position with the Least Developed Countries (LDC) Group, the Group of 77 and China, and other climate-vulnerable countries.\n\nClimate finance is expected to be one of Bangladesh’s principal priorities at COP31, with Dhaka seeking stronger implementation of commitments made by developed countries under international climate agreements. The country will call for new, additional, predictable and accessible resources to support adaptation, resilience-building and the implementation of national climate plans.\n\nA key demand will be that assistance for climate-vulnerable developing countries should come primarily through grants instead of loans. Bangladesh argues that loan-based climate assistance can increase public debt and place an additional financial burden on countries already dealing with the economic consequences of climate change.\n\nThe government will also press for simpler application and approval procedures for international climate funds. Lengthy processes and complex administrative requirements, Bangladesh maintains, can prevent resources from reaching communities when they are most urgently needed.\n\nThe issue has wider significance for developing countries as they seek to bridge the gap between the scale of climate action required and the financial support currently available.\n\nEarlier, at COP29 in Baku, countries agreed that developed nations would take the lead in mobilizing at least $300 billion annually for developing countries by 2035, within a broader effort to scale up climate finance from all sources to $1.3 trillion a year by the same deadline. For Bangladesh and other vulnerable nations, the challenge is to ensure that such commitments translate into accessible funding, particularly for adaptation and loss and damage.\n\nBangladesh will seek greater accessibility and effectiveness of the Fund for Responding to Loss and Damage, established to assist developing countries particularly vulnerable to the adverse effects of climate change. Dhaka will advocate faster disbursement, simplified funding procedures and stronger support for communities facing irreversible climate impacts.\n\nThe country will also raise the importance of addressing non-economic losses, including displacement, disruption of traditional livelihoods and damage to cultural heritage and community identity. These concerns are particularly pressing for coastal and riverine communities in Bangladesh, where erosion, salinity intrusion, cyclones and other extreme weather events threaten homes, livelihoods and habitable land.\n\nThe government’s position is that international support must respond to the actual needs of affected populations rather than remain confined to financial pledges that are difficult to access. Bangladesh will therefore seek arrangements that allow vulnerable countries to respond to climate-related disasters while also investing in long-term resilience.\n\nBangladesh will call on countries to accelerate science-based greenhouse gas emission reductions in line with the Paris Agreement’s goal of limiting global warming to 1.5 degrees Celsius above pre-industrial levels.\n\nDhaka will urge developed countries to demonstrate leadership in cutting emissions and call on major emitting economies to strengthen their climate commitments in line with their responsibilities and respective capabilities. It will also emphasize that developing nations need finance, technology transfer and capacity-building support to implement their nationally determined contributions (NDCs).\n\nFor Bangladesh, stronger global mitigation is essential because adaptation alone cannot eliminate the growing risks associated with continued warming. The government will argue that the countries with the greatest historical responsibility and financial capacity must take the lead in reducing emissions while supporting vulnerable nations to pursue climate-resilient development.\n\nImplementation of Bangladesh’s National Adaptation Plan (NAP) will be another major focus of the negotiations. The government will seek financial and technological assistance to strengthen resilience in coastal areas, wetlands, river islands and drought-prone regions.\n\nPriority areas include water security, food production, public health, disaster preparedness and the protection of climate-sensitive livelihoods. Bangladesh will also highlight the importance of early warning systems, climate-resilient infrastructure and locally led adaptation initiatives.\n\nCoastal communities facing cyclones and salinity intrusion, farmers affected by irregular rainfall and drought, and riverine populations confronting erosion and displacement are among those requiring stronger support. Dhaka will press for adaptation finance that reaches local communities and supports solutions shaped by their needs, traditional knowledge and direct experience of climate impacts.\n\nBangladesh will seek international cooperation to support a just and equitable transition towards low-carbon development across the energy, agriculture, industrial and transport sectors.\n\nThe government will emphasize that the costs and benefits of the transition must be distributed fairly, with particular attention to workers, low-income communities, women and young people. Skills development, social protection, labor rights and decent employment opportunities will be important elements of the country’s just transition agenda.\n\nDhaka will also advocate affordable access to renewable energy technologies, energy-efficient systems, cleaner industrial production and sustainable transport. Its position is that developing economies need international finance and technology to pursue cleaner growth without undermining employment, economic competitiveness or social development.\n\nBangladesh will explore opportunities to mobilize additional finance and technological support through international carbon markets under Article 6 of the Paris Agreement. The mechanism allows countries to cooperate in meeting their climate commitments, including through internationally transferred emission reductions and other forms of cooperation.\n\nDhaka considers carbon markets a potential supplementary source of finance for implementing its NDCs and supporting low-carbon development. However, the government will maintain that carbon market cooperation cannot replace predictable public climate finance, particularly for adaptation and loss and damage.\n\nBangladesh will also seek stronger international cooperation on affordable climate technologies, technical expertise and institutional capacity-building. Such support will be important for renewable energy, climate-resilient agriculture, industrial decarbonization, water management and disaster preparedness.\n\nThe country will advocate greater international support for conserving forests, mangroves, wetlands and biodiversity as part of its wider climate response. Nature-based solutions can strengthen ecosystem resilience while supporting local livelihoods and sustainable resource management. They are particularly relevant to Bangladesh, where mangrove forests, wetlands and river systems provide protection against climate hazards and support millions of people.\n\nBangladesh will also emphasize inclusive climate governance and meaningful participation by women, children, young people, persons with disabilities and marginalized communities. The government will seek improved access to climate finance for women-led and locally led initiatives, arguing that climate policies must reflect the needs and experiences of vulnerable populations.\n\nBangladesh is also expected to raise concerns about climate-related international trade measures that could affect the exports, employment and competitiveness of developing economies.\n\nDhaka will seek cooperation to ensure that environmental trade policies do not place disproportionate burdens on countries with limited financial and technological capacity. The government will advocate assistance to help industries adopt cleaner technologies, improve energy efficiency and meet evolving international environmental standards.\n\nIts position will be that the shift towards sustainable production should be supported through finance, technology transfer and capacity-building rather than measures that could undermine development opportunities. For Bangladesh, the challenge is to balance global climate objectives with economic growth, employment generation and poverty reduction.\n\nBangladesh will establish a 100-square-metre pavilion at the COP31 conference venue to showcase its climate vulnerabilities, adaptation experience and national priorities.\n\nThe pavilion will feature the country’s updated nationally determined contribution, known as NDC 3.0, alongside its National Adaptation Plan and initiatives addressing climate-induced loss and damage. Other areas of focus will include climate finance, renewable energy, carbon markets, nature-based solutions and technological innovations supporting climate resilience.\n\nThe pavilion is expected to provide a platform for policy discussions, knowledge exchange and engagement with international development partners, research institutions and potential investors. Bangladesh also intends to highlight locally developed adaptation solutions and community experiences, demonstrating how people directly affected by climate change are responding to its impacts.\n\nThe government hopes the pavilion will help create opportunities for partnerships, technical cooperation and investment aligned with national climate priorities.\n\nBangladesh’s negotiating position will be guided by equity and the principle of common but differentiated responsibilities and respective capabilities, a foundation of international climate cooperation. The principle recognizes that all countries have a role in addressing climate change, but their responsibilities and capacity to act differ according to historical circumstances and national capabilities.\n\nDhaka will argue that developed countries must fulfil their international commitments while providing vulnerable developing nations with the resources needed to implement climate action. The position also reflects a broader demand for accountability from major polluters, particularly as countries facing severe climate impacts struggle to finance adaptation and recovery.\n\nFor Bangladesh, climate justice is not limited to securing financial pledges. It also means ensuring that international support is accessible, reaches affected communities and reflects the scale of the damage they face.\n\nCOP31 comes at a critical point for international climate cooperation, with countries under growing pressure to turn existing commitments into measurable action.\n\nTürkiye will host the conference, while Australia will chair the negotiations under the agreed organizational arrangement. Discussions are expected to focus on implementing the Paris Agreement, strengthening adaptation, mobilizing climate finance and supporting a fair transition towards cleaner energy systems.\n\nWith Prime Minister Tarique Rahman preparing to present the country’s position at the World Leaders’ Summit on November 11–12, Dhaka will seek to put grant-based finance, climate justice and the protection of vulnerable communities at the center of the discussions.\n\nThe success of COP31, from Bangladesh’s perspective, will ultimately depend not simply on new declarations but on whether international commitments deliver practical support to countries and communities already living with the consequences of climate change.",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://ecdn.dhakatribune.net/contents/uploads/media/2026/11/08/7fbc82da391b803fa38cd7638993f33a-6af06b24813eb.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/first-page/govt-entities-huge-deposits-stuck-in-troubled-banks-1794162297",
+    "title": "Govt entities' huge deposits stuck in troubled banks",
+    "link": "https://today.thefinancialexpress.com.bd/first-page/govt-entities-huge-deposits-stuck-in-troubled-banks-1794162297",
+    "description": "Three government entities' huge funds got stuck in \"troubled banks\"...",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/first-page/govt-in-touch-with-all-sides-including-arakan-army-1794162481",
+    "title": "Govt in touch with all sides including Arakan Army",
+    "link": "https://today.thefinancialexpress.com.bd/first-page/govt-in-touch-with-all-sides-including-arakan-army-1794162481",
+    "description": "Finding a lasting solution to the Rohingya crisis comes under...",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/world/33-killed-in-saudi-strikes-on-yemens-sanaa-province-1794161195",
+    "title": "33 killed in Saudi strikes on Yemen's Sanaa province",
+    "link": "https://today.thefinancialexpress.com.bd/world/33-killed-in-saudi-strikes-on-yemens-sanaa-province-1794161195",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://today.thefinancialexpress.com.bd/uploads/1794161195.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/world/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity-1794161253",
+    "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
+    "link": "https://today.thefinancialexpress.com.bd/world/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity-1794161253",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://today.thefinancialexpress.com.bd/uploads/1794161253.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/world/three-tankers-catch-fire-in-hormuz-after-hitting-mines-1794161293",
+    "title": "Three tankers catch fire in Hormuz after hitting mines",
+    "link": "https://today.thefinancialexpress.com.bd/world/three-tankers-catch-fire-in-hormuz-after-hitting-mines-1794161293",
+    "description": "TEHRAN, Nov 08 (Agencies): Three oil tankers caught fire in...",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/trade-market/banks-asked-to-maintain-minimal-lc-cash-margins-for-ramadan-essentials-1794158182",
+    "title": "Banks asked to maintain minimal LC cash margins for Ramadan essentials",
+    "link": "https://today.thefinancialexpress.com.bd/trade-market/banks-asked-to-maintain-minimal-lc-cash-margins-for-ramadan-essentials-1794158182",
+    "description": "Bangladesh Bank( BB) has directed all scheduled banks to maintain...",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/bangladesh/908077/govt-plans-to-raise-fuel-reserves-to-90-days-to-ensure-energy-security",
+    "title": "Govt plans to raise fuel reserves to 90 days to ensure energy security",
+    "link": "https://www.daily-sun.com/bangladesh/908077/govt-plans-to-raise-fuel-reserves-to-90-days-to-ensure-energy-security",
+    "description": "The government is working to increase the country's fuel oil storage capacity to meet 90 days of demand to ensure",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/11/09/medium/fuel-oil-govt-6af0c5e97b767.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/bangladesh/907992/rooppur-unit-1-nears-operation-iaea-reviews-emergency-preparedness",
+    "title": "Rooppur Unit-1 nears operation, IAEA reviews emergency preparedness",
+    "link": "https://www.daily-sun.com/bangladesh/907992/rooppur-unit-1-nears-operation-iaea-reviews-emergency-preparedness",
+    "description": "A 10-member IAEA expert team has arrived in Bangladesh and begun its Emergency Preparedness Review (EPREV) mission...",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/11/08/medium/Rooppur-nuclear-power-plant-RNPP--BSS-6af0a8789b82d.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://bdnews24.com/economy/asmr0jhj9o",
+    "title": "Remittances cross $12bn in four months",
+    "link": "https://bdnews24.com/economy/asmr0jhj9o",
+    "description": "[Economy] Remittances cross $12bn in four months",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.assettype.com/bdnews24-english/2026-11-08/ky98m2sm/dollar_remittence_290625_01.jpg?w=300",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/last-page/import-bill-up-115pc-amid-global-price-pressures-1794163177",
+    "title": "Import bill up 11.5pc amid global price pressures",
+    "link": "https://today.thefinancialexpress.com.bd/last-page/import-bill-up-115pc-amid-global-price-pressures-1794163177",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://today.thefinancialexpress.com.bd/uploads/1794163177.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/last-page/bbs-to-get-full-independence-official-data-to-be-made-accessible-says-khosru-1794163297",
+    "title": "BBS to get full independence, official data to be made accessible, says Khosru",
+    "link": "https://today.thefinancialexpress.com.bd/last-page/bbs-to-get-full-independence-official-data-to-be-made-accessible-says-khosru-1794163297",
+    "description": "",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://today.thefinancialexpress.com.bd/uploads/1794163297.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/last-page/depositors-protest-outside-bb-demand-money-back-1794163403",
+    "title": "Depositors protest outside BB, demand money back",
+    "link": "https://today.thefinancialexpress.com.bd/last-page/depositors-protest-outside-bb-demand-money-back-1794163403",
+    "description": "Several hundred depositors of Agrani Bank's Sreenagar branch in Munshiganj...",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "65becc2ba795af76849d580a5f328e2cfb883f2f",
+    "title": "Collision between 2 trains in Egypt kills 7 and injures at least 125",
+    "link": "https://apnews.com/article/egypt-train-crash-giza-collision-cairo-injuries-4ad591268ce015d85ae302e22185b235",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/e8a26bf/2147483647/strip/true/crop/2157x1438+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9e%2F2f%2F2848518b2ed7ec6f59891c4e669c%2F5fe48adf60f0487ebe2693e472efd411\" /><br />Collision between 2 trains in Egypt kills 7 and injures at least 125",
+    "published": "Tue, 10 Nov 2026 13:45:11 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/e8a26bf/2147483647/strip/true/crop/2157x1438+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9e%2F2f%2F2848518b2ed7ec6f59891c4e669c%2F5fe48adf60f0487ebe2693e472efd411",
+    "thumbnail_type": "image/jpeg"
   }
 ]
