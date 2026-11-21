@@ -160610,5 +160610,435 @@
     "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
     "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/11/19/image-447698-1795072352.jpg",
     "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/competitors-eat-into-bangladeshs-share-of-european-denim-market",
+    "title": "Competitors eat into Bangladesh’s share of European denim market",
+    "link": "https://thefinancialexpress.com.bd/trade/competitors-eat-into-bangladeshs-share-of-european-denim-market",
+    "description": "<b>Importance:</b> 25.2 | <b>Covered by:</b> 2 feeds | <b>Reputation:</b> 10.5<br /><br /><b>Matched titles:</b><br />- <a href=\"https://bdnews24.com/business/kxwck2l39w\">Bangladesh’s competitors make inroads in Europe denim market</a>",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/economy/banking/capital-shortfall-22-banks-exceeds-tk3-lakh-crore-june-1608456",
+    "title": "Capital shortfall at 22 banks exceeds Tk3 lakh crore in June",
+    "link": "https://www.tbsnews.net/economy/banking/capital-shortfall-22-banks-exceeds-tk3-lakh-crore-june-1608456",
+    "description": "<b>Importance:</b> 16.0 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 12.0",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/sweeping-fiscal-reform-must-for-economic-growth-employment",
+    "title": "Sweeping fiscal reform must for economic growth, employment",
+    "link": "https://thefinancialexpress.com.bd/economy/sweeping-fiscal-reform-must-for-economic-growth-employment",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/economy/bangladesh-begins-preliminary-fta-negotiation-with-eu",
+    "title": "Bangladesh begins preliminary FTA negotiation with EU",
+    "link": "https://thefinancialexpress.com.bd/economy/bangladesh-begins-preliminary-fta-negotiation-with-eu",
+    "description": "<b>Importance:</b> 15.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 11.0",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.newagebd.net/post/economy/323203/bangladesh-germany-talks-conclude-with-402m-euro-pledge",
+    "title": "Bangladesh, Germany talks conclude with 402m euro pledge",
+    "link": "https://www.newagebd.net/post/economy/323203/bangladesh-germany-talks-conclude-with-402m-euro-pledge",
+    "description": "<b>Importance:</b> 14.5 | <b>Covered by:</b> 1 feeds | <b>Reputation:</b> 9.0",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdl/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/rohingya-crisis/myanmar-calls-icj-ruling-genocide-unfair-1608746",
+    "title": "Myanmar calls ICJ ruling on genocide 'unfair'",
+    "link": "https://www.tbsnews.net/rohingya-crisis/myanmar-calls-icj-ruling-genocide-unfair-1608746",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/rohingya-crisis/myanmars-rohingya-win-landmark-genocide-ruling-return-home-remains-distant-1608766",
+    "title": "Myanmar's Rohingya win landmark genocide ruling, but return home remains distant",
+    "link": "https://www.tbsnews.net/rohingya-crisis/myanmars-rohingya-win-landmark-genocide-ruling-return-home-remains-distant-1608766",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/south-asia/us-religious-freedom-panel-says-india-targeting-minorities-voter-roll-revisions",
+    "title": "US religious freedom panel says India is targeting minorities in voter roll revisions",
+    "link": "https://www.tbsnews.net/world/south-asia/us-religious-freedom-panel-says-india-targeting-minorities-voter-roll-revisions",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/foreign-policy/bangladesh-condemns-houthi-attack-riyadh-financial-district-1609076",
+    "title": "Bangladesh condemns Houthi attack on Riyadh financial district",
+    "link": "https://www.tbsnews.net/foreign-policy/bangladesh-condemns-houthi-attack-riyadh-financial-district-1609076",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/health/measles-death-toll-reaches-1341-5-more-children-die-1608781",
+    "title": "Measles death toll reaches 1,341 as 5 more children die",
+    "link": "https://www.tbsnews.net/bangladesh/health/measles-death-toll-reaches-1341-5-more-children-die-1608781",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/law-order/bgb-foils-bsf-attempt-push-four-people-through-meherpur-border-1608696",
+    "title": "BGB foils BSF attempt to push in four people through Meherpur border",
+    "link": "https://www.tbsnews.net/bangladesh/law-order/bgb-foils-bsf-attempt-push-four-people-through-meherpur-border-1608696",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/dhaka-eyes-rohingya-repatriation-within-18-months-humaiun-1608656",
+    "title": "Dhaka eyes Rohingya repatriation within 18 months: Humaiun",
+    "link": "https://www.tbsnews.net/bangladesh/dhaka-eyes-rohingya-repatriation-within-18-months-humaiun-1608656",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/world/south-asia/over-3-lakh-people-indias-odisha-evacuated-cyclone-akvan-moves-closer-landfall",
+    "title": "Over 3 lakh people in India's Odisha evacuated as Cyclone Akvan moves closer to landfall",
+    "link": "https://www.tbsnews.net/world/south-asia/over-3-lakh-people-indias-odisha-evacuated-cyclone-akvan-moves-closer-landfall",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://unb.com.bd/category/World/nations-push-for-deeper-fossil-fuel-cuts-as-un-climate-summit-enters-final-day/200822",
+    "title": "Nations push for deeper fossil fuel cuts as UN climate summit enters final day",
+    "link": "https://unb.com.bd/category/World/nations-push-for-deeper-fossil-fuel-cuts-as-un-climate-summit-enters-final-day/200822",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/trump-says-china-is-building-nuclear-weapons-hot-and-heavy-warns-it-could-catch-us-in-10-years-101795211740167.html",
+    "title": "Trump says China is building nuclear weapons ‘hot and heavy’, warns it could catch US in 10 years",
+    "link": "https://www.hindustantimes.com/world-news/trump-says-china-is-building-nuclear-weapons-hot-and-heavy-warns-it-could-catch-us-in-10-years-101795211740167.html",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/peru-andean-region-hit-by-6-9-magnitude-earthquake-residents-rush-to-the-streets-casualties-damage-latest-news-101795225507008.html",
+    "title": "Magnitude 6.9 earthquake jolts Peru's Andean region, residents rush to the streets",
+    "link": "https://www.hindustantimes.com/world-news/peru-andean-region-hit-by-6-9-magnitude-earthquake-residents-rush-to-the-streets-casualties-damage-latest-news-101795225507008.html",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.hindustantimes.com/world-news/us-news/hackers-breach-us-agriculture-departments-farmer-payment-system-that-handles-loans-insurance-report-101795213028095.html",
+    "title": "Hackers breach US agriculture department's farmer payment system that handles loans, insurance: Report",
+    "link": "https://www.hindustantimes.com/world-news/us-news/hackers-breach-us-agriculture-departments-farmer-payment-system-that-handles-loans-insurance-report-101795213028095.html",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/opinion/editorial/three-to-tango-on-trump-xi-putin-trilateral-summit/article71725845.ece",
+    "title": "Three to tango: On Trump, Xi, Putin trilateral summit",
+    "link": "https://www.thehindu.com/opinion/editorial/three-to-tango-on-trump-xi-putin-trilateral-summit/article71725845.ece",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/article71723493.ece",
+    "title": "Nepal PM Balendra Shah to visit India on November 22–23",
+    "link": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/article71723493.ece",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kushner-trump-open-to-nato-like-security-guarantees-for-ukraine?traffic_source=rss",
+    "title": "Kushner: Trump open to NATO-like security guarantees for Ukraine",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kushner-trump-open-to-nato-like-security-guarantees-for-ukraine?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.aljazeera.com/video/newsfeed/2026/11/20/poland-hit-by-at-least-one-russian-missile-says-polish-govt?traffic_source=rss",
+    "title": "Poland hit by at least one Russian missile, says Polish govt",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/poland-hit-by-at-least-one-russian-missile-says-polish-govt?traffic_source=rss",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-catches-fire-after-projectile-strike-near-hormuz-ukmto",
+    "title": "Tanker catches fire after projectile strike near Strait of Hormuz - UKMTO",
+    "link": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-catches-fire-after-projectile-strike-near-hormuz-ukmto",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.thehindu.com/news/international/russia-missile-strike-on-kyiv-ukraine/article71723381.ece",
+    "title": "Russian strikes damage two bridges in Kyiv: Mayor",
+    "link": "https://www.thehindu.com/news/international/russia-missile-strike-on-kyiv-ukraine/article71723381.ece",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/int/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/910138/bangladesh-welcomes-landmark-icj-verdict-on-rohingya-genocide",
+    "title": "Bangladesh welcomes landmark ICJ verdict on Rohingya genocide",
+    "link": "https://www.daily-sun.com/diplomacy/910138/bangladesh-welcomes-landmark-icj-verdict-on-rohingya-genocide",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/910085/malaysian-pm-to-visit-dhaka-on-7-december",
+    "title": "Malaysian PM to visit Dhaka on 7 December",
+    "link": "https://www.daily-sun.com/diplomacy/910085/malaysian-pm-to-visit-dhaka-on-7-december",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/910084/us-ambassador-uk-high-commissioner-meet-fm-khalilur-rahman",
+    "title": "US Ambassador, UK High Commissioner meet FM Khalilur Rahman",
+    "link": "https://www.daily-sun.com/diplomacy/910084/us-ambassador-uk-high-commissioner-meet-fm-khalilur-rahman",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/fp/final.xml"
+  },
+  {
+    "id": "https://news.un.org/feed/view/en/story/2026/11/1168846",
+    "title": "WFP plans to assist 91 million in 2027 as hunger crisis deepens",
+    "link": "https://news.un.org/feed/view/en/story/2026/11/1168846",
+    "description": "The World Food Programme (WFP) will require $12.1 billion to assist 91 million people next year but warned that millions more will go hungry as funding shortfalls continue and another global food crisis looms.&nbsp;",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "https://www.ipsnews.net/2026/11/after-the-icj-verdict-what-for-dhaka/",
+    "title": "After the ICJ Verdict, What for Dhaka?",
+    "link": "https://www.ipsnews.net/2026/11/after-the-icj-verdict-what-for-dhaka/",
+    "description": "The world’s highest court has delivered a historic legal and moral victory. It does not get any more definitive than this. On 19 November 2026, the International Court of Justice (ICJ) found that Myanmar committed genocide against the Rohingya in northern Rakhine State. It is the first time the court has held a state responsible [&#8230;]",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/org/daily_feed.xml"
+  },
+  {
+    "id": "d7f0abbb-aaa7-4131-adbf-fbd8292370d1",
+    "title": "Mideast crisis ‘largest threat’ to energy security ever: IEA",
+    "link": "https://en.prothomalo.com/international/middle-east/nb2utr8svu",
+    "description": "IRAN-CRISIS/INSURANCE-SHIPPING\n<p>The crisis in the Middle East sparked in February by the US and Israeli bombing of Iran has created the “largest threat” to energy security in history, the International Energy Agency (IEA) warned Thursday.</p> <p>The agency said in its flagship annual World Energy Outlook that consumers were increasingly footing the bill as the world runs out of ways to absorb the impact of the conflict on energy supplies.</p> <p>The crisis, just like previous energy shocks, would certainly leave “lasting marks”, the agency warned.</p> <p>Gulf countries have been struggling to export oil since Iran began blockading the Strait of Hormuz and targeting tankers in the area, following US and Israeli strikes that sparked the crisis in February.</p><p>Despite attempts by the United States to escort vessels through the channel -- which pre-crisis carried about one-fifth of global oil shipments -- supply lines remain severely disrupted.</p> <p>“The Strait of Hormuz crisis has created the largest threat to energy security in history, one that dwarfs the scale of the oil shocks of the 1970s,” IEA Executive Director Fatih Birol wrote in his foreword to the report.</p> <p>He highlighted the efforts countries had taken to protect households, with producing nations bringing more supplies into the market and using alternative routes, and China buying less from international markets.</p> <p>“Governments have intervened to try and provide some shelter for consumers, but they have nonetheless faced higher prices and, in some cases, shortfalls of supply,” Birol wrote.</p> <p>The report said elsewhere that “increasingly it is falling to consumers -- and high prices -- to absorb the impact as other buffers are run down”.</p> <p>Birol had struck a more hopeful tone in July when he wrote that the oil market was still benefiting from “several cushioning factors”.</p><h3>‘No pathway’ back\n\n</h3><p>&nbsp;The IEA’s report comes as nations meet for the COP31 climate talks in Turkey, with governments under pressure to tackle climate change after a year of searing heatwaves and wildfires in Europe, and deadly floods in Nepal.</p> <p>The agency uses three scenarios for its energy outlook: a cautious one takes into account policies that are currently in place, a middle scenario looks at “stated” government policies including measures that have yet to be adopted, and a third considers a world that reaches net zero emissions by 2050.</p> <p>In its middle scenario, the IEA forecasts that global oil demand will reach a peak around 2030 before a slow decline, while gas demand would increase until around 2035.</p> <p>For this report, it also adds two other scenarios based on what might happen if the Middle East crisis persists.</p> <p>“While the energy sector and the global economy have shown considerable resilience, the longer the crisis lasts, the deeper the effects will be,” Birol said in a press release.</p> <p>“And I don’t see any credible pathway for the energy world to return to the way it was before.”</p>",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-09/oi2ykoqm/IRAN-CRISIS-INSURANCE-SHIPPING.JPG?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "87e8ade3-d27c-454b-b348-6d6fa1d00547",
+    "title": "An agreement needed before the Ganges Water Treaty expires",
+    "link": "https://en.prothomalo.com/opinion/op-ed/a1wpzczo4w",
+    "description": "<p>The Ganges treaty between Bangladesh and India is set to expire in a few days on 12 December. There has been no news of a new agreement or the renewal of the existing one. It is also unclear whether the two countries are willing to agree on an interim arrangement. The situation is concerning, but people downstream still hold hope.</p><p>The first Ganges treaty was signed in 1977. Those who are older might remember the intense political situation in the years leading up to it, particularly surrounding the \"Farakka\" issue. A few years went by without an agreement even at the end of the last century. During that time, water politics were intense, but the branches of the Ganges in Bangladesh started drying up. The potential lack of an agreement this time could be the final nail in the coffin for these narrow rivers.</p><p>As I write this, there is not enough time left for a new agreement. The alternatives are to either have a temporary memorandum of understanding based on the main conditions of the old agreement or renew the agreement for two to three years, as permitted by Article 12. Are the two governments in discussions about such an option? Will they take such a step?</p><p>If the potential for such an emergency memorandum slips away due to the uncertainty surrounding Bangladesh's Prime Minister Tarique Rahman's visit to India, it would be disastrous for the region's ecology. Any poor agreement would be preferable to having no agreement at all, especially for those downstream.</p><p>The Bangladesh government says they want a new agreement. It should certainly include additional elements compared to the 1996 treaty. At the same time, it should also include more than the 1977 agreement. In that case, a comparative discussion of both agreements is needed. The first treaty was for five years. The second was for 30 years, which was an advancement, but a permanent agreement would be better in the future, with opportunities for review from time to time. Both previous agreements aimed to address the five months of the dry season (January-May). A future agreement should cover the entire year, including flood management strategies, which is also crucial for those downstream.</p><p>In 1977, there was an \"Agreement\" on the Ganges, and the subsequent one was a \"Treaty\". The first one was signed by ministers, and the second by prime ministers. It is evident that as time has passed, the commitment on water issues between the two countries has deepened. However, there was no provision for an \"arbitrator\" in either agreement. Including such a provision in the future would be beneficial.</p><p>Relations with neighbors can rise and fall, but people in the basin cannot be put at risk in critical matters like water. Therefore, if there is a dispute over water rights, there should be an option to call a third party as an arbitrator. It would also be beneficial to include Nepal in any potential agreement, as they are a strong partner in the flow of the Ganges. If an agreement could be reached among the three countries, the sense of trust among people downstream would increase. Both the 1977 and 1996 agreements considered water availability at the \"Farakka Point, \" which is harmful to Bangladesh.</p><p>In the future, the priority should be to keep the entire flow of the Ganges normal and ensure a fair share for Bangladesh based on that flow. If Bangladesh raises such a demand, India might be unhappy because they have built many infrastructures upstream over the past 40 years that are reducing the river's flow. In such a situation, an alternative for Bangladesh could be to approach the United Nations. Before doing so, it is also necessary to sign the UN's 1997 Watercourses Convention. Because Bangladesh has not signed it, India cannot be pressured to sign it either. It is a significant puzzle why Bangladesh has not yet signed a convention that could be in its national interest.</p><p>Dhaka desires a \"guarantee clause\" as an assurance of minimum water availability in any new agreement. It was present in Article 2 of the 1977 agreement and also differently in Articles 10 and 11 of the 1996 agreement. Therefore, there is no issue including it in the future, and it is crucial for downstream interests. However, over the past 30 to 40 years, the flow of water reaching Farakka has significantly decreased. While the concept of a guarantee clause exists in the agreement documents, only \"apolitical\" experts could propose how to implement it practically in the riverbed. Indian experts, in particular, suggest they need an additional 5,000 cusecs beyond the previous agreement's allocation.</p><p>Currently, there is much speculation in Bangladesh about the future of water distribution. The most pessimistic prediction is that there will be little response from India for a new agreement with more favorable terms for those downstream. The somewhat optimistic reverse prediction is that if this December ends without even a memorandum of understanding, it will be harmful to India as well. It is expected that anti-India sentiment will resurface in Bangladesh, which many in New Delhi likely do not want.</p><p>Secondly, Farakka has already caused significant and irreparable harm to the neighboring states of Bihar and West Bengal. Continuing to stop water in the future would bring additional damage to these two states.<br />Yet, the objections rising in Bihar and West Bengal over a new treaty and the renewal of the old one is itself a puzzle. Perhaps BJP's \"political calculations\" are at play, which Bangladesh should smartly consider. Perhaps these \"movements\" are part of negotiations with Dhaka.</p><p>For the first time in history, the BJP rules simultaneously in Kolkata, Patna, and New Delhi. This is a good time for any new water agreement because a Delhi-Dhaka understanding is now sufficient. However, at the same time, Bangladesh-India relations are at a historical low, which is a bad time for any new treaty. In this contradictory situation, it is also true that New Delhi's Bangladesh-oriented diplomacy over the past one and a half decades is facing a comprehensive reassessment as we approach 2024.</p><p>They clearly indicate a desire to rebuild this relationship. They might also consider the Ganges treaty as part of new \"understandings and arrangements\" under these new circumstances. Therefore, this moment could be turned into an opportunity for Bangladesh. The agreements of 1977 and 1996 were made in November-December, and moving toward potential prospects in the same season in 2026 might be possible.</p><p>Although determining water and water rights is entirely a technical matter, any water agreement comes to fruition only with the conscious touch of politicians. If the BJP government wants to view any potential new treaty as part of a larger political package, it could be uncomfortable for Bangladesh. However, what other choice is there but to face that reality?</p><p>The only feasible priority for popular politicians could be to blindly prioritize the protection of ecological interests. Although the opposition parties in Bangladesh are currently silent, they will begin to blame the government for failure as soon as the current treaty expires without any alternative agreement. Therefore, an interim arrangement could only be protective for both Dhaka and Delhi.</p><p><em><strong>#Altaf Parvez is a researcher and writer.</strong></em></p><p><em><strong>*The opinions expressed here are the writer's own.</strong></em></p>",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-11-18/aiels0g7/143kushtia-bridge5.jpg.jpg?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/opinion/views/open-sky/news/why-bangladeshs-gdp-growth-losing-momentum-4327706",
+    "title": "Why is Bangladesh's GDP growth losing momentum?",
+    "link": "https://www.thedailystar.net/opinion/views/open-sky/news/why-bangladeshs-gdp-growth-losing-momentum-4327706",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://thefinancialexpress.com.bd/trade/bepzia-proposes-3-tier-minimum-wage-for-epz-workers",
+    "title": "BEPZIA proposes 3-tier minimum wage for EPZ workers",
+    "link": "https://thefinancialexpress.com.bd/trade/bepzia-proposes-3-tier-minimum-wage-for-epz-workers",
+    "description": "BEPZIA proposes 3-tier minimum wage for EPZ workers",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/diplomacy/910053/china-diplomat-meets-foreign-secretary",
+    "title": "China diplomat meets foreign secretary",
+    "link": "https://www.daily-sun.com/diplomacy/910053/china-diplomat-meets-foreign-secretary",
+    "description": "Dr Liu Yuyin, chargé d'Affaires of the Embassy of China in Bangladesh, met with Salahuddin Noman Chowdhury, foreign secretary of",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/11/19/medium/China-charge-d-affaires-6afe4bd97a0f1.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/910117/bangladesh-pakistan-s-lng-imports-to-rise-70-by-2035-iea",
+    "title": "Bangladesh, Pakistan’s LNG imports to rise 70% by 2035: IEA",
+    "link": "https://www.daily-sun.com/business/910117/bangladesh-pakistan-s-lng-imports-to-rise-70-by-2035-iea",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "e8a2b53c-ba90-4832-9024-e81310d84675",
+    "title": "Bangladesh could achieve 5.7pc annual growth through fiscal reforms: WB",
+    "link": "https://en.prothomalo.com/business/local/8ut8rexcyi",
+    "description": "<p>Bangladesh could raise its annual economic growth to 5.7 per cent  by boosting domestic revenue, rationalising subsidies, making public spending more efficient and reforming energy pricing, according to a latest World Bank report.</p><p>The report titled 'Bangladesh Public Finance Review, 2026'  also said if fully implemented, reforms could raise revenue from 8 percent of GDP in FY2025 to 14.4 per cent by FY2035, compared with 10 per cent under limited reforms scenario.</p><p>Public spending could rise to 18 per cent of GDP, and the fiscal deficit would stay below 5 per cent throughout and fall to 3.6 per cent by FY2035, it added.</p><p>The report mentioned these reforms would build foundations for Bangladesh remain on inclusive growth path and create more and better jobs.</p><p>The World Bank’s report finds that low revenues, rising recurrent spending, and growing energy sector fiscal pressures are limiting development spending, particularly investments in human development and infrastructure.</p><p>The report also recommends more targeted subsidies, which will protect poor and vulnerable households.</p><p>Immediate and sequenced reforms to strengthen revenue mobilisation, improve the efficiency and allocation of public spending, address energy sector fiscal risks will create greater fiscal space for investment in infrastructure and human capital and help Bangladesh return to an inclusive growth path.</p><p>Fiscal reform must become a central pillar of the country's growth and jobs strategy, and it is essential to the government's goal of a trillion-dollar economy by 2034.</p><h3>Key findings:</h3><p>The economy is not generating enough jobs for its young and growing labour force.</p><p>Three in five working-age women are outside the labour force, and 84 per cent of workers are in informal jobs.</p><p>Slowing job creation reflects chronic government underinvestment in skills, infrastructure, and reliable energy, which have undermined private sector development</p><p>Revenue is very low. Taxes were 6.8 per cent of GDP in FY2025. Total revenue was 8 per cent, less than half the level of peer countries.</p><p>Public investment has been squeezed. Capital spending fell from 4.9 per cent of GDP in FY2022 to 2.8 per cent in FY2025. Education spending (1.5 per cent of GDP in FY2025) is well below that of peers.</p><p>Debt costs are rising. Interest payments rose from 1.5 per cent of GDP in FY2017 to an estimated 2.6 per cent in FY2026. Heavy borrowing from domestic banks is crowding out private credit.</p><p>Energy subsidies are a growing fiscal drain. Power and gas subsidies rose from 0.3 per cent of GDP in FY2018 to 1.5 per cent in FY2025. Recent global energy price spikes are expected to push them higher.</p><p>Reforms Needed for Enhancing Fiscal Space</p><p>Strengthen revenue governance and modernise tax administration. This means separating tax policy from tax administration, integrating digital systems and moving to a single taxpayer ID.</p><p>Streamline tax exemptions and reform VAT and trade taxes. Tax expenditures reached 6.9 per cent of GDP in FY2022, almost as much as total tax revenue.</p><p>Move to cost-reflective, rules-based energy pricing. Pair pricing reform with a stronger and more independent energy regulator.</p><p>Protect poor households while reforming energy pricing.</p><p>Targeted transfers, a stronger social registry and the Family Card platform would replace broad subsidies. Poverty headcount is estimated to have risen from 18.7 per cent in 2022 to 22.5 per cent in 2026. The report is clear that reform needs to improve the effectiveness of support, not reduce protection for vulnerable groups.</p><p>Invest more and spend better. Fiscal space created by reform could go to health, education, social protection and infrastructure, supported by better planning and budgeting.</p>",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://media.prothomalo.com/prothomalo-english/2026-07-31/gwrn9pxc/prothomalo-bangla2026-07-312wltduoiae7624aa-f523-41cb-84f7-d96cd04460f6.avif?w=280",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/court/ex-land-minister-saifuzzaman-gets-15-years-jail-tk50cr-fine-tk25cr-graft-case",
+    "title": "Ex-land minister Saifuzzaman gets 15 years in jail, Tk50cr fine for Tk25cr graft case",
+    "link": "https://www.tbsnews.net/bangladesh/court/ex-land-minister-saifuzzaman-gets-15-years-jail-tk50cr-fine-tk25cr-graft-case",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2024/10/22/land_minister.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/bangladesh-launch-locally-developed-satellite-within-3-years-pm-1607536",
+    "title": "Bangladesh to launch locally developed satellite within 3 years: PM",
+    "link": "https://www.tbsnews.net/bangladesh/bangladesh-launch-locally-developed-satellite-within-3-years-pm-1607536",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/11/19/6963738.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/worldbiz/middle-east/iran-fires-kuwait-after-us-strike-iranian-island-1607456",
+    "title": "Iran fires at Kuwait after US strike on Iranian island",
+    "link": "https://www.tbsnews.net/worldbiz/middle-east/iran-fires-kuwait-after-us-strike-iranian-island-1607456",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/11/19/usa_aircraft_carriers_strait_of_hormuz_.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "d852f4987f44454616481efd4864cc12c2b4bcbb",
+    "title": "Trump, Xi and Putin hold first-ever three-way talks, discussing nuclear arms and the war in Ukraine",
+    "link": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
+    "description": "<img alt=\"\" src=\"https://dims.apnews.com/dims4/default/eaac296/2147483647/strip/true/crop/8490x5660+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F67%2Fe0%2F1cb99e764611bb137262a77ff1a5%2Fap26323312147742.jpg\" /><br />Trump, Xi and Putin hold first-ever three-way talks, discussing nuclear arms and the war in Ukraine",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dims.apnews.com/dims4/default/eaac296/2147483647/strip/true/crop/8490x5660+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F67%2Fe0%2F1cb99e764611bb137262a77ff1a5%2Fap26323312147742.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "e710e3321873dad190197d8574c2687b3457ce32",
+    "title": "North Korea is expanding its original uranium enrichment facility, UN nuclear watchdog says",
+    "link": "https://apnews.com/article/north-korea-nuclear-uranium-iaea-a74218014e9c141712e3abebdd9334ac",
+    "description": "North Korea is expanding its original uranium enrichment facility, UN nuclear watchdog says",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/world/910111/myanmar-guilty-of-genocide-against-rohingya-says-top-un-court",
+    "title": "Myanmar guilty of genocide against Rohingya, says top UN court",
+    "link": "https://www.daily-sun.com/world/910111/myanmar-guilty-of-genocide-against-rohingya-says-top-un-court",
+    "description": "Myanmar committed genocide against its Rohingya minority, the International Court of Justice said on Thursday in an historic ruling, ordering",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/11/19/medium/Untitled-(3)-6afee6157a922.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://daily-sun.com/bangladesh/910075/un-adopts-rohingya-resolution-by-overwhelming-majority",
+    "title": "UN adopts Rohingya resolution by overwhelming majority",
+    "link": "https://daily-sun.com/bangladesh/910075/un-adopts-rohingya-resolution-by-overwhelming-majority",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/global-soybean-market-shifts-put-bangladeshs-poultry-fish-industries-alert-1608406",
+    "title": "Global soybean market shifts put Bangladesh's poultry, fish industries on alert",
+    "link": "https://www.tbsnews.net/bangladesh/global-soybean-market-shifts-put-bangladeshs-poultry-fish-industries-alert-1608406",
+    "description": "Experts say producers need to look beyond price and crude protein content to ensure feed quality, reliable supplies and sustainable sourcing.",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/11/20/us_soyabean.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/foreign-policy/bangladesh-germany-reaffirm-development-partnership-new-eu246m-commitment-1607846",
+    "title": "Bangladesh, Germany reaffirm development partnership with new €246m commitment",
+    "link": "https://www.tbsnews.net/foreign-policy/bangladesh-germany-reaffirm-development-partnership-new-eu246m-commitment-1607846",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2026/11/19/bd-german.png",
+    "thumbnail_type": "image/png"
+  },
+  {
+    "id": "https://today.thefinancialexpress.com.bd/first-page/myanmar-guilty-of-committing-genocide-against-rohingya-minority-1795112581",
+    "title": "Myanmar guilty of committing genocide against Rohingya minority",
+    "link": "https://today.thefinancialexpress.com.bd/first-page/myanmar-guilty-of-committing-genocide-against-rohingya-minority-1795112581",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://today.thefinancialexpress.com.bd/uploads/1795112581.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "9f66dec8a3ac8a24379bb152c314785591d196b0",
+    "title": "Japan, India agree to enhance military and defense industry cooperation",
+    "link": "https://apnews.com/article/japan-india-military-missile-radar-5b29b80bebf7a9b61422d19e9b3eed7f",
+    "description": "Japan, India agree to enhance military and defense industry cooperation",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://www.daily-sun.com/business/910024",
+    "title": "ADB steps up support to help Bangladesh attract private investment",
+    "link": "https://www.daily-sun.com/business/910024",
+    "description": "The Asian Development Bank (ADB) has increased its support to help Bangladesh attract long-term private investment, strengthen financial markets and",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://dscdn.daily-sun.com/english/uploads/news_photos/2026/11/19/medium/DS-'11'19-118-6afdf6a0be572.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.thedailystar.net/business/economy/news/bangladesh-risks-low-growth-cycle-world-bank-warns-4328511",
+    "title": "Bangladesh risks low-growth cycle, World Bank warns",
+    "link": "https://www.thedailystar.net/business/economy/news/bangladesh-risks-low-growth-cycle-world-bank-warns-4328511",
+    "description": "",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml"
+  },
+  {
+    "id": "https://bdnews24.com/bangladesh/02s47op59z",
+    "title": "IAEA outlines 5 priorities for Rooppur safety",
+    "link": "https://bdnews24.com/bangladesh/02s47op59z",
+    "description": "[Bangladesh] IAEA outlines 5 priorities for Rooppur safety",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://fea.assettype.com/bdnews24/assets/thumb-B88vr1JV.jpg",
+    "thumbnail_type": "image/jpeg"
+  },
+  {
+    "id": "https://www.tbsnews.net/bangladesh/bangladesh-bank-plans-fully-floating-exchange-rate-within-month-1608901",
+    "title": "Bangladesh Bank plans fully floating exchange rate within a month",
+    "link": "https://www.tbsnews.net/bangladesh/bangladesh-bank-plans-fully-floating-exchange-rate-within-month-1608901",
+    "description": "Businesses seek easier import finance and longer repayment periods.",
+    "published": "Sat, 21 Nov 2026 13:42:54 +0600",
+    "source": "https://evilgodfahim.github.io/bdcd/curated_feed.xml",
+    "thumbnail": "https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/10/25/bangladesh_bank_0.jpg",
+    "thumbnail_type": "image/jpeg"
   }
 ]
